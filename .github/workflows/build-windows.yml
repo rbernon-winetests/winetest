@@ -13,10 +13,10 @@ on:
 
 jobs:
   install:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-22.04-arm, ubuntu-24.04-arm]
 
     container:
-      image: ${{ startsWith(inputs.version, 'rbernon/private:') && inputs.version || 'rbernon/winetest-windows:stable' }}
+      image: ${{ startsWith(inputs.version, 'rbernon/private:') && inputs.version || 'dockurr/windows:latest' }}
       options: --user root --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -p 8006:8006
       credentials:
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
@@ -24,6 +24,12 @@ jobs:
 
     env:
       VERSION: ${{ startsWith(inputs.version, 'rbernon/private:') && '' || inputs.version }}
+      DISK_FLAGS: compression_type=zstd
+      DISK_FMT: qcow2
+      DISK_SIZE: 16G
+      RAM_SIZE: 4G
+      CPU_CORES: 2
+      DISPLAY: disabled
 
     steps:
       - name: Check

@@ -37,6 +37,7 @@ jobs:
       event: ${{ inputs.event }}
 
   clean:
+    if: always()
     needs: [tests-windows]
     runs-on: ubuntu-latest
     steps:
