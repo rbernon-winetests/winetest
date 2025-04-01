@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -Eeux
+
+qemu-system-x86_64 -nodefaults -enable-kvm
