@@ -1,0 +1,26 @@
+name: nightly
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: rbernon/winetest-windows:stable
+      options: --user root --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Start
+        run: |
+          apt update && apt install parted dosfstools mtools -y
+          mkdir -p data
+          touch data/test
+
+          qemu-img create -f raw data.img 1G
+          /usr/sbin/parted --script data.img mktable msdos
+          /usr/sbin/parted --script data.img --align optimal mkpart primary fat32 2048s 100%
+          /usr/sbin/mkfs.vfat --offset 2048 -F32 data.img
+          mcopy -i data.img@@1048576 data/* -spQmv ::/
