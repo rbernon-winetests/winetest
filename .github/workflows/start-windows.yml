@@ -31,6 +31,6 @@ jobs:
           git config --unset-all http.https://github.com/.extraheader
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/rbernon-winetests/${{ matrix.version }} main --force
 
-      - name: Trigger
+      - name: Start
         run: |
-          $PWD/run-windows ${{ matrix.version }} ${{ inputs.run_id }} ${{ inputs.event }}
+          $PWD/start-windows ${{ matrix.version }} ${{ inputs.run_id }} ${{ inputs.event }}
