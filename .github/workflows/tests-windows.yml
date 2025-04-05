@@ -69,12 +69,3 @@ jobs:
         with:
           name: test-${{ inputs.version }}-${{ matrix.arch }}.report
           path: /data/winetest.report
-
-  clean:
-    needs: tests
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cleanup
-        uses: rbernon/workflow-cleanup@main
-        with:
-          workflow: all

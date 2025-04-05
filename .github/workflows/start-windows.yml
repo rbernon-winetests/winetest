@@ -8,6 +8,9 @@ on:
       run_id:
         type: string
         default: ""
+    outputs:
+      run_ids:
+        value: ${{ jobs.wait-windows.outputs.run_ids }}
     secrets:
       GH_TOKEN:
         required: true
@@ -20,19 +23,176 @@ jobs:
       fail-fast: false
       matrix:
         version: [w7u32, w7e64, w81p32, w81e64, w101809p32, w101809p64, w10pro64, w10ltsc64, w11pro64, w11ltsc64]
-    env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    outputs:
+      w7u32-run-id: ${{ steps.output.outputs.w7u32-run-id }}
+      w7e64-run-id: ${{ steps.output.outputs.w7e64-run-id }}
+      w81p32-run-id: ${{ steps.output.outputs.w81p32-run-id }}
+      w81e64-run-id: ${{ steps.output.outputs.w81e64-run-id }}
+      w101809p32-run-id: ${{ steps.output.outputs.w101809p32-run-id }}
+      w101809p64-run-id: ${{ steps.output.outputs.w101809p64-run-id }}
+      w10pro64-run-id: ${{ steps.output.outputs.w10pro64-run-id }}
+      w10ltsc64-run-id: ${{ steps.output.outputs.w10ltsc64-run-id }}
+      w11pro64-run-id: ${{ steps.output.outputs.w11pro64-run-id }}
+      w11ltsc64-run-id: ${{ steps.output.outputs.w11ltsc64-run-id }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Update
+        id: update
         run: |
           git fetch --unshallow
           git config --unset-all http.https://github.com/.extraheader
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/rbernon-winetests/${{ matrix.version }} main --force
 
+          case ${{ matrix.version }} in
+            w7u32)        echo "install=rbernon/private:win7u-i386-en" >> "$GITHUB_OUTPUT";;
+            w7e64)        echo "install=7e" >> "$GITHUB_OUTPUT";;
+            w81p32)       echo "install=rbernon/private:win81-i386-en" >> "$GITHUB_OUTPUT";;
+            w81e64)       echo "install=8e" >> "$GITHUB_OUTPUT";;
+            w101809p32)   echo "install=rbernon/private:win10-1809-i386-en" >> "$GITHUB_OUTPUT";;
+            w101809p64)   echo "install=rbernon/private:win10-1809-amd64-en" >> "$GITHUB_OUTPUT";;
+            w10pro64)     echo "install=10" >> "$GITHUB_OUTPUT";;
+            w10ltsc64)    echo "install=10l" >> "$GITHUB_OUTPUT";;
+            w11pro64)     echo "install=11" >> "$GITHUB_OUTPUT";;
+            w11ltsc64)    echo "install=11l" >> "$GITHUB_OUTPUT";;
+          esac
+
+          case ${{ matrix.version }} in
+            *32) echo "archs=[\\\"win32\\\"]" >> "$GITHUB_OUTPUT";;
+            *64) echo "archs=[\\\"wow64\\\",\\\"win64\\\"]" >> "$GITHUB_OUTPUT";;
+          esac
+
       - name: Trigger
+        id: trigger
+        uses: rbernon/workflow-execute@main
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          repository: rbernon-winetests/${{ matrix.version }}
+          workflow: windows.yml
+          branch: main
+          inputs: |
+            {
+              "run_id": "${{ inputs.run_id }}",
+              "event": "${{ inputs.event }}",
+              "version": "${{ matrix.version }}",
+              "install": "${{ steps.update.outputs.install }}",
+              "archs": "${{ steps.update.outputs.archs }}"
+            }
+          wait: false
+
+      - name: Output
+        id: output
         run: |
-          $PWD/run-windows ${{ matrix.version }} ${{ inputs.run_id }} ${{ inputs.event }}
+          echo "${{ matrix.version }}-run-id=${{ steps.trigger.outputs.run_id }}" >> "$GITHUB_OUTPUT";
+
+  wait-windows:
+    runs-on: ubuntu-latest
+    needs: test-windows
+    env:
+      NEEDS: ${{ toJSON(needs) }}
+    outputs:
+      run_ids: ${{ steps.wait.outputs.run_ids }}
+    steps:
+      - name: Wait
+        id: wait
+        uses: rbernon/workflow-execute@main
+        with:
+          run_ids: |
+            {
+              "rbernon-winetests/w7u32": ${{ needs.test-windows.outputs.w7u32-run-id }},
+              "rbernon-winetests/w7e64": ${{ needs.test-windows.outputs.w7e64-run-id }},
+              "rbernon-winetests/w81p32": ${{ needs.test-windows.outputs.w81p32-run-id }},
+              "rbernon-winetests/w81e64": ${{ needs.test-windows.outputs.w81e64-run-id }},
+              "rbernon-winetests/w101809p32": ${{ needs.test-windows.outputs.w101809p32-run-id }},
+              "rbernon-winetests/w101809p64": ${{ needs.test-windows.outputs.w101809p64-run-id }},
+              "rbernon-winetests/w10pro64": ${{ needs.test-windows.outputs.w10pro64-run-id }},
+              "rbernon-winetests/w10ltsc64": ${{ needs.test-windows.outputs.w10ltsc64-run-id }},
+              "rbernon-winetests/w11pro64": ${{ needs.test-windows.outputs.w11pro64-run-id }},
+              "rbernon-winetests/w11ltsc64": ${{ needs.test-windows.outputs.w11ltsc64-run-id }}
+            }
+
+      - name: Download w7u32
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w7u32
+          run-id: ${{ needs.test-windows.outputs.w7u32-run-id }},
+
+      - name: Download w7e64
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w7e64
+          run-id: ${{ needs.test-windows.outputs.w7e64-run-id }},
+
+      - name: Download w81p32
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w81p32
+          run-id: ${{ needs.test-windows.outputs.w81p32-run-id }},
+
+      - name: Download w81e64
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w81e64
+          run-id: ${{ needs.test-windows.outputs.w81e64-run-id }},
+
+      - name: Download w101809p32
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w101809p32
+          run-id: ${{ needs.test-windows.outputs.w101809p32-run-id }},
+
+      - name: Download w101809p64
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w101809p64
+          run-id: ${{ needs.test-windows.outputs.w101809p64-run-id }},
+
+      - name: Download w10pro64
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w10pro64
+          run-id: ${{ needs.test-windows.outputs.w10pro64-run-id }},
+
+      - name: Download w10ltsc64
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w10ltsc64
+          run-id: ${{ needs.test-windows.outputs.w10ltsc64-run-id }},
+
+      - name: Download w11pro64
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w11pro64
+          run-id: ${{ needs.test-windows.outputs.w11pro64-run-id }},
+
+      - name: Download w11ltsc64
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*.report"
+          github-token: ${{ github.token }}
+          repository: rbernon-winetests/w11ltsc64
+          run-id: ${{ needs.test-windows.outputs.w11ltsc64-run-id }}
+
+      - name: Reports
+        run: |
+          find
