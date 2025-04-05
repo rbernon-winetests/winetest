@@ -99,6 +99,7 @@ jobs:
         id: wait
         uses: rbernon/workflow-execute@main
         with:
+          download: true
           run_ids: |
             {
               "rbernon-winetests/w7u32": ${{ needs.test-windows.outputs.w7u32-run-id }},
@@ -113,86 +114,8 @@ jobs:
               "rbernon-winetests/w11ltsc64": ${{ needs.test-windows.outputs.w11ltsc64-run-id }}
             }
 
-      - name: Download w7u32
-        uses: actions/download-artifact@v4
+      - name: Upload
+        uses: actions/upload-artifact@v4
         with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w7u32
-          run-id: ${{ needs.test-windows.outputs.w7u32-run-id }},
-
-      - name: Download w7e64
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w7e64
-          run-id: ${{ needs.test-windows.outputs.w7e64-run-id }},
-
-      - name: Download w81p32
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w81p32
-          run-id: ${{ needs.test-windows.outputs.w81p32-run-id }},
-
-      - name: Download w81e64
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w81e64
-          run-id: ${{ needs.test-windows.outputs.w81e64-run-id }},
-
-      - name: Download w101809p32
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w101809p32
-          run-id: ${{ needs.test-windows.outputs.w101809p32-run-id }},
-
-      - name: Download w101809p64
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w101809p64
-          run-id: ${{ needs.test-windows.outputs.w101809p64-run-id }},
-
-      - name: Download w10pro64
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w10pro64
-          run-id: ${{ needs.test-windows.outputs.w10pro64-run-id }},
-
-      - name: Download w10ltsc64
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w10ltsc64
-          run-id: ${{ needs.test-windows.outputs.w10ltsc64-run-id }},
-
-      - name: Download w11pro64
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w11pro64
-          run-id: ${{ needs.test-windows.outputs.w11pro64-run-id }},
-
-      - name: Download w11ltsc64
-        uses: actions/download-artifact@v4
-        with:
-          pattern: "*.report"
-          github-token: ${{ github.token }}
-          repository: rbernon-winetests/w11ltsc64
-          run-id: ${{ needs.test-windows.outputs.w11ltsc64-run-id }}
-
-      - name: Reports
-        run: |
-          find
+          name: test-windows.report
+          path: "*/*.report"
