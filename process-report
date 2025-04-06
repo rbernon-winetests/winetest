@@ -1,0 +1,76 @@
+#!/bin/env python
+
+import os
+import re
+import sys
+import subprocess
+
+input_name = sys.argv[1]
+output_name = input_name.replace("report", "result")
+os.makedirs(os.path.dirname(output_name), exist_ok=True)
+
+if os.path.exists(output_name):
+  exit(0)
+
+def parentsrc(folder):
+  with open(os.path.join("wine", folder, "Makefile.in"), "r") as make:
+    for line in make.read().splitlines():
+      if line.startswith('PARENTSRC'):
+        return os.path.join(folder, re.split(r' +', line)[2])
+  return folder
+
+def winesrc(folder, source):
+    if os.path.exists(os.path.join("wine", folder, source)):
+      return os.path.join(folder, source)
+    return os.path.join(parentsrc(folder), source)
+
+with open(input_name, "rb") as input, open(output_name, "wb") as output:
+  for line in input.read().splitlines():
+    decoded = line.decode("utf-8", errors="ignore")
+
+    if line.startswith(b"Tests from build"):
+      build = decoded.split(' ')[3]
+
+    elif re.match(r"^.*:.* start .*/tests/.*\.c", decoded):
+      lines = [line]
+      testdir = '/'.join(decoded.split(' ')[2].split('/')[:-1])
+      ranges = {}
+
+    elif re.match(r"^.*\.c:[0-9]+: (Test marked todo: )", decoded):
+      lines.append(line)
+
+    elif re.match(r"^.*\.c:[0-9]+: (Tests skipped:|Test succeeded inside flaky todo block: |Test succeeded inside todo block: |Test marked todo: |Test marked flaky: |Test failed: )", decoded):
+      lines.append(line)
+      source, n, _ = decoded.split(':', 2)
+      source = winesrc(testdir, source)
+      ranges[source] = ranges.get(source, []) + [f"-L{n},+1"]
+
+    elif re.match(r"^.*\.c:[0-9]+: this is the last test seen", decoded):
+      lines.append(line)
+      source, n, _ = decoded.split(':', 2)
+      source = winesrc(testdir, source)
+      ranges[source] = ranges.get(source, []) + [f"-L{n},+1"]
+
+    elif re.match(r"^.*:.*: [0-9]+ tests executed", decoded):
+      lines.append(line)
+
+    elif re.match(r"^.*:.*:.* done \(-?[0-9]+\) in ", decoded):
+      lines.append(line)
+
+      tests = {}
+      for file in ranges:
+        blames = subprocess.check_output(['git', '-C', 'wine', 'blame', build, '--no-progress', '-flnsw'] + ranges[file] + [file], encoding='utf-8')
+        for blame in blames.splitlines():
+          rev, orig_file, orig_line, line, _ = re.split(r'[ )]+', blame, maxsplit=4)
+          base = file.split('/')[-1]
+          tests[f"{base}:{line}:".encode('utf-8')] = f"https://gitlab.winehq.org/wine/wine/-/blob/{rev}/{orig_file}#L{orig_line}:".encode('utf-8')
+
+      for line in lines:
+        for test, url in tests.items():
+          line = line.replace(test, url)
+        output.write(line)
+        output.write(b'\n')
+
+      print(input_name, ':'.join(decoded.split(':')[0:2]), 'done')
+
+print(input_name, 'done')

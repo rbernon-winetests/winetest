@@ -1,0 +1,20 @@
+#!/bin/bash
+
+set -Eeux
+
+git config user.email "rbernon@codeweavers.com"
+git config user.name "Remi Bernon"
+
+while : ; do
+  for REPORT in "$@"; do
+    BUILD=$(grep "^Tests from build" "$REPORT" | head -n1 | awk '{ print $4 }')
+    OUTPUT=$(grep "^Tag:" "$REPORT" | head -n1 | awk '{ print $2 }')
+
+    mkdir -p "reports/$BUILD"
+    UNIQ=$(find 2>/dev/null "reports/$BUILD" -iname "$OUTPUT.report.*" | wc -l | xargs printf %04d)
+    cp $REPORT "reports/$BUILD/$OUTPUT.report.$UNIQ"
+    git add "reports/$BUILD/$OUTPUT.report.$UNIQ"
+  done
+  git commit -m "Import winetest reports." && git push origin results && break
+  git reset --hard HEAD^ && git pull origin results
+done
