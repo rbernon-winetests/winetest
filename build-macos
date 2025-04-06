@@ -2,7 +2,10 @@
 
 set -Eeux
 
-case $1 in
+ARCH="$1"
+COMMIT="$2"
+
+case $ARCH in
     win64) export CONFIGURE_ARGS="--enable-win64 --enable-archs=i386,x86_64";;
     win32) export CONFIGURE_ARGS="";;
 esac
@@ -37,6 +40,7 @@ export i386_CC="ccache i686-w64-mingw32-gcc"
 export x86_64_CC="ccache x86_64-w64-mingw32-gcc"
 
 [ ! -d "wine" ] && git clone https://gitlab.winehq.org/wine/wine.git || (git -C wine reset --hard && git -C wine pull origin master)
+git -C wine checkout "$COMMIT"
 git -C wine apply $PWD/patches/*.patch
 
 rm -rf build; mkdir -p build

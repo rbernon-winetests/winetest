@@ -4,7 +4,7 @@ on:
     inputs:
       commit:
         type: string
-        default: "master"
+        default: "origin/master"
 
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
 
       - name: Build
         run: |
-          $PWD/build-macos ${{ matrix.arch }}
+          $PWD/build-macos ${{ matrix.arch }} ${{ inputs.commit }}
 
       - name: Upload
         uses: actions/upload-artifact@v4

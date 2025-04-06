@@ -1,0 +1,59 @@
+name: winetest
+on:
+  workflow_call:
+    inputs:
+      commit:
+        type: string
+        default: "origin/master"
+      event:
+        type: string
+        default: "push"
+    secrets:
+      GH_TOKEN:
+        required: true
+  workflow_dispatch:
+    inputs:
+      commit:
+        type: string
+        default: "origin/master"
+      event:
+        type: string
+        default: "push"
+
+jobs:
+  build-linux:
+    uses: ./.github/workflows/build-linux.yml
+    with:
+      commit: ${{ inputs.commit }}
+
+  build-macos:
+    uses: ./.github/workflows/build-macos.yml
+    with:
+      commit: ${{ inputs.commit }}
+
+  tests-linux:
+    needs: build-linux
+    uses: ./.github/workflows/tests-linux.yml
+    with:
+      event: ${{ inputs.event }}
+
+  tests-macos:
+    needs: build-macos
+    uses: ./.github/workflows/tests-macos.yml
+    with:
+      event: ${{ inputs.event }}
+
+  tests-windows:
+    needs: build-linux
+    uses: ./.github/workflows/start-windows.yml
+    secrets: inherit
+    with:
+      event: ${{ inputs.event }}
+      run_id: ${{ github.run_id }}
+
+  import-results:
+    needs: [tests-linux, tests-macos, tests-windows]
+    uses: ./.github/workflows/import-results.yml
+    secrets: inherit
+    with:
+      run_id: ${{ github.run_id }}

@@ -1,55 +1,20 @@
 name: nightly
 on:
-  push:
+  workflow_dispatch:
   schedule:
     - cron: '30 3 * * *'
 
 jobs:
-  build-linux:
+  winetest:
     if: ${{ endsWith(github.repository, 'winetest') }}
-    uses: ./.github/workflows/build-linux.yml
-    with:
-      commit: master
-
-  build-macos:
-    if: ${{ endsWith(github.repository, 'winetest') }}
-    uses: ./.github/workflows/build-macos.yml
-    with:
-      commit: master
-
-  tests-linux:
-    if: ${{ endsWith(github.repository, 'winetest') }}
-    needs: build-linux
-    uses: ./.github/workflows/tests-linux.yml
-    with:
-      event: ${{ github.event_name }}
-
-  tests-macos:
-    if: ${{ endsWith(github.repository, 'winetest') }}
-    needs: build-macos
-    uses: ./.github/workflows/tests-macos.yml
-    with:
-      event: ${{ github.event_name }}
-
-  tests-windows:
-    if: ${{ endsWith(github.repository, 'winetest') }}
-    needs: build-linux
-    uses: ./.github/workflows/start-windows.yml
+    uses: ./.github/workflows/winetest.yml
     secrets: inherit
     with:
-      event: ${{ github.event_name }}
-      run_id: ${{ github.run_id }}
-
-  import-results:
-    if: ${{ endsWith(github.repository, 'winetest') }}
-    needs: [tests-linux, tests-macos, tests-windows]
-    uses: ./.github/workflows/import-results.yml
-    secrets: inherit
-    with:
-      run_id: ${{ github.run_id }}
+      commit: origin/master
+      event: schedule
 
   clean:
-    needs: import-results
+    needs: winetest
     runs-on: ubuntu-latest
     steps:
       - name: Cleanup
