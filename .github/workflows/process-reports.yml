@@ -1,0 +1,46 @@
+name: process-reports
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - results
+    paths-ignore:
+      - 'results/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  process-reports:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: results
+
+      - name: Cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .ccache
+            wine
+          key:
+            cache-linux-${{ matrix.arch }}-${{ github.run_id }}
+          restore-keys: |
+            cache-linux-${{ matrix.arch }}
+
+      - name: Execute
+        run: |
+          [ ! -d "wine" ] && git clone https://gitlab.winehq.org/wine/wine.git || (git -C wine reset --hard && git -C wine pull origin master)
+          git -C wine repack -f -a -d --depth=5 --window=15
+
+          git config user.email "rbernon@codeweavers.com"
+          git config user.name "Remi Bernon"
+
+          find reports -type f | xargs -n1 -P4 $PWD/process-report
+          git add results && git commit -m "Processed winetest reports." && git push origin results ||:
