@@ -1,0 +1,1455 @@
+Version 4
+Tests from build a1dddd902f21e3a5057a40cb9848351f0cbcfd82
+Archive: -
+Tag: rbernon-w81e64-wow64
+Build info:
+    Using built-in specs.
+    COLLECT_GCC=/usr/bin/gcc
+    COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+    OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+    OFFLOAD_TARGET_DEFAULT=1
+    Target: x86_64-linux-gnu
+    Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+    Thread model: posix
+    Supported LTO compression algorithms: zlib zstd
+    gcc version 12.2.0 (Debian 12.2.0-14) 
+Operating system version:
+    Platform=i386 (WOW64)
+    bRunningUnderWine=0
+    bRunningOnVisibleDesktop=1
+    Account=admin, elevated
+    Submitter=Remi Bernon <rbernon@codeweavers.com>
+    Description=Windows 8.1 Enterprise 64bit / QEMU running on Debian GNU/Linux trixie/sid / Linux e6a61eb7b708 6.8.0-1021-azure #25-Ubuntu SMP Wed Jan 15 20:45:09 UTC 2025 x86_64 GNU/Linux, [CPU:2*AMD EPYC 7763 64-Core Processor RAM:4G display:1920x1080 virtio-vga x1]
+    dwMajorVersion=6
+    dwMinorVersion=3
+    dwBuildNumber=9600
+    PlatformId=2
+    szCSDVersion=
+    wServicePackMajor=0
+    wServicePackMinor=0
+    wSuiteMask=256
+    wProductType=1
+    wReserved=0
+    dwProductInfo=72
+    SystemDefaultLCID=0409
+    UserDefaultLCID=0409
+    ThreadLocale=0409
+    SystemPreferredUILanguages=0409
+    UserDefaultUILanguage=0409
+    ThreadUILanguage=0409
+    KeyboardLayout=04090409
+    Country=244
+    ACP=1252
+Dll info:
+    activeds=6.3.9600.16384
+    adsldp=6.3.9600.16384
+    advapi32=6.3.9600.17031
+    advpack=11.0.9600.16384
+    amstream=6.6.9600.16384
+    apphelp=6.3.9600.17031
+    atl100=dll is missing
+    atl110=dll is missing
+    atl80=dll is missing the requested side-by-side version
+    atlthunk=dll is missing
+    atl=3.5.2284.0
+    avifil32=6.3.9600.16384
+    bcrypt=6.3.9600.17031
+    bluetoothapis=6.3.9600.16384
+    browseui=6.3.9600.16384
+    cabinet=6.3.9600.16384
+    cfgmgr32=6.3.9600.16384
+    cmd.exe=6.3.9600.16384
+    combase=6.3.9600.17031
+    comcat=6.3.9600.16384
+    comctl32=6.10.9600.17031
+    comdlg32=6.3.9600.17031
+    compstui=6.3.9600.16384
+    comsvcs=2001.12.10530.16384
+    concrt140=dll is missing
+    conhost.exe=dll is missing
+    credui=6.3.9600.16384
+    crypt32=6.3.9600.16431
+    cryptnet=6.3.9600.16384
+    cryptowinrt=6.3.9600.16397
+    cryptui=6.3.9600.16384
+    d2d1=6.3.9600.16473
+    d3d10core=6.3.9600.16384
+    d3d10_1=6.3.9600.16384
+    d3d10=6.3.9600.16384
+    d3d11=6.3.9600.17031
+    d3d12=dll is missing
+    d3d8=6.3.9600.16384
+    d3d9=6.3.9600.16404
+    d3dcompiler_43=dll is missing
+    d3dcompiler_46=dll is missing
+    d3dcompiler_47=6.3.9600.16384
+    d3drm=dll is missing
+    d3dx10_34=dll is missing
+    d3dx10_35=dll is missing
+    d3dx10_36=dll is missing
+    d3dx10_37=dll is missing
+    d3dx10_38=dll is missing
+    d3dx10_39=dll is missing
+    d3dx10_40=dll is missing
+    d3dx10_41=dll is missing
+    d3dx10_42=dll is missing
+    d3dx10_43=dll is missing
+    d3dx11_42=dll is missing
+    d3dx11_43=dll is missing
+    d3dx9_36=dll is missing
+    d3dx9_43=dll is missing
+    d3dxof=6.3.9600.16384
+    dataexchange=dll is missing
+    dbgeng=6.3.9600.16520
+    dbghelp=6.3.9600.16520
+    ddrawex=6.3.9600.16384
+    ddraw=6.3.9600.16384
+    devenum=6.6.9600.16384
+    dhcpcsvc=6.3.9600.16384
+    dinput=6.3.9600.16384
+    directmanipulation=dll is missing
+    dispex=5.8.9600.16384
+    dmband=6.3.9600.16384
+    dmcompos=6.3.9600.16384
+    dmime=6.3.9600.16384
+    dmloader=6.3.9600.16384
+    dmscript=6.3.9600.16384
+    dmstyle=6.3.9600.16384
+    dmsynth=6.3.9600.16384
+    dmusic=6.3.9600.16384
+    dnsapi=6.3.9600.16423
+    dplayx=dll is a stub
+    dpnet=dll is a stub
+    dpvoice=dll is missing
+    dsdmo=6.3.9600.16384
+    dsound=6.3.9600.16384
+    dssenh=6.3.9600.16384
+    dswave=6.3.9600.16384
+    dwmapi=6.3.9600.17031
+    dwrite=6.3.9600.16384
+    dxdiagn=6.3.9600.16384
+    dxgi=6.3.9600.17031
+    dxva2=6.3.9600.16384
+    evr=6.3.9600.16384
+    explorer.exe=6.3.9600.17031
+    explorerframe=6.3.9600.17031
+    faultrep=6.3.9600.17031
+    fc.exe=6.3.9600.16384
+    find.exe=6.3.9600.16384
+    findstr.exe=6.3.9600.16384
+    fsutil.exe=6.3.9600.17031
+    fusion=dll is missing
+    gameux=6.3.9600.17031
+    gdi32=6.3.9600.17031
+    gdiplus=6.3.9600.16384
+    geolocation=dll is missing
+    glu32=6.3.9600.16384
+    graphicscapture=dll is missing
+    hid=6.3.9600.16384
+    hlink=6.3.9600.16384
+    hnetcfg=6.3.9600.16384
+    httpapi=6.3.9600.16384
+    hvsimanagementapi=dll is missing
+    icmui=6.3.9600.16384
+    ieframe=11.0.9600.17031
+    iertutil=11.0.9600.17031
+    imagehlp=6.3.9600.16438
+    imm32=6.3.9600.17031
+    inetcomm=6.3.9600.16384
+    inetmib1=6.3.9600.16384
+    infosoft=dll is missing
+    iphlpapi=6.3.9600.16384
+    itss=6.3.9600.16384
+    jscript=5.8.9600.16384
+    jsproxy=11.0.9600.16384
+    kernel32=6.3.9600.17031
+    kernelbase=6.3.9600.17031
+    localspl=dll is missing
+    localui=dll is missing
+    lz32=6.3.9600.16384
+    mapi32=1.0.2536.0
+    mfmediaengine=6.3.9600.17031
+    mfplat=12.0.9600.17031
+    mfplay=12.0.9600.16384
+    mfreadwrite=12.0.9600.17031
+    mfsrcsnk=12.0.9600.16408
+    mf=12.0.9600.17031
+    mlang=6.3.9600.16384
+    mmcndmgr=6.3.9600.16384
+    mmdevapi=6.3.9600.17031
+    mp3dmod=6.3.9600.16384
+    mpr=6.3.9600.16384
+    msacm32=6.3.9600.16384
+    msado15=dll is missing
+    msasn1=6.3.9600.16384
+    mscms=6.3.9600.16384
+    mscoree=6.3.9600.16384
+    msctf=6.3.9600.17031
+    msdasql=dll is missing
+    msdmo=6.6.9600.16384
+    msftedit=6.3.9600.17031
+    mshtml=11.0.9600.17037
+    msi=5.0.9600.16384
+    mspatcha=6.3.9600.16384
+    msrle32=6.3.9600.16384
+    msscript.ocx=1.0.9600.16384
+    mstask=6.3.9600.16384
+    msvcirt=7.0.9600.16384
+    msvcp100=dll is missing
+    msvcp110=dll is missing
+    msvcp120=dll is missing
+    msvcp140_1=dll is missing
+    msvcp140_2=dll is missing
+    msvcp140_atomic_wait=dll is missing
+    msvcp140=dll is missing
+    msvcp60=7.0.9600.16384
+    msvcp90=9.0.30729.8387
+    msvcr100=dll is missing
+    msvcr110=dll is missing
+    msvcr120=dll is missing
+    msvcr70=dll is missing
+    msvcr71=dll is missing
+    msvcr80=8.0.50727.8428
+    msvcr90=9.0.30729.8387
+    msvcrtd=dll is missing
+    msvcrt=7.0.9600.16384
+    msvfw32=6.3.9600.16384
+    msxml3=8.110.9600.16483
+    msxml4=dll is missing
+    msxml6=6.30.9600.16384
+    ncrypt=6.3.9600.16384
+    ndis.sys=dll is missing
+    net.exe=6.3.9600.16384
+    netapi32=6.3.9600.16384
+    netcfgx=6.3.9600.17039
+    netprofm=6.3.9600.16384
+    ninput=6.3.9600.16517
+    nsi=6.3.9600.16384
+    ntdll=6.3.9600.17031
+    ntdsapi=6.3.9600.16384
+    ntoskrnl.exe=dll is missing
+    ntprint=6.3.9600.16384
+    odbc32=6.3.9600.16384
+    odbccp32=6.3.9600.16384
+    ole32=6.3.9600.17031
+    oleacc=7.2.9600.16384
+    oleaut32=6.3.9600.16506
+    oledb32=6.3.9600.16384
+    oledlg=6.3.9600.16384
+    opcservices=6.3.9600.16384
+    opengl32=6.3.9600.16384
+    packager=6.3.9600.16384
+    pdh=6.3.9600.16384
+    prntvpt=6.3.9600.16384
+    propsys=7.0.9600.17031
+    psapi=6.3.9600.16384
+    pstorec=6.3.9600.16384
+    qasf=12.0.9600.16384
+    qcap=6.6.9600.16384
+    qdvd=6.6.9600.16384
+    qedit=6.6.9600.17031
+    qmgr=dll is missing
+    quartz=6.6.9600.16384
+    qwave=6.3.9600.16384
+    rasapi32=6.3.9600.16384
+    reg.exe=6.3.9600.16384
+    regedit.exe=6.3.9600.16384
+    riched20=5.31.23.1231
+    riched32=6.3.9600.16384
+    rometadata=4.0.20806.33440
+    rpcrt4=6.3.9600.16384
+    rsaenh=6.3.9600.16384
+    rtworkq=12.0.9600.16384
+    sapi=dll is missing
+    sc.exe=6.3.9600.16384
+    schannel=6.3.9600.17031
+    schedsvc=dll is missing
+    schtasks.exe=6.3.9600.16384
+    scrobj=5.8.9600.17031
+    scrrun=5.8.9600.17031
+    secur32=6.3.9600.16384
+    serialui=6.3.9600.16384
+    services.exe=dll is missing
+    setupapi=6.3.9600.17031
+    shcore=6.3.9600.17031
+    shdocvw=6.3.9600.16384
+    shell32=6.3.9600.17031
+    shlwapi=6.3.9600.16384
+    slc=6.3.9600.17031
+    snmpapi=6.3.9600.16384
+    spoolss=dll is missing
+    sti=6.3.9600.16501
+    sxs=6.3.9600.16384
+    t2embed=6.3.9600.16384
+    tapi32=6.3.9600.16384
+    tasklist.exe=6.3.9600.16384
+    taskschd=6.3.9600.16384
+    threadpoolwinrt=6.3.9600.16384
+    twain_32=1.7.1.3
+    twinapi.appcore=dll is missing
+    ucrtbase=dll is missing
+    uianimation=6.3.9600.16384
+    uiautomationcore=7.2.9600.16421
+    urlmon=11.0.9600.17031
+    user32=6.3.9600.17031
+    userenv=6.3.9600.16384
+    usp10=6.3.9600.16384
+    uxtheme=6.3.9600.17031
+    vbscript=5.8.9600.17031
+    vcomp110=dll is missing
+    vcomp=dll is missing
+    version=6.3.9600.16384
+    virtdisk=6.3.9600.16384
+    vulkan-1=dll is missing
+    wbemdisp=6.3.9600.16384
+    wbemprox=6.3.9600.16384
+    webservices=6.3.9600.17031
+    wer=6.3.9600.17031
+    wevtapi=6.3.9600.16384
+    wiaservc=dll is missing
+    win32u=dll is missing
+    windows.applicationmodel=dll is missing
+    windows.devices.bluetooth=dll is missing
+    windows.devices.enumeration=dll is missing
+    windows.devices.usb=dll is missing
+    windows.gaming.input=dll is missing
+    windows.gaming.ui.gamebar=dll is missing
+    windows.globalization=dll is missing
+    windows.media.devices=dll is missing
+    windows.media.mediacontrol=dll is missing
+    windows.media.speech=dll is missing
+    windows.media=dll is missing
+    windows.networking.connectivity=dll is missing
+    windows.networking.hostname=dll is missing
+    windows.perception.stub=dll is missing
+    windows.security.authentication.onlineid=dll is missing
+    windows.security.credentials.ui.userconsentverifier=dll is missing
+    windows.storage.applicationdata=dll is missing
+    windows.system.profile.systemmanufacturers=dll is missing
+    windows.ui.xaml=dll is missing
+    windows.ui=dll is missing
+    windows.web=dll is missing
+    windowscodecsext=6.3.9600.16384
+    windowscodecs=6.3.9600.16521
+    wing32=dll is missing
+    winhttp=6.3.9600.16384
+    wininet=11.0.9600.17031
+    winmm=6.3.9600.16384
+    winscard=6.3.9600.16408
+    winspool.drv=6.3.9600.16457
+    wintab32=dll is missing
+    wintrust=6.3.9600.17016
+    wintypes=6.3.9600.17031
+    wlanapi=6.3.9600.16520
+    wldap32=6.3.9600.16384
+    wldp=dll is missing
+    wmiutils=6.3.9600.16384
+    wmp=12.0.9600.17031
+    wmvcore=12.0.9600.16384
+    wpcap=dll is missing
+    wpc=6.3.9600.17031
+    ws2_32=6.3.9600.16384
+    wscript.exe=5.8.9600.16384
+    wsdapi=6.3.9600.16523
+    wshom.ocx=5.8.9600.16384
+    wsnmp32=6.3.9600.16384
+    wtsapi32=6.3.9600.16384
+    xactengine3_7=dll is missing
+    xaudio2_7=dll is missing
+    xaudio2_8=6.3.9600.16384
+    xcopy.exe=6.3.9600.16384
+    xinput1_3=dll is missing
+    xmllite=6.3.9600.16384
+Test output:
+activeds:activeds start dlls/activeds/tests/activeds.c
+0af0:activeds: 48 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+activeds:activeds:0af0 done (0) in 0s 89B
+adsldp:ldap start dlls/adsldp/tests/ldap.c
+ldap.c:253: search DN L"LDAP://ldap.forumsys.com"
+ldap.c:253: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+ldap.c:309: Test failed: expected L"uid=galieleo,dc=example,dc=com", got L"uid=tesla,dc=example,dc=com"
+ldap.c:309: Test failed: expected L"uid=tesla,dc=example,dc=com", got L"uid=newton,dc=example,dc=com"
+ldap.c:309: Test failed: expected L"uid=newton,dc=example,dc=com", got L"uid=galileo,dc=example,dc=com"
+ldap.c:253: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+ldap.c:309: Test failed: expected L"uid=galieleo,dc=example,dc=com", got L"uid=tesla,dc=example,dc=com"
+ldap.c:309: Test failed: expected L"uid=tesla,dc=example,dc=com", got L"uid=newton,dc=example,dc=com"
+ldap.c:309: Test failed: expected L"uid=newton,dc=example,dc=com", got L"uid=galileo,dc=example,dc=com"
+0af8:ldap: 367 tests executed (0 marked as todo, 0 as flaky, 6 failures), 0 skipped.
+adsldp:ldap:0af8 done (6) in 1s 929B
+adsldp:sysinfo start dlls/adsldp/tests/sysinfo.c
+sysinfo.c:161: Tests skipped: Computer is not part of a domain, skipping the tests
+0b1c:sysinfo: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+adsldp:sysinfo:0b1c done (0) in 0s 172B
+advapi32:cred start dlls/advapi32/tests/cred.c
+cred.c:806: generic:
+cred.c:812: domain password:
+cred.c:818: domain visible password:
+0b24:cred: 365 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:cred:0b24 done (0) in 0s 176B
+advapi32:crypt start dlls/advapi32/tests/crypt.c
+0b2c:crypt: 163 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt:0b2c done (0) in 0s 87B
+advapi32:crypt_lmhash start dlls/advapi32/tests/crypt_lmhash.c
+0b34:crypt_lmhash: 95 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_lmhash:0b34 done (0) in 0s 93B
+advapi32:crypt_md4 start dlls/advapi32/tests/crypt_md4.c
+0b3c:crypt_md4: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md4:0b3c done (0) in 0s 90B
+advapi32:crypt_md5 start dlls/advapi32/tests/crypt_md5.c
+0b44:crypt_md5: 5 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md5:0b44 done (0) in 0s 89B
+advapi32:crypt_sha start dlls/advapi32/tests/crypt_sha.c
+0b4c:crypt_sha: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_sha:0b4c done (0) in 0s 89B
+advapi32:eventlog start dlls/advapi32/tests/eventlog.c
+eventlog.c:836: Tests skipped: Win7 fails when using incorrect event types
+eventlog.c:944: Tests skipped: There is no DWORD alignment enforced for UserSid on Vista, W2K8 or Win7
+0b54:eventlog: 580 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+advapi32:eventlog:0b54 done (0) in 2s 270B
+advapi32:lsa start dlls/advapi32/tests/lsa.c
+lsa.c:103: Running on a standalone system.
+lsa.c:148: Running on a standalone system.
+0b78:lsa: 91 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:lsa:0b78 done (0) in 0s 172B
+advapi32:perf start dlls/advapi32/tests/perf.c
+0b88:perf: 60 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:perf:0b88 done (0) in 0s 85B
+advapi32:registry start dlls/advapi32/tests/registry.c
+registry.c:1184: Tests skipped: Not running WoW64 tests on 32-bit
+registry.c:4649: 0: 009 has 6218 entries
+registry.c:4649: 1: CurrentLanguage has 6218 entries
+0b98:registry: 105606 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+advapi32:registry:0b98 done (0) in 1s 256B
+advapi32:security start dlls/advapi32/tests/security.c
+security.c:353: Tests skipped: 31: failed to convert CA.
+security.c:353: Tests skipped: 32: failed to convert DA.
+security.c:353: Tests skipped: 33: failed to convert DC.
+security.c:353: Tests skipped: 34: failed to convert DD.
+security.c:353: Tests skipped: 35: failed to convert DG.
+security.c:353: Tests skipped: 36: failed to convert DU.
+security.c:353: Tests skipped: 37: failed to convert EA.
+security.c:353: Tests skipped: 38: failed to convert PA.
+security.c:353: Tests skipped: 39: failed to convert RS.
+security.c:353: Tests skipped: 40: failed to convert SA.
+security.c:2119: Tests skipped: Well known SID 38 not implemented
+security.c:2119: Tests skipped: Well known SID 39 not implemented
+security.c:2119: Tests skipped: Well known SID 40 not implemented
+security.c:2119: Tests skipped: Well known SID 41 not implemented
+security.c:2119: Tests skipped: Well known SID 42 not implemented
+security.c:2119: Tests skipped: Well known SID 43 not implemented
+security.c:2119: Tests skipped: Well known SID 44 not implemented
+security.c:2119: Tests skipped: Well known SID 45 not implemented
+security.c:2119: Tests skipped: Well known SID 46 not implemented
+security.c:2119: Tests skipped: Well known SID 47 not implemented
+security.c:2119: Tests skipped: Well known SID 48 not implemented
+security.c:2119: Tests skipped: Well known SID 49 not implemented
+security.c:2119: Tests skipped: Well known SID 50 not implemented
+security.c:2119: Tests skipped: Well known SID 72 not implemented
+security.c:2119: Tests skipped: Well known SID 73 not implemented
+security.c:2119: Tests skipped: Well known SID 75 not implemented
+security.c:2119: Tests skipped: Well known SID 77 not implemented
+security.c:1406: AccessCheck with MAXIMUM_ALLOWED got Access 0x00060019
+security.c:1824: TokenGroups:
+security.c:1838: S-1-5-21-592675385-427359502-1750328014-513, DOCKERW-P2H5NT8\None use: 2 attr: 0x00000007
+security.c:1838: S-1-1-0, \Everyone use: 5 attr: 0x00000007
+security.c:1838: S-1-5-114, NT AUTHORITY\Local account and member of Administrators group use: 5 attr: 0x00000007
+security.c:1838: S-1-5-32-544, BUILTIN\Administrators use: 4 attr: 0x0000000f
+security.c:1838: S-1-5-32-545, BUILTIN\Users use: 4 attr: 0x00000007
+security.c:1838: S-1-5-4, NT AUTHORITY\INTERACTIVE use: 5 attr: 0x00000007
+security.c:1838: S-1-2-1, \CONSOLE LOGON use: 5 attr: 0x00000007
+security.c:1838: S-1-5-11, NT AUTHORITY\Authenticated Users use: 5 attr: 0x00000007
+security.c:1838: S-1-5-15, NT AUTHORITY\This Organization use: 5 attr: 0x00000007
+security.c:1838: S-1-5-113, NT AUTHORITY\Local account use: 5 attr: 0x00000007
+security.c:1841: attr: 0xc0000007 LookupAccountSid failed with error 1332
+security.c:1838: S-1-2-0, \LOCAL use: 5 attr: 0x00000007
+security.c:1838: S-1-5-64-10, NT AUTHORITY\NTLM Authentication use: 5 attr: 0x00000007
+security.c:1838: S-1-16-12288, Mandatory Label\High Mandatory Level use: 10 attr: 0x00000060
+security.c:1855: TokenUser: S-1-5-21-592675385-427359502-1750328014-1001 attr: 0x00000000
+security.c:1869: TokenOwner: S-1-5-32-544
+security.c:1891: TokenLogon: S-1-5-5-0-53389
+security.c:1914: TokenPrivileges:
+security.c:1920: 	SeIncreaseQuotaPrivilege, 0x0
+security.c:1920: 	SeSecurityPrivilege, 0x0
+security.c:1920: 	SeTakeOwnershipPrivilege, 0x0
+security.c:1920: 	SeLoadDriverPrivilege, 0x0
+security.c:1920: 	SeSystemProfilePrivilege, 0x0
+security.c:1920: 	SeSystemtimePrivilege, 0x0
+security.c:1920: 	SeProfileSingleProcessPrivilege, 0x0
+security.c:1920: 	SeIncreaseBasePriorityPrivilege, 0x0
+security.c:1920: 	SeCreatePagefilePrivilege, 0x0
+security.c:1920: 	SeBackupPrivilege, 0x0
+security.c:1920: 	SeRestorePrivilege, 0x0
+security.c:1920: 	SeShutdownPrivilege, 0x0
+security.c:1920: 	SeDebugPrivilege, 0x0
+security.c:1920: 	SeSystemEnvironmentPrivilege, 0x0
+security.c:1920: 	SeChangeNotifyPrivilege, 0x3
+security.c:1920: 	SeRemoteShutdownPrivilege, 0x0
+security.c:1920: 	SeUndockPrivilege, 0x0
+security.c:1920: 	SeManageVolumePrivilege, 0x0
+security.c:1920: 	SeImpersonatePrivilege, 0x3
+security.c:1920: 	SeCreateGlobalPrivilege, 0x3
+security.c:1920: 	SeIncreaseWorkingSetPrivilege, 0x0
+security.c:1920: 	SeTimeZonePrivilege, 0x0
+security.c:1920: 	SeCreateSymbolicLinkPrivilege, 0x0
+security.c:2353: Well Known SIDs:
+security.c:2364:  0: S-1-0-0 \NULL SID 5
+security.c:2364:  1: S-1-1-0 \Everyone 5
+security.c:2364:  2: S-1-2-0 \LOCAL 5
+security.c:2364:  3: S-1-3-0 \CREATOR OWNER 5
+security.c:2364:  4: S-1-3-1 \CREATOR GROUP 5
+security.c:2364:  5: S-1-3-2 \CREATOR OWNER SERVER 5
+security.c:2364:  6: S-1-3-3 \CREATOR GROUP SERVER 5
+security.c:2364:  7: S-1-5 NT Pseudo Domain\NT Pseudo Domain 3
+security.c:2364:  8: S-1-5-1 NT AUTHORITY\DIALUP 5
+security.c:2364:  9: S-1-5-2 NT AUTHORITY\NETWORK 5
+security.c:2364:  10: S-1-5-3 NT AUTHORITY\BATCH 5
+security.c:2364:  11: S-1-5-4 NT AUTHORITY\INTERACTIVE 5
+security.c:2364:  12: S-1-5-6 NT AUTHORITY\SERVICE 5
+security.c:2364:  13: S-1-5-7 NT AUTHORITY\ANONYMOUS LOGON 5
+security.c:2364:  14: S-1-5-8 NT AUTHORITY\PROXY 5
+security.c:2364:  15: S-1-5-9 NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS 5
+security.c:2364:  16: S-1-5-10 NT AUTHORITY\SELF 5
+security.c:2364:  17: S-1-5-11 NT AUTHORITY\Authenticated Users 5
+security.c:2364:  18: S-1-5-12 NT AUTHORITY\RESTRICTED 5
+security.c:2364:  19: S-1-5-13 NT AUTHORITY\TERMINAL SERVER USER 5
+security.c:2364:  20: S-1-5-14 NT AUTHORITY\REMOTE INTERACTIVE LOGON 5
+security.c:2373:  21: not supported
+security.c:2364:  22: S-1-5-18 NT AUTHORITY\SYSTEM 5
+security.c:2364:  23: S-1-5-19 NT AUTHORITY\LOCAL SERVICE 5
+security.c:2364:  24: S-1-5-20 NT AUTHORITY\NETWORK SERVICE 5
+security.c:2364:  25: S-1-5-32 BUILTIN\BUILTIN 3
+security.c:2364:  26: S-1-5-32-544 BUILTIN\Administrators 4
+security.c:2364:  27: S-1-5-32-545 BUILTIN\Users 4
+security.c:2364:  28: S-1-5-32-546 BUILTIN\Guests 4
+security.c:2364:  29: S-1-5-32-547 BUILTIN\Power Users 4
+security.c:2364:  33: S-1-5-32-551 BUILTIN\Backup Operators 4
+security.c:2364:  34: S-1-5-32-552 BUILTIN\Replicator 4
+security.c:2364:  36: S-1-5-32-555 BUILTIN\Remote Desktop Users 4
+security.c:2364:  37: S-1-5-32-556 BUILTIN\Network Configuration Operators 4
+security.c:2373:  38: not supported
+security.c:2373:  39: not supported
+security.c:2373:  40: not supported
+security.c:2373:  41: not supported
+security.c:2373:  42: not supported
+security.c:2373:  43: not supported
+security.c:2373:  44: not supported
+security.c:2373:  45: not supported
+security.c:2373:  46: not supported
+security.c:2373:  47: not supported
+security.c:2373:  48: not supported
+security.c:2373:  49: not supported
+security.c:2373:  50: not supported
+security.c:2364:  51: S-1-5-64-10 NT AUTHORITY\NTLM Authentication 5
+security.c:2364:  52: S-1-5-64-21 NT AUTHORITY\Digest Authentication 5
+security.c:2364:  53: S-1-5-64-14 NT AUTHORITY\SChannel Authentication 5
+security.c:2364:  54: S-1-5-15 NT AUTHORITY\This Organization 5
+security.c:2364:  55: S-1-5-1000 NT AUTHORITY\Other Organization 5
+security.c:2364:  57: S-1-5-32-558 BUILTIN\Performance Monitor Users 4
+security.c:2364:  58: S-1-5-32-559 BUILTIN\Performance Log Users 4
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014 DOCKERW-P2H5NT8\ 3
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-500 DOCKERW-P2H5NT8\Administrator 1
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-501 DOCKERW-P2H5NT8\Guest 1
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-512 couldn't be mapped
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-513 DOCKERW-P2H5NT8\None 2
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-514 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-515 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-516 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-517 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-518 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-519 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-520 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-553 couldn't be mapped
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-1000 DOCKERW-P2H5NT8\WinRMRemoteWMIUsers__ 4
+security.c:2028:  S-1-5-32-544 BUILTIN\Administrators 4
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-513 DOCKERW-P2H5NT8\None 2
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-1001 DOCKERW-P2H5NT8\Docker 1
+036c:security: 22 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:7688: Well known SID 21 not supported
+security.c:7688: Well known SID 38 not supported
+security.c:7688: Well known SID 39 not supported
+security.c:7688: Well known SID 40 not supported
+security.c:7688: Well known SID 41 not supported
+security.c:7688: Well known SID 42 not supported
+security.c:7688: Well known SID 43 not supported
+security.c:7688: Well known SID 44 not supported
+security.c:7688: Well known SID 45 not supported
+security.c:7688: Well known SID 46 not supported
+security.c:7688: Well known SID 47 not supported
+security.c:7688: Well known SID 48 not supported
+security.c:7688: Well known SID 49 not supported
+security.c:7688: Well known SID 50 not supported
+security.c:7688: Well known SID 72 not supported
+security.c:7688: Well known SID 73 not supported
+security.c:7688: Well known SID 75 not supported
+security.c:7688: Well known SID 77 not supported
+security.c:7688: Well known SID 80 not supported
+security.c:7688: Well known SID 83 not supported
+0350:security: 14 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0120:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+00d4:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+08b4:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+03c4:security: 2 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0900:security: 25 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0a44:security: 3681 tests executed (0 marked as todo, 0 as flaky, 0 failures), 27 skipped.
+advapi32:security:0a44 done (0) in 2s 10334B
+advapi32:service start dlls/advapi32/tests/service.c
+08dc:service: 2774 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:service:08dc done (0) in 7s 90B
+advpack:advpack start dlls/advpack/tests/advpack.c
+advpack.c:103: kernel32.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:110: kernel32.dll version: 6.3.9600.17031
+advpack.c:117: advpack.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:124: advpack.dll version: 11.0.9600.16384
+0488:advpack: 99 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:advpack:0488 done (0) in 0s 349B
+advpack:files start dlls/advpack/tests/files.c
+0408:files: 207 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:files:0408 done (0) in 0s 87B
+advpack:install start dlls/advpack/tests/install.c
+042c:install: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:install:042c done (0) in 0s 88B
+amstream:amstream start dlls/amstream/tests/amstream.c
+09b4:amstream: 3768 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+amstream:amstream:09b4 done (0) in 4s 91B
+apphelp:apphelp start dlls/apphelp/tests/apphelp.c
+0414:apphelp: 15 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+apphelp:apphelp:0414 done (0) in 0s 88B
+atl:atl_ax start dlls/atl/tests/atl_ax.c
+03e0:atl_ax: 12 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:atl_ax:03e0 done (0) in 0s 87B
+atl:module start dlls/atl/tests/module.c
+09bc:module: 550 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:module:09bc done (0) in 0s 88B
+atl:registrar start dlls/atl/tests/registrar.c
+0950:registrar: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:registrar:0950 done (0) in 0s 90B
+avifil32:api start dlls/avifil32/tests/api.c
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+0958:api: 200 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+avifil32:api:0958 done (0) in 0s 325B
+bcrypt:bcrypt start dlls/bcrypt/tests/bcrypt.c
+bcrypt.c:71: Tests skipped: BCryptGenRandom pseudo handles are not available
+bcrypt.c:430: Tests skipped: BCryptHash is not available
+bcrypt.c:3105: Tests skipped: BCRYPT_KDF_RAW_SECRET not supported
+bcrypt.c:3277: Tests skipped: broken DH detected
+bcrypt.c:4063: Tests skipped: broken DH detected
+052c:bcrypt: 22848 tests executed (0 marked as todo, 0 as flaky, 0 failures), 5 skipped.
+bcrypt:bcrypt:052c done (0) in 1s 393B
+bluetoothapis:radio start dlls/bluetoothapis/tests/radio.c
+radio.c:83: Tests skipped: No Bluetooth radios found.
+radio.c:135: Tests skipped: No Bluetooth radios found.
+radio.c:135: Tests skipped: No Bluetooth radios found.
+radio.c:135: Tests skipped: No Bluetooth radios found.
+05bc:radio: 14 tests executed (0 marked as todo, 0 as flaky, 0 failures), 4 skipped.
+bluetoothapis:radio:05bc done (0) in 0s 309B
+bluetoothapis:sdp start dlls/bluetoothapis/tests/sdp.c
+05c8:sdp: 161 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bluetoothapis:sdp:05c8 done (0) in 0s 85B
+browseui:autocomplete start dlls/browseui/tests/autocomplete.c
+autocomplete.c:81: ACL(014C0870): addref (2)
+autocomplete.c:81: ACL(014C0870): addref (3)
+autocomplete.c:81: ACL(014C0870): addref (4)
+autocomplete.c:81: ACL(014C0898): addref (2)
+autocomplete.c:81: ACL(014C0898): addref (3)
+autocomplete.c:81: ACL(014C0898): addref (4)
+autocomplete.c:125: ACL(014C0870): read 1 item(s)
+autocomplete.c:125: ACL(014C0870): read 1 item(s)
+autocomplete.c:125: ACL(014C0870): read 1 item(s)
+autocomplete.c:125: ACL(014C0870): read 1 item(s)
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:159: ACL(014C0870): Reset
+autocomplete.c:159: ACL(014C0898): Reset
+autocomplete.c:167: ACL(014C0870): Expand
+autocomplete.c:167: ACL(014C0898): Expand
+autocomplete.c:125: ACL(014C0870): read 1 item(s)
+autocomplete.c:125: ACL(014C0870): read 1 item(s)
+autocomplete.c:125: ACL(014C0870): read 1 item(s)
+autocomplete.c:125: ACL(014C0870): read 1 item(s)
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:167: ACL(014C0870): Expand
+autocomplete.c:167: ACL(014C0898): Expand
+autocomplete.c:167: ACL(014C0870): Expand
+autocomplete.c:167: ACL(014C0898): Expand
+autocomplete.c:167: ACL(014C0870): Expand
+autocomplete.c:167: ACL(014C0898): Expand
+autocomplete.c:167: ACL(014C0870): Expand
+autocomplete.c:167: ACL(014C0898): Expand
+autocomplete.c:167: ACL(014C0870): Expand
+autocomplete.c:167: ACL(014C0898): Expand
+autocomplete.c:91: ACL(014C0870): release (3)
+autocomplete.c:91: ACL(014C0870): release (2)
+autocomplete.c:91: ACL(014C0870): release (1)
+autocomplete.c:159: ACL(014C0898): Reset
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:125: ACL(014C0898): read 1 item(s)
+autocomplete.c:91: ACL(014C0898): release (3)
+autocomplete.c:91: ACL(014C0898): release (2)
+autocomplete.c:91: ACL(014C0898): release (1)
+04c8:autocomplete: 66 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:autocomplete:04c8 done (0) in 0s 2160B
+browseui:progressdlg start dlls/browseui/tests/progressdlg.c
+04cc:progressdlg: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:progressdlg:04cc done (0) in 0s 91B
+cabinet:extract start dlls/cabinet/tests/extract.c
+05d4:extract: 347 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:extract:05d4 done (0) in 0s 89B
+cabinet:fdi start dlls/cabinet/tests/fdi.c
+fdi.c:751: mem_open(memory\block,8000,180) => 00B82740
+fdi.c:751: mem_open(memory\block,8000,180) => 00B82740
+fdi.c:751: mem_open(memory\block,8000,180) => 00B82758
+fdi.c:843: mem_notify(0,00B8451C)
+fdi.c:843: mem_notify(5,00B8451C)
+fdi.c:843: mem_notify(5,00B8451C)
+08dc:fdi: 255 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:fdi:08dc done (0) in 0s 358B
+cfgmgr32:cfgmgr32 start dlls/cfgmgr32/tests/cfgmgr32.c
+0488:cfgmgr32: 65 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cfgmgr32:cfgmgr32:0488 done (0) in 0s 89B
+cmd.exe:batch start programs/cmd/tests/batch.c
+batch.c:454: running TEST_BUILTINS.BAT test...
+batch.c:454: running TEST_BUILTINS.CMD test...
+batch.c:454: running TEST_CMDLINE.CMD test...
+0408:batch: 2488 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:batch:0408 done (0) in 12s 231B
+cmd.exe:directory start programs/cmd/tests/directory.c
+034c:directory: 24 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:directory:034c done (0) in 0s 90B
+combase:roapi start dlls/combase/tests/roapi.c
+036c:roapi: 218 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+combase:roapi:036c done (0) in 0s 87B
+combase:string start dlls/combase/tests/string.c
+09b0:string: 555 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+combase:string:09b0 done (0) in 0s 88B
+comcat:comcat start dlls/comcat/tests/comcat.c
+09cc:comcat: 9 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comcat:comcat:09cc done (0) in 0s 86B
+comctl32:animate start dlls/comctl32/tests/animate.c
+09a0:animate: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:animate:09a0 done (0) in 0s 88B
+comctl32:button start dlls/comctl32/tests/button.c
+v6util.h:92: created cc6.manifest
+09e0:button: 14187 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:button:09e0 done (0) in 10s 125B
+comctl32:combo start dlls/comctl32/tests/combo.c
+v6util.h:92: created cc6.manifest
+09f8:combo: 1002 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:combo:09f8 done (0) in 5s 123B
+comctl32:datetime start dlls/comctl32/tests/datetime.c
+v6util.h:92: created cc6.manifest
+09ec:datetime: 927 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:datetime:09ec done (0) in 0s 125B
+comctl32:dpa start dlls/comctl32/tests/dpa.c
+v6util.h:92: created cc6.manifest
+0514:dpa: 853 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:dpa:0514 done (0) in 0s 120B
+comctl32:edit start dlls/comctl32/tests/edit.c
+v6util.h:92: created cc6.manifest
+edit.c:733: EDIT: Single line
+edit.c:746: EDIT: Single line want returns
+edit.c:759: EDIT: Multiline line
+edit.c:772: EDIT: Multi line want returns
+edit.c:813: EDIT: SETTEXT atomicity
+edit.c:1010: EDIT: Test notifications
+edit.c:1020: EDIT: Single line, no ES_AUTOHSCROLL
+edit.c:1070: EDIT: Single line, ES_AUTOHSCROLL
+edit.c:1116: EDIT: Multline, no ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1163: EDIT: Multline, ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1205: EDIT: Multline, ES_AUTOHSCROLL and ES_AUTOVSCROLL
+edit.c:1498: EDIT: buffer limit for single-line
+edit.c:1508: EDIT: buffer limit for multi-line
+edit.c:1985: Tests skipped: Ume P Gothic is not available, skipping some margin tests
+edit.c:2264: EDIT: Using old model for height computation
+edit.c:2266: EDIT: Text position (Single line)
+edit.c:2268: EDIT: Text position (Multi line)
+edit.c:2884: EDIT: Oversized font (Multi line)
+edit.c:3114: EDIT: EM_GETHANDLE
+0980:edit: 267396 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comctl32:edit:0980 done (0) in 0s 1065B
+comctl32:header start dlls/comctl32/tests/header.c
+header.c:1713: customdraw height: 18 (dpi: 96)
+v6util.h:92: created cc6.manifest
+0aa8:header: 1060 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:header:0aa8 done (0) in 0s 172B
+comctl32:imagelist start dlls/comctl32/tests/imagelist.c
+v6util.h:92: created cc6.manifest
+0b10:imagelist: 10224 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:imagelist:0b10 done (0) in 0s 128B
+comctl32:ipaddress start dlls/comctl32/tests/ipaddress.c
+v6util.h:92: created cc6.manifest
+0b2c:ipaddress: 91 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:ipaddress:0b2c done (0) in 0s 125B
+comctl32:listbox start dlls/comctl32/tests/listbox.c
+v6util.h:92: created cc6.manifest
+0488:listbox: 3708 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listbox:0488 done (0) in 2s 125B
+comctl32:listview start dlls/comctl32/tests/listview.c
+v6util.h:92: created cc6.manifest
+0574:listview: 7658 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listview:0574 done (0) in 1s 126B
+comctl32:misc start dlls/comctl32/tests/misc.c
+v6util.h:92: created cc6.manifest
+0b24:misc: 2210 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:misc:0b24 done (0) in 24s 122B
+comctl32:monthcal start dlls/comctl32/tests/monthcal.c
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800002
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800002
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800001
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800001, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800001, new style: 0x50800001
+v6util.h:92: created cc6.manifest
+06f0:monthcal: 2230 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:monthcal:06f0 done (0) in 0s 630B
+comctl32:mru start dlls/comctl32/tests/mru.c
+0b4c:mru: 94 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:mru:0b4c done (0) in 0s 84B
+comctl32:pager start dlls/comctl32/tests/pager.c
+0538:pager: 2958 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:pager:0538 done (0) in 0s 88B
+comctl32:progress start dlls/comctl32/tests/progress.c
+v6util.h:92: created cc6.manifest
+0278:progress: 307 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:progress:0278 done (0) in 0s 125B
+comctl32:propsheet start dlls/comctl32/tests/propsheet.c
+v6util.h:92: created cc6.manifest
+06cc:propsheet: 1012 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:propsheet:06cc done (0) in 0s 127B
+comctl32:rebar start dlls/comctl32/tests/rebar.c
+06d0:rebar: 1355 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:rebar:06d0 done (0) in 0s 88B
+comctl32:static start dlls/comctl32/tests/static.c
+v6util.h:92: created cc6.manifest
+static.c:88: Testing style 0x0
+static.c:88: Testing style 0x3
+static.c:88: Testing style 0x4
+static.c:88: Testing style 0x6
+static.c:88: Testing style 0x7
+static.c:88: Testing style 0x9
+static.c:88: Testing style 0xa
+static.c:88: Testing style 0xb
+static.c:88: Testing style 0xd
+static.c:88: Testing style 0xe
+static.c:88: Testing style 0x20e
+static.c:88: Testing style 0x10
+static.c:88: Testing style 0x11
+static.c:88: Testing style 0x12
+static.c:88: Testing style 0x1000
+0b64:static: 506 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:static:0b64 done (0) in 1s 611B
+comctl32:status start dlls/comctl32/tests/status.c
+status.c:244: dpi=96 (min height: 24 or 20) SM_CYSIZE: 22
+0b6c:status: 7217 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:status:0b6c done (0) in 6s 148B
+comctl32:subclass start dlls/comctl32/tests/subclass.c
+0b8c:subclass: 288 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:subclass:0b8c done (0) in 0s 90B
+comctl32:syslink start dlls/comctl32/tests/syslink.c
+v6util.h:92: created cc6.manifest
+0b94:syslink: 77 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:syslink:0b94 done (0) in 0s 123B
+comctl32:tab start dlls/comctl32/tests/tab.c
+tab.c:695: Testing with the 'System' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:695: Testing with the 'Arial' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:695: Testing with the 'Tahoma' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:695: Testing with the 'Courier New' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:695: Testing with the 'MS Shell Dlg' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+0738:tab: 5424 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tab:0738 done (0) in 0s 11751B
+comctl32:taskdialog start dlls/comctl32/tests/taskdialog.c
+v6util.h:92: created cc6.manifest
+06bc:taskdialog: 2391 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:taskdialog:06bc done (0) in 2s 128B
+comctl32:toolbar start dlls/comctl32/tests/toolbar.c
+v6util.h:92: created cc6.manifest
+09b0:toolbar: 2107 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:toolbar:09b0 done (0) in 0s 125B
+comctl32:tooltips start dlls/comctl32/tests/tooltips.c
+v6util.h:92: created cc6.manifest
+09cc:tooltips: 1165 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tooltips:09cc done (0) in 4s 126B
+comctl32:trackbar start dlls/comctl32/tests/trackbar.c
+v6util.h:92: created cc6.manifest
+0138:trackbar: 3474 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:trackbar:0138 done (0) in 0s 126B
+comctl32:treeview start dlls/comctl32/tests/treeview.c
+v6util.h:92: created cc6.manifest
+032c:treeview: 6945 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:treeview:032c done (0) in 0s 126B
+comctl32:updown start dlls/comctl32/tests/updown.c
+027c:updown: 686 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:updown:027c done (0) in 0s 88B
+comdlg32:filedlg start dlls/comdlg32/tests/filedlg.c
+filedlg.c:932: Tests skipped: some interactive resizable dialog tests (set WINETEST_INTERACTIVE=1)
+0678:filedlg: 287 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:filedlg:0678 done (0) in 5s 189B
+comdlg32:finddlg start dlls/comdlg32/tests/finddlg.c
+09ec:finddlg: 43 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:finddlg:09ec done (0) in 0s 88B
+comdlg32:fontdlg start dlls/comdlg32/tests/fontdlg.c
+0514:fontdlg: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:fontdlg:0514 done (0) in 0s 88B
+comdlg32:itemdlg start dlls/comdlg32/tests/itemdlg.c
+itemdlg.c:1144: Testing FileOpenDialog (advise)
+itemdlg.c:1152: Testing FileSaveDialog (advise)
+itemdlg.c:1174: Didn't find combobox on first attempt, trying broken string..
+0ab8:itemdlg: 1280 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:itemdlg:0ab8 done (0) in 4s 267B
+comdlg32:printdlg start dlls/comdlg32/tests/printdlg.c
+printdlg.c:197: driver 'winspool' device 'Microsoft XPS Document Writer' port 'PORTPROMPT:'
+printdlg.c:534: Tests skipped: interactive PrintDlgEx tests (set WINETEST_INTERACTIVE=1)
+0798:printdlg: 49 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:printdlg:0798 done (0) in 0s 272B
+compstui:compstui start dlls/compstui/tests/compstui.c
+0468:compstui: 146 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+compstui:compstui:0468 done (0) in 0s 90B
+comsvcs:comsvcs start dlls/comsvcs/tests/comsvcs.c
+0b24:comsvcs: 117 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:comsvcs:0b24 done (0) in 0s 89B
+comsvcs:property start dlls/comsvcs/tests/property.c
+0278:property: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:property:0278 done (0) in 0s 89B
+concrt140:concrt140 start dlls/concrt140/tests/concrt140.c
+concrt140.c:105: Tests skipped: concrt140.dll not installed
+0310:concrt140: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+concrt140:concrt140:0310 done (0) in 0s 150B
+conhost.exe:tty start programs/conhost/tests/tty.c
+tty.c:1920: Tests skipped: CreatePseudoConsole is not available
+0318:tty: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+conhost.exe:tty:0318 done (0) in 0s 148B
+credui:credui start dlls/credui/tests/credui.c
+0210:credui: 7 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+credui:credui:0210 done (0) in 0s 86B
+crypt32:base64 start dlls/crypt32/tests/base64.c
+0a7c:base64: 3723 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:base64:0a7c done (0) in 0s 89B
+crypt32:cert start dlls/crypt32/tests/cert.c
+0b58:cert: 634 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:cert:0b58 done (0) in 0s 86B
+crypt32:chain start dlls/crypt32/tests/chain.c
+chain.c:4575: info[0] = 102
+chain.c:4575: info[1] = 102
+chain.c:4575: info[2] = 10c
+0734:chain: 2936 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:chain:0734 done (0) in 0s 175B
+crypt32:crl start dlls/crypt32/tests/crl.c
+00c0:crl: 140 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:crl:00c0 done (0) in 0s 85B
+crypt32:ctl start dlls/crypt32/tests/ctl.c
+0430:ctl: 37 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:ctl:0430 done (0) in 0s 84B
+crypt32:encode start dlls/crypt32/tests/encode.c
+0808:encode: 6326 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:encode:0808 done (0) in 0s 89B
+crypt32:main start dlls/crypt32/tests/main.c
+0a54:main: 100 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:main:0a54 done (0) in 0s 86B
+crypt32:message start dlls/crypt32/tests/message.c
+0bec:message: 155 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:message:0bec done (0) in 0s 89B
+crypt32:msg start dlls/crypt32/tests/msg.c
+0be4:msg: 1006 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:msg:0be4 done (0) in 0s 86B
+crypt32:object start dlls/crypt32/tests/object.c
+039c:object: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:object:039c done (0) in 0s 87B
+crypt32:oid start dlls/crypt32/tests/oid.c
+0748:oid: 175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:oid:0748 done (0) in 0s 85B
+crypt32:protectdata start dlls/crypt32/tests/protectdata.c
+0aac:protectdata: 42 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:protectdata:0aac done (0) in 0s 92B
+crypt32:sip start dlls/crypt32/tests/sip.c
+0af8:sip: 50 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:sip:0af8 done (0) in 0s 84B
+crypt32:store start dlls/crypt32/tests/store.c
+08ec:store: 590 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:store:08ec done (0) in 0s 87B
+crypt32:str start dlls/crypt32/tests/str.c
+0950:str: 1592 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:str:0950 done (0) in 0s 86B
+cryptnet:cryptnet start dlls/cryptnet/tests/cryptnet.c
+cryptnet.c:342: Tests skipped: File URLs not supported
+09ac:cryptnet: 125 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+cryptnet:cryptnet:09ac done (0) in 0s 146B
+cryptowinrt:crypto start dlls/cryptowinrt/tests/crypto.c
+crypto.c:263: Tests skipped: L"Windows.Security.Credentials.KeyCredentialManager" runtimeclass not registered, skipping tests.
+08bc:crypto: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+cryptowinrt:crypto:08bc done (0) in 0s 215B
+cryptui:cryptui start dlls/cryptui/tests/cryptui.c
+05c8:cryptui: 30 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptui:cryptui:05c8 done (0) in 0s 88B
+d2d1:d2d1 start dlls/d2d1/tests/d2d1.c
+d2d1.c:10172: Tests skipped: Failed to create REF d3d device, hr 0x80004002.
+d2d1.c:11007: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:11007: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:12700: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:12700: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:15465: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:15465: Tests skipped: ID2D1Factory3 is not supported.
+070c:d2d1: 15419 tests executed (0 marked as todo, 0 as flaky, 0 failures), 7 skipped.
+d2d1:d2d1:070c done (0) in 3s 538B
+d3d10core:d3d10core start dlls/d3d10core/tests/d3d10core.c
+d3d10core.c:1295: Adapter: L"Microsoft Basic Render Driver", 1414:008c.
+d3d10core.c:6298: Tests skipped: DXGI_FORMAT_B8G8R8X8_UNORM not supported.
+d3d10core.c:16418: Tests skipped: B8G8R8A8_UNORM not supported.
+d3d10core.c:17345: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17345: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17345: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17345: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17477: Tests skipped: Creating the next texture crashes WARP on some testbot boxes.
+06dc:d3d10core: 195818 tests executed (0 marked as todo, 0 as flaky, 0 failures), 7 skipped.
+d3d10core:d3d10core:06dc done (0) in 6s 761B
+d3d10_1:d3d10_1 start dlls/d3d10_1/tests/d3d10_1.c
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0xa100.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0xa000.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0x9300.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0x9200.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0x9100.
+0760:d3d10_1: 580 tests executed (0 marked as todo, 0 as flaky, 0 failures), 5 skipped.
+d3d10_1:d3d10_1:0760 done (0) in 0s 494B
+d3d10_1:reflection start dlls/d3d10_1/tests/reflection.c
+0344:reflection: 662 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10_1:reflection:0344 done (0) in 0s 92B
+d3d10:device start dlls/d3d10/tests/device.c
+09e0:device: 206 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:device:09e0 done (0) in 0s 88B
+d3d10:effect start dlls/d3d10/tests/effect.c
+056c:effect: 4970 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:effect:056c done (0) in 0s 89B
+d3d10:reflection start dlls/d3d10/tests/reflection.c
+09f8:reflection: 662 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:reflection:09f8 done (0) in 0s 92B
+d3d11:d3d11 start dlls/d3d11/tests/d3d11.c
+d3d11.c:1636: Adapter: L"Microsoft Basic Render Driver", 1414:008c.
+d3d11.c:2082: Feature level 0xb000.
+d3d11.c:2323: Tests skipped: Feature level 0xb100: Failed to create debug device.
+d3d11.c:2323: Tests skipped: Feature level 0xb000: Failed to create debug device.
+d3d11.c:2323: Tests skipped: Feature level 0xa100: Failed to create debug device.
+d3d11.c:2323: Tests skipped: Feature level 0xa000: Failed to create debug device.
+d3d11.c:2323: Tests skipped: Feature level 0x9300: Failed to create debug device.
+d3d11.c:2323: Tests skipped: Feature level 0x9200: Failed to create debug device.
+d3d11.c:2323: Tests skipped: Feature level 0x9100: Failed to create debug device.
+d3d11.c:11921: Tests skipped: Viewport array index not supported in vertex shaders.
+d3d11.c:19749: Compute shader support via SM4 0x1.
+d3d11.c:21179: Feature level 0xa100: Optional format 0x59 - display supported.
+d3d11.c:21179: Feature level 0xa000: Optional format 0x59 - display supported.
+d3d11.c:21179: Feature level 0xa000: Optional format 0xb - blendable supported.
+d3d11.c:21179: Feature level 0xa000: Optional format 0x23 - blendable supported.
+d3d11.c:21179: Feature level 0xa000: Optional format 0x38 - blendable supported.
+d3d11.c:24712: Tests skipped: Test 8: Broken WARP.
+d3d11.c:24991: Tests skipped: Feature level 0xa100: Feature level 11_0 required for unaligned UAV test.
+d3d11.c:24991: Tests skipped: Feature level 0xa000: Feature level 11_0 required for unaligned UAV test.
+d3d11.c:29326: Tests skipped: Broken destination offset for 0x43 -> 0x27 copy.
+d3d11.c:29326: Tests skipped: Broken destination offset for 0x43 -> 0x29 copy.
+d3d11.c:29326: Tests skipped: Broken destination offset for 0x43 -> 0x2a copy.
+d3d11.c:29326: Tests skipped: Broken destination offset for 0x43 -> 0x2b copy.
+d3d11.c:29574: Tests skipped: Feature level 0xb000: Detected broken destination offset for 0x1 -> 0x49 copy.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4a CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4b CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4c CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4d CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4e CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x52 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x53 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x54 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x5e tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x5f tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x60 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x61 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x62 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x63 tests because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x49 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x4a CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x4b CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x4c CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x4d CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x4e CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x52 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x53 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x54 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x5e tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x5f tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x60 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x61 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x62 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x2 -> 0x63 tests because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x49 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x4a CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x4b CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x4c CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x4d CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x4e CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x52 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x53 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x54 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x5e tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x5f tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x60 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x61 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x62 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x3 -> 0x63 tests because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x49 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x4a CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x4b CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x4c CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x4d CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x4e CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x52 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x53 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x54 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x5e tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x5f tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x60 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x61 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x62 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x4 -> 0x63 tests because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x9 -> 0x46 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x9 -> 0x47 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x9 -> 0x48 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x9 -> 0x4f CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x9 -> 0x50 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0x9 -> 0x51 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Tests skipped: Feature level 0xb000: Skipping 0xa -> 0x46 CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29562: Line has been silenced after 42 occurrences
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x5e -> 0x1 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x5e -> 0x2 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x5e -> 0x3 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x5e -> 0x4 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x5f -> 0x1 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x5f -> 0x2 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x5f -> 0x3 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x5f -> 0x4 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x60 -> 0x1 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x60 -> 0x2 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x60 -> 0x3 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x60 -> 0x4 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x61 -> 0x1 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x61 -> 0x2 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x61 -> 0x3 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x61 -> 0x4 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x62 -> 0x1 tests because of broken destination offset.
+d3d11.c:29543: Tests skipped: Feature level 0xb000: Skipping 0x62 -> 0x2 tests because of broken destination offset.
+d3d11.c:29543: Line has been silenced after 42 occurrences
+d3d11.c:29574: Tests skipped: Feature level 0xa100: Detected broken destination offset for 0x1 -> 0x49 copy.
+d3d11.c:31882: Tests skipped: Sample shading tests fail on WARP.
+d3d11.c:35583: Tests skipped: The device does not support stencil ref export.
+d3d11.c:30526: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30526: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30526: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30526: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+037c:d3d11: Silenced 0 todos, 346 skips and 0 traces.
+037c:d3d11: 445379 tests executed (0 marked as todo, 0 as flaky, 0 failures), 107 skipped.
+d3d11:d3d11:037c done (0) in 17s 13661B
+d3d8:device start dlls/d3d8/tests/device.c
+device.c:1143: Tests skipped: Adapter 0 test 1: Failed to create a D3D device.
+device.c:3127: device_window 01ED01C2, focus_window 00B1021A, dummy_window 014501DA.
+device.c:3551: device_window 01EE01C2, focus_window 00B2021A, dummy_window 014601DA.
+device.c:4504: Tests skipped: Following tests require two adapters.
+device.c:6194: Tests skipped: No D3DFMT_NULL support, skipping test.
+device.c:6579: Tests skipped: Format ATI1N not supported, skipping lockrect offset tests.
+device.c:6579: Tests skipped: Format ATI2N not supported, skipping lockrect offset tests.
+device.c:6579: Tests skipped: Format D3DFMT_YUY2 not supported, skipping lockrect offset tests.
+device.c:6579: Tests skipped: Format D3DFMT_UYVY not supported, skipping lockrect offset tests.
+device.c:8553: Tests skipped: Windows 10 WARP crashes during this test.
+device.c:9070: Tests skipped: D3DFMT_ATI1 textures not supported, skipping tests.
+device.c:9070: Tests skipped: D3DFMT_ATI2 textures not supported, skipping tests.
+device.c:9233: Tests skipped: P8 textures are supported, skipping some tests.
+device.c:9464: Max user clip planes: 8.
+device.c:9464: Max user clip planes: 6.
+device.c:9927: Tests skipped: ATI2N texture not supported.
+device.c:10555: Tests skipped: Failed to create a D3D device.
+0b60:device: 56047 tests executed (0 marked as todo, 0 as flaky, 0 failures), 13 skipped.
+d3d8:device:0b60 done (0) in 47s 1381B
+d3d8:stateblock start dlls/d3d8/tests/stateblock.c
+stateblock.c:416: Running initial read state tests
+stateblock.c:419: Running write-read state tests
+stateblock.c:422: Running stateblock abort state tests
+stateblock.c:425: Running stateblock apply state tests
+stateblock.c:428: Running stateblock capture/reapply state tests
+stateblock.c:431: Running create stateblock capture/apply all state tests
+stateblock.c:434: Running create stateblock apply all state tests
+stateblock.c:437: Running create stateblock capture/apply vertex state tests
+stateblock.c:440: Running create stateblock apply vertex state tests
+stateblock.c:443: Running create stateblock capture/apply pixel state tests
+stateblock.c:446: Running create stateblock apply pixel state tests
+stateblock.c:449: Running rendertarget switch state tests
+stateblock.c:452: Running stateblock apply over rendertarget switch interrupt tests
+064c:stateblock: 9283 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d8:stateblock:064c done (0) in 0s 953B
+d3d8:visual start dlls/d3d8/tests/visual.c
+visual.c:12400: Driver string: "d3d10warp.dll"
+visual.c:12401: Description string: "Red Hat VirtIO GPU DOD controller"
+visual.c:12404: Driver version 6.3.9600.16505
+visual.c:3897: Tests skipped: No INTZ support, skipping INTZ test.
+visual.c:4524: Tests skipped: No INTZ support, skipping RESZ test.
+visual.c:6213: Tests skipped: ATI1N textures are not supported, skipping test.
+visual.c:6902: Tests skipped: Format D3DFMT_X8L8V8U8 not supported, skipping.
+visual.c:6902: Tests skipped: Format D3DFMT_L6V5U5 not supported, skipping.
+visual.c:7157: Tests skipped: 2D mipmapped ATI2N textures are not supported, skipping some tests.
+visual.c:7157: Tests skipped: Cube ATI2N textures are not supported, skipping some tests.
+visual.c:7157: Tests skipped: Volume ATI2N textures are not supported, skipping some tests.
+visual.c:10044: Edge antialiasing support: 0.
+visual.c:10547: Tests skipped: Running on WARP, skipping test.
+081c:visual: 141927 tests executed (0 marked as todo, 0 as flaky, 0 failures), 9 skipped.
+d3d8:visual:081c done (0) in 4s 1025B
+d3d9:d3d9ex start dlls/d3d9/tests/d3d9ex.c
