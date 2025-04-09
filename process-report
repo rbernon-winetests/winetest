@@ -3,6 +3,7 @@
 import os
 import re
 import sys
+import json
 import subprocess
 
 input_name = sys.argv[1]
@@ -24,51 +25,75 @@ def winesrc(folder, source):
       return os.path.join(folder, source)
     return os.path.join(parentsrc(folder), source)
 
-with open(input_name, "rb") as input, open(output_name, "wb") as output:
-  for line in input.read().splitlines():
+def parse_report(name, file):
+  info = {"name": name, "tests": {}, "failures": {}, "build-info": {}, "system-info": {}, "dlls-info": {}}
+
+  def add_failure(line, match):
+      failures.append(line)
+      num = match.group('num')
+      source = winesrc(testdir, match.group('source'))
+      ranges[source] = ranges.get(source, set())
+      ranges[source].add(f"-L{num},+1")
+
+  for line in file.read().splitlines():
     decoded = line.decode("utf-8", errors="ignore")
 
-    if line.startswith(b"Tests from build"):
-      build = decoded.split(' ')[3]
+    if match := re.match(r"^Tests from build (?P<build>[0-9a-f]+)", decoded):
+      info["build"] = build = match.group('build')
+    elif re.match(r"^Build info:", decoded):
+      key = "build-info"
+    elif re.match(r"^Operating system version:", decoded):
+      key = "system-info"
+    elif re.match(r"^Dll info:", decoded):
+      key = "dlls-info"
+    elif match := re.match(r"^    (?P<key>[^=]+)=(?P<value>.*)$", decoded):
+      info[key][match.group('key')] = match.group('value')
+    elif match := re.match(r"^(?P<testcase>[^:]+:[^:]+) start (?P<testdir>.*/tests)/.*\.c", decoded):
+      test = match.group('testcase')
+      info["tests"][test] = {"time": 0, "status": 0, "todo": 0, "fail": 0, "skip": 0, "flaky": 0, "crash": 0}
 
-    elif re.match(r"^.*:.* start .*/tests/.*\.c", decoded):
-      lines = [line]
-      testdir = '/'.join(decoded.split(' ')[2].split('/')[:-1])
       ranges = {}
+      origins = {}
+      failures = []
+      testdir = match.group('testdir')
+    elif re.match(r"^(?P<source>[^:]+\.c):(?P<num>\d+):.* Test marked todo: ", decoded):
+      info["tests"][test]["todo"] += 1
+    elif match := re.match(r"^(?P<source>[^:]+\.c):(?P<num>\d+):.* Tests skipped: ", decoded):
+      info["tests"][test]["skip"] += 1
+    elif match := re.match(r"^(?P<source>[^:]+\.c):(?P<num>\d+):.* Test marked flaky: ", decoded):
+      info["tests"][test]["flaky"] += 1
+      add_failure(decoded, match)
+    elif match := re.match(r"^(?P<source>[^:]+\.c):(?P<num>\d+):.* (Test succeeded inside flaky todo block: |Test succeeded inside todo block: |Test failed: )", decoded):
+      info["tests"][test]["fail"] += 1
+      add_failure(decoded, match)
+    elif match := re.match(r"^(?P<source>[^:]+\.c):(?P<num>\d+):.* this is the last test seen", decoded):
+      info["tests"][test]["crash"] = 1
+    elif match := re.match(r"^(?P<source>[^:]+\.c):(?P<num>\d+):.* unhandled exception", decoded):
+      info["tests"][test]["crash"] = 1
+    elif match := re.match(r"^[^:]+:[^:]+:.* (?P<total>\d+) tests executed", decoded):
+      info["tests"][test]["total"] = int(match.group('total'))
+    elif match := re.match(r"^[^:]+:[^:]+:.* done \((?P<status>-?\d+)\) in (?P<seconds>\d+)s", decoded):
+      info["tests"][test]["status"] = int(match.group('status'))
+      info["tests"][test]["time"] = int(match.group('seconds'))
 
-    elif re.match(r"^.*\.c:[0-9]+: (Test marked todo: )", decoded):
-      lines.append(line)
-
-    elif re.match(r"^.*\.c:[0-9]+: (Tests skipped:|Test succeeded inside flaky todo block: |Test succeeded inside todo block: |Test marked todo: |Test marked flaky: |Test failed: )", decoded):
-      lines.append(line)
-      source, n, _ = decoded.split(':', 2)
-      source = winesrc(testdir, source)
-      ranges[source] = ranges.get(source, []) + [f"-L{n},+1"]
-
-    elif re.match(r"^.*\.c:[0-9]+: this is the last test seen", decoded):
-      lines.append(line)
-      source, n, _ = decoded.split(':', 2)
-      source = winesrc(testdir, source)
-      ranges[source] = ranges.get(source, []) + [f"-L{n},+1"]
-
-    elif re.match(r"^.*:.*: [0-9]+ tests executed", decoded):
-      lines.append(line)
-
-    elif re.match(r"^.*:.*:.* done \(-?[0-9]+\) in ", decoded):
-      lines.append(line)
-
-      tests = {}
       for file in ranges:
-        blames = subprocess.check_output(['git', '-C', 'wine', 'blame', build, '--no-progress', '-flnsw'] + ranges[file] + [file], encoding='utf-8')
+        blames = subprocess.check_output(['git', '-C', 'wine', 'blame', build, '--no-progress', '-flnsw'] + list(ranges[file]) + [file], encoding='utf-8')
         for blame in blames.splitlines():
-          rev, orig_file, orig_line, line, _ = re.split(r'[ )]+', blame, maxsplit=4)
-          base = file.split('/')[-1]
-          tests[f"{base}:{line}:".encode('utf-8')] = f"https://gitlab.winehq.org/wine/wine/-/blob/{rev}/{orig_file}#L{orig_line}:".encode('utf-8')
+          rev, orig_file, orig_num, num, _ = re.split(r'[ )]+', blame, maxsplit=4)
+          test = f"{os.path.basename(file)}:{num}"
+          origins[test] = f"{orig_file}:{orig_num} @ {rev}"
 
-      for line in lines:
-        for test, url in tests.items():
-          line = line.replace(test, url)
-        output.write(line)
-        output.write(b'\n')
+      for line in failures:
+        file, num, message = line.split(':', 2)
+        origin = origins[':'.join([file, num])]
+
+        info["failures"][origin] = info["failures"].get(origin, [])
+        info["failures"][origin].append(testdir + '/' + line)
+
+  return info
+
+with open(input_name, "rb") as input, open(output_name, "w") as output:
+  info = parse_report(os.path.basename(input_name).split('.report.')[0], input)
+  output.write(json.dumps(info, indent=2))
 
 print(input_name, 'done')
