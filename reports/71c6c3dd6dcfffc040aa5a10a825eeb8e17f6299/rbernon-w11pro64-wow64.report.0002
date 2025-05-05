@@ -1,0 +1,133 @@
+Version 4
+Tests from build 71c6c3dd6dcfffc040aa5a10a825eeb8e17f6299
+Archive: -
+Tag: rbernon-w11pro64-wow64
+Build info:
+    Using built-in specs.
+    COLLECT_GCC=/usr/bin/gcc
+    COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+    OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+    OFFLOAD_TARGET_DEFAULT=1
+    Target: x86_64-linux-gnu
+    Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+    Thread model: posix
+    Supported LTO compression algorithms: zlib zstd
+    gcc version 12.2.0 (Debian 12.2.0-14) 
+Operating system version:
+    Platform=i386 (WOW64)
+    bRunningUnderWine=0
+    bRunningOnVisibleDesktop=1
+    Account=admin, elevated
+    Submitter=Remi Bernon <rbernon@codeweavers.com>
+    Description=Windows 11 Pro 64bit / QEMU running on Debian GNU/Linux trixie/sid / Linux fa384a8e42f4 6.11.0-1012-azure #12~24.04.1-Ubuntu SMP Mon Mar 10 19:00:39 UTC 2025 x86_64 GNU/Linux, [CPU:2*AMD EPYC 7763 64-Core Processor RAM:4G display:1920x1080 virtio-vga x1]
+    dwMajorVersion=10
+    dwMinorVersion=0
+    dwBuildNumber=26100
+    PlatformId=2
+    szCSDVersion=
+    wServicePackMajor=0
+    wServicePackMinor=0
+    wSuiteMask=256
+    wProductType=1
+    wReserved=0
+    dwProductInfo=48
+    SystemDefaultLCID=0409
+    UserDefaultLCID=0409
+    ThreadLocale=0409
+    SystemPreferredUILanguages=0409
+    UserDefaultUILanguage=0409
+    ThreadUILanguage=0409
+    KeyboardLayout=04090409
+    Country=244
+    ACP=1252
+Dll info:
+    activeds=10.0.26100.1
+    adsldp=10.0.26100.1
+    advapi32=10.0.26100.1591
+    advpack=11.0.26100.1
+    amstream=10.0.26100.1
+    apphelp=10.0.26100.1591
+    atl100=dll is missing
+    atl110=dll is missing
+    atl80=dll is missing the requested side-by-side version
+    atlthunk=10.0.26100.1
+    atl=3.5.2284.0
+    avifil32=10.0.26100.1
+    bcrypt=10.0.26100.268
+    bluetoothapis=10.0.26100.1591
+    browseui=10.0.26100.1
+    cabinet=5.0.1.1
+    cfgmgr32=10.0.26100.1591
+    cmd.exe=10.0.26100.1591
+    combase=10.0.26100.1742
+    comcat=10.0.26100.1
+    comctl32=6.10.26100.1591
+    comdlg32=10.0.26100.1591
+    compstui=10.0.26100.1
+    comsvcs=2001.12.10941.16384
+    concrt140=dll is missing
+    conhost.exe=dll is missing
+    credui=10.0.26100.1591
+    crypt32=10.0.26100.1591
+    cryptext=10.0.26100.1
+    cryptnet=10.0.26100.1591
+    cryptowinrt=10.0.26100.1
+    cryptui=10.0.26100.1591
+    d2d1=10.0.26100.1591
+    d3d10core=10.0.26100.1
+    d3d10_1=10.0.26100.1
+    d3d10=10.0.26100.1
+    d3d11=10.0.26100.1591
+    d3d12=10.0.26100.1591
+    d3d8=10.0.26100.1
+    d3d9=10.0.26100.1591
+    d3dcompiler_42=dll is missing
+    d3dcompiler_43=dll is missing
+    d3dcompiler_46=dll is missing
+    d3dcompiler_47=10.0.26100.1150
+    d3drm=dll is missing
+    d3dx10_34=dll is missing
+    d3dx10_35=dll is missing
+    d3dx10_36=dll is missing
+    d3dx10_37=dll is missing
+    d3dx10_38=dll is missing
+    d3dx10_39=dll is missing
+    d3dx10_40=dll is missing
+    d3dx10_41=dll is missing
+    d3dx10_42=dll is missing
+    d3dx10_43=dll is missing
+    d3dx11_42=dll is missing
+    d3dx11_43=dll is missing
+    d3dx9_35=dll is missing
+    d3dx9_36=dll is missing
+    d3dx9_42=dll is missing
+    d3dx9_43=dll is missing
+    d3dxof=10.0.26100.1
+    dataexchange=10.0.26100.1301
+    dbgeng=10.0.26100.1
+    dbghelp=10.0.26100.1150
+    ddrawex=10.0.26100.1
+    ddraw=10.0.26100.1
+    devenum=10.0.26100.1
+    dhcpcsvc=10.0.26100.1591
+    dinput=10.0.26100.1591
+    directmanipulation=10.0.26100.1
+    dispex=5.812.10240.16384
+    dmband=10.0.26100.1591
+    dmcompos=10.0.26100.1
+    dmime=10.0.26100.1591
+    dmloader=10.0.26100.1591
+    dmscript=10.0.26100.1591
+    dmstyle=10.0.26100.1
+    dmsynth=10.0.26100.1
+    dmusic=10.0.26100.1591
+    dnsapi=10.0.26100.1591
+    dplayx=dll is a stub
+    dpnet=dll is a stub
+    dpvoice=dll is missing
+    dsdmo=10.0.26100.1
+    dsound=10.0.26100.1591
+    dssenh=10.0.26100.1
+    dswave=10.0.26100.1591
+    dwmapi=10.0.26100.1591
+    dwrite=10.0.26100.1591
