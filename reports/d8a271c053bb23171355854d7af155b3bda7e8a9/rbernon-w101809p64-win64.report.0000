@@ -1,0 +1,2142 @@
+Version 4
+Tests from build d8a271c053bb23171355854d7af155b3bda7e8a9
+Archive: -
+Tag: rbernon-w101809p64-win64
+Build info:
+    Using built-in specs.
+    COLLECT_GCC=/usr/bin/gcc
+    COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+    OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+    OFFLOAD_TARGET_DEFAULT=1
+    Target: x86_64-linux-gnu
+    Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+    Thread model: posix
+    Supported LTO compression algorithms: zlib zstd
+    gcc version 12.2.0 (Debian 12.2.0-14) 
+Operating system version:
+    Platform=x86_64
+    bRunningUnderWine=0
+    bRunningOnVisibleDesktop=1
+    Account=admin, elevated
+    Submitter=Remi Bernon <rbernon@codeweavers.com>
+    Description=Windows 10.1809 Pro 64bit / QEMU running on Debian GNU/Linux trixie/sid / Linux 2f8a5d779859 6.11.0-1013-azure #13~24.04.1-Ubuntu SMP Fri Mar 28 23:43:34 UTC 2025 x86_64 GNU/Linux, [CPU:2*AMD EPYC 7763 64-Core Processor RAM:4G display:1920x1080 virtio-vga x1]
+    dwMajorVersion=10
+    dwMinorVersion=0
+    dwBuildNumber=17763
+    PlatformId=2
+    szCSDVersion=
+    wServicePackMajor=0
+    wServicePackMinor=0
+    wSuiteMask=256
+    wProductType=1
+    wReserved=0
+    dwProductInfo=48
+    SystemDefaultLCID=0409
+    UserDefaultLCID=0409
+    ThreadLocale=0409
+    SystemPreferredUILanguages=0409
+    UserDefaultUILanguage=0409
+    ThreadUILanguage=0409
+    KeyboardLayout=0000000004090409
+    Country=244
+    ACP=1252
+Dll info:
+    activeds=10.0.17763.1
+    adsldp=10.0.17763.1
+    advapi32=10.0.17763.1
+    advpack=11.0.17763.1
+    amstream=10.0.17763.1
+    apphelp=10.0.17763.1
+    atl100=dll is missing
+    atl110=dll is missing
+    atl80=dll is missing the requested side-by-side version
+    atlthunk=10.0.17763.1
+    atl=3.5.2284.0
+    avifil32=10.0.17763.1
+    bcrypt=10.0.17763.1
+    bluetoothapis=10.0.17763.1
+    browseui=10.0.17763.1
+    cabinet=5.0.1.1
+    cfgmgr32=10.0.17763.1
+    cmd.exe=10.0.17763.1
+    combase=10.0.17763.1
+    comcat=10.0.17763.1
+    comctl32=6.10.17763.1
+    comdlg32=10.0.17763.1
+    compstui=10.0.17763.1
+    comsvcs=2001.12.10941.16384
+    concrt140=dll is missing
+    conhost.exe=10.0.17763.1
+    credui=10.0.17763.1
+    crypt32=10.0.17763.1
+    cryptext=10.0.17763.1
+    cryptnet=10.0.17763.1
+    cryptowinrt=10.0.17763.1
+    cryptui=10.0.17763.1
+    d2d1=10.0.17763.1
+    d3d10core=10.0.17763.1
+    d3d10_1=10.0.17763.1
+    d3d10=10.0.17763.1
+    d3d11=10.0.17763.1
+    d3d12=10.0.17763.1
+    d3d8=dll is missing
+    d3d9=10.0.17763.1
+    d3dcompiler_42=dll is missing
+    d3dcompiler_43=dll is missing
+    d3dcompiler_46=dll is missing
+    d3dcompiler_47=10.0.17763.1
+    d3drm=dll is missing
+    d3dx10_34=dll is missing
+    d3dx10_35=dll is missing
+    d3dx10_36=dll is missing
+    d3dx10_37=dll is missing
+    d3dx10_38=dll is missing
+    d3dx10_39=dll is missing
+    d3dx10_40=dll is missing
+    d3dx10_41=dll is missing
+    d3dx10_42=dll is missing
+    d3dx10_43=dll is missing
+    d3dx11_42=dll is missing
+    d3dx11_43=dll is missing
+    d3dx9_35=dll is missing
+    d3dx9_36=dll is missing
+    d3dx9_42=dll is missing
+    d3dx9_43=dll is missing
+    d3dxof=dll is missing
+    dataexchange=10.0.17763.1
+    dbgeng=10.0.17763.1
+    dbghelp=10.0.17763.1
+    ddrawex=10.0.17763.1
+    ddraw=10.0.17763.1
+    devenum=10.0.17763.1
+    dhcpcsvc=10.0.17763.1
+    dinput=10.0.17763.1
+    directmanipulation=10.0.17763.1
+    dispex=5.812.10240.16384
+    dmband=dll is missing
+    dmcompos=dll is missing
+    dmime=dll is missing
+    dmloader=10.0.17763.1
+    dmscript=dll is missing
+    dmstyle=dll is missing
+    dmsynth=10.0.17763.1
+    dmusic=10.0.17763.1
+    dnsapi=10.0.17763.1
+    dplayx=dll is missing
+    dpnet=dll is a stub
+    dpvoice=dll is missing
+    dsdmo=10.0.17763.1
+    dsound=10.0.17763.1
+    dssenh=10.0.17763.1
+    dswave=10.0.17763.1
+    dwmapi=10.0.17763.1
+    dwrite=10.0.17763.1
+    dxdiagn=10.0.17763.1
+    dxgi=10.0.17763.1
+    dxva2=10.0.17763.1
+    evr=10.0.17763.1
+    explorer.exe=10.0.17763.1
+    explorerframe=10.0.17763.1
+    faultrep=10.0.17763.1
+    fc.exe=10.0.17763.1
+    find.exe=10.0.17763.1
+    findstr.exe=10.0.17763.1
+    fsutil.exe=10.0.17763.1
+    fusion=dll is missing
+    gameux=10.0.17763.1
+    gdi32=10.0.17763.1
+    gdiplus=10.0.17763.1
+    geolocation=10.0.17763.1
+    glu32=10.0.17763.1
+    graphicscapture=10.0.17763.1
+    hid=10.0.17763.1
+    hlink=10.0.17763.1
+    hnetcfg=10.0.17763.1
+    httpapi=10.0.17763.1
+    hvsimanagementapi=dll is missing
+    icmui=10.0.17763.1
+    ieframe=11.0.17763.1
+    iertutil=11.0.17763.1
+    imagehlp=10.0.17763.1
+    imm32=10.0.17763.1
+    inetcomm=10.0.17763.1
+    inetmib1=10.0.17763.1
+    infosoft=dll is missing
+    iphlpapi=10.0.17763.1
+    itss=10.0.17763.1
+    jscript=5.812.10240.16384
+    jsproxy=11.0.17763.1
+    kernel32=10.0.17763.1
+    kernelbase=10.0.17763.1
+    localspl=10.0.17763.1
+    localui=10.0.17763.1
+    lz32=5.0.1.1
+    mapi32=1.0.2536.0
+    mfmediaengine=10.0.17763.1
+    mfplat=10.0.17763.1
+    mfplay=10.0.17763.1
+    mfreadwrite=10.0.17763.1
+    mfsrcsnk=10.0.17763.1
+    mf=10.0.17763.1
+    mlang=10.0.17763.1
+    mmcndmgr=10.0.17763.1
+    mmdevapi=10.0.17763.1
+    mp3dmod=10.0.17763.1
+    mpr=10.0.17763.1
+    msacm32=10.0.17763.1
+    msado15=dll is missing
+    msasn1=10.0.17763.1
+    mscms=10.0.17763.1
+    mscoree=10.0.17763.1
+    msctf=10.0.17763.1
+    msdasql=dll is missing
+    msdmo=10.0.17763.1
+    msftedit=10.0.17763.1
+    mshtml=11.0.17763.1
+    msi=5.0.17763.1
+    mspatcha=5.0.1.1
+    msrle32=10.0.17763.1
+    msscript.ocx=dll is missing
+    mstask=10.0.17763.1
+    msvcirt=7.0.17763.1
+    msvcp100=dll is missing
+    msvcp110=dll is missing
+    msvcp120=dll is missing
+    msvcp140_1=dll is missing
+    msvcp140_2=dll is missing
+    msvcp140_atomic_wait=dll is missing
+    msvcp140=dll is missing
+    msvcp60=7.0.17763.1
+    msvcp90=9.0.30729.9518
+    msvcr100=dll is missing
+    msvcr110=dll is missing
+    msvcr120=dll is missing
+    msvcr70=dll is missing
+    msvcr71=dll is missing
+    msvcr80=8.0.50727.9554
+    msvcr90=9.0.30729.9518
+    msvcrtd=dll is missing
+    msvcrt=7.0.17763.1
+    msvfw32=10.0.17763.1
+    msxml3=8.110.17763.1
+    msxml4=dll is missing
+    msxml6=6.30.17763.1
+    ncrypt=10.0.17763.1
+    ndis.sys=dll is missing
+    net.exe=10.0.17763.1
+    netapi32=10.0.17763.1
+    netcfgx=10.0.17763.1
+    netprofm=10.0.17763.1
+    ninput=10.0.17763.1
+    nsi=10.0.17763.1
+    ntdll=10.0.17763.1
+    ntdsapi=10.0.17763.1
+    ntoskrnl.exe=skipped
+    ntprint=10.0.17763.1
+    odbc32=10.0.17763.1
+    odbccp32=10.0.17763.1
+    ole32=10.0.17763.1
+    oleacc=7.2.17763.1
+    oleaut32=10.0.17763.1
+    oledb32=6.2.17763.1
+    oledlg=10.0.17763.1
+    opcservices=10.0.17763.1
+    opengl32=10.0.17763.1
+    packager=10.0.17763.1
+    pdh=10.0.17763.1
+    prntvpt=10.0.17763.1
+    propsys=7.0.17763.1
+    psapi=10.0.17763.1
+    pstorec=10.0.17763.1
+    qasf=12.0.17763.1
+    qcap=10.0.17763.1
+    qdvd=10.0.17763.1
+    qedit=10.0.17763.1
+    qmgr=7.8.17763.1
+    quartz=10.0.17763.1
+    qwave=10.0.17763.1
+    rasapi32=10.0.17763.1
+    reg.exe=10.0.17763.1
+    regedit.exe=10.0.17763.1
+    riched20=5.31.23.1231
+    riched32=10.0.17763.1
+    rometadata=4.7.3190.0
+    rpcrt4=10.0.17763.1
+    rsaenh=10.0.17763.1
+    rtworkq=10.0.17763.1
+    sapi=dll is missing
+    sc.exe=10.0.17763.1
+    schannel=10.0.17763.1
+    schedsvc=10.0.17763.1
+    schtasks.exe=10.0.17763.1
+    scrobj=5.812.10240.16384
+    scrrun=5.812.10240.16384
+    secur32=10.0.17763.1
+    serialui=10.0.17763.1
+    services.exe=10.0.17763.1
+    setupapi=10.0.17763.1
+    shcore=10.0.17763.1
+    shdocvw=10.0.17763.1
+    shell32=10.0.17763.1
+    shlwapi=10.0.17763.1
+    slc=10.0.17763.1
+    snmpapi=10.0.17763.1
+    spoolss=10.0.17763.1
+    sti=10.0.17763.1
+    sxs=10.0.17763.1
+    t2embed=10.0.17763.1
+    tapi32=10.0.17763.1
+    tasklist.exe=10.0.17763.1
+    taskschd=10.0.17763.1
+    threadpoolwinrt=10.0.17763.1
+    timeout.exe=10.0.17763.1
+    twain_32=1.7.1.3
+    twinapi.appcore=dll is missing
+    ucrtbase=10.0.17763.1
+    uianimation=10.0.17763.1
+    uiautomationcore=7.2.17763.1
+    urlmon=11.0.17763.1
+    user32=10.0.17763.1
+    userenv=10.0.17763.1
+    usp10=10.0.17763.1
+    uxtheme=10.0.17763.1
+    vbscript=5.812.10240.16384
+    vcomp110=dll is missing
+    vcomp=dll is missing
+    version=10.0.17763.1
+    virtdisk=10.0.17763.1
+    vulkan-1=dll is missing
+    wbemdisp=10.0.17763.1
+    wbemprox=10.0.17763.1
+    webservices=10.0.17763.1
+    wer=10.0.17763.1
+    wevtapi=10.0.17763.1
+    wiaservc=10.0.17763.1
+    win32u=10.0.17763.1
+    windows.applicationmodel=dll is missing
+    windows.devices.bluetooth=dll is missing
+    windows.devices.enumeration=dll is missing
+    windows.devices.usb=dll is missing
+    windows.gaming.input=dll is missing
+    windows.gaming.ui.gamebar=dll is missing
+    windows.globalization=dll is missing
+    windows.media.devices=dll is missing
+    windows.media.mediacontrol=dll is missing
+    windows.media.speech=dll is missing
+    windows.media=dll is missing
+    windows.networking.connectivity=dll is missing
+    windows.networking.hostname=dll is missing
+    windows.perception.stub=dll is missing
+    windows.security.authentication.onlineid=dll is missing
+    windows.security.credentials.ui.userconsentverifier=dll is missing
+    windows.storage.applicationdata=dll is missing
+    windows.storage=dll is missing
+    windows.system.profile.systemid=dll is missing
+    windows.system.profile.systemmanufacturers=dll is missing
+    windows.ui.xaml=dll is missing
+    windows.ui=dll is missing
+    windows.web=dll is missing
+    windowscodecsext=10.0.17763.1
+    windowscodecs=10.0.17763.1
+    wing32=dll is missing
+    winhttp=10.0.17763.1
+    wininet=11.0.17763.1
+    winmm=10.0.17763.1
+    winscard=10.0.17763.1
+    winspool.drv=10.0.17763.1
+    wintab32=dll is missing
+    wintrust=10.0.17763.1
+    wintypes=10.0.17763.1
+    wlanapi=10.0.17763.1
+    wldap32=10.0.17763.1
+    wldp=10.0.17763.1
+    wmiutils=10.0.17763.1
+    wmp=12.0.17763.1
+    wmvcore=12.0.17763.1
+    wpcap=dll is missing
+    wpc=10.0.17763.1
+    ws2_32=10.0.17763.1
+    wscript.exe=5.812.10240.16384
+    wsdapi=10.0.17763.1
+    wshom.ocx=5.812.10240.16384
+    wsnmp32=10.0.17763.1
+    wtsapi32=10.0.17763.1
+    xactengine3_7=dll is missing
+    xaudio2_7=dll is missing
+    xaudio2_8=10.0.17763.1
+    xcopy.exe=10.0.17763.1
+    xinput1_3=dll is missing
+    xmllite=10.0.17763.1
+Test output:
+activeds:activeds start dlls/activeds/tests/activeds.c
+0634:activeds: 73 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+activeds:activeds:0634 done (0) in 0s 89B
+adsldp:ldap start dlls/adsldp/tests/ldap.c
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com"
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+0dc0:ldap: 367 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+adsldp:ldap:0dc0 done (0) in 0s 303B
+adsldp:sysinfo start dlls/adsldp/tests/sysinfo.c
+sysinfo.c:161: Tests skipped: Computer is not part of a domain, skipping the tests
+16a8:sysinfo: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+adsldp:sysinfo:16a8 done (0) in 0s 172B
+advapi32:cred start dlls/advapi32/tests/cred.c
+cred.c:802: generic:
+cred.c:808: domain password:
+cred.c:814: domain visible password:
+1ab0:cred: 372 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:cred:1ab0 done (0) in 0s 176B
+advapi32:crypt start dlls/advapi32/tests/crypt.c
+1ac0:crypt: 166 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt:1ac0 done (0) in 0s 87B
+advapi32:crypt_lmhash start dlls/advapi32/tests/crypt_lmhash.c
+1ad4:crypt_lmhash: 95 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_lmhash:1ad4 done (0) in 0s 93B
+advapi32:crypt_md4 start dlls/advapi32/tests/crypt_md4.c
+1b08:crypt_md4: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md4:1b08 done (0) in 0s 90B
+advapi32:crypt_md5 start dlls/advapi32/tests/crypt_md5.c
+1768:crypt_md5: 5 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md5:1768 done (0) in 0s 89B
+advapi32:crypt_sha start dlls/advapi32/tests/crypt_sha.c
+174c:crypt_sha: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_sha:174c done (0) in 0s 89B
+advapi32:eventlog start dlls/advapi32/tests/eventlog.c
+eventlog.c:836: Tests skipped: Win7 fails when using incorrect event types
+eventlog.c:944: Tests skipped: There is no DWORD alignment enforced for UserSid on Vista, W2K8 or Win7
+107c:eventlog: 602 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+advapi32:eventlog:107c done (0) in 2s 270B
+advapi32:lsa start dlls/advapi32/tests/lsa.c
+lsa.c:103: Running on a standalone system.
+lsa.c:148: Running on a standalone system.
+1bcc:lsa: 97 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:lsa:1bcc done (0) in 0s 172B
+advapi32:perf start dlls/advapi32/tests/perf.c
+1bec:perf: 101 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:perf:1bec done (0) in 0s 86B
+advapi32:registry start dlls/advapi32/tests/registry.c
+registry.c:4649: 0: 009 has 8576 entries
+registry.c:4649: 1: CurrentLanguage has 8576 entries
+1be8:registry: 135443 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:registry:1be8 done (0) in 1s 189B
+advapi32:security start dlls/advapi32/tests/security.c
+security.c:353: Tests skipped: 31: failed to convert CA.
+security.c:353: Tests skipped: 32: failed to convert DA.
+security.c:353: Tests skipped: 33: failed to convert DC.
+security.c:353: Tests skipped: 34: failed to convert DD.
+security.c:353: Tests skipped: 35: failed to convert DG.
+security.c:353: Tests skipped: 36: failed to convert DU.
+security.c:353: Tests skipped: 37: failed to convert EA.
+security.c:353: Tests skipped: 38: failed to convert PA.
+security.c:353: Tests skipped: 39: failed to convert RS.
+security.c:353: Tests skipped: 40: failed to convert SA.
+security.c:2119: Tests skipped: Well known SID 38 not implemented
+security.c:2119: Tests skipped: Well known SID 39 not implemented
+security.c:2119: Tests skipped: Well known SID 40 not implemented
+security.c:2119: Tests skipped: Well known SID 41 not implemented
+security.c:2119: Tests skipped: Well known SID 42 not implemented
+security.c:2119: Tests skipped: Well known SID 43 not implemented
+security.c:2119: Tests skipped: Well known SID 44 not implemented
+security.c:2119: Tests skipped: Well known SID 45 not implemented
+security.c:2119: Tests skipped: Well known SID 46 not implemented
+security.c:2119: Tests skipped: Well known SID 47 not implemented
+security.c:2119: Tests skipped: Well known SID 48 not implemented
+security.c:2119: Tests skipped: Well known SID 49 not implemented
+security.c:2119: Tests skipped: Well known SID 50 not implemented
+security.c:2119: Tests skipped: Well known SID 72 not implemented
+security.c:2119: Tests skipped: Well known SID 73 not implemented
+security.c:2119: Tests skipped: Well known SID 75 not implemented
+security.c:2119: Tests skipped: Well known SID 77 not implemented
+security.c:1406: AccessCheck with MAXIMUM_ALLOWED got Access 0x00060019
+security.c:1824: TokenGroups:
+security.c:1838: S-1-5-21-3081361246-1456218732-1928111376-513, USERCOM-HGH0L42\None use: 2 attr: 0x00000007
+security.c:1838: S-1-1-0, \Everyone use: 5 attr: 0x00000007
+security.c:1838: S-1-5-114, NT AUTHORITY\Local account and member of Administrators group use: 5 attr: 0x00000007
+security.c:1838: S-1-5-32-544, BUILTIN\Administrators use: 4 attr: 0x0000000f
+security.c:1838: S-1-5-32-545, BUILTIN\Users use: 4 attr: 0x00000007
+security.c:1838: S-1-5-4, NT AUTHORITY\INTERACTIVE use: 5 attr: 0x00000007
+security.c:1838: S-1-2-1, \CONSOLE LOGON use: 5 attr: 0x00000007
+security.c:1838: S-1-5-11, NT AUTHORITY\Authenticated Users use: 5 attr: 0x00000007
+security.c:1838: S-1-5-15, NT AUTHORITY\This Organization use: 5 attr: 0x00000007
+security.c:1838: S-1-5-113, NT AUTHORITY\Local account use: 5 attr: 0x00000007
+security.c:1838: S-1-5-5-0-102486, NT AUTHORITY\LogonSessionId_0_102486 use: 11 attr: 0xc0000007
+security.c:1838: S-1-2-0, \LOCAL use: 5 attr: 0x00000007
+security.c:1838: S-1-5-64-10, NT AUTHORITY\NTLM Authentication use: 5 attr: 0x00000007
+security.c:1838: S-1-16-12288, Mandatory Label\High Mandatory Level use: 10 attr: 0x00000060
+security.c:1855: TokenUser: S-1-5-21-3081361246-1456218732-1928111376-1000 attr: 0x00000000
+security.c:1869: TokenOwner: S-1-5-32-544
+security.c:1891: TokenLogon: S-1-5-5-0-102486
+security.c:1914: TokenPrivileges:
+security.c:1920: 	SeIncreaseQuotaPrivilege, 0x0
+security.c:1920: 	SeSecurityPrivilege, 0x0
+security.c:1920: 	SeTakeOwnershipPrivilege, 0x0
+security.c:1920: 	SeLoadDriverPrivilege, 0x0
+security.c:1920: 	SeSystemProfilePrivilege, 0x0
+security.c:1920: 	SeSystemtimePrivilege, 0x0
+security.c:1920: 	SeProfileSingleProcessPrivilege, 0x0
+security.c:1920: 	SeIncreaseBasePriorityPrivilege, 0x0
+security.c:1920: 	SeCreatePagefilePrivilege, 0x0
+security.c:1920: 	SeBackupPrivilege, 0x0
+security.c:1920: 	SeRestorePrivilege, 0x0
+security.c:1920: 	SeShutdownPrivilege, 0x0
+security.c:1920: 	SeDebugPrivilege, 0x0
+security.c:1920: 	SeSystemEnvironmentPrivilege, 0x0
+security.c:1920: 	SeChangeNotifyPrivilege, 0x3
+security.c:1920: 	SeRemoteShutdownPrivilege, 0x0
+security.c:1920: 	SeUndockPrivilege, 0x0
+security.c:1920: 	SeManageVolumePrivilege, 0x0
+security.c:1920: 	SeImpersonatePrivilege, 0x3
+security.c:1920: 	SeCreateGlobalPrivilege, 0x3
+security.c:1920: 	SeIncreaseWorkingSetPrivilege, 0x0
+security.c:1920: 	SeTimeZonePrivilege, 0x0
+security.c:1920: 	SeCreateSymbolicLinkPrivilege, 0x0
+security.c:1920: 	SeDelegateSessionUserImpersonatePrivilege, 0x0
+security.c:2353: Well Known SIDs:
+security.c:2364:  0: S-1-0-0 \NULL SID 5
+security.c:2364:  1: S-1-1-0 \Everyone 5
+security.c:2364:  2: S-1-2-0 \LOCAL 5
+security.c:2364:  3: S-1-3-0 \CREATOR OWNER 5
+security.c:2364:  4: S-1-3-1 \CREATOR GROUP 5
+security.c:2364:  5: S-1-3-2 \CREATOR OWNER SERVER 5
+security.c:2364:  6: S-1-3-3 \CREATOR GROUP SERVER 5
+security.c:2364:  7: S-1-5 NT Pseudo Domain\NT Pseudo Domain 3
+security.c:2364:  8: S-1-5-1 NT AUTHORITY\DIALUP 5
+security.c:2364:  9: S-1-5-2 NT AUTHORITY\NETWORK 5
+security.c:2364:  10: S-1-5-3 NT AUTHORITY\BATCH 5
+security.c:2364:  11: S-1-5-4 NT AUTHORITY\INTERACTIVE 5
+security.c:2364:  12: S-1-5-6 NT AUTHORITY\SERVICE 5
+security.c:2364:  13: S-1-5-7 NT AUTHORITY\ANONYMOUS LOGON 5
+security.c:2364:  14: S-1-5-8 NT AUTHORITY\PROXY 5
+security.c:2364:  15: S-1-5-9 NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS 5
+security.c:2364:  16: S-1-5-10 NT AUTHORITY\SELF 5
+security.c:2364:  17: S-1-5-11 NT AUTHORITY\Authenticated Users 5
+security.c:2364:  18: S-1-5-12 NT AUTHORITY\RESTRICTED 5
+security.c:2364:  19: S-1-5-13 NT AUTHORITY\TERMINAL SERVER USER 5
+security.c:2364:  20: S-1-5-14 NT AUTHORITY\REMOTE INTERACTIVE LOGON 5
+security.c:2373:  21: not supported
+security.c:2364:  22: S-1-5-18 NT AUTHORITY\SYSTEM 5
+security.c:2364:  23: S-1-5-19 NT AUTHORITY\LOCAL SERVICE 5
+security.c:2364:  24: S-1-5-20 NT AUTHORITY\NETWORK SERVICE 5
+security.c:2364:  25: S-1-5-32 BUILTIN\BUILTIN 3
+security.c:2364:  26: S-1-5-32-544 BUILTIN\Administrators 4
+security.c:2364:  27: S-1-5-32-545 BUILTIN\Users 4
+security.c:2364:  28: S-1-5-32-546 BUILTIN\Guests 4
+security.c:2364:  29: S-1-5-32-547 BUILTIN\Power Users 4
+security.c:2364:  33: S-1-5-32-551 BUILTIN\Backup Operators 4
+security.c:2364:  34: S-1-5-32-552 BUILTIN\Replicator 4
+security.c:2364:  36: S-1-5-32-555 BUILTIN\Remote Desktop Users 4
+security.c:2364:  37: S-1-5-32-556 BUILTIN\Network Configuration Operators 4
+security.c:2373:  38: not supported
+security.c:2373:  39: not supported
+security.c:2373:  40: not supported
+security.c:2373:  41: not supported
+security.c:2373:  42: not supported
+security.c:2373:  43: not supported
+security.c:2373:  44: not supported
+security.c:2373:  45: not supported
+security.c:2373:  46: not supported
+security.c:2373:  47: not supported
+security.c:2373:  48: not supported
+security.c:2373:  49: not supported
+security.c:2373:  50: not supported
+security.c:2364:  51: S-1-5-64-10 NT AUTHORITY\NTLM Authentication 5
+security.c:2364:  52: S-1-5-64-21 NT AUTHORITY\Digest Authentication 5
+security.c:2364:  53: S-1-5-64-14 NT AUTHORITY\SChannel Authentication 5
+security.c:2364:  54: S-1-5-15 NT AUTHORITY\This Organization 5
+security.c:2364:  55: S-1-5-1000 NT AUTHORITY\Other Organization 5
+security.c:2364:  57: S-1-5-32-558 BUILTIN\Performance Monitor Users 4
+security.c:2364:  58: S-1-5-32-559 BUILTIN\Performance Log Users 4
+security.c:2028:  S-1-5-21-3081361246-1456218732-1928111376 USERCOM-HGH0L42\ 3
+security.c:2028:  S-1-5-21-3081361246-1456218732-1928111376-500 USERCOM-HGH0L42\Administrator 1
+security.c:2028:  S-1-5-21-3081361246-1456218732-1928111376-501 USERCOM-HGH0L42\Guest 1
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-512 couldn't be mapped
+security.c:2028:  S-1-5-21-3081361246-1456218732-1928111376-513 USERCOM-HGH0L42\None 2
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-514 couldn't be mapped
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-515 couldn't be mapped
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-516 couldn't be mapped
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-517 couldn't be mapped
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-518 couldn't be mapped
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-519 couldn't be mapped
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-520 couldn't be mapped
+security.c:2030:  S-1-5-21-3081361246-1456218732-1928111376-553 couldn't be mapped
+security.c:2028:  S-1-5-21-3081361246-1456218732-1928111376-1000 USERCOM-HGH0L42\User 1
+security.c:2028:  S-1-5-32-544 BUILTIN\Administrators 4
+security.c:2028:  S-1-5-21-3081361246-1456218732-1928111376-513 USERCOM-HGH0L42\None 2
+security.c:2028:  S-1-5-21-3081361246-1456218732-1928111376-1000 USERCOM-HGH0L42\User 1
+0f2c:security: 22 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:7678: Well known SID 21 not supported
+security.c:7678: Well known SID 38 not supported
+security.c:7678: Well known SID 39 not supported
+security.c:7678: Well known SID 40 not supported
+security.c:7678: Well known SID 41 not supported
+security.c:7678: Well known SID 42 not supported
+security.c:7678: Well known SID 43 not supported
+security.c:7678: Well known SID 44 not supported
+security.c:7678: Well known SID 45 not supported
+security.c:7678: Well known SID 46 not supported
+security.c:7678: Well known SID 47 not supported
+security.c:7678: Well known SID 48 not supported
+security.c:7678: Well known SID 49 not supported
+security.c:7678: Well known SID 50 not supported
+security.c:7678: Well known SID 72 not supported
+security.c:7678: Well known SID 73 not supported
+security.c:7678: Well known SID 75 not supported
+security.c:7678: Well known SID 77 not supported
+security.c:7678: Well known SID 80 not supported
+security.c:7678: Well known SID 83 not supported
+1910:security: 14 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0780:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+17c0:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+11fc:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+02dc:security: 2 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:8580: Test failed: got error 5
+security.c:8583: Test failed: got error 6
+security.c:8589: Test failed: got error 6
+security.c:8590: Test failed: unexpected elevation type 0
+security.c:8594: Test failed: got error 6
+security.c:8595: Test failed: expected token to be elevated
+0150:security: 25 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+1a5c:security: 3689 tests executed (0 marked as todo, 0 as flaky, 6 failures), 27 skipped.
+advapi32:security:1a5c done (6) in 2s 10733B
+advapi32:service start dlls/advapi32/tests/service.c
+service.c:1946: Tests skipped: Not running under WoW64.
+0988:service: 3613 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+advapi32:service:0988 done (0) in 6s 147B
+advpack:advpack start dlls/advpack/tests/advpack.c
+advpack.c:103: kernel32.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:110: kernel32.dll version: 10.0.17763.1
+advpack.c:117: advpack.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:124: advpack.dll version: 11.0.17763.1
+1ab0:advpack: 99 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:advpack:1ab0 done (0) in 0s 344B
+advpack:files start dlls/advpack/tests/files.c
+1b00:files: 207 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:files:1b00 done (0) in 0s 87B
+advpack:install start dlls/advpack/tests/install.c
+1af8:install: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:install:1af8 done (0) in 0s 88B
+amstream:amstream start dlls/amstream/tests/amstream.c
+1b08:amstream: 3850 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+amstream:amstream:1b08 done (0) in 4s 91B
+apphelp:apphelp start dlls/apphelp/tests/apphelp.c
+17ac:apphelp: 15 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+apphelp:apphelp:17ac done (0) in 0s 88B
+atlthunk:atlthunk start dlls/atlthunk/tests/atlthunk.c
+18a8:atlthunk: 3078 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atlthunk:atlthunk:18a8 done (0) in 0s 91B
+atl:atl_ax start dlls/atl/tests/atl_ax.c
+189c:atl_ax: 12 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:atl_ax:189c done (0) in 0s 87B
+atl:module start dlls/atl/tests/module.c
+05b0:module: 550 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:module:05b0 done (0) in 0s 88B
+atl:registrar start dlls/atl/tests/registrar.c
+1700:registrar: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:registrar:1700 done (0) in 0s 90B
+avifil32:api start dlls/avifil32/tests/api.c
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+1a20:api: 200 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+avifil32:api:1a20 done (0) in 0s 325B
+bcrypt:bcrypt start dlls/bcrypt/tests/bcrypt.c
+15c8:bcrypt: 23115 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bcrypt:bcrypt:15c8 done (0) in 0s 90B
+bluetoothapis:device start dlls/bluetoothapis/tests/device.c
+device.c:118: Tests skipped: No Bluetooth radios found.
+device.c:203: Tests skipped: No Bluetooth radios found.
+device.c:363: Tests skipped: No Bluetooth radios found.
+device.c:415: Tests skipped: No Bluetooth radios found.
+07cc:device: 18 tests executed (0 marked as todo, 0 as flaky, 0 failures), 4 skipped.
+bluetoothapis:device:07cc done (0) in 0s 315B
+bluetoothapis:radio start dlls/bluetoothapis/tests/radio.c
+radio.c:83: Tests skipped: No Bluetooth radios found.
+radio.c:284: Tests skipped: No Bluetooth radios found.
+radio.c:217: Tests skipped: No Bluetooth radios found.
+radio.c:199: Tests skipped: No Bluetooth radios found.
+radio.c:242: Tests skipped: No Bluetooth radios found.
+radio.c:275: Tests skipped: No Bluetooth radios found.
+02a0:radio: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 6 skipped.
+bluetoothapis:radio:02a0 done (0) in 0s 421B
+bluetoothapis:sdp start dlls/bluetoothapis/tests/sdp.c
+0988:sdp: 161 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bluetoothapis:sdp:0988 done (0) in 0s 85B
+browseui:autocomplete start dlls/browseui/tests/autocomplete.c
+autocomplete.c:81: ACL(0000021E95864450): addref (2)
+autocomplete.c:81: ACL(0000021E95864450): addref (3)
+autocomplete.c:81: ACL(0000021E95864450): addref (4)
+autocomplete.c:81: ACL(0000021E958643D0): addref (2)
+autocomplete.c:81: ACL(0000021E958643D0): addref (3)
+autocomplete.c:81: ACL(0000021E958643D0): addref (4)
+autocomplete.c:125: ACL(0000021E95864450): read 1 item(s)
+autocomplete.c:125: ACL(0000021E95864450): read 1 item(s)
+autocomplete.c:125: ACL(0000021E95864450): read 1 item(s)
+autocomplete.c:125: ACL(0000021E95864450): read 1 item(s)
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:159: ACL(0000021E95864450): Reset
+autocomplete.c:159: ACL(0000021E958643D0): Reset
+autocomplete.c:167: ACL(0000021E95864450): Expand
+autocomplete.c:167: ACL(0000021E958643D0): Expand
+autocomplete.c:125: ACL(0000021E95864450): read 1 item(s)
+autocomplete.c:125: ACL(0000021E95864450): read 1 item(s)
+autocomplete.c:125: ACL(0000021E95864450): read 1 item(s)
+autocomplete.c:125: ACL(0000021E95864450): read 1 item(s)
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:167: ACL(0000021E95864450): Expand
+autocomplete.c:167: ACL(0000021E958643D0): Expand
+autocomplete.c:167: ACL(0000021E95864450): Expand
+autocomplete.c:167: ACL(0000021E958643D0): Expand
+autocomplete.c:167: ACL(0000021E95864450): Expand
+autocomplete.c:167: ACL(0000021E958643D0): Expand
+autocomplete.c:167: ACL(0000021E95864450): Expand
+autocomplete.c:167: ACL(0000021E958643D0): Expand
+autocomplete.c:167: ACL(0000021E95864450): Expand
+autocomplete.c:167: ACL(0000021E958643D0): Expand
+autocomplete.c:91: ACL(0000021E95864450): release (3)
+autocomplete.c:91: ACL(0000021E95864450): release (2)
+autocomplete.c:91: ACL(0000021E95864450): release (1)
+autocomplete.c:159: ACL(0000021E958643D0): Reset
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:125: ACL(0000021E958643D0): read 1 item(s)
+autocomplete.c:91: ACL(0000021E958643D0): release (3)
+autocomplete.c:91: ACL(0000021E958643D0): release (2)
+autocomplete.c:91: ACL(0000021E958643D0): release (1)
+1ab0:autocomplete: 66 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:autocomplete:1ab0 done (0) in 0s 2512B
+browseui:progressdlg start dlls/browseui/tests/progressdlg.c
+1b00:progressdlg: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:progressdlg:1b00 done (0) in 0s 91B
+cabinet:extract start dlls/cabinet/tests/extract.c
+1b24:extract: 347 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:extract:1b24 done (0) in 0s 89B
+cabinet:fdi start dlls/cabinet/tests/fdi.c
+fdi.c:751: mem_open(memory\block,8000,180) => 00000206DF578EF0
+fdi.c:751: mem_open(memory\block,8000,180) => 00000206DF579170
+fdi.c:751: mem_open(memory\block,8000,180) => 00000206DF578ED0
+fdi.c:843: mem_notify(0,00000206DF57FBE8)
+fdi.c:843: mem_notify(5,00000206DF57FBE8)
+fdi.c:843: mem_notify(5,00000206DF57FBE8)
+1714:fdi: 255 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:fdi:1714 done (0) in 0s 406B
+cfgmgr32:cfgmgr32 start dlls/cfgmgr32/tests/cfgmgr32.c
+1510:cfgmgr32: 175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cfgmgr32:cfgmgr32:1510 done (0) in 0s 90B
+cmd.exe:batch start programs/cmd/tests/batch.c
+batch.c:485: running TEST_BUILTINS.BAT test...
+batch.c:485: running TEST_BUILTINS.CMD test...
+batch.c:485: running TEST_CMDLINE.CMD test...
+1500:batch: 2549 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:batch:1500 done (0) in 14s 231B
+cmd.exe:directory start programs/cmd/tests/directory.c
+017c:directory: 24 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:directory:017c done (0) in 0s 90B
+combase:roapi start dlls/combase/tests/roapi.c
+04e4:roapi: 232 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+combase:roapi:04e4 done (0) in 0s 87B
+combase:string start dlls/combase/tests/string.c
+17dc:string: 555 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+combase:string:17dc done (0) in 0s 88B
+comcat:comcat start dlls/comcat/tests/comcat.c
+163c:comcat: 9 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comcat:comcat:163c done (0) in 0s 86B
+comctl32:animate start dlls/comctl32/tests/animate.c
+0e68:animate: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:animate:0e68 done (0) in 0s 88B
+comctl32:button start dlls/comctl32/tests/button.c
+v6util.h:92: created cc6.manifest
+1640:button: 14187 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:button:1640 done (0) in 12s 125B
+comctl32:combo start dlls/comctl32/tests/combo.c
+v6util.h:92: created cc6.manifest
+0fec:combo: 1002 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:combo:0fec done (0) in 5s 123B
+comctl32:datetime start dlls/comctl32/tests/datetime.c
+v6util.h:92: created cc6.manifest
+0630:datetime: 943 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:datetime:0630 done (0) in 0s 125B
+comctl32:dpa start dlls/comctl32/tests/dpa.c
+v6util.h:92: created cc6.manifest
+19d0:dpa: 853 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:dpa:19d0 done (0) in 0s 120B
+comctl32:edit start dlls/comctl32/tests/edit.c
+v6util.h:92: created cc6.manifest
+edit.c:774: EDIT: Single line
+edit.c:787: EDIT: Single line want returns
+edit.c:800: EDIT: Multiline line
+edit.c:813: EDIT: Multi line want returns
+edit.c:854: EDIT: SETTEXT atomicity
+edit.c:1051: EDIT: Test notifications
+edit.c:1061: EDIT: Single line, no ES_AUTOHSCROLL
+edit.c:1111: EDIT: Single line, ES_AUTOHSCROLL
+edit.c:1157: EDIT: Multline, no ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1204: EDIT: Multline, ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1246: EDIT: Multline, ES_AUTOHSCROLL and ES_AUTOVSCROLL
+edit.c:1539: EDIT: buffer limit for single-line
+edit.c:1549: EDIT: buffer limit for multi-line
+edit.c:2026: Tests skipped: Ume P Gothic is not available, skipping some margin tests
+edit.c:2305: EDIT: Using new model for height computation
+edit.c:2307: EDIT: Text position (Single line)
+edit.c:2309: EDIT: Text position (Multi line)
+edit.c:2925: EDIT: Oversized font (Multi line)
+edit.c:3155: EDIT: EM_GETHANDLE
+0360:edit: 267460 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comctl32:edit:0360 done (0) in 1s 1065B
+comctl32:header start dlls/comctl32/tests/header.c
+header.c:1763: customdraw height: 18 (dpi: 96)
+v6util.h:92: created cc6.manifest
+0f00:header: 1132 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:header:0f00 done (0) in 0s 172B
+comctl32:imagelist start dlls/comctl32/tests/imagelist.c
+v6util.h:92: created cc6.manifest
+126c:imagelist: 10224 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:imagelist:126c done (0) in 0s 128B
+comctl32:ipaddress start dlls/comctl32/tests/ipaddress.c
+v6util.h:92: created cc6.manifest
+09ac:ipaddress: 91 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:ipaddress:09ac done (0) in 0s 125B
+comctl32:listbox start dlls/comctl32/tests/listbox.c
+v6util.h:92: created cc6.manifest
+189c:listbox: 7814 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listbox:189c done (0) in 3s 125B
+comctl32:listview start dlls/comctl32/tests/listview.c
+v6util.h:92: created cc6.manifest
+1350:listview: 8040 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listview:1350 done (0) in 1s 126B
+comctl32:misc start dlls/comctl32/tests/misc.c
+v6util.h:92: created cc6.manifest
+1618:misc: 2210 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:misc:1618 done (0) in 24s 122B
+comctl32:monthcal start dlls/comctl32/tests/monthcal.c
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800002
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800002
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800001
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800001, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800001, new style: 0x50800001
+v6util.h:92: created cc6.manifest
+19d0:monthcal: 2230 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:monthcal:19d0 done (0) in 0s 630B
+comctl32:mru start dlls/comctl32/tests/mru.c
+0270:mru: 94 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:mru:0270 done (0) in 0s 84B
+comctl32:pager start dlls/comctl32/tests/pager.c
+0444:pager: 2958 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:pager:0444 done (0) in 0s 88B
+comctl32:progress start dlls/comctl32/tests/progress.c
+v6util.h:92: created cc6.manifest
+03e0:progress: 353 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:progress:03e0 done (0) in 0s 125B
+comctl32:propsheet start dlls/comctl32/tests/propsheet.c
+v6util.h:92: created cc6.manifest
+05bc:propsheet: 1460 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:propsheet:05bc done (0) in 1s 127B
+comctl32:rebar start dlls/comctl32/tests/rebar.c
+05b8:rebar: 1355 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:rebar:05b8 done (0) in 0s 88B
+comctl32:static start dlls/comctl32/tests/static.c
+v6util.h:92: created cc6.manifest
+static.c:88: Testing style 0x0
+static.c:88: Testing style 0x3
+static.c:88: Testing style 0x4
+static.c:88: Testing style 0x6
+static.c:88: Testing style 0x7
+static.c:88: Testing style 0x9
+static.c:88: Testing style 0xa
+static.c:88: Testing style 0xb
+static.c:88: Testing style 0xd
+static.c:88: Testing style 0xe
+static.c:88: Testing style 0x20e
+static.c:88: Testing style 0x10
+static.c:88: Testing style 0x11
+static.c:88: Testing style 0x12
+static.c:88: Testing style 0x1000
+0abc:static: 506 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:static:0abc done (0) in 1s 611B
+comctl32:status start dlls/comctl32/tests/status.c
+status.c:244: dpi=96 (min height: 24 or 20) SM_CYSIZE: 22
+0e2c:status: 4849 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:status:0e2c done (0) in 2s 148B
+comctl32:subclass start dlls/comctl32/tests/subclass.c
+18f0:subclass: 288 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:subclass:18f0 done (0) in 0s 90B
+comctl32:syslink start dlls/comctl32/tests/syslink.c
+v6util.h:92: created cc6.manifest
+04f4:syslink: 175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:syslink:04f4 done (0) in 0s 124B
+comctl32:tab start dlls/comctl32/tests/tab.c
+tab.c:695: Testing with the 'System' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:695: Testing with the 'Arial' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=31 size.cy=15
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:695: Testing with the 'Tahoma' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=32 size.cy=14
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:695: Testing with the 'Courier New' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=35 size.cy=15
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:695: Testing with the 'MS Shell Dlg' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Tab1 text size: size.cx=28 size.cy=13
+tab.c:543: default_min_tab_width: 42
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+0ea4:tab: 5432 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tab:0ea4 done (0) in 0s 11751B
+comctl32:taskdialog start dlls/comctl32/tests/taskdialog.c
+v6util.h:92: created cc6.manifest
+04f4:taskdialog: 2391 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:taskdialog:04f4 done (0) in 2s 128B
+comctl32:toolbar start dlls/comctl32/tests/toolbar.c
+v6util.h:92: created cc6.manifest
+147c:toolbar: 2107 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:toolbar:147c done (0) in 0s 125B
+comctl32:tooltips start dlls/comctl32/tests/tooltips.c
+v6util.h:92: created cc6.manifest
+04f4:tooltips: 1533 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tooltips:04f4 done (0) in 4s 126B
+comctl32:trackbar start dlls/comctl32/tests/trackbar.c
+v6util.h:92: created cc6.manifest
+02a8:trackbar: 3474 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:trackbar:02a8 done (0) in 0s 126B
+comctl32:treeview start dlls/comctl32/tests/treeview.c
+v6util.h:92: created cc6.manifest
+1330:treeview: 7018 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:treeview:1330 done (0) in 1s 126B
+comctl32:updown start dlls/comctl32/tests/updown.c
+0120:updown: 686 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:updown:0120 done (0) in 0s 88B
+comdlg32:filedlg start dlls/comdlg32/tests/filedlg.c
+filedlg.c:932: Tests skipped: some interactive resizable dialog tests (set WINETEST_INTERACTIVE=1)
+1334:filedlg: 288 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:filedlg:1334 done (0) in 6s 189B
+comdlg32:finddlg start dlls/comdlg32/tests/finddlg.c
+0fd0:finddlg: 43 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:finddlg:0fd0 done (0) in 0s 88B
+comdlg32:fontdlg start dlls/comdlg32/tests/fontdlg.c
+0d64:fontdlg: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:fontdlg:0d64 done (0) in 0s 88B
+comdlg32:itemdlg start dlls/comdlg32/tests/itemdlg.c
+itemdlg.c:1144: Testing FileOpenDialog (advise)
+itemdlg.c:1152: Testing FileSaveDialog (advise)
+itemdlg.c:1174: Didn't find combobox on first attempt, trying broken string..
+1788:itemdlg: 1280 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:itemdlg:1788 done (0) in 5s 267B
+comdlg32:printdlg start dlls/comdlg32/tests/printdlg.c
+printdlg.c:197: driver 'winspool' device 'Microsoft Print to PDF' port 'PORTPROMPT:'
+printdlg.c:534: Tests skipped: interactive PrintDlgEx tests (set WINETEST_INTERACTIVE=1)
+023c:printdlg: 49 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:printdlg:023c done (0) in 0s 265B
+compstui:compstui start dlls/compstui/tests/compstui.c
+0df4:compstui: 146 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+compstui:compstui:0df4 done (0) in 0s 90B
+comsvcs:comsvcs start dlls/comsvcs/tests/comsvcs.c
+0d38:comsvcs: 117 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:comsvcs:0d38 done (0) in 0s 89B
+comsvcs:property start dlls/comsvcs/tests/property.c
+15ec:property: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:property:15ec done (0) in 0s 89B
+concrt140:concrt140 start dlls/concrt140/tests/concrt140.c
+concrt140.c:105: Tests skipped: concrt140.dll not installed
+13d8:concrt140: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+concrt140:concrt140:13d8 done (0) in 0s 150B
+conhost.exe:tty start programs/conhost/tests/tty.c
+tty.c:1862: Tests skipped: Skipping tty tests on broken Windows version
+081c:tty: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+13d4:tty: 19 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+conhost.exe:tty:13d4 done (0) in 0s 240B
+credui:credui start dlls/credui/tests/credui.c
+0668:credui: 7 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+credui:credui:0668 done (0) in 0s 86B
+crypt32:base64 start dlls/crypt32/tests/base64.c
+0e6c:base64: 3723 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:base64:0e6c done (0) in 0s 89B
+crypt32:cert start dlls/crypt32/tests/cert.c
+1130:cert: 634 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:cert:1130 done (0) in 0s 86B
+crypt32:chain start dlls/crypt32/tests/chain.c
+chain.c:4577: info[0] = 102
+chain.c:4577: info[1] = 102
+chain.c:4577: info[2] = 10c
+1a7c:chain: 2952 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:chain:1a7c done (0) in 0s 175B
+crypt32:crl start dlls/crypt32/tests/crl.c
+0d34:crl: 140 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:crl:0d34 done (0) in 0s 85B
+crypt32:ctl start dlls/crypt32/tests/ctl.c
+1808:ctl: 37 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:ctl:1808 done (0) in 0s 84B
+crypt32:encode start dlls/crypt32/tests/encode.c
+1804:encode: 6326 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:encode:1804 done (0) in 0s 89B
+crypt32:main start dlls/crypt32/tests/main.c
+18c4:main: 100 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:main:18c4 done (0) in 0s 86B
+crypt32:message start dlls/crypt32/tests/message.c
+01e4:message: 155 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:message:01e4 done (0) in 0s 89B
+crypt32:msg start dlls/crypt32/tests/msg.c
+1334:msg: 1006 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:msg:1334 done (0) in 0s 86B
+crypt32:object start dlls/crypt32/tests/object.c
+1124:object: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:object:1124 done (0) in 0s 87B
+crypt32:oid start dlls/crypt32/tests/oid.c
+023c:oid: 175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:oid:023c done (0) in 0s 85B
+crypt32:protectdata start dlls/crypt32/tests/protectdata.c
+0f84:protectdata: 42 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:protectdata:0f84 done (0) in 0s 92B
+crypt32:sip start dlls/crypt32/tests/sip.c
+18cc:sip: 50 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:sip:18cc done (0) in 0s 84B
+crypt32:store start dlls/crypt32/tests/store.c
+1988:store: 590 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:store:1988 done (0) in 0s 87B
+crypt32:str start dlls/crypt32/tests/str.c
+15ec:str: 1592 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:str:15ec done (0) in 0s 86B
+cryptext:cryptext start dlls/cryptext/tests/cryptext.c
+cryptext.c:42: Tests skipped: CryptExtOpenCER test needs user interaction
+14e0:cryptext: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+cryptext:cryptext:14e0 done (0) in 0s 163B
+cryptnet:cryptnet start dlls/cryptnet/tests/cryptnet.c
+cryptnet.c:342: Tests skipped: File URLs not supported
+193c:cryptnet: 125 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+cryptnet:cryptnet:193c done (0) in 0s 146B
+cryptowinrt:crypto start dlls/cryptowinrt/tests/crypto.c
+crypto.c:165: {ecc8691b-c1db-4dc0-855e-65f6c551af49} not implemented, returning E_NOINTERFACE.
+crypto.c:165: {00000039-0000-0000-c000-000000000046} not implemented, returning E_NOINTERFACE.
+crypto.c:165: {0000001b-0000-0000-c000-000000000046} not implemented, returning E_NOINTERFACE.
+crypto.c:185: iface 0000008ECE5FF7D0, async 00000286FF455680, status 1
+crypto.c:165: {ecc8691b-c1db-4dc0-855e-65f6c551af49} not implemented, returning E_NOINTERFACE.
+crypto.c:165: {00000039-0000-0000-c000-000000000046} not implemented, returning E_NOINTERFACE.
+crypto.c:165: {0000001b-0000-0000-c000-000000000046} not implemented, returning E_NOINTERFACE.
+crypto.c:104: Skipping async_id check, got id 155343
+crypto.c:104: Skipping async_id check, got id 155343
+1514:crypto: 54 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptowinrt:crypto:1514 done (0) in 0s 843B
+cryptui:cryptui start dlls/cryptui/tests/cryptui.c
+1644:cryptui: 30 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptui:cryptui:1644 done (0) in 0s 88B
+d2d1:d2d1 start dlls/d2d1/tests/d2d1.c
+d2d1.c:10272: Tests skipped: Failed to create REF d3d device, hr 0x80004002.
+0a8c:d2d1: 16059 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+d2d1:d2d1:0a8c done (0) in 4s 166B
+d3d10core:d3d10core start dlls/d3d10core/tests/d3d10core.c
+d3d10core.c:1295: Adapter: L"Microsoft Basic Render Driver", 1414:008c.
+d3d10core.c:6298: Tests skipped: DXGI_FORMAT_B8G8R8X8_UNORM not supported.
+d3d10core.c:16418: Tests skipped: B8G8R8A8_UNORM not supported.
+d3d10core.c:17345: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17345: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17345: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17345: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17477: Tests skipped: Creating the next texture crashes WARP on some testbot boxes.
+1b30:d3d10core: 195842 tests executed (0 marked as todo, 0 as flaky, 0 failures), 7 skipped.
+d3d10core:d3d10core:1b30 done (0) in 7s 761B
+d3d10_1:d3d10_1 start dlls/d3d10_1/tests/d3d10_1.c
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0xa100.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0xa000.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0x9300.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0x9200.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0x9100.
+15a8:d3d10_1: 580 tests executed (0 marked as todo, 0 as flaky, 0 failures), 5 skipped.
+d3d10_1:d3d10_1:15a8 done (0) in 0s 494B
+d3d10_1:reflection start dlls/d3d10_1/tests/reflection.c
+0670:reflection: 624 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10_1:reflection:0670 done (0) in 0s 92B
+d3d10:device start dlls/d3d10/tests/device.c
+0668:device: 206 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:device:0668 done (0) in 0s 88B
+d3d10:effect start dlls/d3d10/tests/effect.c
+0808:effect: 4970 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:effect:0808 done (0) in 0s 89B
+d3d10:reflection start dlls/d3d10/tests/reflection.c
+03f0:reflection: 624 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:reflection:03f0 done (0) in 0s 92B
+d3d11:d3d11 start dlls/d3d11/tests/d3d11.c
+d3d11.c:1638: Adapter: L"Microsoft Basic Render Driver", 1414:008c.
+d3d11.c:2145: Feature level 0xb000.
+d3d11.c:2399: Tests skipped: Feature level 0xb100: Failed to create debug device.
+d3d11.c:2399: Tests skipped: Feature level 0xb000: Failed to create debug device.
+d3d11.c:2399: Tests skipped: Feature level 0xa100: Failed to create debug device.
+d3d11.c:2399: Tests skipped: Feature level 0xa000: Failed to create debug device.
+d3d11.c:2399: Tests skipped: Feature level 0x9300: Failed to create debug device.
+d3d11.c:2399: Tests skipped: Feature level 0x9200: Failed to create debug device.
+d3d11.c:2399: Tests skipped: Feature level 0x9100: Failed to create debug device.
+04ec:d3d11: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d11.c:19826: Compute shader support via SM4 0x1.
+d3d11.c:21259: Feature level 0xa100: Optional format 0x59 - display supported.
+d3d11.c:21259: Feature level 0xa000: Optional format 0x59 - display supported.
+d3d11.c:21259: Feature level 0xa000: Optional format 0xb - blendable supported.
+d3d11.c:21259: Feature level 0xa000: Optional format 0x23 - blendable supported.
+d3d11.c:21259: Feature level 0xa000: Optional format 0x38 - blendable supported.
+d3d11.c:24792: Tests skipped: Test 8: Broken WARP.
+d3d11.c:25071: Tests skipped: Feature level 0xa100: Feature level 11_0 required for unaligned UAV test.
+d3d11.c:25071: Tests skipped: Feature level 0xa000: Feature level 11_0 required for unaligned UAV test.
+d3d11.c:31962: Tests skipped: Sample shading tests fail on WARP.
+d3d11.c:35663: Tests skipped: The device does not support stencil ref export.
+d3d11.c:36868: Tests skipped: Failed to get ID3D11VideoDevice.
+d3d11.c:30606: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30606: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30606: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30606: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+1130:d3d11: 5561756 tests executed (0 marked as todo, 0 as flaky, 0 failures), 17 skipped.
+d3d11:d3d11:1130 done (0) in 24s 2132B
+d3d12:d3d12 start dlls/d3d12/tests/d3d12.c
+d3d12.c:153: Adapter: L"Microsoft Basic Render Driver", 1414:008c.
+05ac:d3d12: 666 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d12:d3d12:05ac done (0) in 1s 155B
+d3d9:d3d9ex start dlls/d3d9/tests/d3d9ex.c
+d3d9ex.c:494: GetDisplayModeEx returned Width = 1920, Height = 1080, RefreshRate = 64, Format = 16, ScanLineOrdering = 1, rotation = 1.
+d3d9ex.c:427: Adapter luid: 00000000:00004846.
+d3d9ex.c:569: Tests skipped: Graphics mode is not supported.
+d3d9ex.c:2446: Tests skipped: This GPU supports SM3, skipping unsupported shader test.
+d3d9ex.c:2885: device_window 00000000004F0340, focus_window 0000000000700262, dummy_window 0000000000560398.
+d3d9ex.c:2885: device_window 0000000000570398, focus_window 0000000000730396, dummy_window 000000000195035E.
+d3d9ex.c:3303: device_window 000000000196035E, focus_window 00000000003203CA, dummy_window 0000000000530340.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+d3d9ex.c:4391: Tests skipped: ATI2N texture not supported.
+1120:d3d9ex: 2388 tests executed (0 marked as todo, 0 as flaky, 0 failures), 42 skipped.
+d3d9:d3d9ex:1120 done (0) in 16s 3155B
+d3d9:device start dlls/d3d9/tests/device.c
+device.c:5394: Test marked flaky: Didn't receive MOUSEMOVE 0 (50, 50).
+device.c:4177: device_window 00000000009F018E, focus_window 000000000210034E, dummy_window 000000000052027A.
+device.c:4177: device_window 000000000211034E, focus_window 0000000000770396, dummy_window 0000000001AA035E.
+device.c:4639: device_window 000000000054027A, focus_window 0000000000BF01F2, dummy_window 00000000008F03C8.
+device.c:5667: Tests skipped: Following tests require two adapters.
+device.c:6746: Expects 0x0000000104000000 samples.
+device.c:7271: SetPixelShaderConstantF was able to set 224 shader constants.
+device.c:7552: Tests skipped: This GPU supports SM3, skipping unsupported shader test.
+device.c:7755: Tests skipped: No cube mipmap generation support, skipping tests.
+device.c:7922: Tests skipped: No mipmap generation support, skipping tests.
+device.c:8124: Tests skipped: D3DFMT_A32B32G32R32F supports filtering, skipping tests.
+device.c:8480: Tests skipped: Format ATI1N not supported, skipping lockrect offset tests.
+device.c:8480: Tests skipped: Format ATI2N not supported, skipping lockrect offset tests.
+device.c:9051: Tests skipped: Failed to create surface for format R8G8B8 (hr 0x8876086c), skipping tests.
+device.c:9051: Tests skipped: Failed to create surface for format R3G3B2 (hr 0x8876086c), skipping tests.
+device.c:9384: Tests skipped: No D3DFMT_NULL support, skipping test.
+device.c:9765: Tests skipped: Format ATI1N not supported, skipping lockrect offset tests.
+device.c:9765: Tests skipped: Format ATI2N not supported, skipping lockrect offset tests.
+device.c:9887: Tests skipped: Dynamic D3DFMT_YUY2 textures not supported, skipping mipmap test.
+device.c:9765: Tests skipped: Format D3DFMT_UYVY not supported, skipping lockrect offset tests.
+device.c:12750: Tests skipped: D3DFMT_ATI1 textures not supported, skipping tests.
+device.c:12750: Tests skipped: D3DFMT_ATI2 textures not supported, skipping tests.
+device.c:13160: Max user clip planes: 8.
+device.c:13160: Max user clip planes: 6.
+device.c:13813: Tests skipped: ATI2N texture not supported.
+device.c:15075: Tests skipped: Direct3DCreate9On12 is not supported, skipping d3d9on12 tests
+device.c:15147: Tests skipped: Failed to load d3d9on12 modules, skipping d3d9on12 tests.
+07e0:device: 160189 tests executed (0 marked as todo, 1 as flaky, 0 failures), 19 skipped.
+d3d9:device:07e0 done (0) in 24s 2367B
+d3d9:stateblock start dlls/d3d9/tests/stateblock.c
+stateblock.c:426: Running initial read state tests
+stateblock.c:139: event 0.
+stateblock.c:429: Running write-read state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:432: Running stateblock abort state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:435: Running stateblock apply state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:438: Running stateblock capture/reapply state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:139: event 3.
+stateblock.c:139: event 4.
+stateblock.c:442: Running create stateblock capture/apply all state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:446: Running create stateblock apply state all tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:450: Running create stateblock capture/apply vertex state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:454: Running create stateblock apply vertex state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:458: Running create stateblock capture/apply pixel state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:462: Running create stateblock apply pixel state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:466: Running rendertarget switch state tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:470: Running stateblock apply over rendertarget switch interrupt tests
+stateblock.c:139: event 0.
+stateblock.c:139: event 1.
+stateblock.c:139: event 2.
+stateblock.c:139: event 3.
+stateblock.c:139: event 4.
+0270:stateblock: 14738 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d9:stateblock:0270 done (0) in 0s 2074B
+d3d9:visual start dlls/d3d9/tests/visual.c
+visual.c:29322: Driver string: "d3d10warp.dll"
+visual.c:29323: Description string: "Microsoft Basic Render Driver"
+visual.c:29326: Device name string: "\\.\DISPLAY1"
+visual.c:29328: Driver version 10.0.17763.1
+visual.c:1435: sRGB writing to D3DFMT_A8R8G8B8 is supported.
+visual.c:1844: Tests skipped: Offscreenplain D3DFMT_DXT1 surfaces not supported, skipping colorfill test
+visual.c:9268: Tests skipped: R5G6R5 textures with SRGBREAD are not supported.
+visual.c:9268: Tests skipped: A1R5G5R5 textures with SRGBREAD are not supported.
+visual.c:9268: Tests skipped: X1R5G5R5 textures with SRGBREAD are not supported.
+visual.c:6659: Tests skipped: No autogenmipmap support.
+visual.c:10736: Tests skipped: Card has unconditional NP2 support, skipping conditional NP2 tests
+visual.c:11132: Tests skipped: L6V5U5 / D3DTOP_BUMPENVMAPLUMINANCE not supported, skipping tests.
+visual.c:13683: Tests skipped: D3DFMT_UYVY is not supported.
+visual.c:13693: Tests skipped: Driver cannot blit D3DFMT_YUY2 surfaces.
+visual.c:13837: Tests skipped: D3DFMT_UYVY is not supported.
+visual.c:13843: Tests skipped: Driver cannot blit D3DFMT_YUY2 surfaces.
+visual.c:13837: Tests skipped: D3DFMT_YV12 is not supported.
+visual.c:13837: Tests skipped: D3DFMT_NV12 is not supported.
+visual.c:15775: Tests skipped: No INTZ support, skipping INTZ test.
+visual.c:16342: Tests skipped: No DF24 support, skipping Fetch4 test.
+visual.c:15183: Tests skipped: No NVDB (depth bounds test) support, skipping tests.
+visual.c:18420: Tests skipped: No INTZ support, skipping RESZ test.
+visual.c:20477: Tests skipped: ATI1N textures are not supported, skipping test.
+visual.c:21420: Tests skipped: Format D3DFMT_X8L8V8U8 not supported, skipping.
+visual.c:21420: Tests skipped: Format D3DFMT_L6V5U5 not supported, skipping.
+visual.c:22422: Tests skipped: 2D mipmapped ATI2N textures are not supported, skipping some tests.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:22422: Tests skipped: Cube ATI2N textures are not supported, skipping some tests.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:22422: Tests skipped: Volume ATI2N textures are not supported, skipping some tests.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:211: Can't read the render target data, hr 0x88760868.
+visual.c:22687: Tests skipped: Depth format 71 not supported, skipping.
+visual.c:22687: Tests skipped: Depth format 1515474505 not supported, skipping.
+visual.c:24490: Line antialiasing support: 0x20.
+visual.c:25580: Tests skipped: No NULL format support, skipping NULL test.
+visual.c:25827: Tests skipped: Running on WARP, skipping test.
+visual.c:27255: Tests skipped: Sampling attached render targets is not supported.
+visual.c:27344: Tests skipped: Alpha to coverage is not supported.
+1bd0:visual: 193737 tests executed (0 marked as todo, 0 as flaky, 0 failures), 29 skipped.
+d3d9:visual:1bd0 done (0) in 13s 4696B
+d3dcompiler_47:asm start dlls/d3dcompiler_47/tests/asm.c
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F820(3,1-9): error X2000: syntax error : unexpected token 'texldd_x2'
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F820(3,1-9): error X2024: invalid instruction modifiers 'texldd_x2'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F850(3,2-4): error X2027: instruction coissue is not supported in this shader version
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F880(4,2-4): error X2027: instruction coissue is not supported in this shader version
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F8BE(2,2-3): error X2005: invalid register 'p0'
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F8BE(2,6-8): error X2028: instruction predication is not supported in this shader version
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F8DA(2,12-13): error X2005: invalid register 'a0'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F8F7(2,9-10): error X2005: invalid register 's0'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F910(2,15): error X2022: scalar registers cannot be swizzled
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F930(3,12-13): error X2005: invalid register 't1'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F95C(2,1-9): error X2000: syntax error : unexpected token 'mov_x2_x2'
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F95C(2,1-9): error X2024: invalid instruction modifiers 'mov_x2_x2'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F975(2,11): error X2000: syntax error : unexpected token ','
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F98C(3,1): error X2011: negate and divide modifiers cannot be combined
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F9A5(3,1): error X2029: complement is not supported in this shader version
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F9BC(3,1): error X2010: invalid complement expression
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F9D3(2,17-19): error X2000: syntax error : unexpected float '3.4'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95F9F1(3,1): error X2029: complement is not supported in this shader version
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FA08(2,9-13): error X2005: invalid register 'r1_x2'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FA1E(2,9-14): error X2005: invalid register 'r1_abs'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FA35(2,9-13): error X2005: invalid register 'r1_x2'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FA4B(2,12-15): error X2004: invalid swizzle 'abcd'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FA63(2,12-16): error X2004: invalid swizzle 'xyzwx'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FA7C(3,1): error X2000: syntax error : unexpected end of file
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FA90(2,8-11): error X2003: invalid mask 'xxyz'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FAA8(2,5-6): error X2005: invalid register 'r5'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FABB(2,15-16): error X2005: invalid register 'o0'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FAD4(2,1-6): error X2000: syntax error : unexpected token 'add_pp'
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FAD4(2,1-6): error X2024: invalid instruction modifiers 'add_pp'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FAEE(2,1-6): error X2000: syntax error : unexpected token 'add_x4'
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FAEE(2,1-6): error X2024: invalid instruction modifiers 'add_x4'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FB08(2,5-7): error X2005: invalid register 'oC0'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FB20(2,5-7): error X2005: invalid register 'oC4'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FB38(2,13-15): error X2005: invalid register 'v17'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FB50(2,5-7): error X2005: invalid register 'o13'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FB68(2,6-10): error X2005: invalid register 'l2048'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FB7B(2,15-17): error X2005: invalid register 's20'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FB95(2,5-6): error X2005: invalid register 't5'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FBA8(2,9-10): error X2005: invalid register 'r0[...]'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FBC7(2,9): error X2005: invalid register 'v[...]'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FBE5(2,12-13): error X2005: invalid register 'aL'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC01(2,9): error X2005: invalid register 'v[...]'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC1D(2,12-13): error X2005: invalid register 'a0'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC3B(2,1-3): error X2007: only a0.x is allowed as a relative address register in vs_1_1
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC54(2,1-17): error X2000: syntax error : unexpected token 'dcl_texcoord0_sat'
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC54(2,1-17): error X2024: invalid instruction modifiers 'dcl_texcoord0_sat'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC71(2,1-16): error X2000: syntax error : unexpected token 'dcl_texcoord0_x2'
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC71(2,1-16): error X2024: invalid instruction modifiers 'dcl_texcoord0_x2'
+asm.c:1438: D3DAssemble messages:
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC90(2,1-22): error X2000: syntax error : unexpected token 'dcl_texcoord0_centroid'
+C:\Users\User\AppData\Local\Temp\wct\Shader@0x00007FF7BA95FC90(2,1-22): error X2024: invalid instruction modifiers 'dcl_texcoord0_centroid'
+asm.c:1438: Line has been silenced after 42 occurrences
+asm.c:1458: include_type = 0, filename incl.vsh
+asm.c:1459: parent_data (0000000000000000) -> (null)
+asm.c:1601: D3DAssemble messages:
+(1,1): error X2001: shader version expected
+asm.c:1691: D3DPreprocess messages:
+C:\Users\User\AppData\Local\Temp\wct\<memory>(3,3): error X1005: string continues past end of line
+asm.c:1458: include_type = 0, filename incl.vsh
+asm.c:1459: parent_data (0000000000000000) -> (null)
+asm.c:1458: include_type = 0, filename incl2.vsh
+asm.c:1459: parent_data (0000000000000000) -> (null)
+asm.c:1458: include_type = 0, filename incl3.vsh
+asm.c:1459: parent_data (00000216359D1610) -> #include "incl3.vsh"
+
+asm.c:1458: include_type = 1, filename incl.vsh
+asm.c:1459: parent_data (0000000000000000) -> (null)
+asm.c:1458: include_type = 1, filename incl4.vsh
+asm.c:1459: parent_data (0000000000000000) -> (null)
+asm.c:1458: include_type = 1, filename incl3.vsh
+asm.c:1459: parent_data (00000216359D1610) -> #include <incl3.vsh>
+
+asm.c:1458: include_type = 0, filename includes/incl.vsh
+asm.c:1459: parent_data (0000000000000000) -> (null)
+0d28:asm: Silenced 0 todos, 0 skips and 6 traces.
+0d28:asm: 259 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3dcompiler_47:asm:0d28 done (0) in 0s 8795B
+d3dcompiler_47:blob start dlls/d3dcompiler_47/tests/blob.c
+1274:blob: 258 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3dcompiler_47:blob:1274 done (0) in 0s 86B
+d3dcompiler_47:hlsl_d3d11 start dlls/d3dcompiler_47/tests/hlsl_d3d11.c
+0ef8:hlsl_d3d11: 1059 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3dcompiler_47:hlsl_d3d11:0ef8 done (0) in 0s 93B
+d3dcompiler_47:hlsl_d3d9 start dlls/d3dcompiler_47/tests/hlsl_d3d9.c
+hlsl_d3d9.c:1859: Tests skipped: Failed to load d3dx9_36.dll.
+08a8:hlsl_d3d9: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+d3dcompiler_47:hlsl_d3d9:08a8 done (0) in 0s 152B
+d3dcompiler_47:reflection start dlls/d3dcompiler_47/tests/reflection.c
+07e0:reflection: 1348 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3dcompiler_47:reflection:07e0 done (0) in 0s 93B
+d3dxof:d3dxof start dlls/d3dxof/tests/d3dxof.c
+d3dxof.c:415: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:482: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:552: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:621: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:658: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:700: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:783: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:891: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:986: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:1015: Tests skipped: DirectXFileCreate is not available
+d3dxof.c:1035: Tests skipped: DirectXFileCreate is not available
+0a8c:d3dxof: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 11 skipped.
+d3dxof:d3dxof:0a8c done (0) in 0s 804B
+dataexchange:dataexchange start dlls/dataexchange/tests/dataexchange.c
+13f8:dataexchange: 32 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+dataexchange:dataexchange:13f8 done (0) in 0s 93B
+dbgeng:dbgeng start dlls/dbgeng/tests/dbgeng.c
+01bc:dbgeng: 2 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+08f8:dbgeng: 2 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+01e8:dbgeng: 94 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+dbgeng:dbgeng:01e8 done (0) in 0s 259B
+dbghelp:dbghelp start dlls/dbghelp/tests/dbghelp.c
+19fc:dbghelp: 3467 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+dbghelp:dbghelp:19fc done (0) in 7s 90B
+dbghelp:minidump start dlls/dbghelp/tests/minidump.c
+17bc:minidump: 1784 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+dbghelp:minidump:17bc done (0) in 0s 91B
+dbghelp:path start dlls/dbghelp/tests/path.c
+0b1c:path: 5495 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+dbghelp:path:0b1c done (0) in 0s 87B
+ddrawex:ddrawex start dlls/ddrawex/tests/ddrawex.c
+0678:ddrawex: 12 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+ddrawex:ddrawex:0678 done (0) in 0s 88B
+ddrawex:surface start dlls/ddrawex/tests/surface.c
+096c:surface: 160 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+ddrawex:surface:096c done (0) in 0s 89B
+ddraw:d3d start dlls/ddraw/tests/d3d.c
+d3d.c:2070: Tests skipped: Skipping d3d7 tests
+d3d.c:2090: Tests skipped: Skipping d3d2 tests.
+d3d.c:2098: Tests skipped: Skipping d3d1 tests
+0868:d3d: 9 tests executed (0 marked as todo, 0 as flaky, 0 failures), 3 skipped.
+ddraw:d3d:0868 done (0) in 0s 228B
+ddraw:ddraw1 start dlls/ddraw/tests/ddraw1.c
+ddraw1.c:16235: Driver string: "d3d10warp.dll"
+ddraw1.c:16236: Description string: "Red Hat VirtIO GPU DOD controller"
+ddraw1.c:16237: Driver version 0.0.0.0
+ddraw1.c:1223: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:1308: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:1459: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:1682: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:1682: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:1818: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:1818: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:1991: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:2151: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:2379: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:2462: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:3305: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3313: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3347: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3371: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3401: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3434: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3455: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3499: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3510: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3544: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3568: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3591: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3624: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3645: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:3697: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw1.c:4043: Tests skipped: Following tests require two monitors.
+ddraw1.c:4272: Tests skipped: D3D interface is not available, skipping test.
+ddraw1.c:4364: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:4596: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:4828: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:4828: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:5168: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:5260: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:5613: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw1.c:6870: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:7102: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:7523: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:7840: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw1.c:8025: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw1.c:8612: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:9028: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:9243: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:9661: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:10083: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:10331: Tests skipped: Failed to create a YV12 overlay, skipping test.
+ddraw1.c:10453: Tests skipped: Failed to create a UYVY overlay, skipping test.
+ddraw1.c:10533: Tests skipped: Failed to create a UYVY overlay, skipping test.
+ddraw1.c:10651: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:10815: Tests skipped: Failed to create a 3D device.
+ddraw1.c:11016: Tests skipped: Failed to create surface for format D3DFMT_A2R10G10B10 (hr 0x88760091), skipping tests.
+ddraw1.c:11387: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:12143: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:12783: Tests skipped: Failed to create a D3D device, skipping tests.
+ddraw1.c:12888: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:13345: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:13511: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:13682: Tests skipped: D3D interface is not available, skipping test.
+ddraw1.c:13982: Tests skipped: Failed to create a 3D device.
+ddraw1.c:14872: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:14872: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:15286: Tests skipped: Failed to create a 3D device.
+ddraw1.c:15587: Tests skipped: D3D interface is not available, skipping test.
+ddraw1.c:15710: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw1.c:16016: Tests skipped: format UYVY: Failed to create surface, hr 0x88760091.
+ddraw1.c:16016: Tests skipped: format YV12: Failed to create surface, hr 0x80004001.
+ddraw1.c:16016: Tests skipped: format NV12: Failed to create surface, hr 0x80004001.
+1bbc:ddraw1: 4407 tests executed (0 marked as todo, 15 as flaky, 0 failures), 52 skipped.
+ddraw:ddraw1:1bbc done (0) in 15s 5594B
+ddraw:ddraw2 start dlls/ddraw/tests/ddraw2.c
+ddraw2.c:17267: Driver string: "d3d10warp.dll"
+ddraw2.c:17268: Description string: "Red Hat VirtIO GPU DOD controller"
+ddraw2.c:17269: Driver version 0.0.0.0
+ddraw2.c:1083: Tests skipped: Skipping test that crashes WARP occasionally.
+ddraw2.c:1207: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:1341: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:1341: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:1528: Tests skipped: Could not get Direct3DTexture interface, skipping texture::Load color keying tests.
+ddraw2.c:1643: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:1877: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:1877: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:1992: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:1992: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:2129: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:2233: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:2461: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:2543: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:4246: Tests skipped: Following tests require two monitors.
+ddraw2.c:4548: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:4809: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:5061: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:5337: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:5337: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:5755: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:5847: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:6755: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw2.c:8020: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:8236: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:8593: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:8873: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw2.c:9059: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw2.c:9649: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:9951: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:10166: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:10581: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:10980: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:11209: Tests skipped: Failed to create a YV12 overlay, skipping test.
+ddraw2.c:11331: Tests skipped: Failed to create a UYVY overlay, skipping test.
+ddraw2.c:11411: Tests skipped: Failed to create a UYVY overlay, skipping test.
+ddraw2.c:11529: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:11693: Tests skipped: Failed to create a 3D device.
+ddraw2.c:11894: Tests skipped: Failed to create surface for format D3DFMT_A2R10G10B10 (hr 0x88760091), skipping tests.
+ddraw2.c:12181: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:12261: Tests skipped: Failed to create a 3D device.
+ddraw2.c:12538: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:13866: Tests skipped: Failed to create 3D device.
+ddraw2.c:13936: Tests skipped: Failed to create a D3D device, skipping tests.
+ddraw2.c:14054: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:14544: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:14732: Tests skipped: D3D interface is not available, skipping test.
+ddraw2.c:15029: Tests skipped: Failed to create a 3D device.
+ddraw2.c:15800: Tests skipped: Failed to find a display mode with a different frequency.
+ddraw2.c:15857: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:15857: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:16257: Tests skipped: Failed to create a 3D device.
+ddraw2.c:16583: Tests skipped: D3D interface is not available, skipping test.
+ddraw2.c:16638: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw2.c:16858: Tests skipped: Failed to create 3D device.
+ddraw2.c:17048: Tests skipped: format UYVY: Failed to create surface, hr 0x88760091.
+ddraw2.c:17048: Tests skipped: format YV12: Failed to create surface, hr 0x80004001.
+ddraw2.c:17048: Tests skipped: format NV12: Failed to create surface, hr 0x80004001.
+03b8:ddraw2: 4745 tests executed (0 marked as todo, 0 as flaky, 0 failures), 58 skipped.
+ddraw:ddraw2:03b8 done (0) in 17s 4736B
+ddraw:ddraw4 start dlls/ddraw/tests/ddraw4.c
+ddraw4.c:20340: Driver string: "d3d10warp.dll"
+ddraw4.c:20341: Description string: "Red Hat VirtIO GPU DOD controller"
+ddraw4.c:20342: Driver version 0.0.0.0
+ddraw4.c:776: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:1274: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:1408: Tests skipped: D3D interface is not available, skipping test.
+ddraw4.c:1519: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:1519: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:1704: Tests skipped: Could not get Direct3DTexture2 interface, skipping texture::Load color keying tests.
+ddraw4.c:1812: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:2124: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:2124: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:2236: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:2236: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:2372: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:2473: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:2703: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:2785: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:4175: Test marked flaky: Expected (0,0)-(640,480), got (-8,-8)-(1928,1088).
+ddraw4.c:4474: Tests skipped: Following tests require two monitors.
+ddraw4.c:4759: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:4866: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:5037: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:5516: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:5703: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:6008: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:6443: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:6666: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:6965: Tests skipped: D3D interface is not available, skipping test.
+ddraw4.c:6965: Tests skipped: D3D interface is not available, skipping test.
+ddraw4.c:7405: Tests skipped: D3D interface is not available, skipping test.
+ddraw4.c:7507: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:8437: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw4.c:9928: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:10187: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw4.c:10372: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw4.c:10514: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:11075: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:11587: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:11897: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:12284: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:12507: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:12916: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:13178: Tests skipped: Failed to create a YV12 overlay, skipping test.
+ddraw4.c:13300: Tests skipped: Failed to create a UYVY overlay, skipping test.
+ddraw4.c:13380: Tests skipped: Failed to create a UYVY overlay, skipping test.
+ddraw4.c:13497: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:13665: Tests skipped: Failed to create a 3D device.
+ddraw4.c:13812: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:13967: Tests skipped: Failed to create surface for format D3DFMT_A2R10G10B10 (hr 0x88760091), skipping tests.
+ddraw4.c:14251: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:14382: Tests skipped: Failed to create a 3D device.
+ddraw4.c:14670: Tests skipped: Failed to create a 3D device.
+ddraw4.c:16071: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:16185: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:16233: Tests skipped: Failed to create 3D device.
+ddraw4.c:16283: Tests skipped: Failed to create 3D device.
+ddraw4.c:16375: Tests skipped: Failed to create a D3D device, skipping tests.
+ddraw4.c:16550: Tests skipped: Failed to create a D3D device, skipping tests.
+ddraw4.c:16678: Tests skipped: Failed to create 3D device.
+ddraw4.c:17153: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:17340: Tests skipped: D3D interface is not available, skipping test.
+ddraw4.c:17543: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:17779: Tests skipped: Failed to create a 3D device.
+ddraw4.c:18382: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:18852: Tests skipped: Failed to find a display mode with a different frequency.
+ddraw4.c:18918: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:18918: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:19333: Tests skipped: Failed to create 3D device.
+ddraw4.c:19656: Tests skipped: D3D interface is not available, skipping test.
+ddraw4.c:19704: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw4.c:19867: Tests skipped: D3D interface is not available, skipping test.
+ddraw4.c:19925: Tests skipped: Failed to create 3D device.
+ddraw4.c:20121: Tests skipped: format UYVY: Failed to create surface, hr 0x88760091.
+ddraw4.c:20121: Tests skipped: format YV12: Failed to create surface, hr 0x80004001.
+ddraw4.c:20121: Tests skipped: format NV12: Failed to create surface, hr 0x80004001.
+1b48:ddraw4: 5015 tests executed (0 marked as todo, 1 as flaky, 0 failures), 72 skipped.
+ddraw:ddraw4:1b48 done (0) in 19s 5860B
+ddraw:ddraw7 start dlls/ddraw/tests/ddraw7.c
+ddraw7.c:20785: Driver string: "d3d10warp.dll"
+ddraw7.c:20786: Description string: "Red Hat VirtIO GPU DOD controller"
+ddraw7.c:20787: Driver version 0.0.0.0
+ddraw7.c:20802: D3D interface is not available.
+ddraw7.c:823: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:1359: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:1495: Tests skipped: D3D interface is not available, skipping test.
+ddraw7.c:1600: Tests skipped: Hardware device: Failed to create a 3D device, skipping test.
+ddraw7.c:1600: Tests skipped: Software device: Failed to create a 3D device, skipping test.
+ddraw7.c:1763: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:1858: Tests skipped: Hardware device: Failed to create a 3D device, skipping test.
+ddraw7.c:1858: Tests skipped: Software device: Failed to create a 3D device, skipping test.
+ddraw7.c:1962: Tests skipped: Hardware device: Failed to create a 3D device, skipping test.
+ddraw7.c:1962: Tests skipped: Software device: Failed to create a 3D device, skipping test.
+ddraw7.c:2088: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:2182: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:2466: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:2548: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:3407: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3415: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3449: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3473: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3496: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3529: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3550: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3594: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3605: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3639: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3663: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3686: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3719: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3740: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:3792: Test marked flaky: Expected (0,0)-(1920,1080), got (-8,-8)-(1928,1088).
+ddraw7.c:4236: Tests skipped: Following tests require two monitors.
+ddraw7.c:4521: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:4626: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:4793: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:5292: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:5453: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:5656: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:5848: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:6287: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:6510: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:6809: Tests skipped: Hardware device: D3D interface is not available, skipping test.
+ddraw7.c:6809: Tests skipped: Software device: D3D interface is not available, skipping test.
+ddraw7.c:7284: Tests skipped: D3D interface is not available, skipping test.
+ddraw7.c:7422: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:7722: Tests skipped: Failed to create 3D device.
+ddraw7.c:8063: Tests skipped: Mipmaps are not supported.
+ddraw7.c:8405: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw7.c:8580: Tests skipped: Failed to create a texture, skipping tests.
+ddraw7.c:9010: Tests skipped: Mipmapped textures not supported, skipping mipmap private data test.
+ddraw7.c:9494: Tests skipped: Mipmapped textures not supported, skipping tests.
+ddraw7.c:9599: Tests skipped: Mipmapped textures not supported, skipping mipmap palette test.
+ddraw7.c:9858: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:10049: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw7.c:10234: Tests skipped: Failed to set 8 bpp display mode, skipping test.
+ddraw7.c:10381: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:11087: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:11242: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:11426: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:11537: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:11696: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:11985: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:12376: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:12612: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:13011: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:13283: Tests skipped: Failed to create a YV12 overlay, skipping test.
+ddraw7.c:13405: Tests skipped: Failed to create a UYVY overlay, skipping test.
+ddraw7.c:13485: Tests skipped: Failed to create a UYVY overlay, skipping test.
+ddraw7.c:13602: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:13770: Tests skipped: Failed to create a 3D device.
+ddraw7.c:13915: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:14179: Tests skipped: Failed to create cube texture for format D3DFMT_A8R8G8B8 (hr 0x80004002), skipping tests.
+ddraw7.c:14179: Tests skipped: Failed to create cube texture for format D3DFMT_X8R8G8B8 (hr 0x80004002), skipping tests.
+ddraw7.c:14179: Tests skipped: Failed to create cube texture for format D3DFMT_R5G6B5 (hr 0x80004002), skipping tests.
+ddraw7.c:14179: Tests skipped: Failed to create cube texture for format D3DFMT_X1R5G5B5 (hr 0x80004002), skipping tests.
+ddraw7.c:14179: Tests skipped: Failed to create cube texture for format D3DFMT_A1R5G5B5 (hr 0x80004002), skipping tests.
+ddraw7.c:14069: Tests skipped: Failed to create surface for format D3DFMT_A2R10G10B10 (hr 0x88760091), skipping tests.
+ddraw7.c:14069: Tests skipped: Failed to create surface for format D3DFMT_R3G3B2 (hr 0x80004002), skipping tests.
+ddraw7.c:14069: Tests skipped: Failed to create surface for format D3DFMT_DXT1 (hr 0x80004002), skipping tests.
+ddraw7.c:14069: Tests skipped: Failed to create surface for format D3DFMT_DXT2 (hr 0x80004002), skipping tests.
+ddraw7.c:14069: Tests skipped: Failed to create surface for format D3DFMT_DXT3 (hr 0x80004002), skipping tests.
+ddraw7.c:14069: Tests skipped: Failed to create surface for format D3DFMT_DXT4 (hr 0x80004002), skipping tests.
+ddraw7.c:14069: Tests skipped: Failed to create surface for format D3DFMT_DXT5 (hr 0x80004002), skipping tests.
+ddraw7.c:14355: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:14490: Tests skipped: Failed to create a 3D device.
+ddraw7.c:14728: Tests skipped: SetDisplayMode failed, skipping test.ddraw7.c:14818: Tests skipped: Failed to create surface, type systemmemory texture.
+ddraw7.c:14818: Tests skipped: Failed to create surface, type videomemory texture.
+ddraw7.c:15556: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:15678: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:15725: Tests skipped: Failed to create 3D device.
+ddraw7.c:15796: Tests skipped: Failed to create 3D device.
+ddraw7.c:15843: Tests skipped: Failed to create 3D device.
+ddraw7.c:15933: Tests skipped: Failed to create a D3D device, skipping tests.
+ddraw7.c:16115: Tests skipped: Failed to create a D3D device, skipping tests.
+ddraw7.c:16259: Tests skipped: Failed to create 3D device.
+ddraw7.c:16512: Tests skipped: Failed to create a texture, skipping tests.
+ddraw7.c:16692: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:16930: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:17389: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:17528: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:17756: Tests skipped: Failed to create 3D device.
+ddraw7.c:17857: Tests skipped: Failed to create a 3D device.
+ddraw7.c:18099: Tests skipped: Failed to create 3D device.
+ddraw7.c:18519: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:18729: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:19236: Tests skipped: Failed to find a display mode with a different frequency.
+ddraw7.c:19293: Tests skipped: Hardware device: Failed to create a 3D device, skipping test.
+ddraw7.c:19293: Tests skipped: Software device: Failed to create a 3D device, skipping test.
+ddraw7.c:19700: Tests skipped: Failed to create 3D device.
+ddraw7.c:19852: Tests skipped: D3D interface is not available, skipping test.
+ddraw7.c:639: Tests skipped: Hardware device: Failed to create a D3D device.
+ddraw7.c:639: Tests skipped: Software device: Failed to create a D3D device.
+ddraw7.c:662: Tests skipped: Failed to create a D3D device.
+ddraw7.c:20187: Tests skipped: Failed to create a 3D device, skipping test.
+ddraw7.c:20312: Tests skipped: D3D interface is not available, skipping test.
+ddraw7.c:20369: Tests skipped: Failed to create 3D device.
+ddraw7.c:20556: Tests skipped: format UYVY: Failed to create surface, hr 0x88760091.
+ddraw7.c:20556: Tests skipped: format YV12: Failed to create surface, hr 0x80004001.
+ddraw7.c:20556: Tests skipped: format NV12: Failed to create surface, hr 0x80004001.
+1bf0:ddraw7: 3406 tests executed (0 marked as todo, 15 as flaky, 0 failures), 103 skipped.
+ddraw:ddraw7:1bf0 done (0) in 19s 10062B
+ddraw:ddrawmodes start dlls/ddraw/tests/ddrawmodes.c
+ddrawmodes.c:144: Calling DirectDrawEnumerateA with test_nullcontext_callbackA callback and NULL context.
+ddrawmodes.c:110: test_nullcontext_callbackA: 0000000000000000 Primary Display Driver display 0000000000000000
+ddrawmodes.c:149: Calling DirectDrawEnumerateA with test_context_callbackA callback and non-NULL context.
+ddrawmodes.c:121: test_context_callbackA: 0000000000000000 Primary Display Driver display 00000000DEADBEEF
+ddrawmodes.c:245: Calling DirectDrawEnumerateExA with empty flags and NULL context.
+ddrawmodes.c:193: test_nullcontext_callbackExA: 0000000000000000 Primary Display Driver display 0000000000000000 0000000000000000
+ddrawmodes.c:250: Calling DirectDrawEnumerateExA with empty flags and non-NULL context.
+ddrawmodes.c:204: test_context_callbackExA: 0000000000000000 Primary Display Driver display 00000000DEADBEEF 0000000000000000
+ddrawmodes.c:217: test_count_callbackExA: 0000000000000000 Primary Display Driver display 000000B5889FF8A0 0000000000000000
+ddrawmodes.c:217: test_count_callbackExA: 0000000000000000 Primary Display Driver display 000000B5889FF8A0 0000000000000000
+ddrawmodes.c:270: Calling DirectDrawEnumerateExA with all flags set and NULL context.
+ddrawmodes.c:193: test_nullcontext_callbackExA: 0000000000000000 Primary Display Driver display 0000000000000000 0000000000000000
+1e8c:ddrawmodes: 166 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+ddraw:ddrawmodes:1e8c done (0) in 0s 1426B
+ddraw:dsurface start dlls/ddraw/tests/dsurface.c
+dsurface.c:2365: Tests skipped: D3DFMT_UYVY surfaces not supported, skipping partial block lock test
+dsurface.c:2365: Tests skipped: D3DFMT_YUY2 surfaces not supported, skipping partial block lock test
+1ea4:dsurface: 1206 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+ddraw:dsurface:1ea4 done (0) in 0s 295B
+ddraw:refcount start dlls/ddraw/tests/refcount.c
+refcount.c:252: Tests skipped: no IDirect3D7 support
+refcount.c:373: Tests skipped: no IDirect3D support
+188c:refcount: 49 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+ddraw:refcount:188c done (0) in 0s 196B
+ddraw:visual start dlls/ddraw/tests/visual.c
+visual.c:1606: Tests skipped: Cannot initialize DirectDraw and Direct3D, skipping
+06d0:visual: 3 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+ddraw:visual:06d0 done (0) in 0s 169B
+devenum:devenum start dlls/devenum/tests/devenum.c
+devenum.c:1102: Tests skipped: VFW codecs are not enumerated on 64-bit Windows
+0a48:devenum: 1603 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+devenum:devenum:0a48 done (0) in 0s 170B
+dhcpcsvc:dhcpcsvc start dlls/dhcpcsvc/tests/dhcpcsvc.c
+dhcpcsvc.c:57: adapter 'L"Red Hat VirtIO Ethernet Adapter"' type 6 dhcpv4 enabled 1
+dhcpcsvc.c:108: 0: Data 0000028335A21410 (00ffffff) nBytesData 4 OptionId 1 Flags 00000000 IsVendor 0
+dhcpcsvc.c:108: 1: Data 0000028335A21414 (01141414) nBytesData 4 OptionId 3 Flags 00000000 IsVendor 0
+dhcpcsvc.c:121: 2: Data 0000028335A21418 (qemu) nBytesData 4 OptionId 12 Flags 00000000 IsVendor 0
+dhcpcsvc.c:108: 3: Data 0000028335A2141C (ff141414) nBytesData 4 OptionId 28 Flags 00000000 IsVendor 0
+dhcpcsvc.c:57: adapter 'L"Software Loopback Interface 1"' type 24 dhcpv4 enabled 0
+174c:dhcpcsvc: 7 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+dhcpcsvc:dhcpcsvc:174c done (0) in 0s 667B
+dinput:device8 start dlls/dinput/tests/device8.c
+device8.c:3270: Subtest hid
+device8.c:3270: Subtest driver
+device8.c:3270: Subtest driver_bus
+device8.c:3270: Subtest driver_hid
+device8.c:3270: Subtest driver_hid_poll
+device8.c:2337: Tests skipped: 0x500: keyboard type 0x4 doesn't match for lang 0x411
+device8.c:2465: Tests skipped: 0x500: keyboard type 0x4 doesn't match for lang 0x411
+device8.c:2337: Tests skipped: 0x700: keyboard type 0x4 doesn't match for lang 0x411
+device8.c:2465: Tests skipped: 0x700: keyboard type 0x4 doesn't match for lang 0x411
+device8.c:2337: Tests skipped: 0x800: keyboard type 0x4 doesn't match for lang 0x411
+device8.c:2465: Tests skipped: 0x800: keyboard type 0x4 doesn't match for lang 0x411
+0004:driver_hid: 54 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_hid: 61 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_hid: 124 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_hid_poll: 418 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_bus: 208 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0f98:device8: 4580 tests executed (0 marked as todo, 0 as flaky, 0 failures), 6 skipped.
+dinput:device8:0f98 done (0) in 6s 1243B
+dinput:dinput start dlls/dinput/tests/dinput.c
+dinput.c:1067: Subtest hid
+dinput.c:1067: Subtest driver
+dinput.c:1067: Subtest driver_bus
+dinput.c:1067: Subtest driver_hid
+dinput.c:1067: Subtest driver_hid_poll
+dinput.c:828: Tests skipped: Failed to instantiate a IDirectInputJoyConfig8 instance: 0x0x80004002
+1128:dinput: 2523 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+dinput:dinput:1128 done (0) in 0s 358B
+dinput:force_feedback start dlls/dinput/tests/force_feedback.c
+force_feedback.c:7964: Subtest hid
+force_feedback.c:7964: Subtest driver
+force_feedback.c:7964: Subtest driver_bus
+force_feedback.c:7964: Subtest driver_hid
+force_feedback.c:7964: Subtest driver_hid_poll
+0004:driver_hid: 957 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_hid: 957 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_hid: 957 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_hid: 579 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_hid: 131 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_hid: 670 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0004:driver_bus: 5067 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+1cf8:force_feedback: 15176 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+dinput:force_feedback:1cf8 done (0) in 2s 952B
+dinput:hid start dlls/dinput/tests/hid.c
