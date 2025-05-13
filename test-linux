@@ -20,7 +20,8 @@ esac
 
 case $ARCH in
   win32) WINETEST=$WDIR/local/lib/wine/i386-windows/winetest.exe;;
-  wow64) WINETEST=$WDIR/local/lib/wine/i386-windows/winetest.exe; WINEARCH=win64;;
+  wow32) WINETEST=$WDIR/local/lib/wine/i386-windows/winetest.exe; WINEARCH=win64;;
+  wow64) WINETEST=$WDIR/local/lib/wine/i386-windows/winetest.exe;;
   win64) WINETEST=$WDIR/local/lib/wine/x86_64-windows/winetest.exe;;
 esac
 
