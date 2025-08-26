@@ -10,19 +10,7 @@ case $ARCH in
     win32) export CONFIGURE_ARGS="";;
 esac
 
-brew install --overwrite python@3.12
-brew install \
-  bison \
-  ccache \
-  cups \
-  dbus \
-  freetype \
-  gphoto2 \
-  gstreamer \
-  krb5 \
-  mingw-w64 \
-  molten-vk \
-  sdl2 \
+brew install mingw-w64
 
 export MAKE="make -s -j8"
 export PATH="/usr/local/opt/ccache/bin/:/usr/local/opt/bison/bin/:/usr/local/opt/mingw-w64/bin/:$PATH"

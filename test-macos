@@ -7,17 +7,6 @@ ARCH=$2
 TEST=$3
 EVENT=$4
 
-brew install --overwrite python@3.12
-brew install \
-  cups \
-  dbus \
-  freetype \
-  gphoto2 \
-  gstreamer \
-  krb5 \
-  molten-vk \
-  sdl2 \
-
 # workaround microphone access permissions
 sqlite3 "$HOME/Library/Application Support/com.apple.TCC/TCC.db" \
   "INSERT OR IGNORE INTO access VALUES ('kTCCServiceMicrophone','/usr/local/opt/runner/provisioner/provisioner',1,2,4,1,NULL,NULL,0,'UNUSED',NULL,0,1687786159,NULL,NULL,'UNUSED',1687786159);" \

@@ -28,6 +28,14 @@ jobs:
           restore-keys: |
             cache-macos-${{ matrix.arch }}
 
+      - name: Install Brew
+        run: |
+          BREWPREFIX=$(brew --prefix)
+          brew list --formula | xargs brew uninstall -f --ignore-dependencies
+          ls $BREWPREFIX/bin | grep -v brew | xargs -I{} rm $BREWPREFIX/bin/{}
+          brew update
+          brew bundle
+
       - name: Build
         run: |
           $PWD/build-macos ${{ matrix.arch }} ${{ inputs.commit }}

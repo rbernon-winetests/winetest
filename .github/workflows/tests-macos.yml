@@ -28,6 +28,14 @@ jobs:
         with:
           name: build-macos-win64
 
+      - name: Install Brew
+        run: |
+          BREWPREFIX=$(brew --prefix)
+          brew list --formula | xargs brew uninstall -f --ignore-dependencies
+          ls $BREWPREFIX/bin | grep -v brew | xargs -I{} rm $BREWPREFIX/bin/{}
+          brew update
+          brew bundle
+
       - name: Test
         run: |
           chmod +x local/bin/* local/lib/wine/*-unix/wine*
@@ -61,12 +69,19 @@ jobs:
         with:
           name: build-macos-win64
 
-      - name: Test
+      - name: Install Brew
         run: |
           arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
           eval "$(/usr/local/bin/brew shellenv)"
-          arch -x86_64 brew install --overwrite python
 
+          BREWPREFIX=$(arch -x86_64 brew --prefix)
+          arch -x86_64 brew list --formula | xargs arch -x86_64 brew uninstall -f --ignore-dependencies
+          ls $BREWPREFIX/bin | grep -v brew | xargs -I{} rm $BREWPREFIX/bin/{}
+          arch -x86_64 brew update
+          arch -x86_64 brew bundle
+
+      - name: Test
+        run: |
           chmod +x local/bin/* local/lib/wine/*-unix/wine*
           arch -x86_64 $PWD/test-macos $PWD ${{ matrix.arch }} ${{ matrix.test }} ${{ inputs.event }}
 
