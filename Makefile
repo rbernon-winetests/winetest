@@ -31,14 +31,14 @@ build/$(1)/custom.xml: src/unattend.xml | $$(shell mkdir -p build/$(1))
 	    $$< | \
 	  awk '/<RunSynchronous>/ { k=0 } /<FirstLogonCommands>/ { k=0 } /SynchronousCommand/ { sub("<Order>1</Order>", sprintf("<Order>%d</Order>", ++k)) } 1' >$$@
 
-$(1).image: Dockerfile build/sudo.exe build/configure.exe build/startup.bat build/$(1)/custom.xml build/$(1)/drivers.txz
+$(1).image: private.Dockerfile build/sudo.exe build/configure.exe build/startup.bat build/$(1)/custom.xml build/$(1)/drivers.txz
 	$$(MAKE) -C /media/rbernon/LaCie/Downloads $$(IMAGE_$(1))/check
 	cp $$(IMAGE_$(1)) build/$(1)/custom.iso
 	cp build/sudo.exe build/$(1)/sudo.exe
 	cp build/startup.bat build/$(1)/startup.bat
 	cp build/configure.exe build/$(1)/configure.exe
 	echo "start sudo configure.exe" >build/$(1)/autorun.bat
-	docker build --build-arg=BUILD=private $$(MACHINE_$(3)) -f Dockerfile -t rbernon/private:$(1) build/$(1)
+	docker build --build-arg=BUILD=private $$(MACHINE_$(3)) -f private.Dockerfile -t rbernon/private:$(1) build/$(1)
 	docker push rbernon/private:$(1)
 	touch $$@
 all-image:: $(1).image
@@ -115,13 +115,13 @@ WINETEST := $(WINETEST32) $(subst /tests/,:,$(subst .ok,,$(filter %.ok,$(MAKECMD
 %.ok %/check: win7u-i386-en/tests
 	echo $@ done
 
-winetest-windows.install: Dockerfile build/sudo.exe build/configure.exe build/install.bat build/startup.bat | $(shell mkdir -p build/install)
+winetest-windows.install: private.Dockerfile build/sudo.exe build/configure.exe build/install.bat build/startup.bat | $(shell mkdir -p build/install)
 	echo "start sudo configure.exe" >build/autorun.bat
 	cp build/sudo.exe build/install/sudo.exe
 	cp build/install.bat build/install/install.bat
 	cp build/startup.bat build/install/startup.bat
 	cp build/configure.exe build/install/configure.exe
-	docker build -f Dockerfile $(MACHINE_amd64) -t rbernon/winetest-windows:latest build/install
+	docker build -f private.Dockerfile $(MACHINE_amd64) -t rbernon/winetest-windows:latest build/install
 	docker push rbernon/winetest-windows:latest
 	touch $@
 
