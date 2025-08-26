@@ -1,0 +1,138 @@
+FROM @BASE_IMAGE@ AS build
+WORKDIR /tmp
+
+RUN export DEBIAN_FRONTEND=noninteractive; \
+    echo 'path-exclude=/usr/share/doc/*' > /etc/dpkg/dpkg.cfg.d/99-exclude-cruft && \
+    echo 'path-exclude=/usr/share/locale/*' >> /etc/dpkg/dpkg.cfg.d/99-exclude-cruft && \
+    echo 'path-exclude=/usr/share/man/*' >> /etc/dpkg/dpkg.cfg.d/99-exclude-cruft && \
+    echo 'APT::Install-Recommends "false";' > /etc/apt/apt.conf && \
+    echo '#!/bin/sh' > /usr/sbin/policy-rc.d && \
+    echo 'exit 101' >> /usr/sbin/policy-rc.d && \
+    chmod +x /usr/sbin/policy-rc.d && \
+    dpkg --add-architecture amd64 && \
+    dpkg --add-architecture arm64 && \
+    dpkg --add-architecture i386
+RUN apt-get update \
+ && apt-get install -y \
+       autoconf \
+       bison \
+       ca-certificates \
+       ccache \
+       clang \
+       curl \
+       flex \
+       fonts-liberation2 \
+       fonts-noto-cjk \
+       fonts-noto-core \
+       fvwm \
+       fvwm3 \
+       gettext \
+       git \
+       gstreamer1.0-libav:amd64 gstreamer1.0-libav:arm64 gstreamer1.0-libav:i386 \
+       gstreamer1.0-plugins-bad:amd64 gstreamer1.0-plugins-bad:arm64 gstreamer1.0-plugins-bad:i386 \
+       gstreamer1.0-plugins-base:amd64 gstreamer1.0-plugins-base:arm64 gstreamer1.0-plugins-base:i386 \
+       gstreamer1.0-plugins-good:amd64 gstreamer1.0-plugins-good:arm64 gstreamer1.0-plugins-good:i386 \
+       gstreamer1.0-plugins-ugly:amd64 gstreamer1.0-plugins-ugly:arm64 gstreamer1.0-plugins-ugly:i386 \
+       i3 \
+       kwin-wayland \
+       kwin-x11 \
+       libasound2-dev:amd64 libasound2-dev:arm64 libasound2-dev:i386 \
+       libasound2-plugins:amd64 libasound2-plugins:arm64 libasound2-plugins:i386 \
+       libavcodec-dev:amd64 libavcodec-dev:arm64 libavcodec-dev:i386 \
+       libavformat-dev:amd64 libavformat-dev:arm64 libavformat-dev:i386 \
+       libavutil-dev:amd64 libavutil-dev:arm64 libavutil-dev:i386 \
+       libc6-dev-amd64-cross libc6-dev-arm64-cross libc6-dev-i386-cross \
+       libcapi20-dev:amd64 libcapi20-dev:arm64 libcapi20-dev:i386 \
+       libcups2-dev:amd64 libcups2-dev:arm64 libcups2-dev:i386 \
+       libdbus-1-dev:amd64 libdbus-1-dev:arm64 libdbus-1-dev:i386 \
+       libegl-dev:amd64 libegl-dev:arm64 libegl-dev:i386 \
+       libfontconfig-dev:amd64 libfontconfig-dev:arm64 libfontconfig-dev:i386 \
+       libfreetype-dev:amd64 libfreetype-dev:arm64 libfreetype-dev:i386 \
+       libgcc-14-dev-amd64-cross libgcc-14-dev-arm64-cross libgcc-14-dev-i386-cross \
+       libgl1-mesa-dev:amd64 libgl1-mesa-dev:arm64 libgl1-mesa-dev:i386 \
+       libglib2.0-dev:amd64 libglib2.0-dev:arm64 libglib2.0-dev:i386 \
+       libgnutls28-dev:amd64 libgnutls28-dev:arm64 libgnutls28-dev:i386 \
+       libgphoto2-dev:amd64 libgphoto2-dev:arm64 libgphoto2-dev:i386 \
+       libice-dev:amd64 libice-dev:arm64 libice-dev:i386 \
+       libkrb5-dev:amd64 libkrb5-dev:arm64 libkrb5-dev:i386 \
+       libldap-dev:amd64 libldap-dev:arm64 libldap-dev:i386 \
+       libmjpegutils-2.1-0:amd64 libmjpegutils-2.1-0:arm64 libmjpegutils-2.1-0:i386 \
+       libopenal-dev:amd64 libopenal-dev:arm64 libopenal-dev:i386 \
+       liborc-0.4-dev:amd64 liborc-0.4-dev:arm64 liborc-0.4-dev:i386 \
+       libpcap-dev:amd64 libpcap-dev:arm64 libpcap-dev:i386 \
+       libpcsclite-dev:amd64 libpcsclite-dev:arm64 libpcsclite-dev:i386 \
+       libpulse-dev:amd64 libpulse-dev:arm64 libpulse-dev:i386 \
+       libsane-dev:amd64 libsane-dev:arm64 libsane-dev:i386 \
+       libsdl2-dev:amd64 libsdl2-dev:arm64 libsdl2-dev:i386 \
+       libswresample-dev:amd64 libswresample-dev:arm64 libswresample-dev:i386 \
+       libswscale-dev:amd64 libswscale-dev:arm64 libswscale-dev:i386 \
+       libudev-dev:amd64 libudev-dev:arm64 libudev-dev:i386 \
+       libunwind-dev:amd64 libunwind-dev:arm64 libunwind-dev:i386 \
+       libusb-1.0-0-dev:amd64 libusb-1.0-0-dev:arm64 libusb-1.0-0-dev:i386 \
+       libv4l-dev:amd64 libv4l-dev:arm64 libv4l-dev:i386 \
+       libvulkan-dev:amd64 libvulkan-dev:arm64 libvulkan-dev:i386 \
+       libwayland-dev:amd64 libwayland-dev:arm64 libwayland-dev:i386 \
+       libx11-dev:amd64 libx11-dev:arm64 libx11-dev:i386 \
+       libxcomposite-dev:amd64 libxcomposite-dev:arm64 libxcomposite-dev:i386 \
+       libxcursor-dev:amd64 libxcursor-dev:arm64 libxcursor-dev:i386 \
+       libxext-dev:amd64 libxext-dev:arm64 libxext-dev:i386 \
+       libxi-dev:amd64 libxi-dev:arm64 libxi-dev:i386 \
+       libxinerama-dev:amd64 libxinerama-dev:arm64 libxinerama-dev:i386 \
+       libxkbcommon-dev:amd64 libxkbcommon-dev:arm64 libxkbcommon-dev:i386 \
+       libxkbregistry-dev:amd64 libxkbregistry-dev:arm64 libxkbregistry-dev:i386 \
+       libxrandr-dev:amd64 libxrandr-dev:arm64 libxrandr-dev:i386 \
+       libxrender-dev:amd64 libxrender-dev:arm64 libxrender-dev:i386 \
+       libxxf86vm-dev:amd64 libxxf86vm-dev:arm64 libxxf86vm-dev:i386 \
+       linux-libc-dev-amd64-cross linux-libc-dev-arm64-cross linux-libc-dev-i386-cross \
+       linux-libc-dev:amd64 linux-libc-dev:arm64 linux-libc-dev:i386 \
+       lld \
+       llvm \
+       lwm \
+       make \
+       marco \
+       mesa-vulkan-drivers:amd64 mesa-vulkan-drivers:arm64 mesa-vulkan-drivers:i386 \
+       metacity \
+       muffin \
+       mutter \
+       mwm \
+       netbase \
+       ocl-icd-opencl-dev:amd64 ocl-icd-opencl-dev:arm64 ocl-icd-opencl-dev:i386 \
+       openbox \
+       pekwm \
+       perl \
+       pulseaudio \
+       rsync \
+       samba-dev:amd64 samba-dev:arm64 samba-dev:i386 \
+       spectrwm \
+       sway \
+       tini \
+       unagi \
+       unixodbc-dev:amd64 unixodbc-dev:arm64 unixodbc-dev:i386 \
+       unzip \
+       vulkan-tools \
+       weston \
+       winbind \
+       x11-utils \
+       x11-xserver-utils \
+       x11proto-dev \
+       xfonts-base \
+       xfwm4 \
+       xinit \
+       xmonad \
+       xserver-xorg \
+       xserver-xorg-video-dummy \
+ && apt-get download -y \
+       libgstreamer-plugins-base1.0-dev:amd64 libgstreamer-plugins-base1.0-dev:arm64 libgstreamer-plugins-base1.0-dev:i386 \
+       libgstreamer1.0-dev:amd64 libgstreamer1.0-dev:arm64 libgstreamer1.0-dev:i386 \
+ && (for deb in *.deb; do dpkg-deb -x $deb /dpkg; done) \
+ && rsync -arxv /dpkg/usr/include/ /usr/include/ \
+ && rsync -arxv /dpkg/usr/lib/ /usr/lib/ \
+ && rm -rf /dpkg \
+ && apt-get autoremove -y \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/* \
+ ;
+RUN bash -c 'mkdir -p /usr/lib/ccache && ls /usr/bin/{,*-}{cc,c++,gcc,g++,clang,clang++}{,-[0-9]*} | sed -re s:/bin:/lib/ccache: | xargs -n1 ln -sf ../../bin/ccache'
+ENTRYPOINT ["/usr/bin/tini-static", "-s", "-g", "--"]
+ENV PATH=/usr/lib/ccache:$PATH
+CMD ["/bin/bash"]

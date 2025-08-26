@@ -6,8 +6,14 @@ ARCH="$1"
 COMMIT="$2"
 
 case $ARCH in
-    win64) export CONFIGURE_ARGS="--enable-win64 --enable-archs=i386,x86_64";;
-    win32) export CONFIGURE_ARGS="";;
+    win64) CC="clang -target x86_64-linux"
+           PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
+           CONFIGURE_ARGS="--enable-win64 --enable-archs=i386,x86_64"
+           ;;
+    win32) CC="clang -target i686-linux"
+           PKG_CONFIG_PATH=/usr/lib/i386-linux-gnu/pkgconfig
+           CONFIGURE_ARGS=""
+           ;;
 esac
 
 export MAKE="make -s -j8"
@@ -25,7 +31,7 @@ git -C wine checkout "$COMMIT"
 git -C wine apply $PWD/patches/*.patch
 
 rm build -rf; mkdir -p build
-env -C build ../wine/configure -q CROSSDEBUG=split --with-mingw $CONFIGURE_ARGS
+env -C build ../wine/configure -q --with-mingw=clang CC="$CC" PKG_CONFIG_PATH="$PKG_CONFIG_PATH" $CONFIGURE_ARGS
 $MAKE -C build
 
 $MAKE -C build DESTDIR=$PWD install-lib install-test

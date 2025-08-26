@@ -10,6 +10,21 @@ PART_amd64 := GPT
 empty :=
 space := $(empty) $(empty)
 
+DEBIAN_RELEASE := trixie
+BASE_IMAGE_amd64 := docker.io/amd64/debian:$(DEBIAN_RELEASE)-slim
+BASE_IMAGE_arm64 := docker.io/arm64v8/debian:$(DEBIAN_RELEASE)-slim
+
+linux-%.Dockerfile: linux.Dockerfile.in
+	sed -re 's#@BASE_IMAGE@#$(BASE_IMAGE_$*)#' $< >$@
+linux-%: linux-%.Dockerfile
+	mkdir -p build/linux-$*
+	docker build -f $< -t rbernon/winetest-linux:$(DEBIAN_RELEASE)-$* build/linux-$*
+	touch $@
+push-linux-%:: linux-%
+	docker push rbernon/winetest-linux:$(DEBIAN_RELEASE)-$*
+all-image:: linux-amd64 linux-arm64
+all-push:: push-linux-amd64 push-linux-arm64
+
 define make-rules
 build/$(1)/drivers.txz: virtio-win-0.1.266.iso | $$(shell mkdir -p build/$(1))
 	mkdir -p build/$(1)/drivers
