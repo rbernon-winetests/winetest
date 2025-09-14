@@ -34,10 +34,8 @@ INFO="$INFO GPU:$(system_profiler SPDisplaysDataType|grep -e Model: -e VRAM -e R
 INFO="$INFO]"
 
 case $TEST in
-  opengl) DRIVER=mac; RENDERER=opengl; TEST=macos-$RENDERER;;
-  vulkan) DRIVER=mac; RENDERER=vulkan; TEST=macos-$RENDERER;;
-  m1ros2-opengl) DRIVER=mac; RENDERER=opengl; TEST=m1ros2-opengl;;
-  m1ros2-vulkan) DRIVER=mac; RENDERER=vulkan; TEST=m1ros2-vulkan;;
+  *-opengl) DRIVER=mac; RENDERER=opengl;;
+  *-vulkan) DRIVER=mac; RENDERER=vulkan;;
 esac
 
 $WINE reg add "HKCU\\Software\\Wine\\Drivers" /v "Graphics" /d "$DRIVER" /f

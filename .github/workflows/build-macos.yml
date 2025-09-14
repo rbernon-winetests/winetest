@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-13
+    runs-on: macos-latest
     strategy:
       matrix:
         arch: [win64]
@@ -30,15 +30,17 @@ jobs:
 
       - name: Install Brew
         run: |
-          BREWPREFIX=$(brew --prefix)
-          brew list --formula | xargs brew uninstall -f --ignore-dependencies
-          ls $BREWPREFIX/bin | grep -v brew | xargs -I{} rm $BREWPREFIX/bin/{}
-          brew update
-          brew bundle
+          arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+          eval "$(/usr/local/bin/brew shellenv)"
+
+          arch -x86_64 brew list --formula | xargs arch -x86_64 brew uninstall -f --ignore-dependencies
+          ls $HOMEBREW_PREFIX/bin | grep -v brew | xargs -I{} rm $HOMEBREW_PREFIX/bin/{}
+          arch -x86_64 brew update
+          arch -x86_64 brew bundle
 
       - name: Build
         run: |
-          $PWD/build-macos ${{ matrix.arch }} ${{ inputs.commit }}
+          arch -x86_64 $PWD/build-macos ${{ matrix.arch }} ${{ inputs.commit }}
 
       - name: Upload
         uses: actions/upload-artifact@v4

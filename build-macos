@@ -10,6 +10,7 @@ case $ARCH in
     win32) export CONFIGURE_ARGS="";;
 esac
 
+eval "$(/usr/local/bin/brew shellenv)"
 brew install mingw-w64
 
 export MAKE="make -s -j8"

@@ -8,58 +8,15 @@ on:
 
 jobs:
   test-macos:
-    runs-on: macos-13
     continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
-        arch: [win64]
-        test: [opengl, vulkan]
-        include:
-          - arch: wow64
-            test: opengl
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download
-        uses: actions/download-artifact@v4
-        with:
-          name: build-macos-win64
-
-      - name: Install Brew
-        run: |
-          BREWPREFIX=$(brew --prefix)
-          brew list --formula | xargs brew uninstall -f --ignore-dependencies
-          ls $BREWPREFIX/bin | grep -v brew | xargs -I{} rm $BREWPREFIX/bin/{}
-          brew update
-          brew bundle
-
-      - name: Test
-        run: |
-          chmod +x local/bin/* local/lib/wine/*-unix/wine*
-          $PWD/test-macos $PWD ${{ matrix.arch }} ${{ matrix.test }} ${{ inputs.event }}
-
-      - name: Upload
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-macos-${{ matrix.test }}-${{ matrix.arch }}.report
-          path: macos-*.report
-
-  test-macos-m1ros2:
-    runs-on: macos-14
-    continue-on-error: true
-    strategy:
-      fail-fast: false
-      matrix:
+        os: [macos-14, macos-15]
         arch: [win64, wow64]
-        test: [m1ros2-vulkan]
-        include:
-          - arch: wow64
-            test: m1ros2-opengl
+        test: [opengl, vulkan]
 
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -74,20 +31,19 @@ jobs:
           arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
           eval "$(/usr/local/bin/brew shellenv)"
 
-          BREWPREFIX=$(arch -x86_64 brew --prefix)
           arch -x86_64 brew list --formula | xargs arch -x86_64 brew uninstall -f --ignore-dependencies
-          ls $BREWPREFIX/bin | grep -v brew | xargs -I{} rm $BREWPREFIX/bin/{}
+          ls $HOMEBREW_PREFIX/bin | grep -v brew | xargs -I{} rm $HOMEBREW_PREFIX/bin/{}
           arch -x86_64 brew update
           arch -x86_64 brew bundle
 
       - name: Test
         run: |
           chmod +x local/bin/* local/lib/wine/*-unix/wine*
-          arch -x86_64 $PWD/test-macos $PWD ${{ matrix.arch }} ${{ matrix.test }} ${{ inputs.event }}
+          arch -x86_64 $PWD/test-macos $PWD ${{ matrix.arch }} ${{ matrix.os }}-${{ matrix.test }} ${{ inputs.event }}
 
       - name: Upload
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-macos-${{ matrix.test }}-${{ matrix.arch }}.report
-          path: m1ros2-*.report
+          name: test-${{ matrix.os }}-${{ matrix.test }}-${{ matrix.arch }}.report
+          path: macos-*.report
