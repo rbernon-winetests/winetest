@@ -1,0 +1,1296 @@
+Version 4
+Tests from build fc70990d579a74974c6e4f1550f892188114f5cf
+Tag: rbernon-w81e64-wow64
+Build info:
+    Compiler: clang 19.1.7 (3+b1) (msvc 1933)
+Operating system version:
+    Platform=i386 (WOW64)
+    bRunningUnderWine=0
+    bRunningOnVisibleDesktop=1
+    Account=admin, elevated
+    Submitter=Remi Bernon <rbernon@codeweavers.com>
+    Description=Windows 8.1 Enterprise 64bit / QEMU running on Debian GNU/Linux trixie/sid / Linux 56fc1e4cfbeb 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 GNU/Linux, [CPU:2*AMD EPYC 7763 64-Core Processor RAM:4G display:1920x1080 virtio-vga x1]
+    dwMajorVersion=6
+    dwMinorVersion=3
+    dwBuildNumber=9600
+    PlatformId=2
+    szCSDVersion=
+    wServicePackMajor=0
+    wServicePackMinor=0
+    wSuiteMask=256
+    wProductType=1
+    wReserved=0
+    dwProductInfo=72
+    SystemDefaultLCID=0409
+    UserDefaultLCID=0409
+    ThreadLocale=0409
+    SystemPreferredUILanguages=0409
+    UserDefaultUILanguage=0409
+    ThreadUILanguage=0409
+    KeyboardLayout=04090409
+    Country=244
+    ACP=1252
+Dll info:
+    activeds=6.3.9600.16384
+    adsldp=6.3.9600.16384
+    advapi32=6.3.9600.17031
+    advpack=11.0.9600.16384
+    amstream=6.6.9600.16384
+    apphelp=6.3.9600.17031
+    atl100=dll is missing
+    atl110=dll is missing
+    atl80=dll is missing the requested side-by-side version
+    atlthunk=dll is missing
+    atl=3.5.2284.0
+    avifil32=6.3.9600.16384
+    bcp47langs=dll is missing an entrypoint (6.3.9600.16384)
+    bcrypt=6.3.9600.17031
+    bluetoothapis=6.3.9600.16384
+    browseui=6.3.9600.16384
+    cabinet=6.3.9600.16384
+    cfgmgr32=6.3.9600.16384
+    cmd.exe=6.3.9600.16384
+    combase=6.3.9600.17031
+    comcat=6.3.9600.16384
+    comctl32=6.10.9600.17031
+    comdlg32=6.3.9600.17031
+    compstui=6.3.9600.16384
+    comsvcs=2001.12.10530.16384
+    concrt140=dll is missing
+    conhost.exe=dll is missing
+    coremessaging=dll is missing
+    credui=6.3.9600.16384
+    crypt32=6.3.9600.16431
+    cryptext=6.3.9600.16384
+    cryptnet=6.3.9600.16384
+    cryptowinrt=6.3.9600.16397
+    cryptui=6.3.9600.16384
+    cryptxml=6.3.9600.16384
+    d2d1=6.3.9600.16473
+    d3d10core=6.3.9600.16384
+    d3d10_1=6.3.9600.16384
+    d3d10=6.3.9600.16384
+    d3d11=6.3.9600.17031
+    d3d12=dll is missing
+    d3d8=6.3.9600.16384
+    d3d9=6.3.9600.16404
+    d3dcompiler_42=dll is missing
+    d3dcompiler_43=dll is missing
+    d3dcompiler_46=dll is missing
+    d3dcompiler_47=6.3.9600.16384
+    d3drm=dll is missing
+    d3dx10_33=dll is missing
+    d3dx10_34=dll is missing
+    d3dx10_35=dll is missing
+    d3dx10_36=dll is missing
+    d3dx10_37=dll is missing
+    d3dx10_38=dll is missing
+    d3dx10_39=dll is missing
+    d3dx10_40=dll is missing
+    d3dx10_41=dll is missing
+    d3dx10_42=dll is missing
+    d3dx10_43=dll is missing
+    d3dx11_42=dll is missing
+    d3dx11_43=dll is missing
+    d3dx9_35=dll is missing
+    d3dx9_36=dll is missing
+    d3dx9_42=dll is missing
+    d3dx9_43=dll is missing
+    d3dxof=6.3.9600.16384
+    dataexchange=dll is missing
+    dbgeng=6.3.9600.16520
+    dbghelp=6.3.9600.16520
+    ddrawex=6.3.9600.16384
+    ddraw=6.3.9600.16384
+    devenum=6.6.9600.16384
+    dhcpcsvc=6.3.9600.16384
+    dinput=6.3.9600.16384
+    directmanipulation=dll is missing
+    dispex=5.8.9600.16384
+    dmband=6.3.9600.16384
+    dmcompos=6.3.9600.16384
+    dmime=6.3.9600.16384
+    dmloader=6.3.9600.16384
+    dmscript=6.3.9600.16384
+    dmstyle=6.3.9600.16384
+    dmsynth=6.3.9600.16384
+    dmusic=6.3.9600.16384
+    dnsapi=6.3.9600.16423
+    dplayx=dll is a stub
+    dpnet=dll is a stub
+    dpvoice=dll is missing
+    dsdmo=6.3.9600.16384
+    dsound=6.3.9600.16384
+    dssenh=6.3.9600.16384
+    dswave=6.3.9600.16384
+    dwmapi=6.3.9600.17031
+    dwrite=6.3.9600.16384
+    dxcore=dll is missing
+    dxdiagn=6.3.9600.16384
+    dxgi=6.3.9600.17031
+    dxva2=6.3.9600.16384
+    evr=6.3.9600.16384
+    explorer.exe=6.3.9600.17031
+    explorerframe=6.3.9600.17031
+    faultrep=6.3.9600.17031
+    fc.exe=6.3.9600.16384
+    find.exe=6.3.9600.16384
+    findstr.exe=6.3.9600.16384
+    fsutil.exe=6.3.9600.17031
+    fusion=dll is missing
+    gameux=6.3.9600.17031
+    gdi32=6.3.9600.17031
+    gdiplus=6.3.9600.16384
+    geolocation=dll is missing
+    glu32=6.3.9600.16384
+    graphicscapture=dll is missing
+    hid=6.3.9600.16384
+    hlink=6.3.9600.16384
+    hnetcfg=6.3.9600.16384
+    httpapi=6.3.9600.16384
+    hvsimanagementapi=dll is missing
+    icmui=6.3.9600.16384
+    ieframe=11.0.9600.17031
+    iertutil=11.0.9600.17031
+    imagehlp=6.3.9600.16438
+    imm32=6.3.9600.17031
+    inetcomm=6.3.9600.16384
+    inetmib1=6.3.9600.16384
+    infosoft=dll is missing
+    iphlpapi=6.3.9600.16384
+    ir50_32=6.3.9600.16384
+    itss=6.3.9600.16384
+    jscript=5.8.9600.16384
+    jsproxy=11.0.9600.16384
+    kernel32=6.3.9600.17031
+    kernelbase=6.3.9600.17031
+    localspl=dll is missing
+    localui=dll is missing
+    lz32=6.3.9600.16384
+    mapi32=1.0.2536.0
+    mfmediaengine=6.3.9600.17031
+    mfplat=12.0.9600.17031
+    mfplay=12.0.9600.16384
+    mfreadwrite=12.0.9600.17031
+    mfsrcsnk=12.0.9600.16408
+    mf=12.0.9600.17031
+    mlang=6.3.9600.16384
+    mmcndmgr=6.3.9600.16384
+    mmdevapi=6.3.9600.17031
+    mp3dmod=6.3.9600.16384
+    mpr=6.3.9600.16384
+    msacm32=6.3.9600.16384
+    msado15=dll is missing
+    msasn1=6.3.9600.16384
+    mscms=6.3.9600.16384
+    mscoree=6.3.9600.16384
+    msctf=6.3.9600.17031
+    msdasql=dll is missing
+    msdmo=6.6.9600.16384
+    msftedit=6.3.9600.17031
+    mshtml=11.0.9600.17037
+    msi=5.0.9600.16384
+    mspatcha=6.3.9600.16384
+    msrle32=6.3.9600.16384
+    msscript.ocx=1.0.9600.16384
+    mstask=6.3.9600.16384
+    msvcirt=7.0.9600.16384
+    msvcp100=dll is missing
+    msvcp110=dll is missing
+    msvcp120=dll is missing
+    msvcp140_1=dll is missing
+    msvcp140_2=dll is missing
+    msvcp140_atomic_wait=dll is missing
+    msvcp140=dll is missing
+    msvcp60=7.0.9600.16384
+    msvcp90=9.0.30729.8387
+    msvcr100=dll is missing
+    msvcr110=dll is missing
+    msvcr120=dll is missing
+    msvcr70=dll is missing
+    msvcr71=dll is missing
+    msvcr80=8.0.50727.8428
+    msvcr90=9.0.30729.8387
+    msvcrtd=dll is missing
+    msvcrt=7.0.9600.16384
+    msvfw32=6.3.9600.16384
+    msxml3=8.110.9600.16483
+    msxml4=dll is missing
+    msxml6=6.30.9600.16384
+    ncrypt=6.3.9600.16384
+    ndis.sys=dll is missing
+    net.exe=6.3.9600.16384
+    netapi32=6.3.9600.16384
+    netcfgx=6.3.9600.17039
+    netprofm=6.3.9600.16384
+    ninput=6.3.9600.16517
+    nsi=6.3.9600.16384
+    ntdll=6.3.9600.17031
+    ntdsapi=6.3.9600.16384
+    ntoskrnl.exe=dll is missing
+    ntprint=6.3.9600.16384
+    odbc32=6.3.9600.16384
+    odbccp32=6.3.9600.16384
+    ole32=6.3.9600.17031
+    oleacc=7.2.9600.16384
+    oleaut32=6.3.9600.16506
+    oledb32=6.3.9600.16384
+    oledlg=6.3.9600.16384
+    opcservices=6.3.9600.16384
+    opengl32=6.3.9600.16384
+    packager=6.3.9600.16384
+    pdh=6.3.9600.16384
+    prntvpt=6.3.9600.16384
+    propsys=7.0.9600.17031
+    psapi=6.3.9600.16384
+    pstorec=6.3.9600.16384
+    qasf=12.0.9600.16384
+    qcap=6.6.9600.16384
+    qdvd=6.6.9600.16384
+    qedit=6.6.9600.17031
+    qmgr=dll is missing
+    quartz=6.6.9600.16384
+    qwave=6.3.9600.16384
+    rasapi32=6.3.9600.16384
+    reg.exe=6.3.9600.16384
+    regedit.exe=6.3.9600.16384
+    riched20=5.31.23.1231
+    riched32=6.3.9600.16384
+    rometadata=4.0.20806.33440
+    rpcrt4=6.3.9600.16384
+    rsaenh=6.3.9600.16384
+    rtworkq=12.0.9600.16384
+    sapi=dll is missing
+    sc.exe=6.3.9600.16384
+    schannel=6.3.9600.17031
+    schedsvc=dll is missing
+    schtasks.exe=6.3.9600.16384
+    scrobj=5.8.9600.17031
+    scrrun=5.8.9600.17031
+    secur32=6.3.9600.16384
+    serialui=6.3.9600.16384
+    services.exe=dll is missing
+    setupapi=6.3.9600.17031
+    shcore=6.3.9600.17031
+    shdocvw=6.3.9600.16384
+    shell32=6.3.9600.17031
+    shlwapi=6.3.9600.16384
+    slc=6.3.9600.17031
+    snmpapi=6.3.9600.16384
+    spoolss=dll is missing
+    sti=6.3.9600.16501
+    sxs=6.3.9600.16384
+    t2embed=6.3.9600.16384
+    tapi32=6.3.9600.16384
+    tasklist.exe=6.3.9600.16384
+    taskschd=6.3.9600.16384
+    threadpoolwinrt=6.3.9600.16384
+    timeout.exe=6.3.9600.16384
+    twain_32=1.7.1.3
+    twinapi.appcore=dll is missing
+    ucrtbase=dll is missing
+    uianimation=6.3.9600.16384
+    uiautomationcore=7.2.9600.16421
+    urlmon=11.0.9600.17031
+    user32=6.3.9600.17031
+    userenv=6.3.9600.16384
+    usp10=6.3.9600.16384
+    uxtheme=6.3.9600.17031
+    vbscript=5.8.9600.17031
+    vccorlib140=dll is missing
+    vcomp110=dll is missing
+    vcomp=dll is missing
+    version=6.3.9600.16384
+    virtdisk=6.3.9600.16384
+    vulkan-1=dll is missing
+    wbemdisp=6.3.9600.16384
+    wbemprox=6.3.9600.16384
+    webservices=6.3.9600.17031
+    wer=6.3.9600.17031
+    wevtapi=6.3.9600.16384
+    wiaservc=dll is missing
+    win32u=dll is missing
+    windows.applicationmodel=dll is missing
+    windows.devices.bluetooth=dll is missing
+    windows.devices.enumeration=dll is missing
+    windows.devices.usb=dll is missing
+    windows.gaming.input=dll is missing
+    windows.gaming.ui.gamebar=dll is missing
+    windows.globalization=dll is missing
+    windows.media.devices=dll is missing
+    windows.media.mediacontrol=dll is missing
+    windows.media.playback.backgroundmediaplayer=dll is missing
+    windows.media.playback.mediaplayer=dll is missing
+    windows.media.speech=dll is missing
+    windows.media=dll is missing
+    windows.networking.connectivity=dll is missing
+    windows.networking.hostname=dll is missing
+    windows.perception.stub=dll is missing
+    windows.security.authentication.onlineid=dll is missing
+    windows.security.credentials.ui.userconsentverifier=dll is missing
+    windows.storage.applicationdata=dll is missing
+    windows.storage=dll is missing
+    windows.system.profile.systemid=dll is missing
+    windows.system.profile.systemmanufacturers=dll is missing
+    windows.ui.xaml=dll is missing
+    windows.ui=dll is missing
+    windows.web=dll is missing
+    windowscodecsext=6.3.9600.16384
+    windowscodecs=6.3.9600.16521
+    wing32=dll is missing
+    winhttp=6.3.9600.16384
+    wininet=11.0.9600.17031
+    winmm=6.3.9600.16384
+    winscard=6.3.9600.16408
+    winspool.drv=6.3.9600.16457
+    wintab32=dll is missing
+    wintrust=6.3.9600.17016
+    wintypes=6.3.9600.17031
+    wlanapi=6.3.9600.16520
+    wldap32=6.3.9600.16384
+    wldp=dll is missing
+    wmiutils=6.3.9600.16384
+    wmp=12.0.9600.17031
+    wmvcore=12.0.9600.16384
+    wpcap=dll is missing
+    wpc=6.3.9600.17031
+    ws2_32=6.3.9600.16384
+    wscript.exe=5.8.9600.16384
+    wsdapi=6.3.9600.16523
+    wshom.ocx=5.8.9600.16384
+    wsnmp32=6.3.9600.16384
+    wtsapi32=6.3.9600.16384
+    xactengine3_7=dll is missing
+    xaudio2_7=dll is missing
+    xaudio2_8=6.3.9600.16384
+    xcopy.exe=6.3.9600.16384
+    xinput1_3=dll is missing
+    xmllite=6.3.9600.16384
+Test output:
+activeds:activeds start dlls/activeds/tests/activeds.c
+0ad8:activeds: 73 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+activeds:activeds:0ad8 done (0) in 0s 89B
+adsldp:ldap start dlls/adsldp/tests/ldap.c
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com"
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+0ad0:ldap: 367 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+adsldp:ldap:0ad0 done (0) in 5s 303B
+adsldp:sysinfo start dlls/adsldp/tests/sysinfo.c
+sysinfo.c:161: Tests skipped: Computer is not part of a domain, skipping the tests
+0acc:sysinfo: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+adsldp:sysinfo:0acc done (0) in 0s 172B
+advapi32:cred start dlls/advapi32/tests/cred.c
+cred.c:802: generic:
+cred.c:808: domain password:
+cred.c:814: domain visible password:
+0a1c:cred: 365 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:cred:0a1c done (0) in 0s 176B
+advapi32:crypt start dlls/advapi32/tests/crypt.c
+0af0:crypt: 166 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt:0af0 done (0) in 0s 87B
+advapi32:crypt_lmhash start dlls/advapi32/tests/crypt_lmhash.c
+0af4:crypt_lmhash: 95 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_lmhash:0af4 done (0) in 0s 93B
+advapi32:crypt_md4 start dlls/advapi32/tests/crypt_md4.c
+0ae8:crypt_md4: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md4:0ae8 done (0) in 0s 90B
+advapi32:crypt_md5 start dlls/advapi32/tests/crypt_md5.c
+0a18:crypt_md5: 5 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md5:0a18 done (0) in 0s 89B
+advapi32:crypt_sha start dlls/advapi32/tests/crypt_sha.c
+0a0c:crypt_sha: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_sha:0a0c done (0) in 0s 89B
+advapi32:eventlog start dlls/advapi32/tests/eventlog.c
+eventlog.c:836: Tests skipped: Win7 fails when using incorrect event types
+eventlog.c:944: Tests skipped: There is no DWORD alignment enforced for UserSid on Vista, W2K8 or Win7
+0a40:eventlog: 582 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+advapi32:eventlog:0a40 done (0) in 2s 270B
+advapi32:lsa start dlls/advapi32/tests/lsa.c
+lsa.c:103: Running on a standalone system.
+lsa.c:148: Running on a standalone system.
+0a60:lsa: 97 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:lsa:0a60 done (0) in 0s 172B
+advapi32:perf start dlls/advapi32/tests/perf.c
+0a88:perf: 101 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:perf:0a88 done (0) in 0s 86B
+advapi32:registry start dlls/advapi32/tests/registry.c
+registry.c:1184: Tests skipped: Not running WoW64 tests on 32-bit
+registry.c:4649: 0: 009 has 6218 entries
+registry.c:4649: 1: CurrentLanguage has 6218 entries
+0a70:registry: 105606 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+advapi32:registry:0a70 done (0) in 1s 256B
+advapi32:security start dlls/advapi32/tests/security.c
+security.c:353: Tests skipped: 31: failed to convert CA.
+security.c:353: Tests skipped: 32: failed to convert DA.
+security.c:353: Tests skipped: 33: failed to convert DC.
+security.c:353: Tests skipped: 34: failed to convert DD.
+security.c:353: Line has been silenced after 4 occurrences
+security.c:2119: Tests skipped: Well known SID 38 not implemented
+security.c:2119: Tests skipped: Well known SID 39 not implemented
+security.c:2119: Tests skipped: Well known SID 40 not implemented
+security.c:2119: Tests skipped: Well known SID 41 not implemented
+security.c:2119: Line has been silenced after 4 occurrences
+security.c:1406: AccessCheck with MAXIMUM_ALLOWED got Access 0x00060019
+security.c:1824: TokenGroups:
+security.c:1838: S-1-5-21-592675385-427359502-1750328014-513, DOCKERW-P2H5NT8\None use: 2 attr: 0x00000007
+security.c:1838: S-1-1-0, \Everyone use: 5 attr: 0x00000007
+security.c:1838: S-1-5-114, NT AUTHORITY\Local account and member of Administrators group use: 5 attr: 0x00000007
+security.c:1838: S-1-5-32-544, BUILTIN\Administrators use: 4 attr: 0x0000000f
+security.c:1838: Line has been silenced after 4 occurrences
+security.c:1841: attr: 0xc0000007 LookupAccountSid failed with error 1332
+security.c:1855: TokenUser: S-1-5-21-592675385-427359502-1750328014-1001 attr: 0x00000000
+security.c:1869: TokenOwner: S-1-5-32-544
+security.c:1891: TokenLogon: S-1-5-5-0-52608
+security.c:1914: TokenPrivileges:
+security.c:1920: 	SeIncreaseQuotaPrivilege, 0x0
+security.c:1920: 	SeSecurityPrivilege, 0x0
+security.c:1920: 	SeTakeOwnershipPrivilege, 0x0
+security.c:1920: 	SeLoadDriverPrivilege, 0x0
+security.c:1920: Line has been silenced after 4 occurrences
+security.c:2353: Well Known SIDs:
+security.c:2364:  0: S-1-0-0 \NULL SID 5
+security.c:2364:  1: S-1-1-0 \Everyone 5
+security.c:2364:  2: S-1-2-0 \LOCAL 5
+security.c:2364:  3: S-1-3-0 \CREATOR OWNER 5
+security.c:2364: Line has been silenced after 4 occurrences
+security.c:2373:  21: not supported
+security.c:2373:  38: not supported
+security.c:2373:  39: not supported
+security.c:2373:  40: not supported
+security.c:2373: Line has been silenced after 4 occurrences
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014 DOCKERW-P2H5NT8\ 3
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-500 DOCKERW-P2H5NT8\Administrator 1
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-501 DOCKERW-P2H5NT8\Guest 1
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-512 couldn't be mapped
+security.c:2028:  S-1-5-21-592675385-427359502-1750328014-513 DOCKERW-P2H5NT8\None 2
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-514 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-515 couldn't be mapped
+security.c:2030:  S-1-5-21-592675385-427359502-1750328014-516 couldn't be mapped
+security.c:2030: Line has been silenced after 4 occurrences
+security.c:2028: Line has been silenced after 4 occurrences
+0b80:security: 22 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:7678: Well known SID 21 not supported
+security.c:7678: Well known SID 38 not supported
+security.c:7678: Well known SID 39 not supported
+security.c:7678: Well known SID 40 not supported
+security.c:7678: Line has been silenced after 4 occurrences
+0864:security: 14 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0b8c:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0b94:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0ba4:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0bac:security: 2 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:8582: Tests skipped: could not open process, error 5
+0bb4:security: 25 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0b68:security: Silenced 0 todos, 19 skips and 99 traces.
+0b68:security: 3682 tests executed (0 marked as todo, 0 as flaky, 0 failures), 9 skipped.
+advapi32:security:0b68 done (0) in 2s 4053B
+advapi32:service start dlls/advapi32/tests/service.c
+0bbc:service: 2774 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:service:0bbc done (0) in 6s 90B
+advpack:advpack start dlls/advpack/tests/advpack.c
+advpack.c:103: kernel32.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:110: kernel32.dll version: 6.3.9600.17031
+advpack.c:117: advpack.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:124: advpack.dll version: 11.0.9600.16384
+042c:advpack: 101 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:advpack:042c done (0) in 0s 350B
+advpack:files start dlls/advpack/tests/files.c
+08d0:files: 207 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:files:08d0 done (0) in 0s 87B
+advpack:install start dlls/advpack/tests/install.c
+0908:install: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:install:0908 done (0) in 0s 88B
+amstream:amstream start dlls/amstream/tests/amstream.c
+03fc:amstream: 4148 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+amstream:amstream:03fc done (0) in 4s 91B
+apphelp:apphelp start dlls/apphelp/tests/apphelp.c
+0bdc:apphelp: 15 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+apphelp:apphelp:0bdc done (0) in 0s 88B
+atl:atl_ax start dlls/atl/tests/atl_ax.c
+0bec:atl_ax: 12 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:atl_ax:0bec done (0) in 0s 87B
+atl:module start dlls/atl/tests/module.c
+0bf8:module: 550 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:module:0bf8 done (0) in 0s 88B
+atl:registrar start dlls/atl/tests/registrar.c
+0890:registrar: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:registrar:0890 done (0) in 0s 90B
+avifil32:api start dlls/avifil32/tests/api.c
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+0470:api: 228 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+avifil32:api:0470 done (0) in 0s 325B
+bcrypt:bcrypt start dlls/bcrypt/tests/bcrypt.c
+bcrypt.c:73: Tests skipped: BCryptGenRandom pseudo handles are not available
+bcrypt.c:432: Tests skipped: BCryptHash is not available
+bcrypt.c:2421: Test failed: got 0xc0000225
+bcrypt.c:2424: Test failed: got 0xc0000008
+bcrypt.c:2427: Test failed: got 0xc0000008
+bcrypt.c:2432: Test failed: got 0xc0000225
+bcrypt.c:2435: Test failed: got 0xc0000008
+bcrypt.c:2438: Test failed: got 0xc0000008
+bcrypt.c:2441: Test failed: got 0xc0000008
+bcrypt.c:2445: Test failed: got 0xc0000008
+bcrypt.c:2446: Test failed: got 0
+bcrypt.c:2449: Test failed: got 0xc0000008
+bcrypt.c:3280: Tests skipped: L"ECDH_P256": BCRYPT_KDF_RAW_SECRET not supported
+bcrypt.c:3280: Tests skipped: L"ECDH_P384": BCRYPT_KDF_RAW_SECRET not supported
+bcrypt.c:3280: Tests skipped: L"ECDH_P521": BCRYPT_KDF_RAW_SECRET not supported
+bcrypt.c:3473: Test failed: got 0xc0000225
+bcrypt.c:3473: this is the last test seen before the exception
+0bf4:bcrypt: unhandled exception c0000005 at 74A022D1
+bcrypt:bcrypt:0bf4 done (-1073741819) in 1s 973B
+bluetoothapis:device start dlls/bluetoothapis/tests/device.c
+device.c:123: Tests skipped: No Bluetooth radios found.
+device.c:208: Tests skipped: No Bluetooth radios found.
+device.c:365: Tests skipped: No Bluetooth radios found.
+device.c:417: Tests skipped: No Bluetooth radios found.
+08e0:device: 20 tests executed (0 marked as todo, 0 as flaky, 0 failures), 4 skipped.
+bluetoothapis:device:08e0 done (0) in 0s 315B
+bluetoothapis:gatt start dlls/bluetoothapis/tests/gatt.c
+gatt.c:195: Tests skipped: No LE devices found.
+gatt.c:229: Tests skipped: No LE devices found.
+0900:gatt: 6 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+bluetoothapis:gatt:0900 done (0) in 0s 182B
+bluetoothapis:radio start dlls/bluetoothapis/tests/radio.c
+radio.c:83: Tests skipped: No Bluetooth radios found.
+radio.c:284: Tests skipped: No Bluetooth radios found.
+radio.c:217: Tests skipped: No Bluetooth radios found.
+radio.c:199: Tests skipped: No Bluetooth radios found.
+radio.c:242: Tests skipped: No Bluetooth radios found.
+radio.c:275: Tests skipped: No Bluetooth radios found.
+0044:radio: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 6 skipped.
+bluetoothapis:radio:0044 done (0) in 0s 421B
+bluetoothapis:sdp start dlls/bluetoothapis/tests/sdp.c
+03bc:sdp: 161 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bluetoothapis:sdp:03bc done (0) in 0s 85B
+browseui:autocomplete start dlls/browseui/tests/autocomplete.c
+autocomplete.c:81: ACL(01320AF8): addref (2)
+autocomplete.c:81: ACL(01320AF8): addref (3)
+autocomplete.c:81: ACL(01320AF8): addref (4)
+autocomplete.c:81: ACL(01320B20): addref (2)
+autocomplete.c:81: Line has been silenced after 4 occurrences
+autocomplete.c:125: ACL(01320AF8): read 1 item(s)
+autocomplete.c:125: ACL(01320AF8): read 1 item(s)
+autocomplete.c:125: ACL(01320AF8): read 1 item(s)
+autocomplete.c:125: ACL(01320AF8): read 1 item(s)
+autocomplete.c:125: Line has been silenced after 4 occurrences
+autocomplete.c:159: ACL(01320AF8): Reset
+autocomplete.c:159: ACL(01320B20): Reset
+autocomplete.c:167: ACL(01320AF8): Expand
+autocomplete.c:167: ACL(01320B20): Expand
+autocomplete.c:167: ACL(01320AF8): Expand
+autocomplete.c:167: ACL(01320B20): Expand
+autocomplete.c:167: Line has been silenced after 4 occurrences
+autocomplete.c:91: ACL(01320AF8): release (3)
+autocomplete.c:91: ACL(01320AF8): release (2)
+autocomplete.c:91: ACL(01320AF8): release (1)
+autocomplete.c:159: ACL(01320B20): Reset
+autocomplete.c:91: ACL(01320B20): release (3)
+autocomplete.c:91: Line has been silenced after 4 occurrences
+036c:autocomplete: Silenced 0 todos, 0 skips and 25 traces.
+036c:autocomplete: 66 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:autocomplete:036c done (0) in 0s 1282B
+browseui:progressdlg start dlls/browseui/tests/progressdlg.c
+03d4:progressdlg: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:progressdlg:03d4 done (0) in 0s 91B
+cabinet:extract start dlls/cabinet/tests/extract.c
+03c0:extract: 347 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:extract:03c0 done (0) in 0s 89B
+cabinet:fdi start dlls/cabinet/tests/fdi.c
+fdi.c:751: mem_open(memory\block,8000,180) => 014127A8
+fdi.c:751: mem_open(memory\block,8000,180) => 014127A8
+fdi.c:751: mem_open(memory\block,8000,180) => 014127C0
+fdi.c:843: mem_notify(0,01414584)
+fdi.c:843: mem_notify(5,01414584)
+fdi.c:843: mem_notify(5,01414584)
+0104:fdi: 255 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:fdi:0104 done (0) in 0s 358B
+cfgmgr32:cfgmgr32 start dlls/cfgmgr32/tests/cfgmgr32.c
+08f0:cfgmgr32: 16874 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cfgmgr32:cfgmgr32:08f0 done (0) in 1s 92B
+cmd.exe:batch start programs/cmd/tests/batch.c
+batch.c:485: running TEST_BUILTINS.BAT test...
+batch.c:485: running TEST_BUILTINS.CMD test...
+batch.c:485: running TEST_CMDLINE.CMD test...
+07c0:batch: 2645 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:batch:07c0 done (0) in 14s 231B
+cmd.exe:directory start programs/cmd/tests/directory.c
+0320:directory: 24 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:directory:0320 done (0) in 0s 90B
+combase:roapi start dlls/combase/tests/roapi.c
+0884:roapi: 295 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+combase:roapi:0884 done (0) in 1s 87B
+combase:string start dlls/combase/tests/string.c
+string.c:677: Test failed: got size 40136936 != 34
+string.c:677: this is the last test seen before the exception
+0b8c:string: unhandled exception c0000005 at 77079CFC
+combase:string:0b8c done (-1073741819) in 0s 170B
+comcat:comcat start dlls/comcat/tests/comcat.c
+09dc:comcat: 9 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comcat:comcat:09dc done (0) in 0s 86B
+comctl32:animate start dlls/comctl32/tests/animate.c
+0b90:animate: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:animate:0b90 done (0) in 0s 88B
+comctl32:button start dlls/comctl32/tests/button.c
+v6util.h:92: created cc6.manifest
+button.c:1091: Test failed: WM_LBUTTONDOWN on a button: in msg 0x00f3 expecting wParam 0x1 got 0x0
+button.c:1091: Test failed: WM_LBUTTONDOWN on a button: the msg sequence is not complete: expected 800a - actual 0000
+button.c:1091: Failed sequence WM_LBUTTONDOWN on a button:
+button.c:1091:   0: expected: 0201 - actual: 0201 wp 00000000 lp 00000000
+button.c:1091:   1: expected: 0281 - actual: 0281 wp 00000001 lp c000000f
+button.c:1091:   2: expected: 0282 - actual: 0282 wp 00000002 lp 00000000
+button.c:1091: Line has been silenced after 4 occurrences
+button.c:1094: Test failed: WM_LBUTTONUP on a button: the msg 0x00f3 was expected, but got msg 0x0215 instead
+button.c:1094: Failed sequence WM_LBUTTONUP on a button:
+button.c:1094:   0: expected: 0202 - actual: 0202 wp 00000000 lp 00000000
+button.c:1094:   1: expected: 00f3 - actual: 0215 wp 00000000 lp 00000000
+button.c:1094:   2: expected: msg 800a - actual: nothing
+0b98:button: Silenced 0 todos, 0 skips and 4 traces.
+0b98:button: 14139 tests executed (0 marked as todo, 0 as flaky, 3 failures), 0 skipped.
+comctl32:button:0b98 done (3) in 10s 1119B
+comctl32:combo start dlls/comctl32/tests/combo.c
+v6util.h:92: created cc6.manifest
+0ba4:combo: 1002 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:combo:0ba4 done (0) in 5s 123B
+comctl32:datetime start dlls/comctl32/tests/datetime.c
+v6util.h:92: created cc6.manifest
+0b94:datetime: 943 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:datetime:0b94 done (0) in 0s 125B
+comctl32:dpa start dlls/comctl32/tests/dpa.c
+v6util.h:92: created cc6.manifest
+0ba8:dpa: 853 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:dpa:0ba8 done (0) in 0s 120B
+comctl32:edit start dlls/comctl32/tests/edit.c
+v6util.h:92: created cc6.manifest
+edit.c:774: EDIT: Single line
+edit.c:788: EDIT: Single line want returns
+edit.c:801: EDIT: Multiline line
+edit.c:814: EDIT: Multi line want returns
+edit.c:855: EDIT: SETTEXT atomicity
+edit.c:1052: EDIT: Test notifications
+edit.c:1062: EDIT: Single line, no ES_AUTOHSCROLL
+edit.c:1112: EDIT: Single line, ES_AUTOHSCROLL
+edit.c:1158: EDIT: Multline, no ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1179: Test failed: wrong text length, expected 1, got 0
+edit.c:1180: Test failed: expected 0 EN_MAXTEXT notifications, got 1
+edit.c:1194: Test failed: text should have been truncated to limit, expected 5, got 0
+edit.c:1205: EDIT: Multline, ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1221: Test failed: wrong text length, expected 1, got 0
+edit.c:1222: Test failed: expected 0 EN_MAXTEXT notifications, got 1
+edit.c:1236: Test failed: text should have been truncated to limit, expected 5, got 0
+edit.c:1247: EDIT: Multline, ES_AUTOHSCROLL and ES_AUTOVSCROLL
+edit.c:1540: EDIT: buffer limit for single-line
+edit.c:1550: EDIT: buffer limit for multi-line
+edit.c:2027: Tests skipped: Ume P Gothic is not available, skipping some margin tests
+edit.c:2306: EDIT: Using old model for height computation
+edit.c:2308: EDIT: Text position (Single line)
+edit.c:2310: EDIT: Text position (Multi line)
+edit.c:2926: EDIT: Oversized font (Multi line)
+edit.c:2944: Test failed: Wrong contents of edit: 
+edit.c:2948: Test failed: EM_POSFROMCHAR failed index 0
+edit.c:2950: Test failed: EM_POSFROMCHAR failed index 1
+edit.c:2952: Test failed: EM_POSFROMCHAR failed index 2
+edit.c:3156: EDIT: EM_GETHANDLE
+0b88:edit: 267460 tests executed (0 marked as todo, 0 as flaky, 10 failures), 1 skipped.
+comctl32:edit:0b88 done (10) in 1s 1731B
+comctl32:header start dlls/comctl32/tests/header.c
+header.c:1763: customdraw height: 18 (dpi: 96)
+header.c:1557: Test failed: Tests will fail as header size is 662x18 instead of 670x18
+v6util.h:92: created cc6.manifest
+00e0:header: 1132 tests executed (0 marked as todo, 0 as flaky, 1 failure), 0 skipped.
+comctl32:header:00e0 done (1) in 0s 259B
+comctl32:imagelist start dlls/comctl32/tests/imagelist.c
+v6util.h:92: created cc6.manifest
+026c:imagelist: 11176 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:imagelist:026c done (0) in 0s 128B
+comctl32:ipaddress start dlls/comctl32/tests/ipaddress.c
+v6util.h:92: created cc6.manifest
+02c4:ipaddress: 91 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:ipaddress:02c4 done (0) in 0s 125B
+comctl32:listbox start dlls/comctl32/tests/listbox.c
+v6util.h:92: created cc6.manifest
+09ac:listbox: 7852 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listbox:09ac done (0) in 2s 125B
+comctl32:listview start dlls/comctl32/tests/listview.c
+v6util.h:92: created cc6.manifest
+05e4:listview: 11765 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listview:05e4 done (0) in 5s 127B
+comctl32:misc start dlls/comctl32/tests/misc.c
+v6util.h:92: created cc6.manifest
+0944:misc: 2302 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:misc:0944 done (0) in 24s 122B
+comctl32:monthcal start dlls/comctl32/tests/monthcal.c
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800002
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800002
+monthcal.c:657: Line has been silenced after 4 occurrences
+v6util.h:92: created cc6.manifest
+06c0:monthcal: Silenced 0 todos, 0 skips and 4 traces.
+06c0:monthcal: 2230 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:monthcal:06c0 done (0) in 0s 494B
+comctl32:mru start dlls/comctl32/tests/mru.c
+0314:mru: 94 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:mru:0314 done (0) in 0s 84B
+comctl32:pager start dlls/comctl32/tests/pager.c
+090c:pager: 2958 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:pager:090c done (0) in 0s 88B
+comctl32:progress start dlls/comctl32/tests/progress.c
+v6util.h:92: created cc6.manifest
+progress.c:437: Test failed: PBM_SETSTATE: the msg sequence is not complete: expected 0014 - actual 0000
+progress.c:437: Failed sequence PBM_SETSTATE:
+progress.c:437:   0: expected: 0410 - actual: 0410 wp 00000003 lp 00000000
+progress.c:437:   1: expected: 800a - actual: 800a wp fffffffc lp 00000000
+progress.c:437:   2: expected: 000f - actual: 000f wp 00000000 lp 00000000
+progress.c:437: Line has been silenced after 4 occurrences
+progress.c:437: Test failed: PBM_SETSTATE: the msg sequence is not complete: expected 0014 - actual 0000
+0af0:progress: Silenced 0 todos, 0 skips and 6 traces.
+0af0:progress: 343 tests executed (0 marked as todo, 0 as flaky, 2 failures), 0 skipped.
+comctl32:progress:0af0 done (2) in 0s 728B
+comctl32:propsheet start dlls/comctl32/tests/propsheet.c
+comctl32:propsheet:0a18 done (-1073740940) in 0s 0B
+comctl32:rebar start dlls/comctl32/tests/rebar.c
+rebar.c:510: Test failed: invalid rect (client) (0,0)-(664,0) - expected (0,0)-(672,0)
+rebar.c:518: Test failed: invalid rect (client) (0,0)-(664,4) - expected (0,0)-(672,4)
+rebar.c:518: Test failed: invalid rect (band) (0,0)-(664,4) - expected (0,0)-(672,4)
+rebar.c:523: Test failed: invalid rect (client) (0,0)-(664,4) - expected (0,0)-(672,4)
+rebar.c:523: Test failed: invalid rect (band) (200,0)-(664,4) - expected (200,0)-(672,4)
+rebar.c:531: Test failed: invalid rect (client) (0,0)-(664,30) - expected (0,0)-(672,30)
+rebar.c:531: Test failed: invalid rect (band) (400,0)-(664,30) - expected (400,0)-(672,30)
+rebar.c:537: Test failed: invalid rect (client) (0,0)-(664,34) - expected (0,0)-(672,34)
+rebar.c:537: Test failed: invalid rect (band) (400,0)-(600,34) - expected (400,0)-(604,34)
+rebar.c:537: Test failed: invalid rect (band) (600,0)-(664,34) - expected (604,0)-(672,34)
+rebar.c:540: Test failed: invalid rect (client) (0,0)-(664,34) - expected (0,0)-(672,34)
+rebar.c:540: Test failed: invalid rect (band) (400,0)-(600,34) - expected (400,0)-(604,34)
+rebar.c:540: Test failed: invalid rect (band) (600,0)-(664,34) - expected (604,0)-(672,34)
+rebar.c:544: Test failed: invalid rect (client) (0,0)-(664,34) - expected (0,0)-(672,34)
+rebar.c:544: Test failed: invalid rect (band) (606,0)-(664,34) - expected (606,0)-(672,34)
+rebar.c:553: Test failed: invalid rect (client) (0,0)-(664,70) - expected (0,0)-(672,70)
+rebar.c:553: Test failed: invalid rect (band) (0,0)-(134,34) - expected (0,0)-(142,34)
+rebar.c:553: Test failed: invalid rect (band) (136,0)-(549,34) - expected (144,0)-(557,34)
+rebar.c:553: Test failed: invalid rect (band) (551,0)-(664,34) - expected (559,0)-(672,34)
+rebar.c:553: Test failed: invalid rect (band) (202,36)-(664,70) - expected (202,36)-(672,70)
+rebar.c:558: Test failed: invalid rect (client) (0,0)-(664,34) - expected (0,0)-(672,34)
+rebar.c:558: Test failed: invalid rect (band) (0,0)-(159,34) - expected (0,0)-(167,34)
+rebar.c:558: Test failed: invalid rect (band) (161,0)-(574,34) - expected (169,0)-(582,34)
+rebar.c:558: Test failed: invalid rect (band) (576,0)-(619,34) - expected (584,0)-(627,34)
+rebar.c:558: Test failed: invalid rect (band) (621,0)-(664,34) - expected (629,0)-(672,34)
+rebar.c:561: Test failed: invalid rect (client) (0,0)-(664,34) - expected (0,0)-(672,34)
+rebar.c:561: Test failed: invalid rect (band) (0,0)-(159,34) - expected (0,0)-(167,34)
+rebar.c:561: Test failed: invalid rect (band) (161,0)-(574,34) - expected (169,0)-(582,34)
+rebar.c:561: Test failed: invalid rect (band) (576,0)-(619,34) - expected (584,0)-(627,34)
+rebar.c:561: Test failed: invalid rect (band) (621,0)-(664,34) - expected (629,0)-(672,34)
+rebar.c:563: Test failed: invalid rect (client) (0,0)-(664,34) - expected (0,0)-(672,34)
+rebar.c:563: Test failed: invalid rect (band) (617,0)-(664,34) - expected (617,0)-(672,34)
+rebar.c:565: Test failed: invalid rect (client) (0,0)-(664,34) - expected (0,0)-(672,34)
+rebar.c:565: Test failed: invalid rect (band) (0,0)-(596,34) - expected (0,0)-(604,34)
+rebar.c:565: Test failed: invalid rect (band) (598,0)-(664,34) - expected (606,0)-(672,34)
+rebar.c:575: Test failed: invalid rect (client) (0,0)-(664,40) - expected (0,0)-(672,40)
+rebar.c:575: Test failed: invalid rect (band) (424,0)-(664,20) - expected (424,0)-(672,20)
+rebar.c:575: Test failed: invalid rect (band) (0,20)-(664,40) - expected (0,20)-(672,40)
+rebar.c:577: Test failed: invalid rect (client) (0,0)-(664,40) - expected (0,0)-(672,40)
+rebar.c:577: Test failed: invalid rect (band) (424,0)-(664,20) - expected (424,0)-(672,20)
+rebar.c:577: Test failed: invalid rect (band) (0,20)-(664,40) - expected (0,20)-(672,40)
+rebar.c:579: Test failed: invalid rect (client) (0,0)-(664,40) - expected (0,0)-(672,40)
+rebar.c:579: Test failed: invalid rect (band) (114,0)-(320,20) - expected (114,0)-(328,20)
+rebar.c:579: Test failed: rbi.cx value 206 expected 214
+rebar.c:579: Test failed: invalid rect (band) (320,0)-(503,20) - expected (328,0)-(511,20)
+rebar.c:579: Test failed: invalid rect (band) (503,0)-(664,20) - expected (511,0)-(672,20)
+rebar.c:579: Test failed: invalid rect (band) (0,20)-(664,40) - expected (0,20)-(672,40)
+rebar.c:581: Test failed: invalid rect (client) (0,0)-(664,40) - expected (0,0)-(672,40)
+rebar.c:581: Test failed: invalid rect (band) (167,0)-(503,20) - expected (167,0)-(511,20)
+rebar.c:581: Test failed: rbi.cx value 336 expected 344
+rebar.c:581: Test failed: invalid rect (band) (503,0)-(664,20) - expected (511,0)-(672,20)
+rebar.c:581: Test failed: invalid rect (band) (0,20)-(664,40) - expected (0,20)-(672,40)
+rebar.c:583: Test failed: invalid rect (client) (0,0)-(664,40) - expected (0,0)-(672,40)
+rebar.c:583: Test failed: invalid rect (band) (114,0)-(320,20) - expected (114,0)-(328,20)
+rebar.c:583: Test failed: rbi.cx value 206 expected 214
+rebar.c:583: Test failed: invalid rect (band) (320,0)-(503,20) - expected (328,0)-(511,20)
+rebar.c:583: Test failed: invalid rect (band) (503,0)-(664,20) - expected (511,0)-(672,20)
+rebar.c:583: Test failed: invalid rect (band) (0,20)-(664,40) - expected (0,20)-(672,40)
+rebar.c:585: Test failed: invalid rect (client) (0,0)-(664,40) - expected (0,0)-(672,40)
+rebar.c:585: Test failed: invalid rect (band) (114,0)-(320,20) - expected (114,0)-(328,20)
+rebar.c:585: Test failed: rbi.cx value 206 expected 214
+rebar.c:585: Test failed: invalid rect (band) (320,0)-(503,20) - expected (328,0)-(511,20)
+rebar.c:585: Test failed: invalid rect (band) (503,0)-(664,20) - expected (511,0)-(672,20)
+rebar.c:585: Test failed: invalid rect (band) (0,20)-(664,40) - expected (0,20)-(672,40)
+rebar.c:597: Test failed: invalid rect (client) (0,0)-(664,56) - expected (0,0)-(672,56)
+rebar.c:597: Test failed: invalid rect (band) (114,0)-(320,28) - expected (114,0)-(328,28)
+rebar.c:597: Test failed: rbi.cx value 206 expected 214
+rebar.c:597: Test failed: invalid rect (band) (320,0)-(503,28) - expected (328,0)-(511,28)
+rebar.c:597: Test failed: invalid rect (band) (503,0)-(664,28) - expected (511,0)-(672,28)
+rebar.c:597: Test failed: invalid rect (band) (0,28)-(664,56) - expected (0,28)-(672,56)
+rebar.c:602: Test failed: invalid rect (client) (0,0)-(664,40) - expected (0,0)-(672,40)
+rebar.c:602: Test failed: invalid rect (band) (114,0)-(320,20) - expected (114,0)-(328,20)
+rebar.c:602: Test failed: rbi.cx value 206 expected 214
+rebar.c:602: Test failed: invalid rect (band) (320,0)-(503,20) - expected (328,0)-(511,20)
+rebar.c:602: Test failed: invalid rect (band) (503,0)-(664,20) - expected (511,0)-(672,20)
+rebar.c:602: Test failed: invalid rect (band) (0,20)-(664,40) - expected (0,20)-(672,40)
+rebar.c:607: Test failed: invalid rect (client) (0,0)-(664,56) - expected (0,0)-(672,56)
+rebar.c:607: Test failed: invalid rect (band) (114,0)-(320,28) - expected (114,0)-(328,28)
+rebar.c:607: Test failed: rbi.cx value 206 expected 214
+rebar.c:607: Test failed: invalid rect (band) (320,0)-(503,28) - expected (328,0)-(511,28)
+rebar.c:607: Test failed: invalid rect (band) (503,0)-(664,28) - expected (511,0)-(672,28)
+rebar.c:607: Test failed: invalid rect (band) (0,28)-(664,56) - expected (0,28)-(672,56)
+rebar.c:614: Test failed: invalid rect (client) (0,0)-(664,0) - expected (0,0)-(672,0)
+rebar.c:635: Test failed: invalid rect (client) (0,0)-(664,65) - expected (0,0)-(672,65)
+rebar.c:635: Test failed: invalid rect (band) (180,0)-(664,65) - expected (180,0)-(672,65)
+rebar.c:642: Test failed: invalid rect (client) (0,0)-(0,218) - expected (0,0)-(0,226)
+rebar.c:653: Test failed: invalid rect (client) (0,0)-(65,218) - expected (0,0)-(65,226)
+rebar.c:653: Test failed: invalid rect (band) (0,0)-(218,65) - expected (0,0)-(226,65)
+rebar.c:658: Test failed: invalid rect (client) (0,0)-(65,218) - expected (0,0)-(65,226)
+rebar.c:658: Test failed: invalid rect (band) (90,0)-(218,65) - expected (90,0)-(226,65)
+rebar.c:665: Test failed: invalid rect (client) (0,0)-(65,218) - expected (0,0)-(65,226)
+rebar.c:665: Test failed: invalid rect (band) (90,0)-(155,65) - expected (90,0)-(163,65)
+rebar.c:665: Test failed: invalid rect (band) (155,0)-(218,65) - expected (163,0)-(226,65)
+rebar.c:888: Test failed: invalid rect (client) (0,2)-(664,2) - expected (0,2)-(672,2)
+rebar.c:893: Test failed: invalid rect (client) (0,2)-(664,22) - expected (0,2)-(672,22)
+rebar.c:895: Test failed: invalid rect (client) (0,2)-(664,22) - expected (0,2)-(672,22)
+rebar.c:897: Test failed: invalid rect (client) (0,2)-(664,22) - expected (0,2)-(672,22)
+rebar.c:916: Test failed: invalid rect (client) (0,2)-(664,22) - expected (0,2)-(672,22)
+rebar.c:919: Test failed: invalid rect (client) (0,2)-(664,22) - expected (0,2)-(672,22)
+rebar.c:888: Test failed: invalid rect (client) (0,0)-(664,0) - expected (0,0)-(672,0)
+rebar.c:893: Test failed: invalid rect (client) (0,0)-(664,20) - expected (0,0)-(672,20)
+rebar.c:895: Test failed: invalid rect (client) (0,0)-(664,20) - expected (0,0)-(672,20)
+rebar.c:897: Test failed: invalid rect (client) (0,0)-(664,20) - expected (0,0)-(672,20)
+rebar.c:916: Test failed: invalid rect (client) (0,0)-(664,20) - expected (0,0)-(672,20)
+rebar.c:919: Test failed: invalid rect (client) (0,0)-(664,20) - expected (0,0)-(672,20)
+rebar.c:888: Test failed: invalid rect (client) (0,218)-(664,218) - expected (0,226)-(672,226)
+rebar.c:893: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:895: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:897: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:916: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:919: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:888: Test failed: invalid rect (client) (0,218)-(664,218) - expected (0,226)-(672,226)
+rebar.c:893: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:895: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:897: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:916: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:919: Test failed: invalid rect (client) (0,198)-(664,218) - expected (0,206)-(672,226)
+rebar.c:888: Test failed: invalid rect (client) (2,0)-(2,218) - expected (2,0)-(2,226)
+rebar.c:893: Test failed: invalid rect (client) (2,0)-(22,218) - expected (2,0)-(22,226)
+rebar.c:895: Test failed: invalid rect (client) (2,0)-(22,218) - expected (2,0)-(22,226)
+rebar.c:897: Test failed: invalid rect (client) (2,0)-(22,218) - expected (2,0)-(22,226)
+rebar.c:916: Test failed: invalid rect (client) (2,0)-(22,218) - expected (2,0)-(22,226)
+rebar.c:919: Test failed: invalid rect (client) (2,0)-(22,218) - expected (2,0)-(22,226)
+rebar.c:888: Test failed: invalid rect (client) (664,0)-(664,218) - expected (672,0)-(672,226)
+rebar.c:893: Test failed: invalid rect (client) (644,0)-(664,218) - expected (652,0)-(672,226)
+rebar.c:895: Test failed: invalid rect (client) (644,0)-(664,218) - expected (652,0)-(672,226)
+rebar.c:897: Test failed: invalid rect (client) (644,0)-(664,218) - expected (652,0)-(672,226)
+rebar.c:916: Test failed: invalid rect (client) (644,0)-(664,218) - expected (652,0)-(672,226)
+rebar.c:919: Test failed: invalid rect (client) (644,0)-(664,218) - expected (652,0)-(672,226)
+rebar.c:888: Test failed: invalid rect (client) (0,5)-(664,5) - expected (0,5)-(672,5)
+rebar.c:893: Test failed: invalid rect (client) (0,5)-(664,25) - expected (0,5)-(672,25)
+rebar.c:895: Test failed: invalid rect (client) (0,10)-(664,30) - expected (0,10)-(672,30)
+rebar.c:897: Test failed: invalid rect (client) (0,0)-(664,20) - expected (0,0)-(672,20)
+rebar.c:916: Test failed: invalid rect (client) (0,0)-(664,20) - expected (0,0)-(672,20)
+rebar.c:919: Test failed: invalid rect (client) (0,0)-(664,20) - expected (0,0)-(672,20)
+rebar.c:888: Test failed: invalid rect (client) (10,0)-(10,218) - expected (10,0)-(10,226)
+rebar.c:893: Test failed: invalid rect (client) (10,0)-(30,218) - expected (10,0)-(30,226)
+rebar.c:895: Test failed: invalid rect (client) (10,0)-(30,218) - expected (10,0)-(30,226)
+rebar.c:897: Test failed: invalid rect (client) (0,0)-(20,218) - expected (0,0)-(20,226)
+rebar.c:916: Test failed: invalid rect (client) (0,0)-(20,218) - expected (0,0)-(20,226)
+rebar.c:919: Test failed: invalid rect (client) (0,0)-(20,218) - expected (0,0)-(20,226)
+rebar.c:888: Test failed: invalid rect (client) (-2,0)-(666,4) - expected (-2,0)-(674,4)
+rebar.c:893: Test failed: invalid rect (client) (-2,0)-(666,24) - expected (-2,0)-(674,24)
+rebar.c:895: Test failed: invalid rect (client) (-2,0)-(666,24) - expected (-2,0)-(674,24)
+rebar.c:897: Test failed: invalid rect (client) (-2,0)-(666,24) - expected (-2,0)-(674,24)
+rebar.c:916: Test failed: invalid rect (client) (-2,0)-(666,24) - expected (-2,0)-(674,24)
+rebar.c:919: Test failed: invalid rect (client) (-2,0)-(666,24) - expected (-2,0)-(674,24)
+rebar.c:888: Test failed: invalid rect (client) (-2,5)-(666,9) - expected (-2,5)-(674,9)
+rebar.c:893: Test failed: invalid rect (client) (-2,5)-(666,29) - expected (-2,5)-(674,29)
+rebar.c:895: Test failed: invalid rect (client) (-2,10)-(666,34) - expected (-2,10)-(674,34)
+rebar.c:897: Test failed: invalid rect (client) (-2,0)-(666,24) - expected (-2,0)-(674,24)
+rebar.c:916: Test failed: invalid rect (client) (-2,0)-(666,24) - expected (-2,0)-(674,24)
+rebar.c:919: Test failed: invalid rect (client) (-2,0)-(666,24) - expected (-2,0)-(674,24)
+0a74:rebar: 1355 tests executed (0 marked as todo, 0 as flaky, 153 failures), 0 skipped.
+comctl32:rebar:0a74 done (153) in 0s 13819B
+comctl32:static start dlls/comctl32/tests/static.c
+v6util.h:92: created cc6.manifest
+static.c:88: Testing style 0x0
+static.c:88: Testing style 0x3
+static.c:88: Testing style 0x4
+static.c:88: Testing style 0x6
+static.c:88: Line has been silenced after 4 occurrences
+0874:static: Silenced 0 todos, 0 skips and 11 traces.
+0874:static: 506 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:static:0874 done (0) in 1s 363B
+comctl32:status start dlls/comctl32/tests/status.c
+status.c:115: Test failed: Expected 672, got 664
+status.c:116: Test failed: Expected 226, got 218
+status.c:196: Test failed: Expected rect (0,0)-(672,42), got (0,0)-(664,42)
+status.c:203: Test failed: Expected rect (0,0)-(672,42), got (0,0)-(664,42)
+status.c:209: Test failed: Expected rect (0,0)-(672,42), got (0,0)-(664,42)
+status.c:214: Test failed: Expected rect (0,0)-(672,42), got (0,0)-(664,42)
+status.c:217: Test failed: Expected rect (0,0)-(672,62), got (0,0)-(664,62)
+status.c:221: Test failed: Expected rect (0,0)-(672,62), got (0,0)-(664,62)
+status.c:224: Test failed: Expected rect (0,0)-(672,42), got (0,0)-(664,42)
+status.c:229: Test failed: Expected rect (0,0)-(672,32), got (0,0)-(664,32)
+status.c:244: dpi=96 (min height: 24 or 20) SM_CYSIZE: 22
+06a8:status: 7217 tests executed (0 marked as todo, 0 as flaky, 10 failures), 0 skipped.
+comctl32:status:06a8 done (10) in 6s 865B
+comctl32:subclass start dlls/comctl32/tests/subclass.c
+03ac:subclass: 288 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:subclass:03ac done (0) in 0s 90B
+comctl32:syslink start dlls/comctl32/tests/syslink.c
+v6util.h:92: created cc6.manifest
+0a68:syslink: 175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:syslink:0a68 done (0) in 0s 124B
+comctl32:tab start dlls/comctl32/tests/tab.c
+tab.c:695: Testing with the 'System' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Line has been silenced after 4 occurrences
+tab.c:543: Line has been silenced after 4 occurrences
+tab.c:544: Line has been silenced after 4 occurrences
+tab.c:551: Line has been silenced after 4 occurrences
+tab.c:564: Line has been silenced after 4 occurrences
+tab.c:572: Line has been silenced after 4 occurrences
+tab.c:587: Line has been silenced after 4 occurrences
+tab.c:607: Line has been silenced after 4 occurrences
+tab.c:641: Line has been silenced after 4 occurrences
+tab.c:695: Testing with the 'Arial' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Testing with the 'Tahoma' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Testing with the 'Courier New' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Line has been silenced after 4 occurrences
+tab.c:699: Line has been silenced after 4 occurrences
+tab.c:701: Line has been silenced after 4 occurrences
+tab.c:703: Line has been silenced after 4 occurrences
+tab.c:705: Line has been silenced after 4 occurrences
+tab.c:707: Line has been silenced after 4 occurrences
+0348:tab: Silenced 0 todos, 0 skips and 195 traces.
+0348:tab: 6113 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tab:0348 done (0) in 0s 3668B
+comctl32:taskdialog start dlls/comctl32/tests/taskdialog.c
+v6util.h:92: created cc6.manifest
+0878:taskdialog: 2391 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:taskdialog:0878 done (0) in 2s 128B
+comctl32:toolbar start dlls/comctl32/tests/toolbar.c
+v6util.h:92: created cc6.manifest
+0b38:toolbar: 2131 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:toolbar:0b38 done (0) in 0s 125B
+comctl32:tooltips start dlls/comctl32/tests/tooltips.c
+v6util.h:92: created cc6.manifest
+0a94:tooltips: 1165 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tooltips:0a94 done (0) in 4s 126B
+comctl32:trackbar start dlls/comctl32/tests/trackbar.c
+v6util.h:92: created cc6.manifest
+0280:trackbar: 3530 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:trackbar:0280 done (0) in 0s 126B
+comctl32:treeview start dlls/comctl32/tests/treeview.c
+v6util.h:92: created cc6.manifest
+09e0:treeview: 7133 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:treeview:09e0 done (0) in 1s 126B
+comctl32:updown start dlls/comctl32/tests/updown.c
+08dc:updown: 766 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:updown:08dc done (0) in 0s 88B
+comdlg32:filedlg start dlls/comdlg32/tests/filedlg.c
+filedlg.c:300: this is the last test seen before the exception
+0884:filedlg: unhandled exception c0000005 at 00DD19BD
+comdlg32:filedlg:0884 done (-1073741819) in 0s 120B
+comdlg32:finddlg start dlls/comdlg32/tests/finddlg.c
+05a0:finddlg: 43 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:finddlg:05a0 done (0) in 0s 88B
+comdlg32:fontdlg start dlls/comdlg32/tests/fontdlg.c
+0768:fontdlg: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:fontdlg:0768 done (0) in 0s 88B
+comdlg32:itemdlg start dlls/comdlg32/tests/itemdlg.c
+itemdlg.c:1144: Testing FileOpenDialog (advise)
+itemdlg.c:1152: Testing FileSaveDialog (advise)
+09d4:itemdlg: 1279 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:itemdlg:09d4 done (0) in 4s 188B
+comdlg32:printdlg start dlls/comdlg32/tests/printdlg.c
+printdlg.c:219: driver 'winspool' device 'Microsoft XPS Document Writer' port 'PORTPROMPT:'
+printdlg.c:632: Tests skipped: interactive PrintDlgEx tests (set WINETEST_INTERACTIVE=1)
+05e4:printdlg: 53 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:printdlg:05e4 done (0) in 0s 272B
+compstui:compstui start dlls/compstui/tests/compstui.c
+0b54:compstui: 146 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+compstui:compstui:0b54 done (0) in 0s 90B
+comsvcs:comsvcs start dlls/comsvcs/tests/comsvcs.c
+050c:comsvcs: 117 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:comsvcs:050c done (0) in 0s 89B
+comsvcs:property start dlls/comsvcs/tests/property.c
+03d0:property: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:property:03d0 done (0) in 0s 89B
+concrt140:concrt140 start dlls/concrt140/tests/concrt140.c
+concrt140.c:105: Tests skipped: concrt140.dll not installed
+0944:concrt140: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+concrt140:concrt140:0944 done (0) in 0s 150B
+conhost.exe:tty start programs/conhost/tests/tty.c
+tty.c:1920: Tests skipped: CreatePseudoConsole is not available
+08e4:tty: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+conhost.exe:tty:08e4 done (0) in 0s 148B
+credui:credui start dlls/credui/tests/credui.c
+06c0:credui: 7 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+credui:credui:06c0 done (0) in 0s 86B
+crypt32:base64 start dlls/crypt32/tests/base64.c
+0314:base64: 3723 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:base64:0314 done (0) in 0s 89B
+crypt32:cert start dlls/crypt32/tests/cert.c
+0950:cert: 634 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:cert:0950 done (0) in 0s 86B
+crypt32:chain start dlls/crypt32/tests/chain.c
+chain.c:4577: info[0] = 102
+chain.c:4577: info[1] = 102
+chain.c:4577: info[2] = 10c
+0a74:chain: 2936 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:chain:0a74 done (0) in 1s 175B
+crypt32:crl start dlls/crypt32/tests/crl.c
+0410:crl: 140 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:crl:0410 done (0) in 0s 85B
+crypt32:ctl start dlls/crypt32/tests/ctl.c
+075c:ctl: 37 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:ctl:075c done (0) in 0s 84B
+crypt32:encode start dlls/crypt32/tests/encode.c
+0b24:encode: 6326 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:encode:0b24 done (0) in 0s 89B
+crypt32:main start dlls/crypt32/tests/main.c
+01f8:main: 100 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:main:01f8 done (0) in 0s 86B
+crypt32:message start dlls/crypt32/tests/message.c
+0320:message: 155 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:message:0320 done (0) in 0s 89B
+crypt32:msg start dlls/crypt32/tests/msg.c
+09f4:msg: 1027 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:msg:09f4 done (0) in 0s 86B
+crypt32:object start dlls/crypt32/tests/object.c
+0a68:object: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:object:0a68 done (0) in 0s 87B
+crypt32:oid start dlls/crypt32/tests/oid.c
+0988:oid: 175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:oid:0988 done (0) in 0s 85B
+crypt32:protectdata start dlls/crypt32/tests/protectdata.c
+012c:protectdata: 42 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:protectdata:012c done (0) in 0s 92B
+crypt32:sip start dlls/crypt32/tests/sip.c
+0348:sip: 50 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:sip:0348 done (0) in 0s 84B
+crypt32:store start dlls/crypt32/tests/store.c
+0834:store: 592 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:store:0834 done (0) in 0s 87B
+crypt32:str start dlls/crypt32/tests/str.c
+0a88:str: 1592 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:str:0a88 done (0) in 0s 86B
+cryptext:cryptext start dlls/cryptext/tests/cryptext.c
+cryptext.c:42: Tests skipped: CryptExtOpenCER test needs user interaction
+097c:cryptext: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+cryptext:cryptext:097c done (0) in 0s 163B
+cryptnet:cryptnet start dlls/cryptnet/tests/cryptnet.c
+cryptnet.c:342: Tests skipped: File URLs not supported
+06c8:cryptnet: 125 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+cryptnet:cryptnet:06c8 done (0) in 0s 146B
+cryptowinrt:crypto start dlls/cryptowinrt/tests/crypto.c
+crypto.c:319: Tests skipped: L"Windows.Security.Credentials.KeyCredentialManager" runtimeclass not registered, skipping tests.
+0b14:crypto: 25 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+cryptowinrt:crypto:0b14 done (0) in 0s 215B
+cryptui:cryptui start dlls/cryptui/tests/cryptui.c
+0300:cryptui: 30 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptui:cryptui:0300 done (0) in 0s 88B
+cryptxml:cryptxml start dlls/cryptxml/tests/cryptxml.c
+0678:cryptxml: 43 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptxml:cryptxml:0678 done (0) in 0s 89B
+d2d1:d2d1 start dlls/d2d1/tests/d2d1.c
+d2d1.c:10408: Tests skipped: Failed to create REF d3d device, hr 0x80004002.
+d2d1.c:11304: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:11304: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:12997: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:12997: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:15796: Tests skipped: ID2D1Factory3 is not supported.
+d2d1.c:15796: Tests skipped: ID2D1Factory3 is not supported.
+0a34:d2d1: 15924 tests executed (0 marked as todo, 0 as flaky, 0 failures), 7 skipped.
+d2d1:d2d1:0a34 done (0) in 3s 538B
+d3d10core:d3d10core start dlls/d3d10core/tests/d3d10core.c
+d3d10core.c:1295: Adapter: L"Microsoft Basic Render Driver", 1414:008c.
+d3d10core.c:6308: Tests skipped: DXGI_FORMAT_B8G8R8X8_UNORM not supported.
+d3d10core.c:16429: Tests skipped: B8G8R8A8_UNORM not supported.
+d3d10core.c:17356: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17356: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17356: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17356: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d10core.c:17488: Tests skipped: Creating the next texture crashes WARP on some testbot boxes.
+0248:d3d10core: 195822 tests executed (0 marked as todo, 0 as flaky, 0 failures), 7 skipped.
+d3d10core:d3d10core:0248 done (0) in 6s 761B
+d3d10_1:d3d10_1 start dlls/d3d10_1/tests/d3d10_1.c
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0xa100.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0xa000.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0x9300.
+d3d10_1.c:330: Tests skipped: Failed to create device for feature level 0x9200.
+d3d10_1.c:330: Line has been silenced after 4 occurrences
+0830:d3d10_1: Silenced 0 todos, 1 skips and 0 traces.
+0830:d3d10_1: 580 tests executed (0 marked as todo, 0 as flaky, 0 failures), 4 skipped.
+d3d10_1:d3d10_1:0830 done (0) in 0s 527B
+d3d10_1:reflection start dlls/d3d10_1/tests/reflection.c
+0884:reflection: 662 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10_1:reflection:0884 done (0) in 0s 92B
+d3d10:device start dlls/d3d10/tests/device.c
+05a0:device: 206 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:device:05a0 done (0) in 0s 88B
+d3d10:effect start dlls/d3d10/tests/effect.c
+effect.c:8939: Test failed: Got unexpected blend_factor[0] 4.29496730e+009.
+effect.c:8939: Test failed: Got unexpected blend_factor[1] 4.29496730e+009.
+effect.c:8939: Test failed: Got unexpected blend_factor[2] 4.29496730e+009.
+effect.c:8939: Test failed: Got unexpected blend_factor[3] 4.29496730e+009.
+0864:effect: 5041 tests executed (0 marked as todo, 0 as flaky, 4 failures), 0 skipped.
+d3d10:effect:0864 done (4) in 0s 397B
+d3d10:reflection start dlls/d3d10/tests/reflection.c
+0b68:reflection: 662 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:reflection:0b68 done (0) in 0s 92B
+d3d11:d3d11 start dlls/d3d11/tests/d3d11.c
+d3d11.c:1638: Adapter: L"Microsoft Basic Render Driver", 1414:008c.
+d3d11.c:2145: Feature level 0xb000.
+d3d11.c:2404: Tests skipped: Feature level 0xb100: Failed to create debug device.
+d3d11.c:2404: Tests skipped: Feature level 0xb000: Failed to create debug device.
+d3d11.c:2404: Tests skipped: Feature level 0xa100: Failed to create debug device.
+d3d11.c:2404: Tests skipped: Feature level 0xa000: Failed to create debug device.
+d3d11.c:2404: Line has been silenced after 4 occurrences
+0a24:d3d11: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d11.c:12056: Tests skipped: Viewport array index not supported in vertex shaders.
+d3d11.c:19886: Compute shader support via SM4 0x1.
+d3d11.c:21327: Feature level 0xa100: Optional format 0x59 - display supported.
+d3d11.c:21327: Feature level 0xa000: Optional format 0x59 - display supported.
+d3d11.c:21327: Feature level 0xa000: Optional format 0xb - blendable supported.
+d3d11.c:21327: Feature level 0xa000: Optional format 0x23 - blendable supported.
+d3d11.c:21327: Line has been silenced after 4 occurrences
+d3d11.c:24860: Tests skipped: Test 8: Broken WARP.
+d3d11.c:25139: Tests skipped: Feature level 0xa100: Feature level 11_0 required for unaligned UAV test.
+d3d11.c:25139: Tests skipped: Feature level 0xa000: Feature level 11_0 required for unaligned UAV test.
+d3d11.c:29474: Tests skipped: Broken destination offset for 0x43 -> 0x27 copy.
+d3d11.c:29474: Tests skipped: Broken destination offset for 0x43 -> 0x29 copy.
+d3d11.c:29474: Tests skipped: Broken destination offset for 0x43 -> 0x2a copy.
+d3d11.c:29474: Tests skipped: Broken destination offset for 0x43 -> 0x2b copy.
+d3d11.c:29722: Tests skipped: Feature level 0xb000: Detected broken destination offset for 0x1 -> 0x49 copy.
+d3d11.c:29710: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4a CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29710: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4b CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29710: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4c CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29710: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x4d CopySubresourceRegion() test because of broken destination offset.
+d3d11.c:29710: Line has been silenced after 4 occurrences
+d3d11.c:29691: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x5e tests because of broken destination offset.
+d3d11.c:29691: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x5f tests because of broken destination offset.
+d3d11.c:29691: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x60 tests because of broken destination offset.
+d3d11.c:29691: Tests skipped: Feature level 0xb000: Skipping 0x1 -> 0x61 tests because of broken destination offset.
+d3d11.c:29691: Line has been silenced after 4 occurrences
+d3d11.c:29722: Tests skipped: Feature level 0xa100: Detected broken destination offset for 0x1 -> 0x49 copy.
+d3d11.c:32030: Tests skipped: Sample shading tests fail on WARP.
+d3d11.c:35734: Tests skipped: The device does not support stencil ref export.
+d3d11.c:1625: Test failed: test 12 (642x482, 10,20,4x6): Got row pitch 644, slice pitch 466254.
+d3d11.c:1625: Test failed: test 13 (644x482, 10,20,4x6): Got row pitch 644, slice pitch 466254.
+d3d11.c:36939: Tests skipped: Failed to get ID3D11VideoDevice.
+d3d11.c:30674: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30674: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30674: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+d3d11.c:30674: Tests skipped: Skipping test with DXGI_FORMAT_R8G8B8A8_UINT on WARP.
+08a4:d3d11: Silenced 0 todos, 425 skips and 1 traces.
+08a4:d3d11: 5530677 tests executed (0 marked as todo, 0 as flaky, 2 failures), 29 skipped.
+d3d11:d3d11:08a4 done (2) in 18s 3946B
+d3d8:device start dlls/d3d8/tests/device.c
+device.c:1143: Tests skipped: Adapter 0 test 1: Failed to create a D3D device.
+device.c:3127: device_window 00DD0208, focus_window 00780046, dummy_window 009C0216.
+device.c:3551: device_window 00DE0208, focus_window 00790046, dummy_window 009D0216.
+device.c:4504: Tests skipped: Following tests require two adapters.
+device.c:6194: Tests skipped: No D3DFMT_NULL support, skipping test.
+device.c:6579: Tests skipped: Format ATI1N not supported, skipping lockrect offset tests.
+device.c:6579: Tests skipped: Format ATI2N not supported, skipping lockrect offset tests.
+device.c:6579: Tests skipped: Format D3DFMT_YUY2 not supported, skipping lockrect offset tests.
+device.c:6579: Tests skipped: Format D3DFMT_UYVY not supported, skipping lockrect offset tests.
+device.c:8553: Tests skipped: Windows 10 WARP crashes during this test.
+device.c:9070: Tests skipped: D3DFMT_ATI1 textures not supported, skipping tests.
+device.c:9070: Tests skipped: D3DFMT_ATI2 textures not supported, skipping tests.
+device.c:9233: Tests skipped: P8 textures are supported, skipping some tests.
+device.c:9464: Max user clip planes: 8.
+device.c:9464: Max user clip planes: 6.
+device.c:9927: Tests skipped: ATI2N texture not supported.
+device.c:10555: Tests skipped: Failed to create a D3D device.
+05e8:device: 56047 tests executed (0 marked as todo, 0 as flaky, 0 failures), 13 skipped.
+d3d8:device:05e8 done (0) in 53s 1381B
+d3d8:stateblock start dlls/d3d8/tests/stateblock.c
+stateblock.c:416: Running initial read state tests
+stateblock.c:419: Running write-read state tests
+stateblock.c:422: Running stateblock abort state tests
+stateblock.c:425: Running stateblock apply state tests
+stateblock.c:428: Running stateblock capture/reapply state tests
+stateblock.c:431: Running create stateblock capture/apply all state tests
+stateblock.c:434: Running create stateblock apply all state tests
+stateblock.c:437: Running create stateblock capture/apply vertex state tests
+stateblock.c:440: Running create stateblock apply vertex state tests
+stateblock.c:443: Running create stateblock capture/apply pixel state tests
+stateblock.c:446: Running create stateblock apply pixel state tests
+stateblock.c:449: Running rendertarget switch state tests
+stateblock.c:452: Running stateblock apply over rendertarget switch interrupt tests
+0874:stateblock: 9283 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d8:stateblock:0874 done (0) in 0s 953B
+d3d8:visual start dlls/d3d8/tests/visual.c
+visual.c:12401: Driver string: "d3d10warp.dll"
+visual.c:12402: Description string: "Red Hat VirtIO GPU DOD controller"
+visual.c:12405: Driver version 6.3.9600.16505
+visual.c:3898: Tests skipped: No INTZ support, skipping INTZ test.
+visual.c:4525: Tests skipped: No INTZ support, skipping RESZ test.
+visual.c:6214: Tests skipped: ATI1N textures are not supported, skipping test.
+visual.c:6903: Tests skipped: Format D3DFMT_X8L8V8U8 not supported, skipping.
+visual.c:6903: Tests skipped: Format D3DFMT_L6V5U5 not supported, skipping.
+visual.c:7158: Tests skipped: 2D mipmapped ATI2N textures are not supported, skipping some tests.
+visual.c:7158: Tests skipped: Cube ATI2N textures are not supported, skipping some tests.
+visual.c:7158: Tests skipped: Volume ATI2N textures are not supported, skipping some tests.
+visual.c:10045: Edge antialiasing support: 0.
+visual.c:10548: Tests skipped: Running on WARP, skipping test.
+0a74:visual: 141927 tests executed (0 marked as todo, 0 as flaky, 0 failures), 9 skipped.
+d3d8:visual:0a74 done (0) in 4s 1025B
+d3d9:d3d9ex start dlls/d3d9/tests/d3d9ex.c
