@@ -1,0 +1,2869 @@
+Version 4
+Tests from build 8da914b27c9939ecf511001bcac1a6c74e7edde0
+Tag: rbernon-x11-modeset-win32
+Build info:
+    Compiler: clang 19.1.7 (3+b1) (msvc 1933)
+Operating system version:
+    Platform=i386
+    bRunningUnderWine=1
+    bRunningOnVisibleDesktop=1
+    Account=admin, not elevated
+    Submitter=Rémi Bernon <rbernon@codeweavers.com>
+    Description=Docker running Debian GNU/Linux 13 (trixie) / Linux dcfed82cd18a 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 GNU/Linux, [CPU:4*AMD EPYC 7763 64-Core Processor RAM:16379468kB display:dummy with emulated modesetting]
+    dwMajorVersion=10
+    dwMinorVersion=0
+    dwBuildNumber=19045
+    PlatformId=2
+    szCSDVersion=
+    UBR=5796
+    WineBuild=wine-10.4-3209-g8da914b27c9
+    Host system=Linux
+    Host version=6.11.0-1018-azure
+    wServicePackMajor=0
+    wServicePackMinor=0
+    wSuiteMask=0
+    wProductType=1
+    wReserved=127
+    SystemDefaultLCID=0409
+    UserDefaultLCID=0409
+    ThreadLocale=0409
+    UserDefaultUILanguage=0409
+    ThreadUILanguage=0409
+    KeyboardLayout=04090409
+    Country=244
+    ACP=1252
+Dll info:
+    activeds=version not present 1812
+    adsldp=version not present 1812
+    advapi32=10.0.10240.16384
+    advpack=version not present 1812
+    amstream=6.5.1.900
+    apphelp=version not present 1812
+    atl100=version not present 1812
+    atl110=version not present 1812
+    atl80=version not present 1812
+    atlthunk=version not present 1812
+    atl=version not present 1812
+    avifil32=4.0.3.1998
+    bcp47langs=version not present 1812
+    bcrypt=6.0.6000.16386
+    bluetoothapis=version not present 1812
+    browseui=6.0.2900.2180
+    cabinet=5.0.2147.1
+    cfgmgr32=version not present 1812
+    cmd.exe=version not present 1812
+    combase=version not present 1812
+    comcat=10.0.0.0
+    comctl32=5.81.4704.1100
+    comdlg32=6.0.2900.5512
+    compstui=version not present 1812
+    comsvcs=version not present 1812
+    concrt140=version not present 1812
+    conhost.exe=6.1.7601.22045
+    coremessaging=version not present 1812
+    credui=version not present 1812
+    crypt32=5.131.2600.1243
+    cryptext=version not present 1812
+    cryptnet=version not present 1812
+    cryptowinrt=version not present 1812
+    cryptui=version not present 1812
+    cryptxml=version not present 1812
+    d2d1=6.2.9200.16765
+    d3d10core=6.0.6000.16386
+    d3d10_1=6.2.9200.16492
+    d3d10=6.0.6000.16386
+    d3d11=7.0.6002.18107
+    d3d12=version not present 1812
+    d3d8=5.3.1.904
+    d3d9=5.3.1.904
+    d3dcompiler_42=9.27.952.3022
+    d3dcompiler_43=9.29.952.3111
+    d3dcompiler_46=9.30.9200.20789
+    d3dcompiler_47=6.3.9600.16984
+    d3drm=5.0.2134.14
+    d3dx10_33=9.18.904.21
+    d3dx10_34=9.19.949.46
+    d3dx10_35=9.19.949.1104
+    d3dx10_36=9.19.949.2009
+    d3dx10_37=9.19.949.2187
+    d3dx10_38=9.23.949.2378
+    d3dx10_39=9.24.949.2307
+    d3dx10_40=9.24.950.2656
+    d3dx10_41=9.26.952.2844
+    d3dx10_42=9.29.952.3001
+    d3dx10_43=9.29.952.3111
+    d3dx11_42=9.29.952.3111
+    d3dx11_43=9.29.952.3111
+    d3dx9_35=9.19.949.1104
+    d3dx9_36=9.19.949.2111
+    d3dx9_42=9.27.952.3001
+    d3dx9_43=9.29.952.3111
+    d3dxof=5.0.2135.1
+    dataexchange=version not present 1812
+    dbgeng=version not present 1812
+    dbghelp=6.1.7601.17514
+    ddrawex=5.3.0.900
+    ddraw=5.3.1.904
+    devenum=6.5.1.902
+    dhcpcsvc=version not present 1812
+    dinput=5.1.2600.881
+    directmanipulation=version not present 1812
+    dispex=version not present 1812
+    dmband=5.3.0.900
+    dmcompos=5.3.0.900
+    dmime=5.3.1.904
+    dmloader=5.3.0.900
+    dmscript=5.3.0.900
+    dmstyle=5.3.0.900
+    dmsynth=5.3.0.900
+    dmusic=5.3.1.904
+    dnsapi=5.2.3790.4318
+    dplayx=5.3.1.904
+    dpnet=5.3.0.900
+    dpvoice=5.3.2600.5512
+    dsdmo=5.3.2600.5512
+    dsound=5.3.1.904
+    dssenh=version not present 1812
+    dswave=5.3.0.900
+    dwmapi=6.0.6000.16386
+    dwrite=version not present 1812
+    dxcore=version not present 1812
+    dxdiagn=5.3.1.904
+    dxgi=6.0.6000.16386
+    dxva2=version not present 1812
+    evr=version not present 1812
+    explorer.exe=6.1.7601.17567
+    explorerframe=6.1.7601.16666
+    faultrep=version not present 1812
+    fc.exe=version not present 1812
+    find.exe=version not present 1812
+    findstr.exe=version not present 1812
+    fsutil.exe=version not present 1812
+    fusion=4.6.1590.0
+    gameux=6.1.7600.16385
+    gdi32=10.0.0.0
+    gdiplus=6.1.7601.17514
+    geolocation=version not present 1812
+    glu32=version not present 1812
+    graphicscapture=version not present 1812
+    hid=10.0.0.0
+    hlink=version not present 1812
+    hnetcfg=version not present 1812
+    httpapi=version not present 1812
+    hvsimanagementapi=version not present 1812
+    icmui=version not present 1812
+    ieframe=8.0.7601.17601
+    iertutil=version not present 1812
+    imagehlp=version not present 1812
+    imm32=5.1.2600.2180
+    inetcomm=version not present 1812
+    inetmib1=version not present 1812
+    infosoft=version not present 1812
+    iphlpapi=5.1.2600.2180
+    ir50_32=version not present 1812
+    itss=version not present 1812
+    jscript=5.8.7601.16982
+    jsproxy=version not present 1812
+    kernel32=10.0.19045.5796
+    kernelbase=version not present 1812
+    localspl=5.1.2600.2180
+    localui=5.1.2600.2180
+    lz32=5.1.2600.2180
+    mapi32=1.0.0.0
+    mfmediaengine=version not present 1812
+    mfplat=version not present 1812
+    mfplay=version not present 1812
+    mfreadwrite=version not present 1812
+    mfsrcsnk=version not present 1812
+    mf=version not present 1812
+    mlang=version not present 1812
+    mmcndmgr=version not present 1812
+    mmdevapi=version not present 1812
+    mp3dmod=version not present 1812
+    mpr=5.0.2195.6611
+    msacm32=version not present 1812
+    msado15=version not present 1812
+    msasn1=version not present 1812
+    mscms=10.0.0.0
+    mscoree=version not present 1812
+    msctf=5.1.2600.3319
+    msdasql=version not present 1812
+    msdmo=6.5.1.900
+    msftedit=5.41.15.1509
+    mshtml=6.0.2800.1106
+    msi=4.5.6001.22308
+    mspatcha=6.1.7600.16385
+    msrle32=version not present 1812
+    msscript.ocx=version not present 1812
+    mstask=version not present 1812
+    msvcirt=version not present 1812
+    msvcp100=version not present 1812
+    msvcp110=version not present 1812
+    msvcp120=version not present 1812
+    msvcp140_1=version not present 1812
+    msvcp140_2=14.42.34433.0
+    msvcp140_atomic_wait=version not present 1812
+    msvcp140=14.42.34433.0
+    msvcp60=version not present 1812
+    msvcp90=version not present 1812
+    msvcr100=10.0.30319.0
+    msvcr110=version not present 1812
+    msvcr120=12.0.40664.0
+    msvcr70=version not present 1812
+    msvcr71=version not present 1812
+    msvcr80=version not present 1812
+    msvcr90=version not present 1812
+    msvcrtd=version not present 1812
+    msvcrt=7.0.2600.2180
+    msvfw32=version not present 1812
+    msxml3=8.110.7601.24402
+    msxml4=4.20.9818.0
+    msxml6=6.30.7601.24498
+    ncrypt=version not present 1812
+    ndis.sys=version not present 1812
+    net.exe=version not present 1812
+    netapi32=version not present 1812
+    netcfgx=version not present 1812
+    netprofm=version not present 1812
+    ninput=version not present 1812
+    nsi=version not present 1812
+    ntdll=6.1.7601.24059
+    ntdsapi=version not present 1812
+    ntoskrnl.exe=6.1.7601.21863
+    ntprint=5.1.2600.2180
+    odbc32=3.520.6301.0
+    odbccp32=version not present 1812
+    ole32=10.0.0.0
+    oleacc=7.0.0.0
+    oleaut32=10.0.19043.1466
+    oledb32=2.81.1117.0
+    oledlg=version not present 1812
+    opcservices=version not present 1812
+    opengl32=5.1.2600.2082
+    packager=version not present 1812
+    pdh=version not present 1812
+    prntvpt=10.0.19041.3636
+    propsys=version not present 1812
+    psapi=5.1.2600.3264
+    pstorec=version not present 1812
+    qasf=9.0.0.4503
+    qcap=6.5.1.900
+    qdvd=6.5.1.904
+    qedit=5.3.2600.5512
+    qmgr=version not present 1812
+    quartz=6.5.1.902
+    qwave=version not present 1812
+    rasapi32=version not present 1812
+    reg.exe=version not present 1812
+    regedit.exe=5.2.3790.0
+    riched20=5.30.23.1215
+    riched32=5.1.2600.0
+    rometadata=version not present 1812
+    rpcrt4=5.1.2600.2180
+    rsaenh=5.1.2600.2180
+    rtworkq=version not present 1812
+    sapi=version not present 1812
+    sc.exe=version not present 1812
+    schannel=5.1.2600.2180
+    schedsvc=version not present 1812
+    schtasks.exe=version not present 1812
+    scrobj=version not present 1812
+    scrrun=5.8.7600.16385
+    secur32=version not present 1812
+    serialui=version not present 1812
+    services.exe=version not present 1812
+    setupapi=version not present 1812
+    shcore=version not present 1812
+    shdocvw=6.0.2900.2180
+    shell32=6.0.2900.6242
+    shlwapi=6.0.2800.1692
+    slc=version not present 1812
+    snmpapi=version not present 1812
+    spoolss=version not present 1812
+    sti=version not present 1812
+    sxs=version not present 1812
+    t2embed=version not present 1812
+    tapi32=version not present 1812
+    tasklist.exe=6.1.7601.16385
+    taskschd=version not present 1812
+    threadpoolwinrt=version not present 1812
+    timeout.exe=version not present 1812
+    twain_32=version not present 1812
+    twinapi.appcore=dll is missing
+    ucrtbase=10.0.14393.2247
+    uianimation=version not present 1812
+    uiautomationcore=version not present 1812
+    urlmon=6.0.2800.1485
+    user32=5.1.2600.2180
+    userenv=version not present 1812
+    usp10=version not present 1812
+    uxtheme=10.0.0.0
+    vbscript=5.8.7601.16978
+    vccorlib140=version not present 1812
+    vcomp110=version not present 1812
+    vcomp=version not present 1812
+    version=5.1.2600.2180
+    virtdisk=version not present 1812
+    vulkan-1=1.0.0.0
+    wbemdisp=version not present 1812
+    wbemprox=version not present 1812
+    webservices=10.0.14393.0
+    wer=version not present 1812
+    wevtapi=version not present 1812
+    wiaservc=version not present 1812
+    win32u=version not present 1812
+    windows.applicationmodel=dll is missing
+    windows.devices.bluetooth=dll is missing
+    windows.devices.enumeration=dll is missing
+    windows.devices.usb=dll is missing
+    windows.gaming.input=dll is missing
+    windows.gaming.ui.gamebar=dll is missing
+    windows.globalization=dll is missing
+    windows.media.devices=dll is missing
+    windows.media.mediacontrol=dll is missing
+    windows.media.playback.backgroundmediaplayer=dll is missing
+    windows.media.playback.mediaplayer=dll is missing
+    windows.media.speech=dll is missing
+    windows.media=dll is missing
+    windows.networking.connectivity=dll is missing
+    windows.networking.hostname=dll is missing
+    windows.perception.stub=dll is missing
+    windows.security.authentication.onlineid=dll is missing
+    windows.security.credentials.ui.userconsentverifier=dll is missing
+    windows.storage.applicationdata=dll is missing
+    windows.storage=dll is missing
+    windows.system.profile.systemid=dll is missing
+    windows.system.profile.systemmanufacturers=dll is missing
+    windows.ui.xaml=dll is missing
+    windows.ui=dll is missing
+    windows.web=dll is missing
+    windowscodecsext=version not present 1812
+    windowscodecs=6.0.6001.17009
+    wing32=version not present 1812
+    winhttp=5.1.2600.2180
+    wininet=8.0.7601.17601
+    winmm=version not present 1812
+    winscard=5.1.2600.2180
+    winspool.drv=5.1.2600.2180
+    wintab32=version not present 1812
+    wintrust=6.1.7601.23769
+    wintypes=version not present 1812
+    wlanapi=version not present 1812
+    wldap32=version not present 1812
+    wldp=version not present 1812
+    wmiutils=version not present 1812
+    wmp=12.0.7601.16982
+    wmvcore=12.0.7601.17514
+    wpcap=4.1.0.2980
+    wpc=version not present 1812
+    ws2_32=5.1.2600.5512
+    wscript.exe=version not present 1812
+    wsdapi=version not present 1812
+    wshom.ocx=version not present 1812
+    wsnmp32=version not present 1812
+    wtsapi32=version not present 1812
+    xactengine3_7=version not present 1812
+    xaudio2_7=version not present 1812
+    xaudio2_8=version not present 1812
+    xcopy.exe=version not present 1812
+    xinput1_3=9.15.779.0
+    xmllite=version not present 1812
+Test output:
+activeds:activeds start dlls/activeds/tests/activeds.c
+0448:activeds: 73 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+activeds:activeds:0448 done (0) in 0s 89B
+adsldp:ldap start dlls/adsldp/tests/ldap.c
+ldap.c:208: Test marked todo: 0: got 0x800401ea, expected 0x800401e4
+ldap.c:208: Test marked todo: 1: got 0x800401ea, expected 0x800401e4
+ldap.c:208: Test marked todo: 11: got 0, expected 0x80005000
+ldap.c:208: Test marked todo: 12: got 0, expected 0x80005000
+ldap.c:428: Test marked todo: got 0x80004001
+ldap.c:465: Test marked todo: got 0x5013
+ldap.c:467: Test marked todo: got (null)
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com"
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+ldap.c:251: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+ldap.c:523: Test marked todo: got 0
+ldap.c:584: Test marked todo: got 0x8007202c
+0450:ldap: 377 tests executed (9 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+adsldp:ldap:0450 done (0) in 12s 780B
+adsldp:sysinfo start dlls/adsldp/tests/sysinfo.c
+sysinfo.c:127: Test marked todo: got 0x80004001
+sysinfo.c:168: Test marked todo: got 0x80004001
+055c:sysinfo: 20 tests executed (2 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+adsldp:sysinfo:055c done (0) in 0s 186B
+advapi32:cred start dlls/advapi32/tests/cred.c
+cred.c:802: generic:
+cred.c:808: domain password:
+cred.c:361: Test marked todo: expected CredentialBlobSize of 0 but got 20
+cred.c:361: Test marked todo: expected NULL credentials but got 003D07B4
+cred.c:374: Test marked todo: expected CredentialBlobSize of 0 but got 20
+cred.c:374: Test marked todo: expected NULL credentials but got 003D0798
+cred.c:814: domain visible password:
+cred.c:816: Tests skipped: CRED_TYPE_DOMAIN_VISIBLE_PASSWORD credentials are not supported or are disabled. Skipping
+0528:cred: 349 tests executed (4 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+advapi32:cred:0528 done (0) in 0s 592B
+advapi32:crypt start dlls/advapi32/tests/crypt.c
+0530:crypt: 167 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt:0530 done (0) in 0s 87B
+advapi32:crypt_lmhash start dlls/advapi32/tests/crypt_lmhash.c
+056c:crypt_lmhash: 95 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_lmhash:056c done (0) in 0s 93B
+advapi32:crypt_md4 start dlls/advapi32/tests/crypt_md4.c
+0574:crypt_md4: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md4:0574 done (0) in 0s 90B
+advapi32:crypt_md5 start dlls/advapi32/tests/crypt_md5.c
+057c:crypt_md5: 5 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md5:057c done (0) in 0s 89B
+advapi32:crypt_sha start dlls/advapi32/tests/crypt_sha.c
+0558:crypt_sha: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_sha:0558 done (0) in 0s 89B
+advapi32:eventlog start dlls/advapi32/tests/eventlog.c
+eventlog.c:132: Test marked todo: Expected failure
+eventlog.c:133: Test marked todo: Expected ERROR_INVALID_HANDLE, got -559038737
+eventlog.c:89: Test marked todo: Expected a backup file attribs=0xffffffff le=2
+eventlog.c:247: Test marked todo: Expected a handle, le=2
+eventlog.c:254: Test marked todo: Expected success : 6
+eventlog.c:255: Test marked todo: Expected the number of records
+eventlog.c:89: Test marked todo: Expected a backup file attribs=0xffffffff le=2
+eventlog.c:307: Test marked todo: Expected a handle
+eventlog.c:314: Test marked todo: Expected success : 6
+eventlog.c:315: Test marked todo: Expected the number of the oldest record
+eventlog.c:362: Test marked todo: Expected a backup file
+eventlog.c:369: Test marked todo: Expected failure
+eventlog.c:370: Test marked todo: Expected ERROR_ALREADY_EXISTS, got 2
+eventlog.c:378: Test marked todo: Expected a handle
+eventlog.c:383: Test marked todo: Expected success : 6
+eventlog.c:384: Test marked todo: Expected a backup file
+eventlog.c:89: Test marked todo: Expected a backup file attribs=0xffffffff le=2
+eventlog.c:584: Tests skipped: We don't have a backup eventlog to work with
+eventlog.c:403: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:411: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:419: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:426: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:432: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:438: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:446: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:454: Test marked todo: Expected ERROR_INVALID_HANDLE, got 38
+eventlog.c:472: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:478: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:484: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:491: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:498: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:505: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:514: Tests skipped: No records in the 'Application' log
+eventlog.c:89: Test marked todo: Expected a backup file attribs=0xffffffff le=2
+eventlog.c:664: Test marked todo: Expected a handle
+eventlog.c:691: Test marked todo: Could not delete the backup file
+eventlog.c:1211: Test marked todo: EventRegister gave wrong error: 0
+eventlog.c:1220: Test marked todo: EventWriteString gave wrong error: 0
+eventlog.c:1223: Test marked todo: EventWriteString gave wrong error: 0
+eventlog.c:1226: Test marked todo: EventUnregister gave wrong error: 0
+eventlog.c:906: Test marked todo: 0:Wine: Expected 1 records, got 0
+eventlog.c:912: Test marked todo: 0:Wine: Expected oldest to be 1 or higher, got 0
+eventlog.c:906: Test marked todo: 1:WineSrc: Expected 2 records, got 0
+eventlog.c:912: Test marked todo: 1:WineSrc: Expected oldest to be 1 or higher, got 0
+eventlog.c:906: Test marked todo: 2:WineSrc1: Expected 3 records, got 0
+eventlog.c:912: Test marked todo: 2:WineSrc1: Expected oldest to be 1 or higher, got 0
+eventlog.c:906: Test marked todo: 3:WineSrc20: Expected 4 records, got 0
+eventlog.c:912: Test marked todo: 3:WineSrc20: Expected oldest to be 1 or higher, got 0
+eventlog.c:906: Line has been silenced after 4 occurrences
+eventlog.c:912: Line has been silenced after 4 occurrences
+eventlog.c:933: Test marked todo: Expected 10 records, got 0
+eventlog.c:938: Tests skipped: No events were written to the eventlog
+eventlog.c:1254: Test marked todo: Expected ERROR_BAD_LENGTH, got 0
+eventlog.c:1261: Test marked todo: Expected ERROR_BAD_LENGTH, got 0
+eventlog.c:1265: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 0
+eventlog.c:1269: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 0
+eventlog.c:1274: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 0
+eventlog.c:1280: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 0
+eventlog.c:1286: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 0
+eventlog.c:1294: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 0
+eventlog.c:1300: Test marked todo: Expected ERROR_BAD_PATHNAME, got 0
+eventlog.c:1313: Test marked todo: Expected ERROR_ALREADY_EXISTS, got 0
+eventlog.c:1364: Test marked todo: Expected different handle
+eventlog.c:1426: Test marked todo: EventlogStarted event not found
+eventlog.c:1437: Test marked todo: Expected different handle
+eventlog.c:1490: Test marked todo: EventlogStarted event not found
+eventlog.c:1500: Test marked todo: Expected success : 38
+eventlog.c:1501: Test marked todo: Expected 1, got 0
+eventlog.c:1503: Test marked todo: Expected success : 38
+eventlog.c:1504: Test marked todo: Expected 2, got 0
+eventlog.c:1508: Test marked todo: Expected success : 38
+eventlog.c:1509: Test marked todo: Expected 2, got 0
+eventlog.c:1511: Test marked todo: Expected success : 38
+eventlog.c:1512: Test marked todo: Expected 1, got 0
+eventlog.c:1520: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:1529: Test marked todo: Zero records in log
+eventlog.c:1533: Test marked todo: Expected success : 38
+eventlog.c:1537: Test marked todo: Expected success : 38
+eventlog.c:1538: Test marked todo: Expected 4294967295, got 0
+eventlog.c:1548: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:1556: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:1560: Test marked todo: Expected success : 38
+eventlog.c:1561: Test marked todo: Expected 2, got 0
+eventlog.c:1564: Test marked todo: Expected success : 38
+eventlog.c:1565: Test marked todo: Expected 4, got 0
+eventlog.c:1568: Test marked todo: Expected success : 38
+eventlog.c:1569: Test marked todo: Expected 3, got 0
+eventlog.c:1572: Test marked todo: Expected success : 38
+eventlog.c:1573: Test marked todo: Expected 4, got 0
+eventlog.c:1577: Test marked todo: Expected success : 38
+eventlog.c:1578: Test marked todo: Expected 10, got 0
+eventlog.c:1588: Test marked todo: Expected ERROR_INVALID_PARAMETER, got 38
+eventlog.c:1592: Test marked todo: Expected success : 38
+eventlog.c:1593: Test marked todo: Expected 5, got 0
+eventlog.c:1596: Test marked todo: Expected success : 38
+eventlog.c:1597: Test marked todo: Expected 3, got 0
+eventlog.c:1600: Test marked todo: Expected success : 38
+eventlog.c:1601: Test marked todo: Expected 4, got 0
+eventlog.c:1604: Test marked todo: Expected success : 38
+eventlog.c:1605: Test marked todo: Expected 3, got 0
+eventlog.c:1609: Test marked todo: Expected success : 38
+eventlog.c:1610: Test marked todo: Expected 10, got 0
+eventlog.c:1619: Test marked todo: Expected success : 38
+eventlog.c:1620: Test marked todo: Expected 1, got 0
+eventlog.c:1622: Test marked todo: Expected success : 38
+eventlog.c:1623: Test marked todo: Expected 1, got 0
+eventlog.c:1635: Test marked todo: Expected success : 38
+eventlog.c:1637: Test marked todo: Expected success : 38
+0560:eventlog: Silenced 12 todos, 0 skips and 0 traces.
+0560:eventlog: 278 tests executed (103 marked as todo, 0 as flaky, 0 failures), 3 skipped.
+advapi32:eventlog:0560 done (0) in 0s 7276B
+advapi32:lsa start dlls/advapi32/tests/lsa.c
+lsa.c:103: Running on a standalone system.
+lsa.c:139:   name: "" domain: "" forest: "" guid: {00000000-0000-0000-0000-000000000000} sid: "S-1-5-21-0-0-0"
+058c:lsa: 97 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:lsa:058c done (0) in 0s 240B
+advapi32:perf start dlls/advapi32/tests/perf.c
+0570:perf: 101 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:perf:0570 done (0) in 0s 86B
+advapi32:registry start dlls/advapi32/tests/registry.c
+registry.c:944: Test marked todo: strlen(expanded)=11, strlen(sTestpath1)=23, size=12
+registry.c:970: Test marked todo: strlen(sTestpath1)=23 size=24
+registry.c:985: Test marked todo: strlen(expanded)=11, strlen(sTestpath1)=23, size=12
+registry.c:1184: Tests skipped: Not running WoW64 tests on 32-bit
+registry.c:1360: Tests skipped: WOW64 flags are not recognized
+registry.c:1962: Test marked todo: sdlen = 0
+registry.c:1976: Test marked todo: sdlen = 0
+registry.c:1997: Test marked todo: sdlen = 0
+registry.c:2011: Test marked todo: sdlen = 0
+registry.c:2041: Test marked todo: classlen = 12
+registry.c:2049: Test marked todo: classlen = 12
+registry.c:2774: Tests skipped: Not on Wow64, no redirection
+registry.c:3409: Test marked todo: test key not found in hkcr: 2
+registry.c:3414: Tests skipped: HKCR key merging not supported
+registry.c:3705: Test marked todo: test key not found in hkcr: 2
+registry.c:3710: Tests skipped: HKCR key merging not supported
+registry.c:3866: Test marked todo: hkcr mask not set in 00000070
+registry.c:1636: Test marked todo: expected ERROR_SUCCESS, got 2
+registry.c:1711: Test marked todo: couldn't set key value 6
+registry.c:1724: Test marked todo: expected ERROR_SUCCESS, got 6
+registry.c:1726: Test marked todo: output is not what expected
+registry.c:2573: Test marked todo: Expected name "C", got B
+registry.c:2576: Test marked todo: Expected name "D", got C
+registry.c:2579: Test marked todo: Expected name "B", got D
+registry.c:4173: Test marked todo: expected WAIT_OBJECT_0, got 258
+registry.c:4309: Test marked todo: key 80000004: value (null): got size 0
+registry.c:4343: Test marked todo: key 80000004: value (null): got default object 0
+registry.c:4309: Test marked todo: key 80000004: value "": got size 0
+registry.c:4343: Test marked todo: key 80000004: value "": got default object 0
+registry.c:4309: Test marked todo: key 80000004: value "Global": got size 0
+registry.c:4343: Test marked todo: key 80000004: value "Global": got default object 0
+registry.c:4309: Test marked todo: key 80000004: value "2": got size 0
+registry.c:4343: Test marked todo: key 80000004: value "2": got default object 0
+registry.c:4309: Line has been silenced after 4 occurrences
+registry.c:4343: Line has been silenced after 4 occurrences
+registry.c:4452: Test marked todo: key 80000004: got 0
+registry.c:4470: Test marked todo: key 80000004: got 6
+registry.c:4471: Test marked todo: key 80000004: got 2416828141 subkeys
+registry.c:4472: Test marked todo: key 80000004: got 458758 values
+registry.c:4476: Test marked todo: key 80000004: got 6
+registry.c:4452: Test marked todo: key 80000050: got 0
+registry.c:4470: Test marked todo: key 80000050: got 6
+registry.c:4471: Test marked todo: key 80000050: got 2416828141 subkeys
+registry.c:4472: Test marked todo: key 80000050: got 458758 values
+registry.c:4476: Test marked todo: key 80000050: got 6
+registry.c:4452: Test marked todo: key 80000060: got 0
+registry.c:4470: Test marked todo: key 80000060: got 6
+registry.c:4471: Test marked todo: key 80000060: got 2416828141 subkeys
+registry.c:4472: Test marked todo: key 80000060: got 458758 values
+registry.c:4476: Test marked todo: key 80000060: got 6
+registry.c:4492: Test marked todo: got 6
+registry.c:4495: Test marked todo: got 6
+registry.c:4503: Test marked todo: got 6
+registry.c:4506: Test marked todo: got 6
+registry.c:4513: Test marked todo: got 6
+registry.c:4516: Test marked todo: got 6
+registry.c:4649: 0: 009 has 4 entries
+registry.c:4633: Test marked todo: 1: got 2
+registry.c:4657: Test marked todo: 1: expected a special handle, got 00000000
+registry.c:4661: Test marked todo: 1: got 6
+0578:registry: Silenced 28 todos, 0 skips and 0 traces.
+0578:registry: 4938 tests executed (52 marked as todo, 0 as flaky, 0 failures), 5 skipped.
+advapi32:registry:0578 done (0) in 0s 3838B
+advapi32:security start dlls/advapi32/tests/security.c
+security.c:5387: Test marked todo: acl is not present
+security.c:5389: Test marked todo: acl pointer is not set
+security.c:5398: Test marked todo: sid pointer is not set
+security.c:5407: Test marked todo: sid pointer is not set
+security.c:5427: Test marked todo: AccessCheck error 1338
+security.c:5428: Test marked todo: expected 1, got -559038737
+security.c:5429: Test marked todo: expected all access 0x1f0001, got 0xdeadbeef
+security.c:5437: Test marked todo: AccessCheck error 1338
+security.c:5438: Test marked todo: expected 0, got -559038737
+security.c:5439: Test marked todo: expected 0, got 0xdeadbeef
+security.c:5447: Test marked todo: AccessCheck error 1338
+security.c:5448: Test marked todo: expected 0, got -559038737
+security.c:5449: Test marked todo: expected 0, got 0xdeadbeef
+security.c:5457: Test marked todo: AccessCheck error 1338
+security.c:5458: Test marked todo: expected 1, got -559038737
+security.c:5459: Test marked todo: expected read access 0x120001, got 0xdeadbeef
+security.c:5467: Test marked todo: AccessCheck error 1338
+security.c:5468: Test marked todo: expected 1, got -559038737
+security.c:5469: Test marked todo: expected write access 0x120001, got 0xdeadbeef
+security.c:5477: Test marked todo: AccessCheck error 1338
+security.c:5478: Test marked todo: expected 1, got -559038737
+security.c:5479: Test marked todo: expected execute access 0x120000, got 0xdeadbeef
+security.c:5387: Test marked todo: acl is not present
+security.c:5389: Test marked todo: acl pointer is not set
+security.c:5398: Test marked todo: sid pointer is not set
+security.c:5407: Test marked todo: sid pointer is not set
+security.c:5427: Test marked todo: AccessCheck error 1338
+security.c:5428: Test marked todo: expected 1, got -559038737
+security.c:5429: Test marked todo: expected all access 0x1f0003, got 0xdeadbeef
+security.c:5437: Test marked todo: AccessCheck error 1338
+security.c:5438: Test marked todo: expected 0, got -559038737
+security.c:5439: Test marked todo: expected 0, got 0xdeadbeef
+security.c:5447: Test marked todo: AccessCheck error 1338
+security.c:5448: Test marked todo: expected 0, got -559038737
+security.c:5449: Test marked todo: expected 0, got 0xdeadbeef
+security.c:5457: Test marked todo: AccessCheck error 1338
+security.c:5458: Test marked todo: expected 1, got -559038737
+security.c:5459: Test marked todo: expected read access 0x120001, got 0xdeadbeef
+security.c:5467: Test marked todo: AccessCheck error 1338
+security.c:5468: Test marked todo: expected 1, got -559038737
+security.c:5469: Test marked todo: expected write access 0x120002, got 0xdeadbeef
+security.c:5477: Test marked todo: AccessCheck error 1338
+security.c:5478: Test marked todo: expected 1, got -559038737
+security.c:5479: Test marked todo: expected execute access 0x120000, got 0xdeadbeef
+security.c:5387: Test marked todo: acl is not present
+security.c:5389: Test marked todo: acl pointer is not set
+security.c:5398: Test marked todo: sid pointer is not set
+security.c:5407: Test marked todo: sid pointer is not set
+security.c:5427: Test marked todo: AccessCheck error 1338
+security.c:5428: Test marked todo: expected 1, got -559038737
+security.c:5429: Test marked todo: expected all access 0x1f01ff, got 0xdeadbeef
+security.c:5437: Test marked todo: AccessCheck error 1338
+security.c:5438: Test marked todo: expected 0, got -559038737
+security.c:5439: Test marked todo: expected 0, got 0xdeadbeef
+security.c:5447: Test marked todo: AccessCheck error 1338
+security.c:5448: Test marked todo: expected 0, got -559038737
+security.c:5449: Test marked todo: expected 0, got 0xdeadbeef
+security.c:5457: Test marked todo: AccessCheck error 1338
+security.c:5458: Test marked todo: expected 1, got -559038737
+security.c:5459: Test marked todo: expected read access 0x120089, got 0xdeadbeef
+security.c:5467: Test marked todo: AccessCheck error 1338
+security.c:5468: Test marked todo: expected 1, got -559038737
+security.c:5469: Test marked todo: expected write access 0x120116, got 0xdeadbeef
+security.c:5477: Test marked todo: AccessCheck error 1338
+security.c:5478: Test marked todo: expected 1, got -559038737
+security.c:5479: Test marked todo: expected execute access 0x1200a0, got 0xdeadbeef
+security.c:5387: Test marked todo: acl is not present
+security.c:5389: Test marked todo: acl pointer is not set
+security.c:5398: Test marked todo: sid pointer is not set
+security.c:5407: Test marked todo: sid pointer is not set
+security.c:5427: Test marked todo: AccessCheck error 1338
+security.c:5428: Test marked todo: expected 1, got -559038737
+security.c:5429: Test marked todo: expected all access 0x1f0003, got 0xdeadbeef
+security.c:5437: Test marked todo: AccessCheck error 1338
+security.c:5438: Test marked todo: expected 0, got -559038737
+security.c:5439: Test marked todo: expected 0, got 0xdeadbeef
+security.c:5447: Test marked todo: AccessCheck error 1338
+security.c:5448: Test marked todo: expected 0, got -559038737
+security.c:5449: Test marked todo: expected 0, got 0xdeadbeef
+security.c:5457: Test marked todo: AccessCheck error 1338
+security.c:5458: Test marked todo: expected 1, got -559038737
+security.c:5459: Test marked todo: expected read access 0x20001, got 0xdeadbeef
+security.c:5467: Test marked todo: AccessCheck error 1338
+security.c:5468: Test marked todo: expected 1, got -559038737
+security.c:5469: Test marked todo: expected write access 0x20002, got 0xdeadbeef
+security.c:5477: Test marked todo: AccessCheck error 1338
+security.c:5478: Test marked todo: expected 1, got -559038737
+security.c:5479: Test marked todo: expected execute access 0x120000, got 0xdeadbeef
+security.c:2119: Tests skipped: Well known SID 38 not implemented
+security.c:2119: Tests skipped: Well known SID 39 not implemented
+security.c:2119: Tests skipped: Well known SID 40 not implemented
+security.c:2119: Tests skipped: Well known SID 41 not implemented
+security.c:2119: Line has been silenced after 4 occurrences
+security.c:967: Test marked todo: expected FILE_ATTRIBUTE_ARCHIVE|FILE_ATTRIBUTE_READONLY got 0x20
+security.c:1015: Test marked todo: expected 1, got 0
+security.c:1016: Test marked todo: expected FILE_WRITE_DATA, got 0
+security.c:1056: Test marked todo: expected 1, got 0
+security.c:1057: Test marked todo: expected FILE_DELETE_CHILD, got 0
+security.c:1065: Test marked todo: expected 1, got 0
+security.c:1066: Test marked todo: expected 0x1ff, got 0
+security.c:1074: Test marked todo: expected 1, got 0
+security.c:1075: Test marked todo: expected FILE_ALL_ACCESS, got 0
+security.c:1406: AccessCheck with MAXIMUM_ALLOWED got Access 0x001f0019
+security.c:1427: Test marked todo: AccessCheck should have failed with ERROR_INSUFFICIENT_BUFFER, instead of 998
+security.c:1430: Test marked todo: PrivSetLen returns 0
+security.c:1539: Test marked todo: PrivSetLen returns 20
+security.c:1824: TokenGroups:
+security.c:1838: S-1-1-0, \Everyone use: 5 attr: 0x00000007
+security.c:1838: S-1-2-0, \LOCAL use: 5 attr: 0x00000007
+security.c:1838: S-1-5-4, NT AUTHORITY\INTERACTIVE use: 5 attr: 0x00000007
+security.c:1838: S-1-5-11, NT AUTHORITY\Authenticated Users use: 5 attr: 0x00000007
+security.c:1838: Line has been silenced after 4 occurrences
+security.c:1841: attr: 0xc0000007 LookupAccountSid failed with error 1332
+security.c:1855: TokenUser: S-1-5-21-0-0-0-1000 attr: 0x00000000
+security.c:1869: TokenOwner: S-1-5-21-0-0-0-513
+security.c:1891: TokenLogon: S-1-5-5-0-0
+security.c:1914: TokenPrivileges:
+security.c:1920: 	SeChangeNotifyPrivilege, 0x3
+security.c:1920: 	SeTcbPrivilege, 0x0
+security.c:1920: 	SeSecurityPrivilege, 0x0
+security.c:1920: 	SeBackupPrivilege, 0x0
+security.c:1920: Line has been silenced after 4 occurrences
+security.c:2353: Well Known SIDs:
+security.c:2364:  0: S-1-0-0 \NULL SID 5
+security.c:2364:  1: S-1-1-0 \Everyone 5
+security.c:2364:  2: S-1-2-0 \LOCAL 5
+security.c:2364:  3: S-1-3-0 \CREATOR OWNER 5
+security.c:2364: Line has been silenced after 4 occurrences
+security.c:2373:  38: not supported
+security.c:2373:  39: not supported
+security.c:2373:  40: not supported
+security.c:2373:  41: not supported
+security.c:2373: Line has been silenced after 4 occurrences
+security.c:2028:  S-1-5-21-0-0-0 DCFED82CD18A\ 3
+security.c:2028:  S-1-5-21-0-0-0-500 DCFED82CD18A\Administrator 1
+security.c:2028:  S-1-5-21-0-0-0-501 DCFED82CD18A\Guest 1
+security.c:2028:  S-1-5-21-0-0-0-512 DCFED82CD18A\Domain Admins 1
+security.c:2028: Line has been silenced after 4 occurrences
+security.c:2793: Test marked todo: got 122
+05a0:security: 22 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:3156: Test marked todo: RegOpenKeyEx failed with 0
+security.c:3210: Test marked todo: RegOpenKeyEx should have failed with ERROR_INVALID_HANDLE, ERROR_BAD_IMPERSONATION_LEVEL or ERROR_ACCESS_DENIED instead of 0
+security.c:3611: Test marked todo: Current User ACE (S-1-5-18) != Current User SID (S-1-5-21-0-0-0-1000)
+security.c:3611: Test marked todo: Administators Group ACE (S-1-5-21-0-0-0-1000) != Administators Group SID (S-1-5-32-544)
+security.c:3627: Test marked todo: GetAclInformation returned unexpected entry count (3 != 2)
+security.c:3627: Test marked todo: Current User ACE (S-1-5-18) != Current User SID (S-1-5-21-0-0-0-1000)
+security.c:3627: Test marked todo: Current User ACE has unexpected flags (0x0 != 0x10)
+security.c:3627: Test marked todo: Administators Group ACE (S-1-5-21-0-0-0-1000) != Administators Group SID (S-1-5-32-544)
+security.c:3627: Line has been silenced after 4 occurrences
+security.c:3658: Test marked todo: GetAclInformation returned unexpected entry count (1 != 0).
+security.c:3666: Test marked todo: GetNamedSecurityInfo failed with error 5
+security.c:3700: Test marked todo: GetAclInformation returned unexpected entry count (3 != 2)
+security.c:3700: Test marked todo: Current User ACE (S-1-5-18) != Current User SID (S-1-5-21-0-0-0-1000)
+security.c:3700: Test marked todo: Current User ACE has unexpected flags (0x0 != 0x10)
+security.c:3700: Test marked todo: Administators Group ACE (S-1-5-21-0-0-0-1000) != Administators Group SID (S-1-5-32-544)
+security.c:3700: Line has been silenced after 4 occurrences
+security.c:3737: Test marked todo: GetAclInformation returned unexpected entry count (1 != 0).
+security.c:3745: Test marked todo: GetNamedSecurityInfo failed with error 5
+security.c:3915: Test marked todo: Current User ACE (S-1-5-18) != Current User SID (S-1-5-21-0-0-0-1000).
+security.c:3927: Test marked todo: Administators Group ACE (S-1-5-21-0-0-0-1000) != Administators Group SID (S-1-5-32-544).
+security.c:3956: Test marked todo: ACE has unexpected flags: 0x0
+security.c:3974: Test marked todo: pDacl != NULL
+security.c:4237: Test marked todo: ConvertStringSecurityDescriptorToSecurityDescriptor should have failed with ERROR_INVALID_PARAMETER instead of -559038737
+security.c:7678: Well known SID 38 not supported
+security.c:7678: Well known SID 39 not supported
+security.c:7678: Well known SID 40 not supported
+security.c:7678: Well known SID 41 not supported
+security.c:7678: Line has been silenced after 4 occurrences
+security.c:4752: Test marked todo: Current User ACE (S-1-5-18) != Current User SID (S-1-5-21-0-0-0-1000).
+security.c:4764: Test marked todo: Administators Group ACE (S-1-5-21-0-0-0-1000) != Administators Group SID (S-1-5-32-544).
+security.c:4894: Test marked todo: got error 0
+security.c:4898: Test marked todo: got error 0
+security.c:4912: Test marked todo: Type 0: got error 120
+security.c:4920: Test marked todo: Type 0: got error 0
+security.c:4912: Test marked todo: Type 0x8: got error 120
+security.c:4920: Test marked todo: Type 0x8: got error 0
+security.c:4912: Test marked todo: Type 0x9: got error 120
+security.c:4920: Test marked todo: Type 0x9: got error 0
+security.c:4912: Test marked todo: Type 0xa: got error 120
+security.c:4920: Test marked todo: Type 0xa: got error 0
+security.c:4912: Line has been silenced after 4 occurrences
+security.c:4920: Line has been silenced after 4 occurrences
+security.c:6778: Test marked todo: got 0
+security.c:6805: Test marked todo: got 0
+security.c:6828: Test marked todo: got 5
+security.c:6993: Test marked todo: Expected ERROR_NO_TOKEN, got 6
+security.c:7061: Test marked todo: Unexpected security descriptor control 0x8014
+security.c:7106: Test marked todo: DACL present
+security.c:7061: Test marked todo: Unexpected security descriptor control 0x8014
+security.c:7106: Test marked todo: DACL present
+security.c:7061: Test marked todo: Unexpected security descriptor control 0x8014
+security.c:7106: Test marked todo: DACL present
+security.c:7061: Test marked todo: Unexpected security descriptor control 0x8014
+security.c:7106: Test marked todo: DACL present
+security.c:7064: Test marked todo: Unexpected security descriptor control 0x8014
+security.c:7106: Line has been silenced after 4 occurrences
+security.c:7061: Line has been silenced after 4 occurrences
+05e4:security: 14 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+05ec:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:7946: Test marked todo: expected failure
+security.c:7947: Test marked todo: got error 0
+05f4:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+05c8:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+05d0:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+05d8:security: 2 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:8052: Test marked todo: key 80000006: got error 0
+security.c:8114: Test marked todo: Got attributes 0
+security.c:8127: Test marked todo: Got attributes 0
+security.c:8150: Test marked todo: Got attributes 0
+security.c:8163: Test marked todo: Got attributes 0
+security.c:8172: Test marked todo: Privilege shouldn't exist
+security.c:8257: Test marked todo: got control 0x8004
+security.c:8272: Test marked todo: expected no DACL present
+security.c:8443: Test marked todo: got error 1
+security.c:8448: Test marked todo: got error 1
+security.c:8716: Test marked todo: got present 0
+060c:security: 23 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0590:security: Silenced 11 todos, 24 skips and 108 traces.
+0590:security: 3549 tests executed (160 marked as todo, 0 as flaky, 0 failures), 4 skipped.
+advapi32:security:0590 done (0) in 0s 14502B
+advapi32:service start dlls/advapi32/tests/service.c
+service.c:102: Test marked todo: Expected failure
+service.c:103: Test marked todo: Expected RPC_S_SERVER_UNAVAILABLE or RPC_S_INVALID_NET_ADDR, got 0
+service.c:367: Test marked todo: Expected failure
+service.c:368: Test marked todo: Got wrong error 1073
+service.c:486: Test marked todo: Service size expected 1, got 4
+service.c:494: Test marked todo: Service size expected 15, got 30
+service.c:512: Test marked todo: Service size expected 1, got 4
+service.c:530: Test marked todo: Service size expected 1, got 4
+service.c:548: Test marked todo: Service size expected 2, got 4
+service.c:746: Test marked todo: Service size expected 1, got 4
+service.c:756: Test marked todo: Service size expected 1, got 400
+service.c:764: Test marked todo: Service size expected 1, got 4
+service.c:772: Test marked todo: Service size expected 15, got 30
+service.c:790: Test marked todo: Service size expected 1, got 4
+service.c:808: Test marked todo: Service size expected 1, got 4
+service.c:826: Test marked todo: Service size expected 2, got 4
+service.c:1324: Test marked todo: Expected a smaller needed buffer size for the missing services
+service.c:1347: Test marked todo: Expected < 1616 bytes needed for the remaining services, got 1616
+service.c:1349: Test marked todo: Expected a resume handle
+service.c:1368: Test marked todo: Expected 12 remaining services, got 17
+service.c:1741: Test marked todo: Expected a smaller needed buffer size for the missing services
+service.c:1764: Test marked todo: Expected a smaller needed buffer size for the missing services
+service.c:1766: Test marked todo: Expected a resume handle
+service.c:1946: Tests skipped: Not running under WoW64.
+service.c:2168: Test marked todo: Wrong string
+service.c:2929: Test marked todo: got 
+05e8:service: 723 tests executed (25 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+advapi32:service:05e8 done (0) in 1s 1868B
+advpack:advpack start dlls/advpack/tests/advpack.c
+advpack.c:103: kernel32.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:110: kernel32.dll version: 10.0.19045.5796
+advpack.c:117: advpack.dll Language ID: 0x00000000, Codepage ID: 0x00000000
+advpack.c:124: advpack.dll version: 0.0.0.0
+advpack.c:658: Test marked todo: Expected displayname
+advpack.c:659: Test marked todo: Expected locale
+advpack.c:660: Test marked todo: Expected stub
+advpack.c:661: Test marked todo: Expected stub
+advpack.c:662: Test marked todo: Expected 2,1,1,1
+advpack.c:663: Test marked todo: Expected real stub
+advpack.c:324: Test marked todo: Expected %49001%\Application Name, got C:\Program Files\Application Name
+advpack.c:325: Test marked todo: Expected size 25, got 34
+advpack.c:387: Test marked todo: Expected %49001%\Application Name, got C:\Program Files\Application Name
+advpack.c:388: Test marked todo: Expected size 25, got 34
+advpack.c:420: Test marked todo: Expected %49001%\Application Name, got C:\Program Files\Application Name
+advpack.c:421: Test marked todo: Expected size 25, got 34
+0630:advpack: 101 tests executed (12 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:advpack:0630 done (0) in 0s 1147B
+advpack:files start dlls/advpack/tests/files.c
+0638:files: 133 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:files:0638 done (0) in 0s 87B
+advpack:install start dlls/advpack/tests/install.c
+0640:install: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:install:0640 done (0) in 0s 88B
+amstream:amstream start dlls/amstream/tests/amstream.c
+amstream.c:8733: Test marked todo: Got size 0.
+amstream.c:8745: Test marked todo: Got size 0.
+amstream.c:8952: Test marked todo: Got hr 0x80004001.
+amstream.c:8968: Test marked todo: Got hr 0x80004001.
+amstream.c:9123: Test marked todo: Got hr 0x40002.
+amstream.c:1213: Test marked todo: Format blocks didn't match.
+amstream.c:9396: Test marked todo: Got hr 0x80040403.
+amstream.c:9397: Test marked todo: Got rgb bit count 0.
+amstream.c:9399: Test marked todo: Got rgb bit count 0.
+amstream.c:9407: Test marked todo: Got hr 0x1.
+0658:amstream: 4143 tests executed (10 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+amstream:amstream:0658 done (0) in 13s 631B
+apphelp:apphelp start dlls/apphelp/tests/apphelp.c
+02cc:apphelp: 15 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+apphelp:apphelp:02cc done (0) in 0s 88B
+atl100:atl start dlls/atl100/tests/atl.c
+atl.c:702: Test marked todo: returned 000500CC
+atl.c:753: Test marked todo: returned 000B00CC
+atl.c:702: Test marked todo: returned 001100CC
+atl.c:753: Test marked todo: returned 001700CC
+atl.c:799: Test marked todo: expected different proc!
+atl.c:908: Test marked todo: got 0x00000000
+atl.c:909: Test marked todo: returned 00000000
+atl.c:918: Test marked todo: returned 00000000!
+atl.c:928: Test marked todo: returned 00000000!
+atl.c:1107: Test marked todo: Unexpected hr 0.
+atl.c:1115: Test marked todo: Unexpected hr 0.
+02d4:atl: 242 tests executed (11 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl100:atl:02d4 done (0) in 2s 620B
+atl110:atl start dlls/atl110/tests/atl.c
+atl.c:74: Test marked todo: Unexpected hr 0.
+atl.c:82: Test marked todo: Unexpected hr 0.
+0358:atl: 9 tests executed (2 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl110:atl:0358 done (0) in 0s 175B
+atl80:atl start dlls/atl80/tests/atl.c
+038c:atl: 5 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl80:atl:038c done (0) in 0s 83B
+atlthunk:atlthunk start dlls/atlthunk/tests/atlthunk.c
+0394:atlthunk: 3078 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atlthunk:atlthunk:0394 done (0) in 0s 91B
+atl:atl_ax start dlls/atl/tests/atl_ax.c
+039c:atl_ax: 12 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:atl_ax:039c done (0) in 0s 87B
+atl:module start dlls/atl/tests/module.c
+03a4:module: 550 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:module:03a4 done (0) in 0s 88B
+atl:registrar start dlls/atl/tests/registrar.c
+03e4:registrar: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:registrar:03e4 done (0) in 0s 90B
+avifil32:api start dlls/avifil32/tests/api.c
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+03b4:api: 228 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+avifil32:api:03b4 done (0) in 0s 325B
+bcp47langs:bcp47langs start dlls/bcp47langs/tests/bcp47langs.c
+bcp47langs.c:56: Test marked todo: Got unexpected hr 0.
+03f4:bcp47langs: 10 tests executed (1 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bcp47langs:bcp47langs:03f4 done (0) in 0s 148B
+bcrypt:bcrypt start dlls/bcrypt/tests/bcrypt.c
+bcrypt.c:100: Test marked todo: Neither XP or Vista key is present
+bcrypt.c:803: Test marked todo: got 0xc0000002
+bcrypt.c:1404: Test marked todo: got 0xc000000d
+bcrypt.c:1588: Test marked todo: got 0xc0000206
+bcrypt.c:2438: Test marked todo: got 0
+bcrypt.c:3490: Test marked todo: got 0
+bcrypt.c:3746: Test marked todo: got 0xc0000002
+bcrypt.c:3877: Test marked todo: got 0
+bcrypt.c:3879: Test marked todo: got 0
+bcrypt.c:4055: Test marked todo: got 0
+bcrypt.c:4058: Test marked todo: got 0
+bcrypt.c:4160: Test marked todo: got 0xc0000002
+bcrypt.c:2654: Test marked todo: got c0000002
+bcrypt.c:2655: Test marked todo: got size of 0
+bcrypt.c:2660: Test marked todo: got c0000002
+bcrypt.c:2661: Test marked todo: got size of 0
+bcrypt.c:2669: Test marked todo: got c0000002
+bcrypt.c:2672: Test marked todo: got c0000002
+bcrypt.c:2673: Test marked todo: got size of 0
+bcrypt.c:2676: Test marked todo: got c0000002
+bcrypt.c:2677: Test marked todo: got size of 0
+bcrypt.c:2680: Test marked todo: got c0000002
+bcrypt.c:2688: Test marked todo: got c0000002
+bcrypt.c:2689: Test marked todo: got 0
+bcrypt.c:2692: Test marked todo: got c0000002
+bcrypt.c:2693: Test marked todo: got 0
+bcrypt.c:2694: Test marked todo: unexpected output
+03fc:bcrypt: 23278 tests executed (27 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bcrypt:bcrypt:03fc done (0) in 1s 1343B
+bluetoothapis:device start dlls/bluetoothapis/tests/device.c
+device.c:123: Tests skipped: No Bluetooth radios found.
+device.c:208: Tests skipped: No Bluetooth radios found.
+device.c:365: Tests skipped: No Bluetooth radios found.
+device.c:417: Tests skipped: No Bluetooth radios found.
+0398:device: 20 tests executed (0 marked as todo, 0 as flaky, 0 failures), 4 skipped.
+bluetoothapis:device:0398 done (0) in 0s 315B
+bluetoothapis:gatt start dlls/bluetoothapis/tests/gatt.c
+gatt.c:195: Tests skipped: No LE devices found.
+gatt.c:229: Tests skipped: No LE devices found.
+0414:gatt: 6 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+bluetoothapis:gatt:0414 done (0) in 0s 182B
+bluetoothapis:radio start dlls/bluetoothapis/tests/radio.c
+radio.c:83: Tests skipped: No Bluetooth radios found.
+radio.c:284: Tests skipped: No Bluetooth radios found.
+radio.c:217: Tests skipped: No Bluetooth radios found.
+radio.c:199: Tests skipped: No Bluetooth radios found.
+radio.c:242: Tests skipped: No Bluetooth radios found.
+radio.c:275: Tests skipped: No Bluetooth radios found.
+03a8:radio: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 6 skipped.
+bluetoothapis:radio:03a8 done (0) in 0s 421B
+bluetoothapis:sdp start dlls/bluetoothapis/tests/sdp.c
+03b0:sdp: 161 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bluetoothapis:sdp:03b0 done (0) in 0s 85B
+browseui:autocomplete start dlls/browseui/tests/autocomplete.c
+autocomplete.c:248: Test marked todo: IEnumACString is not supported, skipping tests
+autocomplete.c:81: ACL(003457F0): addref (2)
+autocomplete.c:81: ACL(003457F0): addref (3)
+autocomplete.c:81: ACL(003457F0): addref (4)
+autocomplete.c:81: ACL(013430D8): addref (2)
+autocomplete.c:81: Line has been silenced after 4 occurrences
+autocomplete.c:125: ACL(003457F0): read 1 item(s)
+autocomplete.c:125: ACL(003457F0): read 1 item(s)
+autocomplete.c:125: ACL(003457F0): read 1 item(s)
+autocomplete.c:125: ACL(003457F0): read 1 item(s)
+autocomplete.c:125: Line has been silenced after 4 occurrences
+autocomplete.c:159: ACL(003457F0): Reset
+autocomplete.c:159: ACL(013430D8): Reset
+autocomplete.c:167: ACL(003457F0): Expand
+autocomplete.c:167: ACL(013430D8): Expand
+autocomplete.c:167: ACL(003457F0): Expand
+autocomplete.c:167: ACL(013430D8): Expand
+autocomplete.c:167: Line has been silenced after 4 occurrences
+autocomplete.c:91: ACL(003457F0): release (3)
+autocomplete.c:91: ACL(003457F0): release (2)
+autocomplete.c:91: ACL(003457F0): release (1)
+autocomplete.c:159: ACL(013430D8): Reset
+autocomplete.c:91: ACL(013430D8): release (3)
+autocomplete.c:91: Line has been silenced after 4 occurrences
+03f0:autocomplete: Silenced 0 todos, 0 skips and 25 traces.
+03f0:autocomplete: 66 tests executed (1 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:autocomplete:03f0 done (0) in 0s 1368B
+browseui:progressdlg start dlls/browseui/tests/progressdlg.c
+03c0:progressdlg: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:progressdlg:03c0 done (0) in 0s 91B
+cabinet:extract start dlls/cabinet/tests/extract.c
+042c:extract: 273 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:extract:042c done (0) in 0s 89B
+cabinet:fdi start dlls/cabinet/tests/fdi.c
+fdi.c:751: mem_open(memory\block,8000,180) => 00346958
+fdi.c:751: mem_open(memory\block,8000,180) => 00346958
+fdi.c:843: mem_notify(0,0031F940)
+fdi.c:834: mem_notify: COPY_FILE file.dat, 12 bytes
+fdi.c:774: mem_write(0x12345678,008F9842,12)
+fdi.c:823: mem_notify: CLOSE_FILE_INFO file.dat, handle 0x12345678
+0434:fdi: 158 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:fdi:0434 done (0) in 0s 399B
+cfgmgr32:cfgmgr32 start dlls/cfgmgr32/tests/cfgmgr32.c
+cfgmgr32.c:232: Test marked todo: got 0xd.
+043c:cfgmgr32: 1812 tests executed (1 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cfgmgr32:cfgmgr32:043c done (0) in 1s 135B
+cmd.exe:batch start programs/cmd/tests/batch.c
+batch.c:485: running TEST_BUILTINS.BAT test...
+batch.c:379: Test marked todo: unexpected char 0x39 position 11 in line 22 (got 'ERRORLEVEL 9009', wanted 'ERRORLEVEL 3')
+batch.c:379: Test marked todo: unexpected char 0x53 position 0 in line 61 (got 'SUCCESS 1', wanted 'FAILURE 1')
+batch.c:379: Test marked todo: unexpected char 0x30 position 8 in line 64 (got 'SUCCESS 0', wanted 'SUCCESS 666')
+batch.c:379: Test marked todo: unexpected char 0x46 position 0 in line 69 (got 'FAILURE 1', wanted 'a@space@')
+batch.c:379: Line has been silenced after 4 occurrences
+batch.c:371: Test marked todo: excess characters on line 153 (got 'SUCCESS 0', wanted 'SUCCESS@space@')
+batch.c:368: Test marked todo: unexpected end of line 213 (got 'SUCCESS 666', wanted '@formfeed@SUCCESS 666')
+batch.c:368: Test marked todo: unexpected end of line 214 (got 'SUCCESS 666', wanted '@formfeed@SUCCESS 666')
+batch.c:485: running TEST_BUILTINS.CMD test...
+batch.c:368: Test marked todo: unexpected end of line 441 (got 'j2', wanted 'j2@space@')
+batch.c:371: Test marked todo: excess characters on line 617 (got 'SUCCESS 0', wanted 'SUCCESS@space@')
+batch.c:368: Test marked todo: unexpected end of line 677 (got 'SUCCESS 666', wanted '@formfeed@SUCCESS 666')
+batch.c:368: Line has been silenced after 4 occurrences
+batch.c:371: Test marked todo: excess characters on line 1956 (got 'cp3 ', wanted 'cp3')
+batch.c:371: Test marked todo: excess characters on line 2087 (got 'ErrLev: 0', wanted 'ErrLev:@space@')
+batch.c:485: running TEST_CMDLINE.CMD test...
+046c:batch: Silenced 39 todos, 0 skips and 0 traces.
+046c:batch: 2613 tests executed (12 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:batch:046c done (0) in 28s 1692B
+cmd.exe:directory start programs/cmd/tests/directory.c
+05b0:directory: 24 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:directory:05b0 done (0) in 0s 90B
+combase:roapi start dlls/combase/tests/roapi.c
+roapi.c:99: Test marked todo: Unexpected hr 0x80040154.
+roapi.c:107: Test marked todo: UNexpected hr 0x80040154.
+roapi.c:124: Test marked todo: RoGetActivationFactory returned 0.
+roapi.c:127: Test marked todo: got factory 7B015028.
+roapi.c:548: Test marked todo: 0 0: expected refcount 2, got 3
+roapi.c:562: Test marked todo: 0 0: expected refcount 3, got 4
+roapi.c:571: Test marked todo: 0 0: expected refcount 4, got 5
+roapi.c:492: Test marked todo: 0 0 0: expected refcount 4, got 5
+roapi.c:492: Test marked todo: 0 0 1: expected refcount 4, got 5
+roapi.c:548: Test marked todo: 0 1: expected refcount 2, got 3
+roapi.c:562: Test marked todo: 0 1: expected refcount 3, got 4
+roapi.c:571: Test marked todo: 0 1: expected refcount 4, got 5
+roapi.c:492: Test marked todo: 0 1 0: expected refcount 4, got 5
+roapi.c:486: Test marked todo: 0 1 1: expected refcount 5, got 6
+roapi.c:562: Test marked todo: 1 0: expected refcount 3, got 4
+roapi.c:571: Test marked todo: 1 0: expected refcount 4, got 5
+roapi.c:562: Test marked todo: 1 1: expected refcount 3, got 4
+roapi.c:571: Test marked todo: 1 1: expected refcount 4, got 5
+roapi.c:656: Test marked todo: Failed to delete file, error 5
+0590:roapi: 309 tests executed (19 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+combase:roapi:0590 done (0) in 1s 1291B
+combase:string start dlls/combase/tests/string.c
+072c:string: 598 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+combase:string:072c done (0) in 0s 88B
+comcat:comcat start dlls/comcat/tests/comcat.c
+0734:comcat: 9 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comcat:comcat:0734 done (0) in 0s 86B
+comctl32:animate start dlls/comctl32/tests/animate.c
+0744:animate: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:animate:0744 done (0) in 0s 88B
+comctl32:button start dlls/comctl32/tests/button.c
+v6util.h:92: created cc6.manifest
+button.c:897: Test marked todo: BM_SETSTYLE on a button: the msg 0x0085 should NOT have been sent by DefWindowProc
+button.c:897: Failed sequence BM_SETSTYLE on a button:
+button.c:897:   0: expected: 00f4 - actual: 00f4 wp 0000080b lp 00000001
+button.c:897:   1: expected: 007c - actual: 007c wp fffffff0 lp 0031f53c
+button.c:897: Line has been silenced after 4 occurrences
+button.c:1094: Test marked todo: WM_LBUTTONUP on a button: the msg sequence is not complete: expected 8013 - actual 0000
+button.c:1094: Failed sequence WM_LBUTTONUP on a button:
+button.c:1094:   0: expected: 0202 - actual: 0202 wp 00000000 lp 00000000
+button.c:1094:   1: expected: 00f3 - actual: 00f3 wp 00000000 lp 00000000
+button.c:1094: Line has been silenced after 4 occurrences
+button.c:2435: Test marked todo: Type 0xa: Expected content unchanged.
+073c:button: Silenced 0 todos, 0 skips and 11 traces.
+073c:button: 11998 tests executed (3 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:button:073c done (0) in 10s 1019B
+comctl32:combo start dlls/comctl32/tests/combo.c
+combo.c:358: Test marked todo: Focus not on ComboBoxEx's Edit Control, instead on 002700CC
+combo.c:1531: Test marked todo: Get disp mask seq: the msg sequence is not complete: expected 004e - actual 0000
+combo.c:1531: Failed sequence Get disp mask seq:
+combo.c:1531:   0: expected: msg 004e - actual: nothing
+combo.c:1531: Test marked todo: Get disp mask seq: the msg sequence is not complete: expected 004e - actual 0000
+combo.c:1531: Line has been silenced after 4 occurrences
+combo.c:1544: Test marked todo: Unexpected mask 0.
+combo.c:1546: Test marked todo: Get disp DI_SETITEM seq: the msg sequence is not complete: expected 004e - actual 0000
+combo.c:1546: Failed sequence Get disp DI_SETITEM seq:
+combo.c:1546:   0: expected: msg 004e - actual: nothing
+combo.c:1563: Test marked todo: Unexpected mask 0.
+v6util.h:92: created cc6.manifest
+combo.c:1544: Test marked todo: Unexpected mask 0.
+combo.c:1546: Test marked todo: Get disp DI_SETITEM seq: the msg sequence is not complete: expected 004e - actual 0000
+combo.c:1546: Line has been silenced after 4 occurrences
+combo.c:1563: Test marked todo: Unexpected mask 0.
+combo.c:762: Test marked todo: style 0x2: Invalid rect (5,5)-(105,82) vs (5,5)-(105,105)
+combo.c:783: Test marked todo: style 0x2: Invalid rect (5,5)-(105,82) vs (5,5)-(105,99)
+combo.c:799: Test marked todo: style 0x2: Invalid rect (5,5)-(105,82) vs (5,5)-(105,97)
+combo.c:814: Test marked todo: style 0x2: Invalid rect (5,5)-(105,82) vs (5,5)-(105,99)
+combo.c:762: Test marked todo: style 0x3: Invalid rect (5,5)-(105,81) vs (5,5)-(105,105)
+combo.c:783: Test marked todo: style 0x3: Invalid rect (5,5)-(105,81) vs (5,5)-(105,99)
+combo.c:799: Test marked todo: style 0x3: Invalid rect (5,5)-(105,81) vs (5,5)-(105,97)
+combo.c:814: Test marked todo: style 0x3: Invalid rect (5,5)-(105,81) vs (5,5)-(105,99)
+combo.c:762: Test marked todo: style 0x13: Invalid rect (5,5)-(105,81) vs (5,5)-(105,105)
+combo.c:779: Test marked todo: style 0x13: Invalid rect (5,5)-(105,81) vs (5,5)-(105,105)
+combo.c:795: Test marked todo: style 0x13: Invalid rect (5,5)-(105,81) vs (5,5)-(105,105)
+combo.c:810: Test marked todo: style 0x13: Invalid rect (5,5)-(105,81) vs (5,5)-(105,105)
+combo.c:716: Test marked todo: Invalid rect (5,5)-(105,82) vs (5,5)-(105,105)
+combo.c:735: Test marked todo: Unexpected item height 10, expected 8.
+combo.c:716: Test marked todo: Invalid rect (5,5)-(105,81) vs (5,5)-(105,105)
+combo.c:735: Test marked todo: Unexpected item height 10, expected 8.
+combo.c:1007: Test marked todo: drop-down rect height is 2 vs 26
+combo.c:1007: Test marked todo: drop-down rect height is 2 vs 26
+combo.c:1192: Test marked todo: Unexpected EM_SETSEL end value; got -1
+combo.c:1198: Test marked todo: Unexpected EM_SETSEL end value; got -1
+combo.c:1205: Test marked todo: Unexpected EM_SETSEL end value; got -1
+combo.c:1213: Test marked todo: Unexpected EM_SETSEL end value; got -1
+combo.c:1192: Test marked todo: Unexpected EM_SETSEL end value; got -1
+combo.c:1198: Test marked todo: Unexpected EM_SETSEL end value; got -1
+combo.c:1205: Test marked todo: Unexpected EM_SETSEL end value; got -1
+combo.c:1213: Test marked todo: Unexpected EM_SETSEL end value; got -1
+combo.c:1615: Test marked todo: Expected combo box to be dropped
+combo.c:1621: Test marked todo: Expected combo box to be dropped
+combo.c:1627: Test marked todo: Expected combo box to be dropped
+combo.c:1642: Test marked todo: Got al_pha
+combo.c:1646: Test marked todo: Got le
+combo.c:1650: Test marked todo: Got le
+combo.c:1660: Test marked todo: Expected combo box to be dropped
+combo.c:1664: Test marked todo: Got epsilon
+combo.c:1667: Test marked todo: Expected combo box to be dropped
+combo.c:1671: Test marked todo: Got epsilon
+combo.c:1674: Test marked todo: Expected combo box to be dropped
+combo.c:1680: Test marked todo: Got a_lpha
+combo.c:1687: Test marked todo: Got al_pha
+0784:combo: Silenced 10 todos, 0 skips and 24 traces.
+0784:combo: 885 tests executed (48 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:combo:0784 done (0) in 3s 4066B
+comctl32:datetime start dlls/comctl32/tests/datetime.c
+datetime.c:339: Test marked todo: Expected NULL(no child month calendar control), got 1507492
+datetime.c:506: Test marked todo: ST1 != ST2
+datetime.c:510: Test marked todo: ST1 != ST2
+datetime.c:525: Test marked todo: ST1.time != ST2.time
+datetime.c:543: Test marked todo: ST1 != ST2
+datetime.c:547: Test marked todo: ST1 != ST2
+datetime.c:644: Test marked todo: Expected 1, got 0
+v6util.h:92: created cc6.manifest
+datetime.c:339: Test marked todo: Expected NULL(no child month calendar control), got 5177502
+0774:datetime: 959 tests executed (8 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:datetime:0774 done (0) in 0s 608B
+comctl32:dpa start dlls/comctl32/tests/dpa.c
+v6util.h:92: created cc6.manifest
+0708:dpa: 821 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:dpa:0708 done (0) in 0s 120B
+comctl32:edit start dlls/comctl32/tests/edit.c
+v6util.h:92: created cc6.manifest
+edit.c:774: EDIT: Single line
+edit.c:788: EDIT: Single line want returns
+edit.c:801: EDIT: Multiline line
+edit.c:814: EDIT: Multi line want returns
+edit.c:855: EDIT: SETTEXT atomicity
+edit.c:870: Test marked todo: SetCaretPos succeeded unexpectedly, expected: 0, got: 1
+edit.c:1052: EDIT: Test notifications
+edit.c:1062: EDIT: Single line, no ES_AUTOHSCROLL
+edit.c:1112: EDIT: Single line, ES_AUTOHSCROLL
+edit.c:1158: EDIT: Multline, no ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1205: EDIT: Multline, ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1247: EDIT: Multline, ES_AUTOHSCROLL and ES_AUTOVSCROLL
+edit.c:1518: Test marked todo: Unexpected return value 0
+edit.c:1528: Test marked todo: Unexpected text length 0
+edit.c:1529: Test marked todo: Unexpected text 
+edit.c:1540: EDIT: buffer limit for single-line
+edit.c:1550: EDIT: buffer limit for multi-line
+edit.c:1886: Test marked todo: Returned 0, expected 1.
+edit.c:1898: Test marked todo: Returned 0, expected 1.
+edit.c:2020: Tests skipped: MS PGothic is not available, skipping some margin tests
+edit.c:2027: Tests skipped: Ume P Gothic is not available, skipping some margin tests
+edit.c:2034: Tests skipped: SimSun is not available, skipping some margin tests
+edit.c:2046: Tests skipped: Arial not found - skipping font change margin tests
+edit.c:2306: EDIT: Using old model for height computation
+edit.c:2308: EDIT: Text position (Single line)
+edit.c:2310: EDIT: Text position (Multi line)
+edit.c:2926: EDIT: Oversized font (Multi line)
+edit.c:3156: EDIT: EM_GETHANDLE
+edit.c:3811: Test marked todo: WM_IME_COMPOSITION: the msg 0x010d was expected, but got msg 0x010f instead
+edit.c:3811: Failed sequence WM_IME_COMPOSITION:
+edit.c:3811:   0: expected: 010d - actual: 010f wp 00000057 lp 00000000
+edit.c:3811:   1: expected: 010f - actual: 0286 wp 00000057 lp 00000000
+edit.c:3811: Line has been silenced after 4 occurrences
+edit.c:3836: Test marked todo: WM_IME_COMPOSITION with EIMES_GETCOMPSTRATONCE: the msg 0x010d was expected, but got msg 0x010f instead
+edit.c:3836: Failed sequence WM_IME_COMPOSITION with EIMES_GETCOMPSTRATONCE:
+edit.c:3836:   0: expected: 010d - actual: 010f wp 00000057 lp 00000000
+edit.c:3836:   1: expected: 010f - actual: 800e wp fffffffc lp 00000000
+edit.c:3836: Line has been silenced after 4 occurrences
+0710:edit: Silenced 0 todos, 0 skips and 14 traces.
+0710:edit: 267264 tests executed (8 marked as todo, 0 as flaky, 0 failures), 4 skipped.
+comctl32:edit:0710 done (0) in 3s 2506B
+comctl32:header start dlls/comctl32/tests/header.c
+header.c:1763: customdraw height: 18 (dpi: 96)
+header.c:1852: Test marked todo: Expected 21, got 201
+header.c:1868: Test marked todo: Expected 132, got 3012
+header.c:1870: Test marked todo: Expected 312, got 2013
+header.c:1872: Test marked todo: Expected 1032, got 3102
+header.c:1878: Test marked todo: Expected 132, got 312
+header.c:1880: Test marked todo: Expected 231, got 321
+header.c:1886: Test marked todo: Expected 2031, got 3201
+header.c:1105: Test marked todo: HDM_CLEARFILTER needs 5.80
+header.c:1111: Test marked todo: HDM_EDITFILTER needs 5.80
+v6util.h:92: created cc6.manifest
+0764:header: 1053 tests executed (9 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:header:0764 done (0) in 0s 690B
+comctl32:imagelist start dlls/comctl32/tests/imagelist.c
+imagelist.c:2590: Test marked todo: v5: Bitmap [00654321, 01ABCDEF]: Got bits [00000000, 01000000], expected [00000000, 01ABCDEF].
+imagelist.c:2590: Test marked todo: v5: Bitmap [01654321, 00ABCDEF]: Got bits [01000000, 00000000], expected [01654321, 00ABCDEF].
+imagelist.c:2590: Test marked todo: v5: Bitmap [00654321, 89ABCDEF]: Got bits [00000000, 895B6E80], expected [00000000, 89ABCDEF].
+imagelist.c:2590: Test marked todo: v5: Bitmap [FF654321, 00ABCDEF]: Got bits [FF654321, 00000000], expected [FF654321, 00ABCDEF].
+imagelist.c:2590: Line has been silenced after 4 occurrences
+imagelist.c:2643: Test marked todo: v5: Bitmap [00654321, 01ABCDEF]: Got bits [00654321, 01ABCDEF], expected [00000000, 01ABCDEF].
+imagelist.c:2649: Test marked todo: v5: Bitmap [00654321, 01ABCDEF]: Got bits [00000000, 01000000], expected [00000000, 01ABCDEF].
+imagelist.c:2643: Test marked todo: v5: Bitmap [01654321, 00ABCDEF]: Got bits [01654321, 00ABCDEF], expected [01000000, 00ABCDEF].
+imagelist.c:2649: Test marked todo: v5: Bitmap [01654321, 00ABCDEF]: Got bits [01000000, 00000000], expected [01000000, 00ABCDEF].
+imagelist.c:2643: Test marked todo: v5: Bitmap [00654321, FFABCDEF]: Got bits [00654321, FFABCDEF], expected [00000000, FFABCDEF].
+imagelist.c:2643: Test marked todo: v5: Bitmap [00654321, 89ABCDEF]: Got bits [00654321, 89ABCDEF], expected [00000000, 89ABCDEF].
+imagelist.c:2649: Test marked todo: v5: Bitmap [00654321, 89ABCDEF]: Got bits [00000000, 895B6E80], expected [00000000, 89ABCDEF].
+imagelist.c:2643: Line has been silenced after 4 occurrences
+imagelist.c:2649: Test marked todo: v5: Bitmap [FF654321, 00ABCDEF]: Got bits [FF654321, 00000000], expected [FF000000, 00ABCDEF].
+imagelist.c:2649: Line has been silenced after 4 occurrences
+v6util.h:92: created cc6.manifest
+imagelist.c:2584: Test marked todo: v6: Bitmap [00654321, 01ABCDEF]: Got bits [00000000, 01ABCDEF], expected [00000000, 01000000].
+imagelist.c:2584: Test marked todo: v6: Bitmap [01654321, 00ABCDEF]: Got bits [01654321, 00ABCDEF], expected [01000000, 00000000].
+imagelist.c:2584: Test marked todo: v6: Bitmap [00654321, 89ABCDEF]: Got bits [00000000, 89ABCDEF], expected [00000000, 895B6E80].
+imagelist.c:2584: Test marked todo: v6: Bitmap [FF654321, 00ABCDEF]: Got bits [FF654321, 00ABCDEF], expected [FF654321, 00000000].
+imagelist.c:2584: Line has been silenced after 4 occurrences
+imagelist.c:2698: Test marked todo: v6: Bitmap [00654321, 01ABCDEF]: Got bits [00654321, 00ABCDEF], expected [00FFFFFF, 00FEFEFE].
+imagelist.c:2704: Test marked todo: v6: Bitmap [00654321, 01ABCDEF]: Got bits [00654321, 00ABCDEF], expected [00FFFFFF, 00FEFEFE].
+imagelist.c:2698: Test marked todo: v6: Bitmap [01654321, 00ABCDEF]: Got bits [00654321, 00ABCDEF], expected [00FEFEFE, 00FFFFFF].
+imagelist.c:2704: Test marked todo: v6: Bitmap [01654321, 00ABCDEF]: Got bits [00654321, 00ABCDEF], expected [00FEFEFE, 00FFFFFF].
+imagelist.c:2698: Test marked todo: v6: Bitmap [00654321, FFABCDEF]: Got bits [00654321, 00ABCDEF], expected [00FFFFFF, 00ABCDEF].
+imagelist.c:2704: Test marked todo: v6: Bitmap [00654321, FFABCDEF]: Got bits [00654321, 00ABCDEF], expected [00FFFFFF, 00ABCDEF].
+imagelist.c:2698: Test marked todo: v6: Bitmap [00654321, 89ABCDEF]: Got bits [00654321, 00ABCDEF], expected [00FFFFFF, 00D1E4F6].
+imagelist.c:2704: Test marked todo: v6: Bitmap [00654321, 89ABCDEF]: Got bits [00654321, 00ABCDEF], expected [00FFFFFF, 00D1E4F6].
+imagelist.c:2698: Line has been silenced after 4 occurrences
+imagelist.c:2704: Line has been silenced after 4 occurrences
+imagelist.c:1562: Test marked todo: ImageList_DrawIndirect: Pixel FFBAC8D6, Expected a close match to FFE8F1FA from line 1708
+imagelist.c:1562: Test marked todo: ImageList_DrawIndirect: Pixel FFA3ACB5, Expected a close match to FFE8F1FA from line 1709
+0770:imagelist: Silenced 38 todos, 0 skips and 0 traces.
+0770:imagelist: 10937 tests executed (26 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:imagelist:0770 done (0) in 0s 3981B
+comctl32:ipaddress start dlls/comctl32/tests/ipaddress.c
+v6util.h:92: created cc6.manifest
+0748:ipaddress: 91 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:ipaddress:0748 done (0) in 0s 125B
+comctl32:listbox start dlls/comctl32/tests/listbox.c
+v6util.h:92: created cc6.manifest
+listbox.c:836: Test marked todo: Unexpected return value -1.
+listbox.c:846: Test marked todo: Unexpected return value -1.
+listbox.c:2863: Test marked todo: wrong result 2
+listbox.c:2868: Test marked todo: wrong result 2
+listbox.c:2873: Test marked todo: wrong result 2
+listbox.c:2936: Test marked todo: Got al_pha
+listbox.c:2940: Test marked todo: Got le
+listbox.c:2944: Test marked todo: Got le
+listbox.c:2950: Test marked todo: Got b_eta
+listbox.c:2957: Test marked todo: Got be_ta
+0730:listbox: 7677 tests executed (10 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listbox:0730 done (0) in 4s 620B
+comctl32:listview start dlls/comctl32/tests/listview.c
+listview.c:6246: Test marked todo: header notify, parent: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:6246: Failed sequence header notify, parent:
+listview.c:6246:   0: expected: msg 004e - actual: nothing
+listview.c:6248: Test marked todo: Expected ANSI notification code
+listview.c:6255: Test marked todo: header notify, parent: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:6255: Failed sequence header notify, parent:
+listview.c:6255:   0: expected: msg 004e - actual: nothing
+listview.c:6257: Test marked todo: Expected ANSI notification code
+listview.c:6279: Test marked todo: header notify, parent: in msg 0x004e expecting id -300 got -305
+listview.c:6279: Test marked todo: header notify, parent: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:6279: Failed sequence header notify, parent:
+listview.c:6279:   0: expected: 004e - actual: 004e wp 00000000 lp 0031fdc4
+listview.c:6279: Line has been silenced after 4 occurrences
+listview.c:1663: Test marked todo: got state 0, expected 8
+listview.c:2117: Test marked todo: Expected 1, got 0
+listview.c:2181: Test marked todo: Unexpected background color 0xffffff.
+listview.c:2172: Test marked todo: clr=00ffffff
+listview.c:2181: Test marked todo: Unexpected background color 0xffffff.
+listview.c:2181: Test marked todo: Unexpected background color 0xffffff.
+listview.c:2172: Test marked todo: clr=00ffffff
+listview.c:2181: Test marked todo: Unexpected background color 0xffffff.
+listview.c:2181: Line has been silenced after 4 occurrences
+listview.c:2172: Test marked todo: clr=00ffffff
+listview.c:2667: Test marked todo: test item position seq: the msg 0x8000 was expected, but got msg 0x0046 instead
+listview.c:2667: Failed sequence test item position seq:
+listview.c:2667:   0: expected: 1007 - actual: 1007 wp 00000000 lp 0031fc44
+listview.c:2667:   1: expected: 8000 - actual: 8000 wp fffffffc lp 00000001
+listview.c:2667: Line has been silenced after 4 occurrences
+listview.c:4617: Test marked todo: got right 0, bottom 14
+listview.c:3730: Test marked todo: ownerdata select notification: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:3730: Failed sequence ownerdata select notification:
+listview.c:3730:   0: expected: 004e - actual: 004e wp 00000000 lp 00000008
+listview.c:3730:   1: expected: msg 004e - actual: nothing
+listview.c:3741: Test marked todo: ownerdata focus notification: in msg 0x004e expecting id -101 got -150
+listview.c:3741: Test marked todo: ownerdata focus notification: in msg 0x004e expecting id -150 got -101
+listview.c:3741: Failed sequence ownerdata focus notification:
+listview.c:3741:   0: expected: 004e - actual: 004e wp 00000000 lp 0031f098
+listview.c:3741: Line has been silenced after 4 occurrences
+listview.c:3804: Test marked todo: ownerdata deselect all notification: in msg 0x004e expecting id -113 got -101
+listview.c:3804: Test marked todo: ownerdata deselect all notification: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:3804: Failed sequence ownerdata deselect all notification:
+listview.c:3804:   0: expected: 004e - actual: 004e wp ffffffff lp 00000008
+listview.c:3804: Line has been silenced after 4 occurrences
+listview.c:3837: Test marked todo: ownerdata select all notification: in msg 0x004e expecting id -113 got -101
+listview.c:3837: Test marked todo: ownerdata select all notification: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:3837: Failed sequence ownerdata select all notification:
+listview.c:3837:   0: expected: 004e - actual: 004e wp ffffffff lp 00000008
+listview.c:3837: Line has been silenced after 4 occurrences
+listview.c:3884: Test marked todo: ownerdata remove focus all notification: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:3884: Failed sequence ownerdata remove focus all notification:
+listview.c:3884:   0: expected: 004e - actual: 004e wp ffffffff lp 00000008
+listview.c:3884:   1: expected: msg 004e - actual: nothing
+listview.c:4109: Test marked todo: ownerdata multiselect: select one item via SHIFT+UP: in msg 0x004e expecting wParam 0x0 got 0x1
+listview.c:4109: Test marked todo: ownerdata multiselect: select one item via SHIFT+UP: in msg 0x004e expecting wParam 0x1 got 0x0
+listview.c:4109: Test marked todo: ownerdata multiselect: select one item via SHIFT+UP: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:4109: Failed sequence ownerdata multiselect: select one item via SHIFT+UP:
+listview.c:4109: Line has been silenced after 4 occurrences
+listview.c:4380: Test marked todo: Expected flags 0x20, got 0x28
+listview.c:4388: Test marked todo: Expected flags 0x20, got 0x28
+listview.c:4399: Test marked todo: Expected -2 retval, got -1
+listview.c:4399: Test marked todo: Expected -2 item, got -1
+listview.c:4399: Test marked todo: Expected flags 0x4, got 0x1
+listview.c:4400: Test marked todo: Expected -2 retval, got -1
+listview.c:4400: Test marked todo: Expected -2 item, got -1
+listview.c:4400: Test marked todo: Expected flags 0x4, got 0x1
+listview.c:4399: Test marked todo: Expected -3 retval, got -1
+listview.c:4399: Line has been silenced after 4 occurrences
+listview.c:4400: Test marked todo: Expected -3 retval, got -1
+listview.c:4400: Line has been silenced after 4 occurrences
+listview.c:4411: Test marked todo: Expected flags 0x1, got 0x8
+listview.c:4427: Test marked todo: Expected flags 0x20, got 0x28
+listview.c:4435: Test marked todo: Expected flags 0x20, got 0x28
+listview.c:4578: Test marked todo: get item position 2: the msg sequence is not complete: expected 1207 - actual 0000
+listview.c:4578: Failed sequence get item position 2:
+listview.c:4578:   0: expected: 1010 - actual: 1010 wp 00000000 lp 0031fddc
+listview.c:4578:   1: expected: msg 1207 - actual: nothing
+listview.c:4912: Test marked todo: Expected Edit window not to be created
+listview.c:4972: Test marked todo: edit box - end edit, no change, escape: in msg 0x004e expecting id -12 got -7
+listview.c:4972: Test marked todo: edit box - end edit, no change, escape: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:4972: Failed sequence edit box - end edit, no change, escape:
+listview.c:4972:   0: expected: 004e - actual: 004e wp 00000000 lp 0031f83c
+listview.c:4972: Line has been silenced after 4 occurrences
+listview.c:4980: Test marked todo: edit box - end edit, no change, return: in msg 0x004e expecting id -12 got -100
+listview.c:4980: Failed sequence edit box - end edit, no change, return:
+listview.c:4980:   0: expected: 004e - actual: 004e wp 00000000 lp 0031f83c
+listview.c:4980:   1: expected: 004e - actual: 004e wp 00000000 lp 00000001
+listview.c:4980: Line has been silenced after 4 occurrences
+listview.c:5015: Test marked todo: edit box - end edit, no change, return: in msg 0x004e expecting id -12 got -7
+listview.c:5015: Test marked todo: edit box - end edit, no change, return: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:5015: Failed sequence edit box - end edit, no change, return:
+listview.c:5015:   0: expected: 004e - actual: 004e wp 00000000 lp 0031f83c
+listview.c:5015: Line has been silenced after 4 occurrences
+listview.c:5067: Test marked todo: edit box WM_COMMAND (EN_KILLFOCUS): in msg 0x004e expecting id -12 got -7
+listview.c:5067: Test marked todo: edit box WM_COMMAND (EN_KILLFOCUS): the msg sequence is not complete: expected 004e - actual 0000
+listview.c:5067: Failed sequence edit box WM_COMMAND (EN_KILLFOCUS):
+listview.c:5067:   0: expected: 004e - actual: 004e wp 00000000 lp 0031eb34
+listview.c:5067: Line has been silenced after 4 occurrences
+listview.c:5560: Test marked todo: Expected 8, got 128
+listview.c:5741: Test marked todo: Unexpected width 100.
+listview.c:5747: Test marked todo: Unexpected height 0.
+listview.c:5754: Test marked todo: Unexpected height 0.
+listview.c:5779: Test marked todo: Unexpected width 0.
+listview.c:5780: Test marked todo: Unexpected height 0.
+listview.c:5788: Test marked todo: Unexpected height 0.
+listview.c:5816: Test marked todo: Unexpected height 0.
+listview.c:5830: Test marked todo: Unexpected height 65508.
+listview.c:5847: Test marked todo: Unexpected height 65508.
+listview.c:5852: Test marked todo: Unexpected height 65508.
+listview.c:5816: Test marked todo: Unexpected height 0.
+listview.c:5830: Test marked todo: Unexpected height 65508.
+listview.c:5847: Test marked todo: Unexpected height 65508.
+listview.c:5852: Test marked todo: Unexpected height 65508.
+listview.c:6096: Test marked todo: NM_HOVER allow test: the msg 0x0087 was expected, but got msg 0x004e instead
+listview.c:6096: Failed sequence NM_HOVER allow test:
+listview.c:6096:   0: expected: 0087 - actual: 004e wp 00000000 lp 0031f558
+listview.c:6096:   1: expected: msg 004e - actual: nothing
+listview.c:6101: Test marked todo: NM_HOVER block test: the msg 0x0087 was expected, but got msg 0x004e instead
+listview.c:6101: Failed sequence NM_HOVER block test:
+listview.c:6101:   0: expected: 0087 - actual: 004e wp 00000000 lp 0031f558
+listview.c:6101:   1: expected: msg 004e - actual: nothing
+listview.c:6568: Test marked todo: set state image list: the msg sequence is not complete: expected 0000 - actual 0046
+listview.c:6568: Failed sequence set state image list:
+listview.c:6568:   0: expected: 1003 - actual: 1003 wp 00000002 lp 018e23e0
+listview.c:6568:   1: expected: nothing - actual: 0046 wp 00000000 lp 0031f018
+listview.c:6568: Line has been silenced after 4 occurrences
+listview.c:7013: Test marked todo: parent seq, callback mask/invalid subitem 1: the msg sequence is not complete: expected 0000 - actual 004e
+listview.c:7013: Failed sequence parent seq, callback mask/invalid subitem 1:
+listview.c:7013:   0: expected: nothing - actual: 004e wp 00000000 lp 0031f504
+listview.c:7013:   1: expected: nothing - actual: 004e wp 00000000 lp 0031f504
+listview.c:7059: Test marked todo: Unexpected focused item, ret -1
+listview.c:7063: Test marked todo: Unexpected selection mark, -1
+listview.c:7113: Test marked todo: Unexpected selection mark, 0
+listview.c:7142: Test marked todo: parent seq, owner data/focus 3: in msg 0x004e expecting id -101 got -150
+listview.c:7142: Test marked todo: parent seq, owner data/focus 3: in msg 0x004e expecting id -150 got -101
+listview.c:7142: Test marked todo: parent seq, owner data/focus 3: the msg sequence is not complete: expected 0000 - actual 004e
+listview.c:7142: Failed sequence parent seq, owner data/focus 3:
+listview.c:7142: Line has been silenced after 4 occurrences
+listview.c:7624: Test marked todo: got 1
+listview.c:7645: Test marked todo: got 1
+listview.c:7789: Test marked todo: Subclassed header WM_PAINT without validating update regions: the msg 0x0085 was expected, but got msg 0x0014 instead
+listview.c:7789: Failed sequence Subclassed header WM_PAINT without validating update regions:
+listview.c:7789:   0: expected: 000f - actual: 000f wp 00000000 lp 00000000
+listview.c:7789:   1: expected: 000f - actual: 000f wp 00000000 lp 00000000
+listview.c:7789: Line has been silenced after 4 occurrences
+v6util.h:92: created cc6.manifest
+listview.c:5603: Test marked todo: scroll notify 1: the msg sequence is not complete: expected 004e - actual 0000
+listview.c:5603: Failed sequence scroll notify 1:
+listview.c:5603:   0: expected: msg 004e - actual: nothing
+listview.c:5609: Test marked todo: scroll notify 2: in msg 0x004e expecting id -180 got -12
+listview.c:5609: Test marked todo: scroll notify 2: in msg 0x004e expecting id -181 got -150
+listview.c:5609: Failed sequence scroll notify 2:
+listview.c:5609:   0: expected: 004e - actual: 004e wp 00000000 lp 0031e73c
+listview.c:5609: Line has been silenced after 4 occurrences
+listview.c:5615: Test marked todo: scroll notify 3: in msg 0x004e expecting id -180 got -12
+listview.c:5615: Test marked todo: scroll notify 3: in msg 0x004e expecting id -181 got -150
+listview.c:5615: Failed sequence scroll notify 3:
+listview.c:5615:   0: expected: 004e - actual: 004e wp 00000000 lp 0031e73c
+listview.c:5615: Line has been silenced after 4 occurrences
+listview.c:1663: Test marked todo: got state 0, expected 8
+listview.c:1946: Test marked todo: Header should have been created.
+listview.c:1961: Test marked todo: Header should have been created.
+listview.c:1980: Test marked todo: Header should have been created.
+listview.c:1990: Test marked todo: Header should have been created.
+listview.c:2000: Test marked todo: Header should have been created.
+listview.c:2016: Test marked todo: Header should have been created.
+listview.c:2025: Test marked todo: Header should have been created.
+listview.c:3730: Line has been silenced after 4 occurrences
+listview.c:3884: Line has been silenced after 4 occurrences
+listview.c:6096: Line has been silenced after 4 occurrences
+listview.c:6101: Line has been silenced after 4 occurrences
+listview.c:2720: Test marked todo: Unexpected return value 0.
+listview.c:2722: Test marked todo: Unexpected position 123,123.
+listview.c:2731: Test marked todo: Unexpected return value 0.
+listview.c:2733: Test marked todo: Unexpected position 123,123.
+078c:listview: Silenced 74 todos, 0 skips and 114 traces.
+078c:listview: 11145 tests executed (95 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listview:078c done (0) in 7s 13483B
+comctl32:misc start dlls/comctl32/tests/misc.c
+misc.c:417: Test marked todo: Class SysHeader32 has nameidx 0, expected 10011
+misc.c:423: Test marked todo: Class SysHeader32 has nameidx 0, expected 10011
+misc.c:399: Test marked todo: System class SysLink should NOT exist
+misc.c:1189: Test marked todo: ComboBox: WM_STYLECHANGED: the msg sequence is not complete: expected 0014 - actual 0000
+misc.c:1189: ComboBox: Failed sequence WM_STYLECHANGED:
+misc.c:1189: ComboBox:   0: expected: 007d - actual: 007d wp fffffff0 lp 0031f9a0
+misc.c:1189: ComboBox:   1: expected: msg 0014 - actual: nothing
+misc.c:1189: Line has been silenced after 4 occurrences
+v6util.h:92: created cc6.manifest
+misc.c:403: Test marked todo: System class tooltips_class32 is missing bits 20003 (00004808/0002400b)
+misc.c:406: Test marked todo: System class tooltips_class32 has extra bits 800 (00004808/0002400b)
+misc.c:406: Test marked todo: System class SysLink has extra bits 3 (00004003/00004000)
+misc.c:403: Test marked todo: System class ScrollBar is missing bits 4000 (0000008b/0000408b)
+misc.c:417: Test marked todo: Class ScrollBar has nameidx 0, expected 1000a
+misc.c:423: Test marked todo: Class ScrollBar has nameidx 0, expected 1000a
+misc.c:320: Test marked todo: Expected HRESULT_FROM_WIN32(ERROR_RESOURCE_TYPE_NOT_FOUND), got 80070002
+misc.c:966: Test marked todo: SysAnimate32 0: paint background: the msg sequence is not complete: expected 0000 - actual 0138
+misc.c:966: SysAnimate32 0: Failed sequence paint background:
+misc.c:966: SysAnimate32 0:   0: expected: nothing - actual: 0138 wp 00000000 lp 00000000
+misc.c:966: Test marked todo: Button 0xa: paint background: the msg sequence is not complete: expected 0014 - actual 0000
+misc.c:966: Line has been silenced after 4 occurrences
+misc.c:998: Test marked todo: Button 0xa: Expected color 0x808080, got 0xff.
+0750:misc: Silenced 20 todos, 0 skips and 61 traces.
+0750:misc: 1988 tests executed (14 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:misc:0750 done (0) in 22s 1971B
+comctl32:monthcal start dlls/comctl32/tests/monthcal.c
+monthcal.c:1620: Test marked todo: create monthcal control: the msg 0x0055 was expected, but got msg 0x0210 instead
+monthcal.c:1620: Failed sequence create monthcal control:
+monthcal.c:1620:   0: expected: 0055 - actual: 0210 wp 00000001 lp 003a00a6
+monthcal.c:1620:   1: expected: msg 0129 - actual: nothing
+monthcal.c:1620: Line has been silenced after 4 occurrences
+monthcal.c:1626: Test marked todo: create monthcal (multi sel style): the msg 0x0055 was expected, but got msg 0x0210 instead
+monthcal.c:1626: Failed sequence create monthcal (multi sel style):
+monthcal.c:1626:   0: expected: 0055 - actual: 0210 wp 00000001 lp 003b00a6
+monthcal.c:1626:   1: expected: msg 0129 - actual: nothing
+monthcal.c:1626: Line has been silenced after 4 occurrences
+monthcal.c:844: Test marked todo: monthcal currDate: the msg 0x000f was expected, but got msg 0x1002 instead
+monthcal.c:844: Failed sequence monthcal currDate:
+monthcal.c:844:   0: expected: 1002 - actual: 1002 wp 00000000 lp 0031fe08
+monthcal.c:844:   1: expected: 000f - actual: 1002 wp 00000000 lp 0031fe08
+monthcal.c:844: Line has been silenced after 4 occurrences
+monthcal.c:1376: Test marked todo: monthcal today: the msg 0x000f was expected, but got msg 0x100d instead
+monthcal.c:1376: Failed sequence monthcal today:
+monthcal.c:1376:   0: expected: 100c - actual: 100c wp 00000000 lp 0031fd74
+monthcal.c:1376:   1: expected: 000f - actual: 100d wp 00000000 lp 0031fe08
+monthcal.c:1376: Line has been silenced after 4 occurrences
+monthcal.c:1109: Test marked todo: Expected 0, got 20000
+monthcal.c:1118: Test marked todo: Expected 0, got 20000
+monthcal.c:1195: Test marked todo: monthcal hit test: the msg 0x000f was expected, but got msg 0x100e instead
+monthcal.c:1195: Failed sequence monthcal hit test:
+monthcal.c:1195:   0: expected: 1002 - actual: 1002 wp 00000000 lp 0031fcb0
+monthcal.c:1195:   1: expected: 000f - actual: 100e wp 00000000 lp 0031fcd0
+monthcal.c:1195: Line has been silenced after 4 occurrences
+monthcal.c:1241: Test marked todo: Expected 0, got 20000, pos 252
+monthcal.c:1251: Test marked todo: Expected 1 month item, got 0
+monthcal.c:1256: Test marked todo: Expected 1 year item, got 0
+monthcal.c:1260: Test marked todo: Not enough month and year items
+monthcal.c:1319: Test marked todo: monthcal hit test: the msg 0x000f was expected, but got msg 0x100d instead
+monthcal.c:1319: Failed sequence monthcal hit test:
+monthcal.c:1319:   0: expected: 100e - actual: 100e wp 00000000 lp 0031fd74
+monthcal.c:1319:   1: expected: 100c - actual: 100c wp 00000000 lp 0031fe08
+monthcal.c:1319: Line has been silenced after 4 occurrences
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800002
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800002
+monthcal.c:657: Line has been silenced after 4 occurrences
+v6util.h:92: created cc6.manifest
+monthcal.c:1800: Test marked todo: Expected 0, got 20000
+monthcal.c:1857: Test marked todo: Expected 0, got 20000
+monthcal.c:1858: Test marked todo: Expected 0, got 20000
+monthcal.c:1862: Test marked todo: Expected 0, got -1
+monthcal.c:1863: Test marked todo: Expected 0, got -1
+monthcal.c:1864: Test marked todo: Expected 635, got -1
+monthcal.c:1865: Test marked todo: Expected 182, got -1
+monthcal.c:1885: Tests skipped: MCM_GET/SETCALENDARBORDER not supported
+monthcal.c:1918: Tests skipped: Message MCM_SIZERECTTOMIN unsupported. Skipping.
+0758:monthcal: Silenced 0 todos, 0 skips and 27 traces.
+0758:monthcal: 2045 tests executed (19 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+comctl32:monthcal:0758 done (0) in 0s 3702B
+comctl32:mru start dlls/comctl32/tests/mru.c
+mru.c:344: Test marked todo: AddMRUStringA(NULL str) expected 0,0 got 0,87
+079c:mru: 94 tests executed (1 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:mru:079c done (0) in 0s 160B
+comctl32:pager start dlls/comctl32/tests/pager.c
+pager.c:471: Test marked todo: set pos: the msg 0x0046 was expected, but got msg 0x004e instead
+pager.c:471: Failed sequence set pos:
+pager.c:471:   0: expected: 1408 - actual: 1408 wp 00000000 lp 0000000a
+pager.c:471:   1: expected: 0046 - actual: 004e wp 00000000 lp 0031f5ac
+pager.c:471: Line has been silenced after 4 occurrences
+pager.c:478: Test marked todo: set pos empty: the msg sequence is not complete: expected 0000 - actual 004e
+pager.c:478: Failed sequence set pos empty:
+pager.c:478:   0: expected: 1408 - actual: 1408 wp 00000000 lp 0000000a
+pager.c:478:   1: expected: nothing - actual: 004e wp 00000000 lp 0031f5ac
+pager.c:482: Test marked todo: set pos: the msg 0x0046 was expected, but got msg 0x004e instead
+pager.c:482: Failed sequence set pos:
+pager.c:482:   0: expected: 1408 - actual: 1408 wp 00000000 lp 00000009
+pager.c:482:   1: expected: 0046 - actual: 004e wp 00000000 lp 0031f5ac
+pager.c:482: Line has been silenced after 4 occurrences
+0798:pager: Silenced 0 todos, 0 skips and 2 traces.
+0798:pager: 2827 tests executed (3 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:pager:0798 done (0) in 0s 1122B
+comctl32:progress start dlls/comctl32/tests/progress.c
+v6util.h:92: created cc6.manifest
+07ac:progress: 353 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:progress:07ac done (0) in 0s 125B
+comctl32:propsheet start dlls/comctl32/tests/propsheet.c
+propsheet.c:852: Test marked todo: property sheet with custom window proc: the msg 0x0046 was expected, but got msg 0x0210 instead
+propsheet.c:852: Failed sequence property sheet with custom window proc:
+propsheet.c:852:   0: expected: 0002 - actual: 0002 wp 00000000 lp 018e4210
+propsheet.c:852:   1: expected: 0001 - actual: 0001 wp 00000000 lp 00000000
+propsheet.c:852: Line has been silenced after 4 occurrences
+propsheet.c:1296: Test marked todo: Wrong theme dialog texture status.
+propsheet.c:1656: Tests skipped: Window not in foreground
+v6util.h:92: created cc6.manifest
+0788:propsheet: Silenced 0 todos, 0 skips and 22 traces.
+0788:propsheet: 758 tests executed (2 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comctl32:propsheet:0788 done (0) in 22s 736B
+comctl32:rebar start dlls/comctl32/tests/rebar.c
+rebar.c:1055: Tests skipped: RB_GETCOLORSCHEME not supported
+0778:rebar: 1353 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comctl32:rebar:0778 done (0) in 1s 150B
+comctl32:static start dlls/comctl32/tests/static.c
+v6util.h:92: created cc6.manifest
+static.c:88: Testing style 0x0
+static.c:88: Testing style 0x3
+static.c:88: Testing style 0x4
+static.c:88: Testing style 0x6
+static.c:88: Line has been silenced after 4 occurrences
+07a0:static: Silenced 0 todos, 0 skips and 11 traces.
+07a0:static: 506 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:static:07a0 done (0) in 1s 363B
+comctl32:status start dlls/comctl32/tests/status.c
+status.c:244: dpi=96 (min height: 26 or 20) SM_CYSIZE: 25
+07c4:status: 6433 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:status:07c4 done (0) in 6s 148B
+comctl32:subclass start dlls/comctl32/tests/subclass.c
+065c:subclass: 276 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:subclass:065c done (0) in 0s 90B
+comctl32:syslink start dlls/comctl32/tests/syslink.c
+v6util.h:92: created cc6.manifest
+syslink.c:266: Test marked todo: create SysLink (parent): the msg 0x0138 was expected, but got msg 0x0210 instead
+syslink.c:266: Failed sequence create SysLink (parent):
+syslink.c:266:   0: expected: 0031 - actual: 0210 wp 00000001 lp 00d900b6
+syslink.c:266:   1: expected: msg 0129 - actual: nothing
+syslink.c:266: Line has been silenced after 4 occurrences
+syslink.c:281: Test marked todo: visible SysLink: the msg sequence is not complete: expected 0000 - actual 0085
+syslink.c:281: Failed sequence visible SysLink:
+syslink.c:281:   0: expected: 007c - actual: 007c wp fffffff0 lp 0031ecc4
+syslink.c:281:   1: expected: 007d - actual: 007d wp fffffff0 lp 0031ecc4
+syslink.c:281: Line has been silenced after 4 occurrences
+syslink.c:282: Test marked todo: visible SysLink (parent): the msg sequence is not complete: expected 004e - actual 0000
+syslink.c:282: Failed sequence visible SysLink (parent):
+syslink.c:282:   0: expected: 0138 - actual: 0138 wp 11010059 lp 00d900b6
+syslink.c:282:   1: expected: msg 004e - actual: nothing
+0804:syslink: Silenced 0 todos, 0 skips and 3 traces.
+0804:syslink: 140 tests executed (3 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:syslink:0804 done (0) in 0s 1227B
+comctl32:tab start dlls/comctl32/tests/tab.c
+tab.c:695: Testing with the 'System' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Line has been silenced after 4 occurrences
+tab.c:543: Line has been silenced after 4 occurrences
+tab.c:544: Line has been silenced after 4 occurrences
+tab.c:551: Line has been silenced after 4 occurrences
+tab.c:564: Line has been silenced after 4 occurrences
+tab.c:572: Line has been silenced after 4 occurrences
+tab.c:587: Line has been silenced after 4 occurrences
+tab.c:607: Line has been silenced after 4 occurrences
+tab.c:641: Line has been silenced after 4 occurrences
+tab.c:695: Testing with the 'Arial' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Testing with the 'Tahoma' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Testing with the 'Courier New' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Line has been silenced after 4 occurrences
+tab.c:699: Line has been silenced after 4 occurrences
+tab.c:701: Line has been silenced after 4 occurrences
+tab.c:703: Line has been silenced after 4 occurrences
+tab.c:705: Line has been silenced after 4 occurrences
+tab.c:707: Line has been silenced after 4 occurrences
+tab.c:771: Test marked todo: Set focused tab parent sequence: the msg sequence is not complete: expected 0000 - actual 004e
+tab.c:771: Failed sequence Set focused tab parent sequence:
+tab.c:771:   0: expected: nothing - actual: 004e wp 00000000 lp 0031f6b8
+tab.c:771:   1: expected: nothing - actual: 004e wp 00000000 lp 0031f690
+tab.c:771: Line has been silenced after 4 occurrences
+tab.c:792: Test marked todo: Unexpected focus index -1.
+tab.c:797: Test marked todo: Unexpected focus index -1.
+tab.c:803: Test marked todo: Unexpected focus index 1.
+tab.c:806: Test marked todo: TCS_BUTTONS: set focused tab parent sequence: the msg sequence is not complete: expected 0000 - actual 004e
+tab.c:806: Failed sequence TCS_BUTTONS: set focused tab parent sequence:
+tab.c:806:   0: expected: 004e - actual: 004e wp 00000000 lp 0031f6ac
+tab.c:806:   1: expected: nothing - actual: 004e wp 00000000 lp 0031f6b8
+tab.c:908: Test marked todo: Expected 2, got 0
+tab.c:930: Test marked todo: Expected 0, got 1
+tab.c:1116: Test marked todo: Getset tooltip test sequence: the msg 0x0046 was expected, but got msg 0x132e instead
+tab.c:1116: Failed sequence Getset tooltip test sequence:
+tab.c:1116:   0: expected: 0055 - actual: 0055 wp 006c00a6 lp 00000003
+tab.c:1116:   1: expected: 0129 - actual: 132e wp 006c00a6 lp 00000000
+tab.c:1116: Line has been silenced after 4 occurrences
+tab.c:1117: Test marked todo: Getset tooltip test parent sequence: the msg sequence is not complete: expected 0046 - actual 0000
+tab.c:1117: Failed sequence Getset tooltip test parent sequence:
+tab.c:1117:   0: expected: msg 0046 - actual: nothing
+tab.c:1201: Test marked todo: insert_focus parent test sequence: the msg sequence is not complete: expected 0000 - actual 004e
+tab.c:1201: Failed sequence insert_focus parent test sequence:
+tab.c:1201:   0: expected: nothing - actual: 004e wp 00000000 lp 0031f6b8
+tab.c:1250: Test marked todo: delete_focus parent test sequence: the msg sequence is not complete: expected 0000 - actual 004e
+tab.c:1250: Failed sequence delete_focus parent test sequence:
+tab.c:1250:   0: expected: nothing - actual: 004e wp 00000000 lp 0031f6b8
+tab.c:1469: Test marked todo: got 0xdededede, expected 0xdedede
+tab.c:1580: Test marked todo: Unexpected focused tab 0.
+tab.c:1583: Test marked todo: Unexpected selected tab 0.
+068c:tab: Silenced 0 todos, 0 skips and 200 traces.
+068c:tab: 5424 tests executed (14 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tab:068c done (0) in 1s 6022B
+comctl32:taskdialog start dlls/comctl32/tests/taskdialog.c
+v6util.h:92: created cc6.manifest
+07b0:taskdialog: 2391 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:taskdialog:07b0 done (0) in 2s 128B
+comctl32:toolbar start dlls/comctl32/tests/toolbar.c
+toolbar.c:1534: Test marked todo: invalid rect (46,2)-(54,24) - expected (0,2)-(8,29) - (button = 2, tbsize_numtests = 5)
+toolbar.c:1546: Test marked todo: invalid rect (46,2)-(69,10) - expected (46,2)-(94,24) - (button = 2, tbsize_numtests = 6)
+toolbar.c:1546: Test marked todo: invalid rect (69,2)-(92,24) - expected (94,2)-(117,24) - (button = 3, tbsize_numtests = 6)
+toolbar.c:1546: Test marked todo: invalid rect (92,2)-(115,24) - expected (117,2)-(140,24) - (button = 4, tbsize_numtests = 6)
+toolbar.c:1546: Test marked todo: invalid rect (115,2)-(138,24) - expected (140,2)-(163,24) - (button = 5, tbsize_numtests = 6)
+toolbar.c:1550: Test marked todo: invalid rect (46,2)-(69,10) - expected (0,24)-(92,32) - (button = 2, tbsize_numtests = 7)
+toolbar.c:1550: Test marked todo: invalid rect (69,2)-(92,24) - expected (0,32)-(23,54) - (button = 3, tbsize_numtests = 7)
+toolbar.c:1550: Test marked todo: invalid rect (92,2)-(115,24) - expected (23,32)-(46,54) - (button = 4, tbsize_numtests = 7)
+toolbar.c:1550: Test marked todo: invalid rect (115,2)-(138,24) - expected (46,32)-(69,54) - (button = 5, tbsize_numtests = 7)
+toolbar.c:1550: Line has been silenced after 4 occurrences
+toolbar.c:1568: Test marked todo: invalid rect (62,0)-(93,8) - expected (0,30)-(124,38) - (button = 2, tbsize_numtests = 11)
+toolbar.c:1568: Test marked todo: invalid rect (93,0)-(124,30) - expected (0,38)-(31,68) - (button = 3, tbsize_numtests = 11)
+toolbar.c:1568: Test marked todo: invalid rect (124,0)-(155,30) - expected (31,38)-(62,68) - (button = 4, tbsize_numtests = 11)
+toolbar.c:1568: Test marked todo: invalid rect (155,0)-(186,30) - expected (62,38)-(93,68) - (button = 5, tbsize_numtests = 11)
+toolbar.c:1568: Line has been silenced after 4 occurrences
+toolbar.c:1690: Test marked todo: invalid rect (652,0)-(815,38) - expected (652,0)-(819,38) - (button = 4, tbsize_numtests = 19)
+toolbar.c:1690: Test marked todo: invalid rect (815,0)-(842,38) - expected (819,0)-(850,38) - (button = 5, tbsize_numtests = 19)
+toolbar.c:1719: Test marked todo: invalid rect (0,2)-(67,40) - expected (0,2)-(75,40) - (button = 0, tbsize_numtests = 21)
+toolbar.c:1719: Test marked todo: invalid rect (67,2)-(107,40) - expected (75,2)-(118,40) - (button = 1, tbsize_numtests = 21)
+toolbar.c:1719: Test marked todo: invalid rect (107,2)-(174,40) - expected (118,2)-(185,40) - (button = 2, tbsize_numtests = 21)
+toolbar.c:2229: Test marked todo: got 0x42001001, expected 0x52001001
+toolbar.c:2493: Test marked todo: got style 0x50000001, expected CCS_VERT
+toolbar.c:2655: Test marked todo: Unexpected draw text flags 0x8001
+toolbar.c:2660: Test marked todo: Unexpected draw text flags 0x8001
+toolbar.c:2665: Test marked todo: Unexpected draw text flags 0x8001
+toolbar.c:2671: Test marked todo: Unexpected draw text flags 0x8001
+toolbar.c:2676: Test marked todo: Unexpected draw text flags 0x8009
+toolbar.c:2681: Test marked todo: Unexpected draw text flags 0x8001
+toolbar.c:2840: Test marked todo: Unexpected iBitmap value 0.
+toolbar.c:2901: Test marked todo: Unexpected iBitmap value -3.
+v6util.h:92: created cc6.manifest
+toolbar.c:2840: Test marked todo: Unexpected iBitmap value 0.
+toolbar.c:2901: Test marked todo: Unexpected iBitmap value -3.
+07e4:toolbar: Silenced 2 todos, 0 skips and 0 traces.
+07e4:toolbar: 2129 tests executed (30 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:toolbar:07e4 done (0) in 0s 3404B
+comctl32:tooltips start dlls/comctl32/tests/tooltips.c
+tooltips.c:404: Test marked todo: got 1
+tooltips.c:429: Test marked todo: got 1
+tooltips.c:462: Test marked todo: got 1
+tooltips.c:490: Test marked todo: got 1
+tooltips.c:513: Test marked todo: Adding the tool to the tooltip succeeded!
+tooltips.c:1159: Test marked todo: 0: Unexpected ret value 1, size 45, max size 44.
+v6util.h:92: created cc6.manifest
+tooltips.c:72: Test marked todo: Unexpected window style 0x84800000.
+07d4:tooltips: 1112 tests executed (7 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tooltips:07d4 done (0) in 3s 522B
+comctl32:trackbar start dlls/comctl32/tests/trackbar.c
+trackbar.c:1409: Test marked todo: parent trackbar window: the msg 0x0055 was expected, but got msg 0x0086 instead
+trackbar.c:1409: Failed sequence parent trackbar window:
+trackbar.c:1409:   0: expected: 0055 - actual: 0086 wp 00000000 lp 0028009a
+trackbar.c:1409:   1: expected: 0129 - actual: 0006 wp 00000000 lp 0028009a
+trackbar.c:1409: Line has been silenced after 4 occurrences
+trackbar.c:1417: Test marked todo: new trackbar window test sequence: the msg sequence is not complete: expected 0055 - actual 0000
+trackbar.c:1417: Failed sequence new trackbar window test sequence:
+trackbar.c:1417:   0: expected: msg 030f - actual: nothing
+trackbar.c:1417:   1: expected: msg 0046 - actual: nothing
+trackbar.c:1417: Line has been silenced after 4 occurrences
+trackbar.c:594: Test marked todo: buddy test sequence: the msg 0x000f was expected, but got msg 0x0086 instead
+trackbar.c:594: Failed sequence buddy test sequence:
+trackbar.c:594:   0: expected: 0421 - actual: 0421 wp 00000001 lp 00000000
+trackbar.c:594:   1: expected: 0420 - actual: 0420 wp 00000000 lp 012d00a2
+trackbar.c:594: Line has been silenced after 4 occurrences
+trackbar.c:595: Test marked todo: parent buddy test seq: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:595: Failed sequence parent buddy test seq:
+trackbar.c:595:   0: expected: msg 0138 - actual: nothing
+trackbar.c:753: Test marked todo: position test sequence: the msg 0x000f was expected, but got msg 0x800e instead
+trackbar.c:753: Failed sequence position test sequence:
+trackbar.c:753:   0: expected: 0405 - actual: 0405 wp 00000001 lp ffffffff
+trackbar.c:753:   1: expected: 000f - actual: 800e wp fffffffc lp 00000000
+trackbar.c:753: Line has been silenced after 4 occurrences
+trackbar.c:754: Test marked todo: parent position test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:754: Failed sequence parent position test sequence:
+trackbar.c:754:   0: expected: msg 0138 - actual: nothing
+trackbar.c:860: Test marked todo: range test sequence: the msg 0x000f was expected, but got msg 0x0402 instead
+trackbar.c:860: Failed sequence range test sequence:
+trackbar.c:860:   0: expected: 0406 - actual: 0406 wp 00000001 lp 000a0000
+trackbar.c:860:   1: expected: 000f - actual: 0402 wp 00000000 lp 00000000
+trackbar.c:860: Line has been silenced after 4 occurrences
+trackbar.c:861: Test marked todo: parent range test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:861: Failed sequence parent range test sequence:
+trackbar.c:861:   0: expected: msg 0138 - actual: nothing
+trackbar.c:980: Test marked todo: selection test sequence: the msg 0x000f was expected, but got msg 0x0412 instead
+trackbar.c:980: Failed sequence selection test sequence:
+trackbar.c:980:   0: expected: 040a - actual: 040a wp 00000001 lp 000a0000
+trackbar.c:980:   1: expected: 000f - actual: 0412 wp 00000000 lp 00000000
+trackbar.c:980: Line has been silenced after 4 occurrences
+trackbar.c:981: Test marked todo: parent selection test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:981: Failed sequence parent selection test sequence:
+trackbar.c:981:   0: expected: msg 0138 - actual: nothing
+trackbar.c:1017: Test marked todo: thumb length test sequence: the msg 0x000f was expected, but got msg 0x041c instead
+trackbar.c:1017: Failed sequence thumb length test sequence:
+trackbar.c:1017:   0: expected: 041b - actual: 041b wp 0000000f lp 00000000
+trackbar.c:1017:   1: expected: 000f - actual: 041c wp 00000000 lp 00000000
+trackbar.c:1017: Line has been silenced after 4 occurrences
+trackbar.c:1018: Test marked todo: parent thumb length test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:1018: Failed sequence parent thumb length test sequence:
+trackbar.c:1018:   0: expected: msg 0138 - actual: nothing
+trackbar.c:1086: Test marked todo: tic settings test sequence: the msg 0x000f was expected, but got msg 0x0414 instead
+trackbar.c:1086: Failed sequence tic settings test sequence:
+trackbar.c:1086:   0: expected: 0404 - actual: 0404 wp 00000000 lp 00000000
+trackbar.c:1086:   1: expected: 0404 - actual: 0404 wp 00000000 lp 00000005
+trackbar.c:1086: Line has been silenced after 4 occurrences
+trackbar.c:1087: Test marked todo: parent tic settings test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:1087: Failed sequence parent tic settings test sequence:
+trackbar.c:1087:   0: expected: msg 0138 - actual: nothing
+v6util.h:92: created cc6.manifest
+trackbar.c:595: Test marked todo: parent buddy test seq: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:595: Line has been silenced after 4 occurrences
+trackbar.c:754: Test marked todo: parent position test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:754: Line has been silenced after 4 occurrences
+trackbar.c:861: Test marked todo: parent range test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:861: Line has been silenced after 4 occurrences
+trackbar.c:981: Test marked todo: parent selection test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:981: Line has been silenced after 4 occurrences
+trackbar.c:1018: Test marked todo: parent thumb length test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:1018: Line has been silenced after 4 occurrences
+trackbar.c:1087: Test marked todo: parent tic settings test sequence: the msg sequence is not complete: expected 0138 - actual 0000
+trackbar.c:1087: Line has been silenced after 4 occurrences
+080c:trackbar: Silenced 6 todos, 0 skips and 241 traces.
+080c:trackbar: 1152 tests executed (20 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:trackbar:080c done (0) in 0s 5915B
+comctl32:treeview start dlls/comctl32/tests/treeview.c
+treeview.c:816: Test marked todo: focus test: the msg 0x000f was expected, but got msg 0x110e instead
+treeview.c:816: Failed sequence focus test:
+treeview.c:816:   0: expected: 1100 - actual: 1100 wp 00000000 lp 0031fd54
+treeview.c:816:   1: expected: 1100 - actual: 1100 wp 00000000 lp 0031fd54
+treeview.c:816: Line has been silenced after 4 occurrences
+treeview.c:1227: Test marked todo: test get set tooltips: the msg 0x1118 was expected, but got msg 0x000f instead
+treeview.c:1227: Failed sequence test get set tooltips:
+treeview.c:1227:   0: expected: 0008 - actual: 0008 wp 014b00a2 lp 00000000
+treeview.c:1227:   1: expected: 0281 - actual: 000f wp 00000000 lp 00000000
+treeview.c:1227: Line has been silenced after 4 occurrences
+treeview.c:2465: Test marked todo: Expected 1, got 0
+treeview.c:2542: Test marked todo: Width 398, rect width 27.
+treeview.c:2562: Test marked todo: Width 398, rect width 27.
+treeview.c:2826: Test marked todo: got 16, expected 8
+treeview.c:2885: Test marked todo: WM_KEYDOWN/VK_RETURN parent notification: the msg sequence is not complete: expected 004e - actual 0000
+treeview.c:2885: Failed sequence WM_KEYDOWN/VK_RETURN parent notification:
+treeview.c:2885:   0: expected: 004e - actual: 004e wp 00000064 lp 0031f4d0
+treeview.c:2885:   1: expected: msg 004e - actual: nothing
+treeview.c:3029: Test marked todo: Unexpected ret value 0
+treeview.c:3037: Test marked todo: Unexpected ret value 0
+treeview.c:3054: Test marked todo: Unexpected ret value 0
+treeview.c:3062: Test marked todo: Unexpected ret value 0
+v6util.h:92: created cc6.manifest
+treeview.c:2465: Test marked todo: Expected 1, got 0
+treeview.c:2542: Test marked todo: Width 0, rect width 27.
+treeview.c:2562: Test marked todo: Width 0, rect width 27.
+treeview.c:2826: Test marked todo: got 16, expected 8
+treeview.c:2885: Line has been silenced after 4 occurrences
+treeview.c:3029: Test marked todo: Unexpected ret value 0
+treeview.c:3037: Test marked todo: Unexpected ret value 0
+treeview.c:3054: Test marked todo: Unexpected ret value 0
+treeview.c:3062: Test marked todo: Unexpected ret value 0
+07c8:treeview: Silenced 2 todos, 0 skips and 39 traces.
+07c8:treeview: 4805 tests executed (19 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:treeview:07c8 done (0) in 1s 2279B
+comctl32:updown start dlls/comctl32/tests/updown.c
+updown.c:843: Test marked todo: add updown control to parent: the msg 0x0055 was expected, but got msg 0x0210 instead
+updown.c:843: Failed sequence add updown control to parent:
+updown.c:843:   0: expected: 0055 - actual: 0210 wp 00010001 lp 014b009e
+updown.c:843:   1: expected: msg 0129 - actual: nothing
+updown.c:843: Line has been silenced after 4 occurrences
+updown.c:626: Test marked todo: test updown buddy: the msg 0x007c was expected, but got msg 0x0046 instead
+updown.c:626: Failed sequence test updown buddy:
+updown.c:626:   0: expected: 046a - actual: 046a wp 00000000 lp 00000000
+updown.c:626:   1: expected: 0469 - actual: 0469 wp 013200be lp 00000000
+updown.c:626: Line has been silenced after 4 occurrences
+updown.c:729: Test marked todo: Unexpected window rect.
+07f4:updown: Silenced 0 todos, 0 skips and 8 traces.
+07f4:updown: 679 tests executed (3 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:updown:07f4 done (0) in 0s 932B
+comdlg32:filedlg start dlls/comdlg32/tests/filedlg.c
+filedlg.c:471: Test marked todo: control id 460 was moved/resized, before (6,33)-(414,171) after (6,33)-(424,181)
+filedlg.c:932: Tests skipped: some interactive resizable dialog tests (set WINETEST_INTERACTIVE=1)
+filedlg.c:1171: Test marked todo: GetOpenFileNameA returned 0
+filedlg.c:1173: Test marked todo: CommDlgExtendedError returned 0x3003, should be 0
+filedlg.c:1175: Test marked todo: ofnA.nFileOffset is 0xdead
+filedlg.c:1176: Test marked todo: ofnA.nFileExtension is 0xbeef
+filedlg.c:1202: Test marked todo: GetOpenFileNameW returned 0
+filedlg.c:1204: Test marked todo: CommDlgExtendedError returned 0x3003
+filedlg.c:1206: Test marked todo: ofnW.nFileOffset is 0xdead
+filedlg.c:1207: Test marked todo: ofnW.nFileExtension is 0xbeef
+filedlg.c:1247: Test marked todo: GetOpenFileNameA returned 0x1
+filedlg.c:1259: Test marked todo: GetOpenFileNameW returned 0x1
+07c0:filedlg: 281 tests executed (11 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:filedlg:07c0 done (0) in 11s 972B
+comdlg32:finddlg start dlls/comdlg32/tests/finddlg.c
+0030:finddlg: 43 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:finddlg:0030 done (0) in 0s 88B
+comdlg32:fontdlg start dlls/comdlg32/tests/fontdlg.c
+fontdlg.c:123: Tests skipped: can't get a DC for a local printer
+0120:fontdlg: 8 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:fontdlg:0120 done (0) in 0s 153B
+comdlg32:itemdlg start dlls/comdlg32/tests/itemdlg.c
+itemdlg.c:432: Test marked todo: Got 0x80004001
+itemdlg.c:435: Test marked todo: Got 0x80004001
+itemdlg.c:507: Test marked todo: Got 0x80004001
+itemdlg.c:510: Test marked todo: Got 0x80004001
+itemdlg.c:584: Test marked todo: got 0x80004001.
+itemdlg.c:586: Test marked todo: got 0x80004001.
+itemdlg.c:718: Test marked todo: got 1
+itemdlg.c:738: Test marked todo: got 0x80004001.
+itemdlg.c:740: Test marked todo: got 0x80004001.
+itemdlg.c:817: Test marked todo: got 0x00000000
+itemdlg.c:824: Test marked todo: got 0x00000000
+itemdlg.c:954: Test marked todo: got 0x80004001
+itemdlg.c:957: Test marked todo: got 0x80004001
+itemdlg.c:972: Test marked todo: got 0x80004001
+itemdlg.c:974: Test marked todo: got 0x80004001
+itemdlg.c:981: Test marked todo: got 0x80004001
+itemdlg.c:983: Test marked todo: got 0x80004001
+itemdlg.c:1004: Test marked todo: got 0x80004001
+itemdlg.c:1006: Test marked todo: got 0x80004001
+itemdlg.c:1028: Test marked todo: got 0x80004001
+itemdlg.c:1030: Test marked todo: got 0x80004001
+itemdlg.c:1144: Testing FileOpenDialog (advise)
+itemdlg.c:1152: Testing FileSaveDialog (advise)
+itemdlg.c:1306: Test marked todo: Got 1
+itemdlg.c:1976: Test marked todo: got 0x80004005.
+itemdlg.c:1981: Test marked todo: got 0x80004001.
+itemdlg.c:1679: Test marked todo: Found item: 00CE0098
+itemdlg.c:2199: Test marked todo: got 0x80070057.
+012c:itemdlg: 1279 tests executed (26 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:itemdlg:012c done (0) in 5s 1467B
+comdlg32:printdlg start dlls/comdlg32/tests/printdlg.c
+printdlg.c:99: Tests skipped: No printer configured.
+printdlg.c:201: Tests skipped: No printer configured.
+printdlg.c:348: Tests skipped: No printer configured.
+printdlg.c:570: Tests skipped: No printer configured.
+printdlg.c:680: Tests skipped: No default printer available.
+0164:printdlg: 15 tests executed (0 marked as todo, 0 as flaky, 0 failures), 5 skipped.
+comdlg32:printdlg:0164 done (0) in 0s 370B
+compstui:compstui start dlls/compstui/tests/compstui.c
+016c:compstui: 146 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+compstui:compstui:016c done (0) in 0s 90B
+comsvcs:comsvcs start dlls/comsvcs/tests/comsvcs.c
+comsvcs.c:235: Test marked todo: expected driver_Release
+comsvcs.c:136: Test marked todo: unexpected call driver_DestroyResource
+comsvcs.c:240: Test marked todo: expected driver_ResetResource
+comsvcs.c:263: Test marked todo: expected driver_Release
+comsvcs.c:136: Test marked todo: unexpected call driver_DestroyResource
+comsvcs.c:268: Test marked todo: expected driver_ResetResource
+comsvcs.c:457: Test marked todo: Unexpected hr 0x80004001.
+comsvcs.c:461: Test marked todo: Unexpected hr 0x80004001.
+comsvcs.c:472: Test marked todo: Unexpected hr 0x80004001.
+comsvcs.c:539: Test marked todo: Unexpected hr 0x80004001.
+0810:comsvcs: 107 tests executed (10 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:comsvcs:0810 done (0) in 0s 720B
+comsvcs:property start dlls/comsvcs/tests/property.c
+018c:property: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:property:018c done (0) in 0s 89B
+concrt140:concrt140 start dlls/concrt140/tests/concrt140.c
+0184:concrt140: 282 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+concrt140:concrt140:0184 done (0) in 0s 91B
+conhost.exe:tty start programs/conhost/tests/tty.c
+tty.c:1297: Test marked todo: got 1, expected 2
+tty.c:1304: Test marked todo: got 2, expected 3
+tty.c:1316: Test marked todo: got 1, expected 2
+tty.c:1323: Test marked todo: got 2, expected 3
+017c:tty: 2032 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+0034:tty: 6322 tests executed (4 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+conhost.exe:tty:0034 done (0) in 2s 368B
+coremessaging:coremessaging start dlls/coremessaging/tests/coremessaging.c
+coremessaging.c:391: Test marked todo: got IDispatcherQueueController_get_DispatcherQueue hr 0x80004001.
+coremessaging.c:392: Test marked todo: got IDispatcherQueueController_get_DispatcherQueue hr 0x80004001.
+coremessaging.c:393: Test marked todo: got IDispatcherQueueController_get_DispatcherQueue hr 0x80004001.
+coremessaging.c:394: Test marked todo: got IDispatcherQueueController_get_DispatcherQueue hr 0x80004001.
+coremessaging.c:396: Test marked todo: got IDispatcherQueueController_get_DispatcherQueue hr 0x80004001.
+coremessaging.c:397: Test marked todo: got IDispatcherQueueController_get_DispatcherQueue hr 0x80004001.
+coremessaging.c:442: Test marked todo: got hr 0x80004001.
+coremessaging.c:445: Test marked todo: got hr 0x80004001.
+0174:coremessaging: 43 tests executed (8 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+coremessaging:coremessaging:0174 done (0) in 0s 848B
+credui:credui start dlls/credui/tests/credui.c
+0130:credui: 7 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+credui:credui:0130 done (0) in 0s 86B
+crypt32:base64 start dlls/crypt32/tests/base64.c
+0168:base64: 3723 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:base64:0168 done (0) in 0s 89B
+crypt32:cert start dlls/crypt32/tests/cert.c
+01b4:cert: 634 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:cert:01b4 done (0) in 0s 86B
+crypt32:chain start dlls/crypt32/tests/chain.c
+chain.c:5038: Test marked todo: msRootPolicyCheck[0](#0007): expected 1, got 0
+chain.c:5038: Test marked todo: msRootPolicyCheck_approot[0](#0007): expected 2, got 0
+chain.c:3477: Test marked todo: chainCheck[30]: expected error 00000001, got 00000021. 00000020 is expected if no valid root certificate is available.
+chain.c:3419: Test marked todo: chainCheck[30], element [0,2]: expected error 00000000, got 00000020. 00000020 is expected if no valid root certificate is available.
+chain.c:3432: Test marked todo: chainCheck[30], element [0,2]: expected info 0000010a, got 0000000a
+chain.c:4552: Test marked todo: chain->TrustStatus.dwInfoStatus = 0
+chain.c:4564: Test marked todo: simple_chain->TrustStatus.dwInfoStatus = 0
+chain.c:4577: info[0] = 2
+chain.c:4577: info[1] = 2
+chain.c:4577: info[2] = c
+0148:chain: 2936 tests executed (7 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:chain:0148 done (0) in 1s 902B
+crypt32:crl start dlls/crypt32/tests/crl.c
+0150:crl: 140 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:crl:0150 done (0) in 0s 85B
+crypt32:ctl start dlls/crypt32/tests/ctl.c
+01ac:ctl: 37 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:ctl:01ac done (0) in 0s 84B
+crypt32:encode start dlls/crypt32/tests/encode.c
+encode.c:946: Test marked todo: CryptEncodeObjectEx failed: 80092024
+encode.c:8858: Test marked todo: got 488
+encode.c:946: Test marked todo: CryptEncodeObjectEx failed: 80092024
+encode.c:8858: Test marked todo: got 488
+encode.c:946: Test marked todo: CryptEncodeObjectEx failed: 80092024
+encode.c:8858: Test marked todo: got 488
+0170:encode: 6329 tests executed (6 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:encode:0170 done (0) in 0s 425B
+crypt32:main start dlls/crypt32/tests/main.c
+main.c:353: Test marked todo: 6: I_CryptGetDefaultCryptProv(0x2000) failed
+0190:main: 104 tests executed (1 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:main:0190 done (0) in 0s 162B
+crypt32:message start dlls/crypt32/tests/message.c
+message.c:142: Test marked todo: CryptVerifyDetachedMessageHash failed: 80091007
+message.c:221: Test marked todo: CryptVerifyMessageHash failed: 80091007
+message.c:364: Test marked todo: Expected CRYPT_E_NOT_FOUND, got 80090006
+message.c:565: Test marked todo: Expected failure
+message.c:685: Test marked todo: CryptHashMessage failed: 0x80091001
+message.c:985: Test marked todo: bad size
+01d4:message: 154 tests executed (6 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:message:01d4 done (0) in 0s 484B
+crypt32:msg start dlls/crypt32/tests/msg.c
+msg.c:3220: Test marked todo: Expected STATUS_ACCESS_VIOLATION, got deadbeef
+msg.c:3269: Test marked todo: Expected NTE_BAD_HASH_STATE or NTE_BAD_ALGID or CRYPT_E_MSG_ERROR, got deadbeef
+msg.c:3373: Test marked todo: Expected NTE_BAD_SIGNATURE or TRUST_E_NOSIGNATURE, got 80090005
+msg.c:3420: Test marked todo: expected NTE_BAD_HASH_STATE or CRYPT_E_MSG_ERROR, got deadbeef
+msg.c:2315: Test marked todo: Expected STATUS_ACCESS_VIOLATION, got deadbeef
+msg.c:2324: Test marked todo: Expected STATUS_ACCESS_VIOLATION or STATUS_ILLEGAL_INSTRUCTION, got deadbeef
+msg.c:2336: Test marked todo: Expected CRYPT_E_STREAM_INSUFFICIENT_DATA, got 80093102
+msg.c:563: Test marked todo: byte-by-byte empty content: expected 1 updates, got 0
+msg.c:2377: Test marked todo: Expected CRYPT_E_ASN1_BADTAG, got deadbeef
+01d0:msg: 1026 tests executed (9 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:msg:01d0 done (0) in 0s 895B
+crypt32:object start dlls/crypt32/tests/object.c
+020c:object: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:object:020c done (0) in 0s 87B
+crypt32:oid start dlls/crypt32/tests/oid.c
+01e0:oid: 175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:oid:01e0 done (0) in 0s 85B
+crypt32:protectdata start dlls/crypt32/tests/protectdata.c
+01e8:protectdata: 42 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:protectdata:01e8 done (0) in 0s 92B
+crypt32:sip start dlls/crypt32/tests/sip.c
+0234:sip: 50 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:sip:0234 done (0) in 0s 84B
+crypt32:store start dlls/crypt32/tests/store.c
+store.c:638: Test marked todo: cert1 wasn't saved
+store.c:647: Test marked todo: cert2 wasn't saved
+store.c:1097: Test marked todo: CertOpenStore failed: 00000006
+store.c:505: Test marked todo: Cert was not saved in AppData at 3 (3)
+store.c:2110: Test marked todo: Store registration (dwFlags=00040000) failed, last error 0
+store.c:2114: Tests skipped: Nothing to test without registered store at 00040000
+store.c:2110: Test marked todo: Store registration (dwFlags=00090000) failed, last error 0
+store.c:2114: Tests skipped: Nothing to test without registered store at 00090000
+store.c:389: Test marked todo: file store -> system store: expected size 188, got 156
+store.c:398: Test marked todo: file store -> system store: unexpected value
+store.c:2835: Test marked todo: Unexpected cert3
+01f0:store: 578 tests executed (9 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+crypt32:store:01f0 done (0) in 0s 888B
+crypt32:str start dlls/crypt32/tests/str.c
+0210:str: 1592 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+crypt32:str:0210 done (0) in 0s 86B
+cryptext:cryptext start dlls/cryptext/tests/cryptext.c
+cryptext.c:42: Tests skipped: CryptExtOpenCER test needs user interaction
+01d8:cryptext: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+cryptext:cryptext:01d8 done (0) in 0s 163B
+cryptnet:cryptnet start dlls/cryptnet/tests/cryptnet.c
+cryptnet.c:616: Test marked todo: got index 3435973836
+cryptnet.c:617: Test marked todo: got error 0xcccccccc
+cryptnet.c:618: Test marked todo: got reason 3435973836
+cryptnet.c:626: Test marked todo: got index 3435973836
+cryptnet.c:627: Test marked todo: got error 0xcccccccc
+cryptnet.c:628: Test marked todo: got reason 3435973836
+cryptnet.c:636: Test marked todo: got index 3435973836
+cryptnet.c:637: Test marked todo: got error 0xcccccccc
+cryptnet.c:638: Test marked todo: got reason 3435973836
+cryptnet.c:851: Test marked todo: got error 0x80092013
+cryptnet.c:853: Test marked todo: got error 0x80092013
+0214:cryptnet: 141 tests executed (11 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptnet:cryptnet:0214 done (0) in 0s 710B
+cryptowinrt:crypto start dlls/cryptowinrt/tests/crypto.c
+crypto.c:186: iface 0031FDF0, async 00345588, status 1
+crypto.c:105: Skipping async_id check, got id 1
+crypto.c:105: Skipping async_id check, got id 1
+0220:crypto: 68 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptowinrt:crypto:0220 done (0) in 0s 241B
+cryptui:cryptui start dlls/cryptui/tests/cryptui.c
+0204:cryptui: 30 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptui:cryptui:0204 done (0) in 0s 88B
+cryptxml:cryptxml start dlls/cryptxml/tests/cryptxml.c
+cryptxml.c:94: Test marked todo: got hr 0.
+cryptxml.c:96: Test marked todo: got handle 00345C60.
+cryptxml.c:151: Test marked todo: got status.dwErrorStatus 0
+cryptxml.c:152: Test marked todo: got status.dwErrorStatus 0
+022c:cryptxml: 43 tests executed (4 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cryptxml:cryptxml:022c done (0) in 0s 312B
+d2d1:d2d1 start dlls/d2d1/tests/d2d1.c
+d2d1.c:2760: Test marked todo: Surface does not match.
+d2d1.c:2760: Test marked todo: Surface does not match.
+d2d1.c:5310: Test marked todo: 2: Got unexpected hr 0.
+d2d1.c:5310: Test marked todo: 3: Got unexpected hr 0.
+d2d1.c:5310: Test marked todo: 5: Got unexpected hr 0.
+d2d1.c:5310: Test marked todo: 6: Got unexpected hr 0.
+d2d1.c:5310: Line has been silenced after 4 occurrences
+d2d1.c:5643: Test marked todo: Got unexpected hr 0.
+d2d1.c:5643: Test marked todo: Got unexpected hr 0.
+d2d1.c:5999: Test marked todo: Got unexpected hr 0.
+d2d1.c:5999: Test marked todo: Got unexpected hr 0.
+d2d1.c:6380: Test marked todo: Got unexpected hr 0.
+d2d1.c:6384: Test marked todo: Got unexpected hr 0.
+d2d1.c:6380: Test marked todo: Got unexpected hr 0.
+d2d1.c:6384: Test marked todo: Got unexpected hr 0.
+d2d1.c:6468: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:6468: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:1098: diff 72 > max_diff 0.
+d2d1.c:962: gMgB
+d2d1.c:7406: Test marked todo: Figure does not match.
+d2d1.c:1098: diff 472 > max_diff 0.
+d2d1.c:962: gMgB
+d2d1.c:7408: Test marked todo: Figure does not match.
+d2d1.c:1098: diff 1672 > max_diff 0.
+d2d1.c:962: gMgB
+d2d1.c:7415: Test marked todo: Figure does not match.
+d2d1.c:1098: diff 518 > max_diff 10.
+d2d1.c:943: 6S4OiQEgfCh1Lm80ahoEGmYXDhdiFxIXXxYWFl0VGhVaFR4VVxUgFVUVIhVTFSQVURUmFU8VKBVN
+d2d1.c:943: FSoVSxUsFUoULhRJFDAURxUwFUYUMhRFFDQURBQ0FEMUNhRCFDYUQRQ4FEAUOBQ/FDoUPhQ6FD4U
+d2d1.c:943: OhQ9FDwUPBQ8FDwUPBQ8FDwUPBM+EzwTPhM8Ez4TPBM+EzwTPhM8Ez4TPBM+EzwTPhM8Ez4TPBM+
+d2d1.c:943: EzwTPhM8Ez4TPBM+EzwTPhM8Ez4TPBM+EzwUPBQ8FDwUPBQ8FDwUPBQ9FDoUPhQ6FD4UOhQ/FDgU
+d2d1.c:943: Line has been silenced after 4 occurrences
+d2d1.c:962: FSIVVRUgFVcVHhVaFRoVXRYWFl8XEhdiFw4XZhoEGmo0by51KHwggDAA
+d2d1.c:7423: Test marked todo: Figure does not match.
+d2d1.c:1098: Line has been silenced after 4 occurrences
+d2d1.c:962: Line has been silenced after 4 occurrences
+d2d1.c:7460: Test marked todo: Figure does not match.
+d2d1.c:7462: Test marked todo: Figure does not match.
+d2d1.c:7469: Test marked todo: Figure does not match.
+d2d1.c:7477: Test marked todo: Figure does not match.
+d2d1.c:7480: Test marked todo: Figure does not match.
+d2d1.c:7482: Test marked todo: Figure does not match.
+d2d1.c:7489: Test marked todo: Figure does not match.
+d2d1.c:7497: Test marked todo: Figure does not match.
+d2d1.c:7500: Test marked todo: Figure does not match.
+d2d1.c:7502: Test marked todo: Figure does not match.
+d2d1.c:7509: Test marked todo: Figure does not match.
+d2d1.c:7517: Test marked todo: Figure does not match.
+d2d1.c:7554: Test marked todo: Figure does not match.
+d2d1.c:7556: Test marked todo: Figure does not match.
+d2d1.c:7563: Test marked todo: Figure does not match.
+d2d1.c:7571: Test marked todo: Figure does not match.
+d2d1.c:7574: Test marked todo: Figure does not match.
+d2d1.c:7576: Test marked todo: Figure does not match.
+d2d1.c:7583: Test marked todo: Figure does not match.
+d2d1.c:7591: Test marked todo: Figure does not match.
+d2d1.c:7594: Test marked todo: Figure does not match.
+d2d1.c:7596: Test marked todo: Figure does not match.
+d2d1.c:7603: Test marked todo: Figure does not match.
+d2d1.c:7611: Test marked todo: Figure does not match.
+d2d1.c:7703: Test marked todo: Figure does not match.
+d2d1.c:7406: Test marked todo: Figure does not match.
+d2d1.c:7408: Test marked todo: Figure does not match.
+d2d1.c:7415: Test marked todo: Figure does not match.
+d2d1.c:7423: Test marked todo: Figure does not match.
+d2d1.c:7460: Test marked todo: Figure does not match.
+d2d1.c:7462: Test marked todo: Figure does not match.
+d2d1.c:7469: Test marked todo: Figure does not match.
+d2d1.c:7477: Test marked todo: Figure does not match.
+d2d1.c:7480: Test marked todo: Figure does not match.
+d2d1.c:7482: Test marked todo: Figure does not match.
+d2d1.c:7489: Test marked todo: Figure does not match.
+d2d1.c:7497: Test marked todo: Figure does not match.
+d2d1.c:7500: Test marked todo: Figure does not match.
+d2d1.c:7502: Test marked todo: Figure does not match.
+d2d1.c:7509: Test marked todo: Figure does not match.
+d2d1.c:7517: Test marked todo: Figure does not match.
+d2d1.c:7554: Test marked todo: Figure does not match.
+d2d1.c:7556: Test marked todo: Figure does not match.
+d2d1.c:7563: Test marked todo: Figure does not match.
+d2d1.c:7571: Test marked todo: Figure does not match.
+d2d1.c:7574: Test marked todo: Figure does not match.
+d2d1.c:7576: Test marked todo: Figure does not match.
+d2d1.c:7583: Test marked todo: Figure does not match.
+d2d1.c:7591: Test marked todo: Figure does not match.
+d2d1.c:7594: Test marked todo: Figure does not match.
+d2d1.c:7596: Test marked todo: Figure does not match.
+d2d1.c:7603: Test marked todo: Figure does not match.
+d2d1.c:7611: Test marked todo: Figure does not match.
+d2d1.c:7703: Test marked todo: Figure does not match.
+d2d1.c:9149: Test marked todo: Got unexpected hr 0.
+d2d1.c:9160: Test marked todo: Got unexpected hr 0.
+d2d1.c:9149: Test marked todo: Got unexpected hr 0.
+d2d1.c:9160: Test marked todo: Got unexpected hr 0.
+d2d1.c:9624: Test marked todo: 1: Got unexpected hr 0.
+d2d1.c:9624: Test marked todo: 3: Got unexpected hr 0.
+d2d1.c:9624: Test marked todo: 4: Got unexpected hr 0.
+d2d1.c:9624: Test marked todo: 6: Got unexpected hr 0.
+d2d1.c:9624: Line has been silenced after 4 occurrences
+d2d1.c:9895: Test marked todo: Got unexpected hr 0x8899000a.
+d2d1.c:9895: Test marked todo: Got unexpected hr 0x8899000a.
+d2d1.c:10325: Test marked todo: Unexpected context target.
+d2d1.c:10339: Test marked todo: Got unexpected hr 0x88990001.
+d2d1.c:10353: Test marked todo: Unexpected target.
+d2d1.c:10325: Test marked todo: Unexpected context target.
+d2d1.c:10339: Test marked todo: Got unexpected hr 0x88990001.
+d2d1.c:10353: Test marked todo: Unexpected target.
+d2d1.c:10408: Tests skipped: Failed to create REF d3d device, hr 0x80004005.
+d2d1.c:10546: Test marked todo: Test 0: Got unexpected dpi_x 6.00000000e+001, expected 0.00000000e+000.
+d2d1.c:10549: Test marked todo: Test 0: Got unexpected dpi_y 2.88000000e+002, expected 0.00000000e+000.
+d2d1.c:10549: Test marked todo: Test 1: Got unexpected dpi_y 2.88000000e+002, expected 0.00000000e+000.
+d2d1.c:10546: Test marked todo: Test 2: Got unexpected dpi_x 6.00000000e+001, expected 0.00000000e+000.
+d2d1.c:10546: Test marked todo: Test 0: Got unexpected dpi_x 6.00000000e+001, expected 0.00000000e+000.
+d2d1.c:10549: Test marked todo: Test 0: Got unexpected dpi_y 2.88000000e+002, expected 0.00000000e+000.
+d2d1.c:10549: Test marked todo: Test 1: Got unexpected dpi_y 2.88000000e+002, expected 0.00000000e+000.
+d2d1.c:10546: Test marked todo: Test 2: Got unexpected dpi_x 6.00000000e+001, expected 0.00000000e+000.
+d2d1.c:12780: Test marked todo: Got unexpected property count 0.
+d2d1.c:12785: Test marked todo: Got unexpected hr 0x88990029.
+d2d1.c:12796: Test marked todo: Got unexpected hr 0x88990029.
+d2d1.c:12824: Test marked todo: Test 0: Got unexpected hr 0x88990029.
+d2d1.c:12824: Test marked todo: Test 1: Got unexpected hr 0x88990029.
+d2d1.c:12824: Test marked todo: Test 2: Got unexpected hr 0x88990029.
+d2d1.c:12824: Test marked todo: Test 3: Got unexpected hr 0x88990029.
+d2d1.c:12824: Line has been silenced after 4 occurrences
+d2d1.c:12780: Test marked todo: Got unexpected property count 0.
+d2d1.c:12785: Test marked todo: Got unexpected hr 0x88990029.
+d2d1.c:12796: Test marked todo: Got unexpected hr 0x88990029.
+d2d1.c:12924: Test marked todo: Got unexpected property count 1.
+d2d1.c:12946: Test marked todo: Test 0: Got unexpected hr 0x80070057.
+d2d1.c:12958: Test marked todo: Test 0: Got unexpected hr 0x80004001.
+d2d1.c:12960: Test marked todo: Test 0: Got unexpected output bounds {-1.00000000e+000, -1.00000000e+000, -1.00000000e+000, -1.00000000e+000}, expected {0.00000000e+000, 0.00000000e+000, 8.00000000e+000, 8.00000000e+000}.
+d2d1.c:12946: Test marked todo: Test 1: Got unexpected hr 0x80070057.
+d2d1.c:12958: Test marked todo: Test 1: Got unexpected hr 0x80004001.
+d2d1.c:12960: Test marked todo: Test 1: Got unexpected output bounds {-1.00000000e+000, -1.00000000e+000, -1.00000000e+000, -1.00000000e+000}, expected {4.00000000e+000, 4.00000000e+000, 8.00000000e+000, 8.00000000e+000}.
+d2d1.c:12946: Test marked todo: Test 2: Got unexpected hr 0x80070057.
+d2d1.c:12958: Test marked todo: Test 2: Got unexpected hr 0x80004001.
+d2d1.c:12960: Test marked todo: Test 2: Got unexpected output bounds {-1.00000000e+000, -1.00000000e+000, -1.00000000e+000, -1.00000000e+000}, expected {1.00000000e+001, 1.00000000e+001, 1.60000000e+001, 1.60000000e+001}.
+d2d1.c:12946: Test marked todo: Test 3: Got unexpected hr 0x80070057.
+d2d1.c:12958: Test marked todo: Test 3: Got unexpected hr 0x80004001.
+d2d1.c:12960: Test marked todo: Test 3: Got unexpected output bounds {-1.00000000e+000, -1.00000000e+000, -1.00000000e+000, -1.00000000e+000}, expected {0.00000000e+000, 1.00000000e+001, 1.60000000e+001, 1.20000000e+001}.
+d2d1.c:12946: Line has been silenced after 4 occurrences
+d2d1.c:12958: Line has been silenced after 4 occurrences
+d2d1.c:12960: Line has been silenced after 4 occurrences
+d2d1.c:12924: Test marked todo: Got unexpected property count 1.
+d2d1.c:13042: Test marked todo: Test 0: Got unexpected colour 0, expected 0xffffffff.
+d2d1.c:13042: Test marked todo: Test 1: Got unexpected colour 0, expected 0x12505050.
+d2d1.c:13042: Test marked todo: Test 2: Got unexpected colour 0, expected 0x89c7c7c7.
+d2d1.c:13042: Test marked todo: Test 3: Got unexpected colour 0, expected 0x77777777.
+d2d1.c:13042: Line has been silenced after 4 occurrences
+d2d1.c:13436: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13439: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13442: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13436: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13439: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13442: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13534: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13537: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13540: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13534: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13537: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:13540: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:14153: Test marked todo: Test 0: Got unexpected hr 0x88990001.
+d2d1.c:14230: Test marked todo: Got unexpected hr 0.
+d2d1.c:14153: Test marked todo: Test 0: Got unexpected hr 0x88990001.
+d2d1.c:14230: Test marked todo: Got unexpected hr 0.
+d2d1.c:15148: Test marked todo: Got unexpected colour 0, expected 0x661a334c.
+d2d1.c:15148: Test marked todo: Got unexpected colour 0, expected 0x661a334c.
+d2d1.c:15199: Test marked todo: Unexpected property count 1.
+d2d1.c:15199: Test marked todo: Unexpected property count 1.
+d2d1.c:15323: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15325: Test marked todo: Unexpected pointer.
+d2d1.c:15328: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15332: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15335: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15337: Test marked todo: Unexpected pointer.
+d2d1.c:15340: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15345: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15347: Test marked todo: Unexpected pointer.
+d2d1.c:15351: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15355: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15323: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15325: Test marked todo: Unexpected pointer.
+d2d1.c:15328: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15332: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15335: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15337: Test marked todo: Unexpected pointer.
+d2d1.c:15340: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15345: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15347: Test marked todo: Unexpected pointer.
+d2d1.c:15351: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15355: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15471: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15477: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15485: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15491: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15471: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15477: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15485: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15491: Test marked todo: Got unexpected hr 0x80004001.
+d2d1.c:15666: Test marked todo: Test 16: Got unexpected hr 0.
+d2d1.c:15666: Test marked todo: Test 17: Got unexpected hr 0.
+d2d1.c:15666: Test marked todo: Test 18: Got unexpected hr 0.
+d2d1.c:15666: Test marked todo: Test 19: Got unexpected hr 0.
+d2d1.c:15666: Line has been silenced after 4 occurrences
+0208:d2d1: Silenced 60 todos, 0 skips and 198 traces.
+0208:d2d1: 16070 tests executed (180 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+d2d1:d2d1:0208 done (0) in 39s 13289B
+d3d10core:d3d10core start dlls/d3d10core/tests/d3d10core.c
+d3d10core.c:1295: Adapter: L"NVIDIA GeForce GTX 470", 10de:06cd.
+d3d10core.c:2190: Test marked todo: Test 0: Got unexpected hr 0 (format 0x1).
+d3d10core.c:2190: Test marked todo: Test 1: Got unexpected hr 0 (format 0x1).
+d3d10core.c:2190: Test marked todo: Test 2: Got unexpected hr 0 (format 0x1).
+d3d10core.c:2190: Test marked todo: Test 11: Got unexpected hr 0 (format 0x1).
+d3d10core.c:2190: Line has been silenced after 4 occurrences
+d3d10core.c:2434: Test marked todo: Test 0: Got unexpected hr 0.
+d3d10core.c:2434: Test marked todo: Test 1: Got unexpected hr 0.
+d3d10core.c:2434: Test marked todo: Test 2: Got unexpected hr 0.
+d3d10core.c:2564: Test marked todo: Got unexpected hr 0.
+d3d10core.c:4664: Test marked todo: Got unexpected hr 0x8876086a for query type 7.
+d3d10core.c:4669: Test marked todo: Got unexpected hr 0x8876086a for query type 7.
+d3d10core.c:4771: Test marked todo: Got unexpected hr 0x1.
+d3d10core.c:4773: Test marked todo: Got unexpected hr 0x1.
+d3d10core.c:4907: Test marked todo: Got unexpected hr 0x1.
+d3d10core.c:4909: Test marked todo: Got unexpected hr 0x1.
+d3d10core.c:4933: Test marked todo: Got unexpected PSInvocations count: 307200.
+d3d10core.c:4999: Test marked todo: Got unexpected hr 0x1.
+d3d10core.c:5001: Test marked todo: Got unexpected hr 0x1.
+d3d10core.c:5122: Test marked todo: Got unexpected hr 0x1.
+d3d10core.c:5125: Test marked todo: Got unexpected hr 0x1.
+d3d10core.c:5134: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d10core.c:5144: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d10core.c:5936: Test marked todo: Got unexpected stream output offset 16 in slot 0.
+d3d10core.c:5936: Test marked todo: Got unexpected stream output offset 32 in slot 1.
+d3d10core.c:5936: Test marked todo: Got unexpected stream output offset 48 in slot 2.
+d3d10core.c:5936: Test marked todo: Got unexpected stream output offset 64 in slot 3.
+d3d10core.c:8984: Test marked todo: Got unexpected pointer 014441A4, expected NULL.
+d3d10core.c:9026: Test marked todo: Got unexpected pointer 0147BE64, expected NULL.
+d3d10core.c:9043: Test marked todo: Got unexpected pointer 0147BEE4, expected NULL.
+d3d10core.c:9058: Test marked todo: Got unexpected pointer 01458DC4, expected NULL.
+d3d10core.c:10493: Test marked todo: Got hr 0 for WRITE.
+d3d10core.c:10493: Test marked todo: Got hr 0 for WRITE.
+d3d10core.c:10493: Test marked todo: Got hr 0 for WRITE.
+d3d10core.c:10493: Test marked todo: Got hr 0 for WRITE.
+d3d10core.c:10493: Line has been silenced after 4 occurrences
+d3d10core.c:10515: Test marked todo: Got hr 0 for WRITE_DISCARD.
+d3d10core.c:10572: Test marked todo: Got hr 0 for WRITE.
+d3d10core.c:10572: Test marked todo: Got hr 0 for WRITE_NO_OVERWRITE.
+d3d10core.c:10572: Test marked todo: Got hr 0 for WRITE_DISCARD.
+d3d10core.c:10600: Test marked todo: Got hr 0 for WRITE_DISCARD.
+d3d10core.c:10628: Tests skipped: Multisampling not supported for DXGI_FORMAT_R8G8B8A8_UNORM.
+d3d10core.c:10997: Test marked todo: Got unexpected hr 0 for typeless format.
+d3d10core.c:11185: Test marked todo: Got unexpected hr 0.
+d3d10core.c:11548: Test marked todo: Got 0xffffff00, expected 0x00ffffff at (0, 0), sub-resource 0.
+d3d10core.c:11551: Test marked todo: Got 0x000000ff, expected 0xff000000 at (0, 0), sub-resource 0.
+d3d10core.c:11566: Test marked todo: Got 0xffffff00, expected 0x00ffffff at (0, 0), sub-resource 0.
+d3d10core.c:12910: Test marked todo: Failed to create input layout for format 0x19, hr 0x80070057.
+d3d10core.c:13845: Test marked todo: SHADER_SAMPLE is supported for R32G32B32A32_UINT.
+d3d10core.c:13788: Test marked todo: Format 0x1c - display supported, format support 0x200f3f3.
+d3d10core.c:13788: Test marked todo: Format 0x1d - display supported, format support 0xf3f1.
+d3d10core.c:13788: Test marked todo: Format 0xa - display supported, format support 0x200f3f3.
+d3d10core.c:13788: Test marked todo: Format 0x18 - display supported, format support 0x200f3f3.
+d3d10core.c:16145: Test marked todo: Format 0x2d: Got 0xffffff00, expected 0x00ffffff at (0, 0), sub-resource 0.
+d3d10core.c:16451: Test marked todo: Test 26: Got unexpected colour 0x00ff0000 at (0, 1), expected 0x00000000.
+d3d10core.c:16451: Test marked todo: Test 26: Got unexpected colour 0xffffff00 at (1, 1), expected 0x00000000.
+d3d10core.c:16451: Test marked todo: Test 26: Got unexpected colour 0xff00ff00 at (2, 1), expected 0x00000000.
+d3d10core.c:16451: Test marked todo: Test 26: Got unexpected colour 0xff00ff00 at (3, 1), expected 0x00000000.
+d3d10core.c:16451: Line has been silenced after 4 occurrences
+d3d10core.c:16466: Test marked todo: Test 26: Got unexpected colour 0xff0000ff at (0, 0), expected 0x00000000.
+d3d10core.c:16466: Test marked todo: Test 26: Got unexpected colour 0xff00ffff at (1, 0), expected 0x00000000.
+d3d10core.c:16466: Test marked todo: Test 26: Got unexpected colour 0xff00ff00 at (2, 0), expected 0x00000000.
+d3d10core.c:16466: Test marked todo: Test 26: Got unexpected colour 0xffffff00 at (3, 0), expected 0x00000000.
+d3d10core.c:16466: Line has been silenced after 4 occurrences
+d3d10core.c:17684: Test marked todo: Got 0x0000ff00, expected 0xffffffff at (200, 0), sub-resource 0.
+d3d10core.c:17687: Test marked todo: Got 0x0000ff00, expected 0xffffffff at (0, 200), sub-resource 0.
+d3d10core.c:17684: Test marked todo: Got 0xbfff0000, expected 0xffffffff at (200, 0), sub-resource 0.
+d3d10core.c:17687: Test marked todo: Got 0xbfff0000, expected 0xffffffff at (0, 200), sub-resource 0.
+d3d10core.c:17684: Test marked todo: Got 0x8000ff00, expected 0xffffffff at (200, 0), sub-resource 0.
+d3d10core.c:17687: Test marked todo: Got 0x8000ff00, expected 0xffffffff at (0, 200), sub-resource 0.
+d3d10core.c:17711: Test marked todo: Got 0xffff0000, expected 0xffffffff at (200, 0), sub-resource 0.
+d3d10core.c:17714: Test marked todo: Got 0xffff0000, expected 0xffffffff at (0, 200), sub-resource 0.
+d3d10core.c:18310: Test marked todo: Got 0xff80ff80, expected 0xffbcffbc at (0, 0), sub-resource 0.
+d3d10core.c:18310: Test marked todo: Got 0xffdfc0a0, expected 0xffe2cdc0 at (0, 0), sub-resource 0.
+d3d10core.c:19349: Test marked todo: Got unexpected colour 0xffffffff at (320, 60), expected 0xff0000ff.
+d3d10core.c:19349: Test marked todo: Got unexpected colour 0x00000000 at (320, 180), expected 0xff00ff00.
+d3d10core.c:19349: Test marked todo: Got unexpected colour 0x00000000 at (320, 300), expected 0xffff0000.
+d3d10core.c:19349: Test marked todo: Got unexpected colour 0x00000000 at (320, 420), expected 0xffffffff.
+d3d10core.c:16007: Test marked todo: Test 2: Got -1.00000000e+000, expected 5.00000000e+000 at 0.
+d3d10core.c:16007: Test marked todo: Test 2: Got -1.00000000e+000, expected 6.00000000e+000 at 1.
+d3d10core.c:16007: Test marked todo: Test 2: Got 0.00000000e+000, expected 1.39999998e+000 at 2.
+d3d10core.c:16007: Test marked todo: Test 2: Got 1.00000000e+000, expected 1.50000000e+000 at 3.
+d3d10core.c:16007: Line has been silenced after 4 occurrences
+d3d10core.c:9472: Test marked todo: Got 0x3f800000, expected 0x00000001 at (0, 240), sub-resource 0.
+0568:d3d10core: Silenced 62 todos, 0 skips and 0 traces.
+0568:d3d10core: 195746 tests executed (77 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+d3d10core:d3d10core:0568 done (0) in 33s 7309B
+d3d10_1:d3d10_1 start dlls/d3d10_1/tests/d3d10_1.c
+d3d10_1.c:135: Test marked todo: Got unexpected hr 0x80004005.
+d3d10_1.c:175: Test marked todo: Got unexpected BufferDesc.RefreshRate.Numerator 1.
+d3d10_1.c:178: Test marked todo: Got unexpected BufferDesc.RefreshRate.Denominator 1.
+d3d10_1.c:335: Test marked todo: Got unexpected hr 0x80004002, expected 0.
+d3d10_1.c:335: Test marked todo: Got unexpected hr 0x80004002, expected 0.
+d3d10_1.c:335: Test marked todo: Got unexpected hr 0x80004002, expected 0.
+d3d10_1.c:335: Test marked todo: Got unexpected hr 0x80004002, expected 0.
+d3d10_1.c:335: Line has been silenced after 4 occurrences
+d3d10_1.c:716: Test marked todo: Got unexpected hr 0x8876086c.
+d3d10_1.c:729: Test marked todo: Got unexpected hr 0x8876086c.
+d3d10_1.c:737: Test marked todo: Got unexpected hr 0x8876086c.
+d3d10_1.c:744: Test marked todo: Got unexpected hr 0x8876086c.
+d3d10_1.c:848: Test marked todo: Got unexpected hr 0x80004005.
+073c:d3d10_1: Silenced 1 todos, 0 skips and 0 traces.
+073c:d3d10_1: 317 tests executed (12 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10_1:d3d10_1:073c done (0) in 2s 1064B
+d3d10_1:reflection start dlls/d3d10_1/tests/reflection.c
+reflection.c:922: Test marked todo: (0): got unexpected SystemValueType 0x40, expected 0.
+reflection.c:922: Test marked todo: (1): got unexpected SystemValueType 0x40, expected 0.
+reflection.c:922: Test marked todo: (2): got unexpected SystemValueType 0x42, expected 0.
+reflection.c:922: Test marked todo: (3): got unexpected SystemValueType 0x41, expected 0.
+reflection.c:1089: Test marked todo: 0: Got unexpected hr 0.
+reflection.c:1089: Test marked todo: 1: Got unexpected hr 0.
+reflection.c:1089: Test marked todo: 2: Got unexpected hr 0.
+reflection.c:1089: Test marked todo: 3: Got unexpected hr 0.
+reflection.c:1089: Line has been silenced after 4 occurrences
+reflection.c:1371: Test marked todo: Got unexpected uFlags 0xc, i 1.
+reflection.c:1371: Test marked todo: Got unexpected uFlags 0xc, i 2.
+0750:reflection: Silenced 2 todos, 0 skips and 0 traces.
+0750:reflection: 660 tests executed (10 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10_1:reflection:0750 done (0) in 0s 966B
+d3d10:device start dlls/d3d10/tests/device.c
+0758:device: 206 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:device:0758 done (0) in 0s 88B
+d3d10:effect start dlls/d3d10/tests/effect.c
+effect.c:3722: Test marked todo: Unexpected system value type 64.
+effect.c:6476: Test marked todo: Unexpected annotations count 1.
+effect.c:6478: Test marked todo: Expected valid variable.
+effect.c:6489: Test marked todo: Unexpected annotations count 1.
+effect.c:6491: Test marked todo: Expected valid variable.
+effect.c:6489: Test marked todo: Unexpected annotations count 1.
+effect.c:6491: Test marked todo: Expected valid variable.
+effect.c:6489: Test marked todo: Unexpected annotations count 1.
+effect.c:6491: Test marked todo: Expected valid variable.
+effect.c:6489: Test marked todo: Unexpected annotations count 1.
+effect.c:6491: Test marked todo: Expected valid variable.
+effect.c:6489: Line has been silenced after 4 occurrences
+effect.c:6491: Line has been silenced after 4 occurrences
+effect.c:6499: Test marked todo: Unexpected annotations count 1.
+effect.c:6501: Test marked todo: Expected valid variable.
+effect.c:6509: Test marked todo: Unexpected annotations count 1.
+effect.c:6511: Test marked todo: Expected valid variable.
+effect.c:6939: Test marked todo: Got unexpected hr 0.
+effect.c:6952: Test marked todo: Got unexpected hr 0.
+effect.c:7036: Test marked todo: Got unexpected hr 0.
+effect.c:7041: Test marked todo: Got unexpected hr 0.
+effect.c:7046: Test marked todo: Got unexpected hr 0x80004002.
+effect.c:7047: Test marked todo: Got unexpected pointer 00000000.
+effect.c:8939: Test failed: Got unexpected blend_factor[0] 4.29496730e+009.
+effect.c:8939: Test failed: Got unexpected blend_factor[1] 4.29496730e+009.
+effect.c:8939: Test failed: Got unexpected blend_factor[2] 4.29496730e+009.
+effect.c:8939: Test failed: Got unexpected blend_factor[3] 4.29496730e+009.
+0798:effect: Silenced 14 todos, 0 skips and 0 traces.
+0798:effect: 5027 tests executed (21 marked as todo, 0 as flaky, 4 failures), 0 skipped.
+d3d10:effect:0798 done (4) in 3s 1864B
+d3d10:reflection start dlls/d3d10/tests/reflection.c
+reflection.c:922: Test marked todo: (0): got unexpected SystemValueType 0x40, expected 0.
+reflection.c:922: Test marked todo: (1): got unexpected SystemValueType 0x40, expected 0.
+reflection.c:922: Test marked todo: (2): got unexpected SystemValueType 0x42, expected 0.
+reflection.c:922: Test marked todo: (3): got unexpected SystemValueType 0x41, expected 0.
+reflection.c:1089: Test marked todo: 0: Got unexpected hr 0.
+reflection.c:1089: Test marked todo: 1: Got unexpected hr 0.
+reflection.c:1089: Test marked todo: 2: Got unexpected hr 0.
+reflection.c:1089: Test marked todo: 3: Got unexpected hr 0.
+reflection.c:1089: Line has been silenced after 4 occurrences
+reflection.c:1371: Test marked todo: Got unexpected uFlags 0xc, i 1.
+reflection.c:1371: Test marked todo: Got unexpected uFlags 0xc, i 2.
+07e0:reflection: Silenced 2 todos, 0 skips and 0 traces.
+07e0:reflection: 660 tests executed (10 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d10:reflection:07e0 done (0) in 0s 966B
+d3d11:d3d11 start dlls/d3d11/tests/d3d11.c
+d3d11.c:1638: Adapter: L"NVIDIA GeForce GTX 470", 10de:06cd.
+d3d11.c:2145: Feature level 0xb000.
+d3d11.c:2183: Test marked todo: Got unexpected hr 0x80004005.
+d3d11.c:2229: Test marked todo: Got unexpected BufferDesc.RefreshRate.Numerator 1.
+d3d11.c:2232: Test marked todo: Got unexpected BufferDesc.RefreshRate.Denominator 1.
+0184:d3d11: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d11.c:2408: Test marked todo: Feature level 0xb100: Got hr 0x80004002, expected 0.
+d3d11.c:2408: Test marked todo: Feature level 0xb000: Got hr 0x80004002, expected 0.
+d3d11.c:2408: Test marked todo: Feature level 0xa100: Got hr 0x80004002, expected 0.
+d3d11.c:2408: Test marked todo: Feature level 0xa000: Got hr 0x80004002, expected 0.
+d3d11.c:2408: Line has been silenced after 4 occurrences
+d3d11.c:2488: Test marked todo: Multithread protection is 0x1.
+d3d11.c:2536: Test marked todo: Got unexpected hr 0.
+d3d11.c:2938: Test marked todo: Test 2: Texture should not implement ID3D10Texture1D.
+d3d11.c:3202: Test marked todo: Test 0: Got unexpected hr 0 (format 0x1).
+d3d11.c:3202: Test marked todo: Test 1: Got unexpected hr 0 (format 0x1).
+d3d11.c:3202: Test marked todo: Test 2: Got unexpected hr 0 (format 0x1).
+d3d11.c:3202: Test marked todo: Test 26: Got unexpected hr 0 (format 0x13).
+d3d11.c:3202: Line has been silenced after 4 occurrences
+d3d11.c:3334: Test marked todo: Test 2: Texture should not implement ID3D10Texture2D.
+d3d11.c:3480: Test marked todo: Test 0: Got unexpected hr 0.
+d3d11.c:3480: Test marked todo: Test 1: Got unexpected hr 0.
+d3d11.c:3480: Test marked todo: Test 2: Got unexpected hr 0.
+d3d11.c:3596: Test marked todo: Test 2: Texture should not implement ID3D10Texture3D.
+d3d11.c:3895: Test marked todo: Test 17: Buffer should not implement ID3D10Buffer.
+d3d11.c:3895: Test marked todo: Test 18: Buffer should not implement ID3D10Buffer.
+d3d11.c:3895: Test marked todo: Test 24: Buffer should not implement ID3D10Buffer.
+d3d11.c:3895: Test marked todo: Test 26: Buffer should not implement ID3D10Buffer.
+d3d11.c:3895: Line has been silenced after 4 occurrences
+d3d11.c:5252: Test marked todo: Feature level 0xa000: Got hr 0.
+d3d11.c:5296: Test marked todo: Feature level 0xa000: Got hr 0.
+d3d11.c:5340: Test marked todo: Feature level 0xa000: Got hr 0.
+d3d11.c:6083: Test marked todo: Got unexpected hr 0x8876086a for query type 7.
+d3d11.c:6088: Test marked todo: Got unexpected hr 0x8876086a for query type 7.
+d3d11.c:6083: Test marked todo: Got unexpected hr 0x8876086a for query type 9.
+d3d11.c:6088: Test marked todo: Got unexpected hr 0x8876086a for query type 9.
+d3d11.c:6083: Test marked todo: Got unexpected hr 0x8876086a for query type 11.
+d3d11.c:6088: Test marked todo: Got unexpected hr 0x8876086a for query type 11.
+d3d11.c:6083: Test marked todo: Got unexpected hr 0x8876086a for query type 13.
+d3d11.c:6088: Test marked todo: Got unexpected hr 0x8876086a for query type 13.
+d3d11.c:6083: Line has been silenced after 4 occurrences
+d3d11.c:6088: Line has been silenced after 4 occurrences
+d3d11.c:6196: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6198: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6373: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6375: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6400: Test marked todo: Got unexpected PSInvocations count: 307200.
+d3d11.c:6480: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6482: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6718: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6720: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6731: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d11.c:6741: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d11.c:6718: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6720: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6731: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d11.c:6741: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d11.c:6718: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6720: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6731: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d11.c:6741: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d11.c:6718: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6720: Test marked todo: Got unexpected hr 0x1.
+d3d11.c:6731: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d11.c:6741: Test marked todo: Got unexpected PrimitivesStorageNeeded: 2.
+d3d11.c:6718: Line has been silenced after 4 occurrences
+d3d11.c:6720: Line has been silenced after 4 occurrences
+d3d11.c:6731: Line has been silenced after 4 occurrences
+d3d11.c:6741: Line has been silenced after 4 occurrences
+d3d11.c:6762: Test marked todo: Got unexpected hr 0x80070057.
+d3d11.c:8183: Test marked todo: Got unexpected buffer 00345618.
+d3d11.c:8187: Test marked todo: Got unexpected sampler 00348D68.
+d3d11.c:8191: Test marked todo: Got unexpected shader 01584290.
+d3d11.c:8195: Test marked todo: Got unexpected srv 00345918.
+d3d11.c:8205: Test marked todo: Got unexpected buffer 00345618.
+d3d11.c:8209: Test marked todo: Got unexpected sampler 00348D68.
+d3d11.c:8213: Test marked todo: Got unexpected shader 015842C0.
+d3d11.c:8217: Test marked todo: Got unexpected srv 00345918.
+d3d11.c:8227: Test marked todo: Got unexpected buffer 00345618.
+d3d11.c:8231: Test marked todo: Got unexpected sampler 00348D68.
+d3d11.c:8235: Test marked todo: Got unexpected shader 01584350.
+d3d11.c:8239: Test marked todo: Got unexpected srv 00345918.
+d3d11.c:8249: Test marked todo: Got unexpected buffer 00345618.
+d3d11.c:8253: Test marked todo: Got unexpected sampler 00348D68.
+d3d11.c:8257: Test marked todo: Got unexpected shader 0158AE28.
+d3d11.c:8261: Test marked todo: Got unexpected srv 00345918.
+d3d11.c:8271: Test marked todo: Got unexpected buffer 00345618.
+d3d11.c:8275: Test marked todo: Got unexpected sampler 00348D68.
+d3d11.c:8279: Test marked todo: Got unexpected shader 0158AE68.
+d3d11.c:8283: Test marked todo: Got unexpected srv 00345918.
+d3d11.c:8294: Test marked todo: Got unexpected buffer 00345618.
+d3d11.c:8298: Test marked todo: Got unexpected sampler 00348D68.
+d3d11.c:8302: Test marked todo: Got unexpected shader 0158AEA8.
+d3d11.c:8306: Test marked todo: Got unexpected srv 00345918.
+d3d11.c:8310: Test marked todo: Got unexpected uav 00345958.
+d3d11.c:8320: Test marked todo: Got unexpected topology 0x5.
+d3d11.c:8323: Test marked todo: Got unexpected input layout 01584560.
+d3d11.c:8329: Test marked todo: Got unexpected input buffer 00345798.
+d3d11.c:8331: Test marked todo: Got unexpected input buffer format 0x2a.
+d3d11.c:8332: Test marked todo: Got unexpected input buffer offset 0x10.
+d3d11.c:8337: Test marked todo: Got unexpected vertex buffer 00345818.
+d3d11.c:8339: Test marked todo: Got unexpected vertex buffer stride 0x10.
+d3d11.c:8340: Test marked todo: Got unexpected vertex buffer offset 0x10.
+d3d11.c:8350: Test marked todo: Got unexpected rendertarget view 00345A98.
+d3d11.c:8352: Test marked todo: Got unexpected depth/stencil view 01579CB8.
+d3d11.c:8354: Test marked todo: Got unexpected unordered access view 00345A18.
+d3d11.c:8360: Test marked todo: Got unexpected blend state 0156A0D0.
+d3d11.c:8362: Test marked todo: Got unexpected blend factor 0.100000,0.200000,0.300000,0.400000.
+d3d11.c:8365: Test marked todo: Got unexpected sample mask 0xff00ff00.
+d3d11.c:8369: Test marked todo: Got unexpected depth/stencil state 01572710.
+d3d11.c:8371: Test marked todo: Got unexpected stencil ref 0x3.
+d3d11.c:8382: Test marked todo: Got unexpected rasterizer state 0158A6B0.
+d3d11.c:8387: Test marked todo: Got unexpected viewport count 1.
+d3d11.c:8391: Test marked todo: Got unexpected scissor rect count 1.
+d3d11.c:8395: Test marked todo: Got unexpected stream output buffer 00345898.
+d3d11.c:8401: Test marked todo: Got unexpected predicate 015845C0.
+d3d11.c:8403: Test marked todo: Got unexpected predicate value 1.
+d3d11.c:13059: Test marked todo: Got unexpected vertex buffer 00000000 in slot 16, expected 015795A8.
+d3d11.c:13061: Test marked todo: Got unexpected stride 0 in slot 16.
+d3d11.c:13062: Test marked todo: Got unexpected offset 0 in slot 16.
+d3d11.c:13059: Test marked todo: Got unexpected vertex buffer 00000000 in slot 17, expected 01588C18.
+d3d11.c:13061: Test marked todo: Got unexpected stride 0 in slot 17.
+d3d11.c:13062: Test marked todo: Got unexpected offset 0 in slot 17.
+d3d11.c:13059: Test marked todo: Got unexpected vertex buffer 00000000 in slot 18, expected 01588C98.
+d3d11.c:13061: Test marked todo: Got unexpected stride 0 in slot 18.
+d3d11.c:13062: Test marked todo: Got unexpected offset 0 in slot 18.
+d3d11.c:13059: Test marked todo: Got unexpected vertex buffer 00000000 in slot 19, expected 01588D18.
+d3d11.c:13061: Test marked todo: Got unexpected stride 0 in slot 19.
+d3d11.c:13062: Test marked todo: Got unexpected offset 0 in slot 19.
+d3d11.c:13059: Line has been silenced after 4 occurrences
+d3d11.c:13061: Line has been silenced after 4 occurrences
+d3d11.c:13062: Line has been silenced after 4 occurrences
+d3d11.c:15658: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15680: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15658: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15680: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15658: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE.
+d3d11.c:15658: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE.
+d3d11.c:15658: Line has been silenced after 4 occurrences
+d3d11.c:15680: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15749: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE.
+d3d11.c:15749: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE_NO_OVERWRITE.
+d3d11.c:15749: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15777: Test marked todo: Feature level 0xb100: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15680: Test marked todo: Feature level 0xb000: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15680: Line has been silenced after 4 occurrences
+d3d11.c:15749: Test marked todo: Feature level 0xb000: Got hr 0 for WRITE.
+d3d11.c:15749: Line has been silenced after 4 occurrences
+d3d11.c:15777: Test marked todo: Feature level 0xb000: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15777: Test marked todo: Feature level 0xa100: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15777: Test marked todo: Feature level 0xa000: Got hr 0 for WRITE_DISCARD.
+d3d11.c:15777: Line has been silenced after 4 occurrences
+d3d11.c:15806: Tests skipped: Multisampling not supported for DXGI_FORMAT_R8G8B8A8_UNORM, skipping test.
+d3d11.c:15916: Test marked todo: Feature level 0xb100: Got hr 0.
+d3d11.c:15946: Test marked todo: Feature level 0xb100: Got hr 0x80070057, expected 0 (format 0x59).
+d3d11.c:15916: Test marked todo: Feature level 0xb000: Got hr 0.
+d3d11.c:15946: Test marked todo: Feature level 0xb000: Got hr 0x80070057, expected 0 (format 0x59).
+d3d11.c:15916: Test marked todo: Feature level 0xa100: Got hr 0.
+d3d11.c:15916: Test marked todo: Feature level 0xa000: Got hr 0.
+d3d11.c:15916: Line has been silenced after 4 occurrences
+d3d11.c:15946: Test marked todo: Feature level 0x9300: Got hr 0, expected 0x80070057 (format 0xa).
+d3d11.c:15946: Test marked todo: Feature level 0x9300: Got hr 0, expected 0x80070057 (format 0x18).
+d3d11.c:15946: Line has been silenced after 4 occurrences
+d3d11.c:16141: Test marked todo: Got unexpected hr 0.
+d3d11.c:16582: Test marked todo: Got 0xffffff00, expected 0x00ffffff at (0, 0, 0), sub-resource 0.
+d3d11.c:16585: Test marked todo: Got 0x000000ff, expected 0xff000000 at (0, 0, 0), sub-resource 0.
+d3d11.c:16594: Test marked todo: Got 0xffffff00, expected 0x00ffffff at (0, 0, 0), sub-resource 0.
+d3d11.c:16937: Test marked todo: Got 0xdeadbeef, expected 0 or 0 at 0, uvec4 0, 0, 0, 0.
+d3d11.c:16938: Test marked todo: Got 0xdeadbeef, expected 0 or 0 at 0, uvec4 0, 0, 0, 0.
+d3d11.c:16939: Test marked todo: Got 0xdeadbeef, expected 0 or 0 at 0, uvec4 0, 0, 0, 0.
+d3d11.c:16947: Test marked todo: Got 0xdeadbeef, expected 0 or 0 at 0, uvec4 0, 0, 0, 0.
+d3d11.c:16948: Test marked todo: Got 0xdeadbeef, expected 0 or 0 at 0, uvec4 0, 0, 0, 0.
+d3d11.c:16949: Test marked todo: Got 0xdeadbeef, expected 0xfefefefe or 0x80808080 at 128, uvec4 0xfefefefe, 0xfefefefe, 0xfefefefe, 0xfefefefe.
+d3d11.c:16937: Test marked todo: Got 0xdeadbeef, expected 0xffffff00 or 0xffffff00 at 0, uvec4 0, 0xffffffff, 0xffffffff, 0xffffffff.
+d3d11.c:16938: Test marked todo: Got 0xdeadbeef, expected 0xffffff00 or 0xffffff00 at 0, uvec4 0, 0xffffffff, 0xffffffff, 0xffffffff.
+d3d11.c:16939: Test marked todo: Got 0xdeadbeef, expected 0xffffff00 or 0xffffff00 at 0, uvec4 0, 0xffffffff, 0xffffffff, 0xffffffff.
+d3d11.c:16947: Test marked todo: Got 0xdeadbeef, expected 0xffffff00 or 0xffffff00 at 0, uvec4 0, 0xffffffff, 0xffffffff, 0xffffffff.
+d3d11.c:16948: Test marked todo: Got 0xdeadbeef, expected 0xffffff00 or 0xffffff00 at 0, uvec4 0, 0xffffffff, 0xffffffff, 0xffffffff.
+d3d11.c:16949: Test marked todo: Got 0xdeadbeef, expected 0xfefefefe or 0x80808080 at 128, uvec4 0xfefefefe, 0xfefefefe, 0xfefefefe, 0xfefefefe.
+d3d11.c:16937: Test marked todo: Got 0xdeadbeef, expected 0xff or 0xff at 255, uvec4 0xffffffff, 0, 0, 0.
+d3d11.c:16938: Test marked todo: Got 0xdeadbeef, expected 0xff or 0xff at 255, uvec4 0xffffffff, 0, 0, 0.
+d3d11.c:16939: Test marked todo: Got 0xdeadbeef, expected 0xff or 0xff at 255, uvec4 0xffffffff, 0, 0, 0.
+d3d11.c:16947: Test marked todo: Got 0xdeadbeef, expected 0xff or 0xff at 255, uvec4 0xffffffff, 0, 0, 0.
+d3d11.c:16948: Test marked todo: Got 0xdeadbeef, expected 0xff or 0xff at 255, uvec4 0xffffffff, 0, 0, 0.
+d3d11.c:16949: Test marked todo: Got 0xdeadbeef, expected 0xfefefefe or 0x80808080 at 128, uvec4 0xfefefefe, 0xfefefefe, 0xfefefefe, 0xfefefefe.
+d3d11.c:16937: Test marked todo: Got 0xdeadbeef, expected 0xff00 or 0xff00 at 0, uvec4 0, 0xffffffff, 0, 0.
+d3d11.c:16938: Test marked todo: Got 0xdeadbeef, expected 0xff00 or 0xff00 at 0, uvec4 0, 0xffffffff, 0, 0.
+d3d11.c:16939: Test marked todo: Got 0xdeadbeef, expected 0xff00 or 0xff00 at 0, uvec4 0, 0xffffffff, 0, 0.
+d3d11.c:16947: Test marked todo: Got 0xdeadbeef, expected 0xff00 or 0xff00 at 0, uvec4 0, 0xffffffff, 0, 0.
+d3d11.c:16948: Test marked todo: Got 0xdeadbeef, expected 0xff00 or 0xff00 at 0, uvec4 0, 0xffffffff, 0, 0.
+d3d11.c:16949: Test marked todo: Got 0xdeadbeef, expected 0xfefefefe or 0x80808080 at 128, uvec4 0xfefefefe, 0xfefefefe, 0xfefefefe, 0xfefefefe.
+d3d11.c:16937: Line has been silenced after 4 occurrences
+d3d11.c:16938: Line has been silenced after 4 occurrences
+d3d11.c:16939: Line has been silenced after 4 occurrences
+d3d11.c:16947: Line has been silenced after 4 occurrences
+d3d11.c:16948: Line has been silenced after 4 occurrences
+d3d11.c:16949: Line has been silenced after 4 occurrences
+d3d11.c:17770: Test marked todo: Got unexpected hr 0x8876086c.
+d3d11.c:17783: Test marked todo: Got unexpected hr 0x8876086c.
+d3d11.c:19266: Test marked todo: Got hr 0.
+d3d11.c:19642: Test marked todo: Format 0x19: Got unexpected hr 0x80070057.
+d3d11.c:19886: Compute shader support via SM4 0x1.
+d3d11.c:20831: Test failed: Got {0xfffe0000, 0xfffe0000, 0xfffe0000, 0xfffe0000}, expected {0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff} at (0, 0), sub-resource 0.
+d3d11.c:20831: Test failed: Got {0xfffffffe, 0xfffffffe, 0xfffffffe, 0xfffffffe}, expected {0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff} at (0, 0), sub-resource 0.
+d3d11.c:20831: Test failed: Got {0x00000000, 0x00000000, 0x00000000, 0x00000000}, expected {0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff} at (0, 0), sub-resource 0.
+d3d11.c:20831: Test failed: Got {0xfffffffe, 0xfffffffe, 0xfffffffe, 0xfffffffe}, expected {0x00000000, 0x00000000, 0x00000000, 0x00000000} at (0, 0), sub-resource 0.
+d3d11.c:21040: Test marked todo: Got unexpected result {-1.00000000e+000, -1.00000000e+000, 0.00000000e+000, 1.00000000e+000} at 8.
+d3d11.c:21040: Test marked todo: Got unexpected result {1.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000} at 9.
+d3d11.c:21040: Test marked todo: Got unexpected result {-1.00000000e+000, 1.00000000e+000, 0.00000000e+000, 1.00000000e+000} at 10.
+d3d11.c:21040: Test marked todo: Got unexpected result {2.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000} at 11.
+d3d11.c:21040: Line has been silenced after 4 occurrences
+d3d11.c:21475: Test marked todo: Feature level 0xb100: SHADER_SAMPLE is supported for R32G32B32A32_UINT.
+d3d11.c:21318: Test marked todo: Feature level 0xb100: Format 0x1c - display not supported, format support 0x280f3f3.
+d3d11.c:21318: Test marked todo: Feature level 0xb100: Format 0x1d - display not supported, format support 0x80f3f1.
+d3d11.c:21318: Test marked todo: Feature level 0xb100: Format 0x57 - display not supported, format support 0x280f3f3.
+d3d11.c:21318: Test marked todo: Feature level 0xb100: Format 0x5b - display not supported, format support 0x80f3f1.
+d3d11.c:21318: Line has been silenced after 4 occurrences
+d3d11.c:21475: Test marked todo: Feature level 0xb000: SHADER_SAMPLE is supported for R32G32B32A32_UINT.
+d3d11.c:21475: Test marked todo: Feature level 0xa100: SHADER_SAMPLE is supported for R32G32B32A32_UINT.
+d3d11.c:21475: Test marked todo: Feature level 0xa000: SHADER_SAMPLE is supported for R32G32B32A32_UINT.
+d3d11.c:21327: Feature level 0xa000: Optional format 0xb - blendable supported.
+d3d11.c:21327: Feature level 0xa000: Optional format 0x23 - blendable supported.
+d3d11.c:21327: Feature level 0xa000: Optional format 0x38 - blendable supported.
+d3d11.c:21332: Test marked todo: Feature level 0xa000: Format 0xd - blendable supported, format support 0x200f3f3.
+d3d11.c:21332: Test marked todo: Feature level 0xa000: Format 0x25 - blendable supported, format support 0x200f3f3.
+d3d11.c:21332: Test marked todo: Feature level 0xa000: Format 0x3a - blendable supported, format support 0x200f3f1.
+d3d11.c:21332: Test marked todo: Feature level 0xa000: Format 0x1f - blendable supported, format support 0x200f3f3.
+d3d11.c:21332: Line has been silenced after 4 occurrences
+d3d11.c:21475: Line has been silenced after 4 occurrences
+d3d11.c:21598: Test marked todo: Feature level 0x9300: Got 0x00000000, expected 0xff004c33 at (0, 0, 0), sub-resource 0.
+d3d11.c:21598: Test marked todo: Feature level 0x9200: Got 0x00000000, expected 0xff004c33 at (0, 0, 0), sub-resource 0.
+d3d11.c:21598: Test marked todo: Feature level 0x9100: Got 0x00000000, expected 0xff004c33 at (0, 0, 0), sub-resource 0.
+d3d11.c:23420: Test marked todo: Test 0: Got 0 (0), expected 0xffffffff (-1) for 'atomic_imin' with inputs (1, 0), (-1), 0 (0).
+d3d11.c:23452: Test marked todo: Got original value 65535, expected 0 for 'imm_atomic_imax'.
+d3d11.c:23446: Test marked todo: Test 0: Got 0 (0), expected 0xffffffff (-1) for 'imm_atomic_imin' with inputs (1, 0), (-1), 0 (0).
+d3d11.c:23452: Test marked todo: Got original value 65535, expected 0 for 'imm_atomic_imax'.
+d3d11.c:23452: Test marked todo: Got original value 15, expected 0 for 'imm_atomic_imin'.
+d3d11.c:24509: Tests skipped: Sample count 2 not supported.
+d3d11.c:24509: Tests skipped: Sample count 8 not supported.
+d3d11.c:24545: Tests skipped: Sample count 2 not supported.
+d3d11.c:24545: Tests skipped: Sample count 8 not supported.
+d3d11.c:25139: Tests skipped: Feature level 0xa100: Feature level 11_0 required for unaligned UAV test.
+d3d11.c:25139: Tests skipped: Feature level 0xa000: Feature level 11_0 required for unaligned UAV test.
+d3d11.c:27352: Test marked todo: Got unexpected hr 0.
+d3d11.c:27352: Test marked todo: Got unexpected geometry shader 01576F68.
+d3d11.c:28694: Test marked todo: Format 0x2d: Got 0xffffff00, expected 0x00ffffff at (0, 0, 0), sub-resource 0.
+d3d11.c:29023: Test failed: Got texcoord {8.43750119e-001, 1.56249911e-001}, expected {8.43750000e-001, 1.56250000e-001} at (3, 3), offset 1.25000000e-001.
+d3d11.c:29023: Test failed: Got texcoord {8.71093690e-001, 1.28906295e-001}, expected {8.71093750e-001, 1.28906250e-001} at (3, 3), offset 1.56250000e-002.
+d3d11.c:29023: Test failed: Got texcoord {7.51953065e-001, 2.48046920e-001}, expected {7.51953125e-001, 2.48046875e-001} at (3, 3), offset 4.92187500e-001.
+d3d11.c:29077: Test succeeded inside todo block: Feature level 0xb000: Got 0xffffffff, expected 0xffffffff at (640, 480, 1), sub-resource 0.
+d3d11.c:29086: Test succeeded inside todo block: Feature level 0xb000: Got 0xffffffff, expected 0xffffffff at (640, 480, 1), sub-resource 0.
+d3d11.c:29077: Test failed: Feature level 0xa100: Got 0xffffffff, expected 0xff00ff00 at (639, 479, 0), sub-resource 0.
+d3d11.c:29086: Test failed: Feature level 0xa100: Got 0xffffffff, expected 0xff00ff00 at (639, 479, 0), sub-resource 0.
+d3d11.c:29077: Test failed: Feature level 0xa000: Got 0xffffffff, expected 0xff00ff00 at (639, 479, 0), sub-resource 0.
+d3d11.c:29086: Test failed: Feature level 0xa000: Got 0xffffffff, expected 0xff00ff00 at (639, 479, 0), sub-resource 0.
+d3d11.c:29486: Test marked todo: Test 26: Got unexpected colour 0x00ff0000 at (0, 1), expected 0x00000000.
+d3d11.c:29486: Test marked todo: Test 26: Got unexpected colour 0xffffff00 at (1, 1), expected 0x00000000.
+d3d11.c:29486: Test marked todo: Test 26: Got unexpected colour 0xff00ff00 at (2, 1), expected 0x00000000.
+d3d11.c:29486: Test marked todo: Test 26: Got unexpected colour 0xff00ff00 at (3, 1), expected 0x00000000.
+d3d11.c:29486: Line has been silenced after 4 occurrences
+d3d11.c:30992: Test marked todo: Got 0x0000ff00, expected 0xffffffff at (200, 0, 0), sub-resource 0.
+d3d11.c:30995: Test marked todo: Got 0x0000ff00, expected 0xffffffff at (0, 200, 0), sub-resource 0.
+d3d11.c:30992: Test marked todo: Got 0xbfff0000, expected 0xffffffff at (200, 0, 0), sub-resource 0.
+d3d11.c:30995: Test marked todo: Got 0xbfff0000, expected 0xffffffff at (0, 200, 0), sub-resource 0.
+d3d11.c:30992: Test marked todo: Got 0x8000ff00, expected 0xffffffff at (200, 0, 0), sub-resource 0.
+d3d11.c:30995: Test marked todo: Got 0x8000ff00, expected 0xffffffff at (0, 200, 0), sub-resource 0.
+d3d11.c:31019: Test marked todo: Got 0xffff0000, expected 0xffffffff at (200, 0, 0), sub-resource 0.
+d3d11.c:31022: Test marked todo: Got 0xffff0000, expected 0xffffffff at (0, 200, 0), sub-resource 0.
+d3d11.c:31624: Test marked todo: Got 0xff80ff80, expected 0xffbcffbc at (0, 0, 0), sub-resource 0.
+d3d11.c:31624: Test marked todo: Got 0xffdfc0a0, expected 0xffe2cdc0 at (0, 0, 0), sub-resource 0.
+d3d11.c:32014: Test marked todo: Test 4: Got unexpected value 1056.
+d3d11.c:32014: Test marked todo: Test 7: Got unexpected value 1056.
+d3d11.c:32477: Test marked todo: Got sample position 0.00000000e+000, expected -1.25000000e-001.
+d3d11.c:32477: Test marked todo: Got sample position 0.00000000e+000, expected -3.75000000e-001.
+d3d11.c:32477: Test marked todo: Got sample position 0.00000000e+000, expected 3.75000000e-001.
+d3d11.c:32477: Test marked todo: Got sample position 0.00000000e+000, expected -1.25000000e-001.
+d3d11.c:32477: Line has been silenced after 4 occurrences
+d3d11.c:33896: Test marked todo: Got unexpected hr 0x8007000e.
+d3d11.c:33957: Test marked todo: Got unexpected hr 0x8007000e.
+d3d11.c:34750: Tests skipped: Logic op is not supported.
+d3d11.c:34918: Test marked todo: Got unexpected colour 0xffffffff at (320, 60), expected 0xff0000ff.
+d3d11.c:34918: Test marked todo: Got unexpected colour 0x00000000 at (320, 180), expected 0xff00ff00.
+d3d11.c:34918: Test marked todo: Got unexpected colour 0x00000000 at (320, 300), expected 0xffff0000.
+d3d11.c:34918: Test marked todo: Got unexpected colour 0x00000000 at (320, 420), expected 0xffffffff.
+d3d11.c:35252: Test marked todo: Feature level 0xb100: MiscFlags 0, nthandle 0: got 0x80004001.
+d3d11.c:35253: Test marked todo: Feature level 0xb100: MiscFlags 0, nthandle 0: got DEADBEEF.
+d3d11.c:35246: Test marked todo: Feature level 0xb100: MiscFlags 0x2, nthandle 0: got 0x80004001.
+d3d11.c:35219: Test marked todo: Feature level 0xb100: MiscFlags 0x800, nthandle 2048: got 0.
+d3d11.c:35241: Test marked todo: Feature level 0xb100: MiscFlags 0x800, nthandle 2048: got 0x80004001.
+d3d11.c:35241: Test marked todo: Feature level 0xb100: MiscFlags 0x802, nthandle 2048: got 0x80004001.
+d3d11.c:35226: Test marked todo: Feature level 0xb100: MiscFlags 0x100, nthandle 0: got 0x80004002.
+d3d11.c:35246: Test marked todo: Feature level 0xb100: MiscFlags 0x100, nthandle 0: got 0x80004001.
+d3d11.c:35226: Test marked todo: Feature level 0xb100: MiscFlags 0x900, nthandle 2048: got 0x80004002.
+d3d11.c:35241: Test marked todo: Feature level 0xb100: MiscFlags 0x900, nthandle 2048: got 0x80004001.
+d3d11.c:35219: Test marked todo: Feature level 0xb100: MiscFlags 0x102, nthandle 0: got 0.
+d3d11.c:35226: Test marked todo: Feature level 0xb100: MiscFlags 0x102, nthandle 0: got 0x80004002.
+d3d11.c:35246: Test marked todo: Feature level 0xb100: MiscFlags 0x102, nthandle 0: got 0x80004001.
+d3d11.c:35219: Test marked todo: Feature level 0xb100: MiscFlags 0x902, nthandle 2048: got 0.
+d3d11.c:35226: Test marked todo: Feature level 0xb100: MiscFlags 0x902, nthandle 2048: got 0x80004002.
+d3d11.c:35241: Test marked todo: Feature level 0xb100: MiscFlags 0x902, nthandle 2048: got 0x80004001.
+d3d11.c:35252: Test marked todo: Feature level 0xb000: MiscFlags 0, nthandle 0: got 0x80004001.
+d3d11.c:35253: Test marked todo: Feature level 0xb000: MiscFlags 0, nthandle 0: got DEADBEEF.
+d3d11.c:35246: Test marked todo: Feature level 0xb000: MiscFlags 0x2, nthandle 0: got 0x80004001.
+d3d11.c:35219: Test marked todo: Feature level 0xb000: MiscFlags 0x800, nthandle 2048: got 0.
+d3d11.c:35241: Line has been silenced after 4 occurrences
+d3d11.c:35226: Line has been silenced after 4 occurrences
+d3d11.c:35246: Line has been silenced after 4 occurrences
+d3d11.c:35219: Line has been silenced after 4 occurrences
+d3d11.c:35252: Test marked todo: Feature level 0xa100: MiscFlags 0, nthandle 0: got 0x80004001.
+d3d11.c:35253: Test marked todo: Feature level 0xa100: MiscFlags 0, nthandle 0: got DEADBEEF.
+d3d11.c:35252: Test marked todo: Feature level 0xa000: MiscFlags 0, nthandle 0: got 0x80004001.
+d3d11.c:35253: Test marked todo: Feature level 0xa000: MiscFlags 0, nthandle 0: got DEADBEEF.
+d3d11.c:35252: Line has been silenced after 4 occurrences
+d3d11.c:35253: Line has been silenced after 4 occurrences
+d3d11.c:35364: Test marked todo: got 0x80004002.
+d3d11.c:35625: Test marked todo: Got unexpected color 0xffffffff instead of 0xff000000.
+d3d11.c:36337: Test marked todo: Got {0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000}, expected {1.27400000e+003, 6.37000000e+002, 1.22500000e+003, 0.00000000e+000} at (0, 0), sub-resource 0.
+d3d11.c:36349: Test marked todo: Got {0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000}, expected {1.27400000e+003, 6.37000000e+002, 1.32500000e+003, 0.00000000e+000} at (0, 0), sub-resource 0.
+d3d11.c:36450: Test marked todo: Got hr 0x80004005.
+d3d11.c:36454: Tests skipped: NV12 textures are not supported.
+d3d11.c:36967: Test marked todo: Got hr 0x80004001.
+d3d11.c:37013: Test marked todo: Got hr 0x80004001.
+d3d11.c:37033: Tests skipped: H.264 decoding is not supported.
+07e8:d3d11: Silenced 669 todos, 0 skips and 0 traces.
+07e8:d3d11: 561969 tests executed (257 marked as todo, 0 as flaky, 13 failures), 10 skipped.
+d3d11:d3d11:07e8 done (13) in 52s 27782B
+d3d12:d3d12 start dlls/d3d12/tests/d3d12.c
+d3d12.c:156: Adapter: L"NVIDIA GeForce GTX 470", 10de:06cd.
+d3d12.c:1157: Test marked todo: Got refcount 1.
+d3d12.c:1157: Test marked todo: Got refcount 1.
+d3d12.c:1157: Test marked todo: Got refcount 1.
+d3d12.c:1157: Test marked todo: Got refcount 1.
+d3d12.c:1169: Test marked todo: Got refcount 2.
+d3d12.c:1174: Test marked todo: Got refcount 2.
+d3d12.c:1179: Test marked todo: Got refcount 2.
+d3d12.c:1185: Test marked todo: Got refcount 2.
+d3d12.c:1188: Test marked todo: Got refcount 1.
+04b0:d3d12: 671 tests executed (9 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+d3d12:d3d12:04b0 done (0) in 4s 589B
+d3d8:device start dlls/d3d8/tests/device.c
