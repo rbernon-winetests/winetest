@@ -1,0 +1,880 @@
+Version 4
+Tests from build 222c976140d1b66c71769296f856f6523782b6c9
+Tag: rbernon-w10ltsc64-wow64
+Build info:
+    Compiler: clang 19.1.7 (3+b1) (msvc 1933)
+Operating system version:
+    Platform=i386 (WOW64)
+    bRunningUnderWine=0
+    bRunningOnVisibleDesktop=1
+    Account=admin, elevated
+    Submitter=Remi Bernon <rbernon@codeweavers.com>
+    Description=Windows 10 LTSC 64bit / QEMU running on Debian GNU/Linux trixie/sid / Linux b6715d993934 6.11.0-1018-azure #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025 x86_64 GNU/Linux, [CPU:2*AMD EPYC 7763 64-Core Processor RAM:4G display:1920x1080 virtio-vga x1]
+    dwMajorVersion=10
+    dwMinorVersion=0
+    dwBuildNumber=19044
+    PlatformId=2
+    szCSDVersion=
+    UBR=1288
+    wServicePackMajor=0
+    wServicePackMinor=0
+    wSuiteMask=256
+    wProductType=1
+    wReserved=0
+    dwProductInfo=129
+    SystemDefaultLCID=0409
+    UserDefaultLCID=0409
+    ThreadLocale=0409
+    SystemPreferredUILanguages=0409
+    UserDefaultUILanguage=0409
+    ThreadUILanguage=0409
+    KeyboardLayout=04090409
+    Country=244
+    ACP=1252
+Dll info:
+    activeds=10.0.19041.746
+    adsldp=10.0.19041.1081
+    advapi32=10.0.19041.1052
+    advpack=11.0.19041.1
+    amstream=10.0.19041.746
+    apphelp=10.0.19041.928
+    atl100=dll is missing
+    atl110=dll is missing
+    atl80=dll is missing the requested side-by-side version
+    atlthunk=10.0.19041.546
+    atl=3.5.2284.0
+    avifil32=10.0.19041.1
+    bcp47langs=10.0.19041.1266
+    bcrypt=10.0.19041.1023
+    bluetoothapis=10.0.19041.546
+    browseui=10.0.19041.1
+    cabinet=5.0.1.1
+    cfgmgr32=10.0.19041.1151
+    cmd.exe=10.0.19041.746
+    combase=10.0.19041.1288
+    comcat=10.0.19041.1
+    comctl32=6.10.19041.1110
+    comdlg32=10.0.19041.906
+    compstui=10.0.19041.1237
+    comsvcs=2001.12.10941.16384
+    concrt140=dll is missing
+    conhost.exe=dll is missing
+    coremessaging=10.0.19041.867
+    credui=10.0.19041.546
+    crypt32=10.0.19041.1202
+    cryptext=10.0.19041.746
+    cryptnet=10.0.19041.906
+    cryptowinrt=10.0.19041.746
+    cryptui=10.0.19041.572
+    cryptxml=10.0.19041.1
+    d2d1=10.0.19041.546
+    d3d10core=10.0.19041.1
+    d3d10_1=10.0.19041.1
+    d3d10=10.0.19041.1
+    d3d11=10.0.19041.1202
+    d3d12=10.0.19041.1266
+    d3d8=10.0.19041.1
+    d3d9=10.0.19041.928
+    d3dcompiler_42=dll is missing
+    d3dcompiler_43=dll is missing
+    d3dcompiler_46=dll is missing
+    d3dcompiler_47=10.0.19041.546
+    d3drm=dll is missing
+    d3dx10_33=dll is missing
+    d3dx10_34=dll is missing
+    d3dx10_35=dll is missing
+    d3dx10_36=dll is missing
+    d3dx10_37=dll is missing
+    d3dx10_38=dll is missing
+    d3dx10_39=dll is missing
+    d3dx10_40=dll is missing
+    d3dx10_41=dll is missing
+    d3dx10_42=dll is missing
+    d3dx10_43=dll is missing
+    d3dx11_42=dll is missing
+    d3dx11_43=dll is missing
+    d3dx9_35=dll is missing
+    d3dx9_36=dll is missing
+    d3dx9_42=dll is missing
+    d3dx9_43=dll is missing
+    d3dxof=10.0.19041.1
+    dataexchange=10.0.19041.1151
+    dbgeng=10.0.19041.1266
+    dbghelp=10.0.19041.1052
+    ddrawex=10.0.19041.1
+    ddraw=10.0.19041.1
+    devenum=10.0.19041.746
+    dhcpcsvc=10.0.19041.546
+    dinput=10.0.19041.1
+    directmanipulation=10.0.19041.1202
+    dispex=5.812.10240.16384
+    dmband=10.0.19041.1
+    dmcompos=10.0.19041.1
+    dmime=10.0.19041.1
+    dmloader=10.0.19041.1
+    dmscript=10.0.19041.1
+    dmstyle=10.0.19041.1
+    dmsynth=10.0.19041.1
+    dmusic=10.0.19041.1
+    dnsapi=10.0.19041.1266
+    dplayx=dll is a stub
+    dpnet=dll is a stub
+    dpvoice=dll is missing
+    dsdmo=10.0.19041.1
+    dsound=10.0.19041.1
+    dssenh=10.0.19041.1052
+    dswave=10.0.19041.1
+    dwmapi=10.0.19041.746
+    dwrite=10.0.19041.1165
+    dxcore=10.0.19041.546
+    dxdiagn=10.0.19041.928
+    dxgi=10.0.19041.1266
+    dxva2=10.0.19041.1
+    evr=10.0.19041.546
+    explorer.exe=10.0.19041.1266
+    explorerframe=10.0.19041.1023
+    faultrep=10.0.19041.1081
+    fc.exe=10.0.19041.1
+    find.exe=10.0.19041.1
+    findstr.exe=10.0.19041.1
+    fsutil.exe=10.0.19041.1
+    fusion=dll is missing
+    gameux=10.0.19041.746
+    gdi32=10.0.19041.1202
+    gdiplus=10.0.19041.1288
+    geolocation=10.0.19041.746
+    glu32=10.0.19041.1081
+    graphicscapture=10.0.19041.488
+    hid=10.0.19041.546
+    hlink=10.0.19041.1237
+    hnetcfg=10.0.19041.746
+    httpapi=10.0.19041.1110
+    hvsimanagementapi=version not present 1813
+    iccvid=1.10.0.12
+    icmui=10.0.19041.1
+    ieframe=11.0.19041.1288
+    iertutil=11.0.19041.1266
+    imagehlp=10.0.19041.546
+    imm32=10.0.19041.546
+    inetcomm=10.0.19041.928
+    inetmib1=10.0.19041.1
+    infosoft=dll is missing
+    iphlpapi=10.0.19041.546
+    ir50_32=10.0.19041.1
+    itss=10.0.19041.1
+    jscript=5.812.10240.16384
+    jsproxy=11.0.19041.1202
+    kernel32=10.0.19041.1202
+    kernelbase=10.0.19041.1288
+    localspl=dll is missing
+    localui=dll is missing
+    lz32=5.0.1.1
+    mapi32=1.0.2536.0
+    mfmediaengine=10.0.19041.1288
+    mfplat=10.0.19041.746
+    mfplay=10.0.19041.746
+    mfreadwrite=10.0.19041.746
+    mfsrcsnk=10.0.19041.906
+    mf=10.0.19041.1266
+    mlang=10.0.19041.746
+    mmcndmgr=10.0.19041.746
+    mmdevapi=10.0.19041.1023
+    mp3dmod=10.0.19041.1
+    mpr=10.0.19041.546
+    msacm32=10.0.19041.1
+    msado15=dll is missing
+    msasn1=10.0.19041.546
+    mscms=10.0.19041.746
+    mscoree=10.0.19041.1
+    msctf=10.0.19041.1202
+    msdasql=dll is missing
+    msdmo=10.0.19041.1
+    msftedit=10.0.19041.1288
+    mshtml=11.0.19041.1288
+    msi=5.0.19041.1237
+    mspatcha=5.0.1.1
+    msrle32=10.0.19041.1
+    msscript.ocx=1.0.10240.16384
+    mstask=10.0.19041.1
+    msvcirt=7.0.19041.1
+    msvcp100=dll is missing
+    msvcp110=dll is missing
+    msvcp120=dll is missing
+    msvcp140_1=dll is missing
+    msvcp140_2=dll is missing
+    msvcp140_atomic_wait=dll is missing
+    msvcp140=dll is missing
+    msvcp60=7.0.19041.1
+    msvcp90=9.0.30729.9625
+    msvcr100=dll is missing
+    msvcr110=dll is missing
+    msvcr120=dll is missing
+    msvcr70=dll is missing
+    msvcr71=dll is missing
+    msvcr80=8.0.50727.9672
+    msvcr90=9.0.30729.9625
+    msvcrtd=dll is missing
+    msvcrt=7.0.19041.546
+    msvfw32=10.0.19041.1
+    msxml3=8.110.19041.844
+    msxml4=dll is missing
+    msxml6=6.30.19041.1081
+    ncrypt=10.0.19041.546
+    ndis.sys=dll is missing
+    net.exe=10.0.19041.1
+    netapi32=10.0.19041.546
+    netcfgx=10.0.19041.746
+    netprofm=10.0.19041.746
+    ninput=10.0.19041.546
+    nsi=10.0.19041.610
+    ntdll=10.0.19041.1288
+    ntdsapi=10.0.19041.546
+    ntoskrnl.exe=dll is missing
+    ntprint=10.0.19041.1288
+    odbc32=10.0.19041.1
+    odbccp32=10.0.19041.1
+    ole32=10.0.19041.1202
+    oleacc=7.2.19041.746
+    oleaut32=10.0.19041.985
+    oledb32=6.2.19041.746
+    oledlg=10.0.19041.746
+    opcservices=10.0.19041.546
+    opengl32=10.0.19041.1081
+    packager=10.0.19041.1023
+    pdh=10.0.19041.1202
+    prntvpt=10.0.19041.746
+    propsys=7.0.19041.1023
+    psapi=10.0.19041.546
+    pstorec=10.0.19041.1
+    qasf=12.0.19041.1
+    qcap=10.0.19041.1
+    qdvd=10.0.19041.746
+    qedit=10.0.19041.746
+    qmgr=dll is missing
+    quartz=10.0.19041.746
+    qwave=10.0.19041.1
+    rasapi32=10.0.19041.1266
+    reg.exe=10.0.19041.1
+    regedit.exe=10.0.19041.746
+    riched20=5.31.23.1231
+    riched32=10.0.19041.1
+    rometadata=4.8.3673.0
+    rpcrt4=10.0.19041.1288
+    rsaenh=10.0.19041.1052
+    rtworkq=10.0.19041.1288
+    sapi=dll is missing
+    sc.exe=10.0.19041.1
+    schannel=10.0.19041.789
+    schedsvc=dll is missing
+    schtasks.exe=10.0.19041.906
+    scrobj=5.812.10240.16384
+    scrrun=5.812.10240.16384
+    secur32=10.0.19041.546
+    serialui=10.0.19041.1
+    services.exe=dll is missing
+    setupapi=10.0.19041.1237
+    shcore=10.0.19041.1266
+    shdocvw=10.0.19041.746
+    shell32=10.0.19041.1266
+    shlwapi=10.0.19041.1023
+    slc=10.0.19041.546
+    snmpapi=10.0.19041.1
+    spoolss=dll is missing
+    sti=10.0.19041.264
+    sxs=10.0.19041.546
+    t2embed=10.0.19041.264
+    tapi32=10.0.19041.423
+    tasklist.exe=10.0.19041.1
+    taskschd=10.0.19041.1266
+    tdh=10.0.19041.1151
+    threadpoolwinrt=10.0.19041.746
+    timeout.exe=10.0.19041.1
+    twain_32=1.7.1.3
+    twinapi.appcore=dll is missing
+    ucrtbase=10.0.19041.789
+    uianimation=10.0.19041.746
+    uiautomationcore=7.2.19041.1266
+    urlmon=11.0.19041.1237
+    user32=10.0.19041.1288
+    userenv=10.0.19041.572
+    usp10=10.0.19041.546
+    uxtheme=10.0.19041.1266
+    vbscript=5.812.10240.16384
+    vccorlib140=dll is missing
+    vcomp110=dll is missing
+    vcomp=dll is missing
+    version=10.0.19041.546
+    virtdisk=10.0.19041.1266
+    vulkan-1=dll is missing
+    wbemdisp=10.0.19041.1
+    wbemprox=10.0.19041.1081
+    webservices=10.0.19041.546
+    wer=10.0.19041.1081
+    wevtapi=10.0.19041.1266
+    wiaservc=dll is missing
+    win32u=10.0.19041.1288
+    windows.applicationmodel=dll is missing
+    windows.devices.bluetooth=dll is missing
+    windows.devices.enumeration=dll is missing
+    windows.devices.usb=dll is missing
+    windows.gaming.input=dll is missing
+    windows.gaming.ui.gamebar=dll is missing
+    windows.globalization=dll is missing
+    windows.media.devices=dll is missing
+    windows.media.mediacontrol=dll is missing
+    windows.media.playback.backgroundmediaplayer=dll is missing
+    windows.media.playback.mediaplayer=dll is missing
+    windows.media.speech=dll is missing
+    windows.media=dll is missing
+    windows.networking.connectivity=dll is missing
+    windows.networking.hostname=dll is missing
+    windows.perception.stub=dll is missing
+    windows.security.authentication.onlineid=dll is missing
+    windows.security.credentials.ui.userconsentverifier=dll is missing
+    windows.storage.applicationdata=dll is missing
+    windows.storage=dll is missing
+    windows.system.profile.systemid=dll is missing
+    windows.system.profile.systemmanufacturers=dll is missing
+    windows.ui.core.textinput=dll is missing
+    windows.ui.xaml=dll is missing
+    windows.ui=dll is missing
+    windows.web=dll is missing
+    windowscodecsext=10.0.19041.546
+    windowscodecs=10.0.19041.1151
+    wing32=dll is missing
+    winhttp=10.0.19041.1151
+    wininet=11.0.19041.1202
+    winmm=10.0.19041.546
+    winscard=10.0.19041.844
+    winspool.drv=10.0.19041.1288
+    wintab32=dll is missing
+    wintrust=10.0.19041.1266
+    wintypes=10.0.19041.1202
+    wlanapi=10.0.19041.1237
+    wldap32=10.0.19041.546
+    wldp=10.0.19041.662
+    wmiutils=10.0.19041.1081
+    wmp=12.0.19041.1266
+    wmvcore=12.0.19041.1202
+    wpcap=dll is missing
+    wpc=10.0.19041.964
+    ws2_32=10.0.19041.546
+    wscript.exe=5.812.10240.16384
+    wsdapi=10.0.19041.746
+    wshom.ocx=5.812.10240.16384
+    wsnmp32=10.0.19041.1
+    wtsapi32=10.0.19041.546
+    xactengine3_7=dll is missing
+    xaudio2_7=dll is missing
+    xaudio2_8=10.0.19041.1
+    xcopy.exe=10.0.19041.1
+    xinput1_3=dll is missing
+    xmllite=10.0.19041.546
+Test output:
+activeds:activeds start dlls/activeds/tests/activeds.c
+1e14:activeds: 73 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+activeds:activeds:1e14 done (0) in 0s 89B
+adsldp:ldap start dlls/adsldp/tests/ldap.c
+ldap.c:647: Tests skipped: Computer is not part of an Active Directory Domain
+ldap.c:254: search DN L"LDAP://ldap.forumsys.com"
+ldap.c:254: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+ldap.c:254: search DN L"LDAP://ldap.forumsys.com/OU=scientists,DC=example,DC=com"
+1140:ldap: 367 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+adsldp:ldap:1140 done (0) in 5s 382B
+adsldp:sysinfo start dlls/adsldp/tests/sysinfo.c
+sysinfo.c:161: Tests skipped: Computer is not part of a domain, skipping the tests
+1e40:sysinfo: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+adsldp:sysinfo:1e40 done (0) in 0s 172B
+advapi32:cred start dlls/advapi32/tests/cred.c
+cred.c:802: generic:
+cred.c:808: domain password:
+cred.c:814: domain visible password:
+02d4:cred: 372 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:cred:02d4 done (0) in 0s 176B
+advapi32:crypt start dlls/advapi32/tests/crypt.c
+1ee8:crypt: 166 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt:1ee8 done (0) in 0s 87B
+advapi32:crypt_lmhash start dlls/advapi32/tests/crypt_lmhash.c
+1ef0:crypt_lmhash: 75 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_lmhash:1ef0 done (0) in 0s 93B
+advapi32:crypt_md4 start dlls/advapi32/tests/crypt_md4.c
+1f18:crypt_md4: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md4:1f18 done (0) in 0s 90B
+advapi32:crypt_md5 start dlls/advapi32/tests/crypt_md5.c
+1594:crypt_md5: 5 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_md5:1594 done (0) in 0s 89B
+advapi32:crypt_sha start dlls/advapi32/tests/crypt_sha.c
+0168:crypt_sha: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:crypt_sha:0168 done (0) in 0s 89B
+advapi32:eventlog start dlls/advapi32/tests/eventlog.c
+eventlog.c:836: Tests skipped: Win7 fails when using incorrect event types
+eventlog.c:944: Tests skipped: There is no DWORD alignment enforced for UserSid on Vista, W2K8 or Win7
+1edc:eventlog: 620 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+advapi32:eventlog:1edc done (0) in 2s 270B
+advapi32:lsa start dlls/advapi32/tests/lsa.c
+lsa.c:103: Running on a standalone system.
+lsa.c:148: Running on a standalone system.
+1534:lsa: 97 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:lsa:1534 done (0) in 0s 172B
+advapi32:perf start dlls/advapi32/tests/perf.c
+1ca0:perf: 101 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:perf:1ca0 done (0) in 0s 86B
+advapi32:registry start dlls/advapi32/tests/registry.c
+registry.c:1184: Tests skipped: Not running WoW64 tests on 32-bit
+registry.c:4649: 0: 009 has 8694 entries
+registry.c:4649: 1: CurrentLanguage has 8694 entries
+1c5c:registry: 140822 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+advapi32:registry:1c5c done (0) in 1s 256B
+advapi32:security start dlls/advapi32/tests/security.c
+security.c:353: Tests skipped: 31: failed to convert CA.
+security.c:353: Tests skipped: 32: failed to convert DA.
+security.c:353: Tests skipped: 33: failed to convert DC.
+security.c:353: Tests skipped: 34: failed to convert DD.
+security.c:353: Line has been silenced after 4 occurrences
+security.c:2119: Tests skipped: Well known SID 38 not implemented
+security.c:2119: Tests skipped: Well known SID 39 not implemented
+security.c:2119: Tests skipped: Well known SID 40 not implemented
+security.c:2119: Tests skipped: Well known SID 41 not implemented
+security.c:2119: Line has been silenced after 4 occurrences
+security.c:1406: AccessCheck with MAXIMUM_ALLOWED got Access 0x00060019
+security.c:1824: TokenGroups:
+security.c:1838: S-1-5-21-2105322359-2082341797-3377872833-513, DOCKERW-VOLDL66\None use: 2 attr: 0x00000007
+security.c:1838: S-1-1-0, \Everyone use: 5 attr: 0x00000007
+security.c:1838: S-1-5-114, NT AUTHORITY\Local account and member of Administrators group use: 5 attr: 0x00000007
+security.c:1838: S-1-5-32-544, BUILTIN\Administrators use: 4 attr: 0x0000000f
+security.c:1838: Line has been silenced after 4 occurrences
+security.c:1855: TokenUser: S-1-5-21-2105322359-2082341797-3377872833-1000 attr: 0x00000000
+security.c:1869: TokenOwner: S-1-5-32-544
+security.c:1891: TokenLogon: S-1-5-5-0-139985
+security.c:1914: TokenPrivileges:
+security.c:1920: 	SeIncreaseQuotaPrivilege, 0x0
+security.c:1920: 	SeSecurityPrivilege, 0x0
+security.c:1920: 	SeTakeOwnershipPrivilege, 0x0
+security.c:1920: 	SeLoadDriverPrivilege, 0x0
+security.c:1920: Line has been silenced after 4 occurrences
+security.c:2353: Well Known SIDs:
+security.c:2364:  0: S-1-0-0 \NULL SID 5
+security.c:2364:  1: S-1-1-0 \Everyone 5
+security.c:2364:  2: S-1-2-0 \LOCAL 5
+security.c:2364:  3: S-1-3-0 \CREATOR OWNER 5
+security.c:2364: Line has been silenced after 4 occurrences
+security.c:2373:  21: not supported
+security.c:2373:  38: not supported
+security.c:2373:  39: not supported
+security.c:2373:  40: not supported
+security.c:2373: Line has been silenced after 4 occurrences
+security.c:2028:  S-1-5-21-2105322359-2082341797-3377872833 DOCKERW-VOLDL66\ 3
+security.c:2028:  S-1-5-21-2105322359-2082341797-3377872833-500 DOCKERW-VOLDL66\Administrator 1
+security.c:2028:  S-1-5-21-2105322359-2082341797-3377872833-501 DOCKERW-VOLDL66\Guest 1
+security.c:2030:  S-1-5-21-2105322359-2082341797-3377872833-512 couldn't be mapped
+security.c:2028:  S-1-5-21-2105322359-2082341797-3377872833-513 DOCKERW-VOLDL66\None 2
+security.c:2030:  S-1-5-21-2105322359-2082341797-3377872833-514 couldn't be mapped
+security.c:2030:  S-1-5-21-2105322359-2082341797-3377872833-515 couldn't be mapped
+security.c:2030:  S-1-5-21-2105322359-2082341797-3377872833-516 couldn't be mapped
+security.c:2030: Line has been silenced after 4 occurrences
+security.c:2028: Line has been silenced after 4 occurrences
+145c:security: 22 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:7674: Well known SID 21 not supported
+security.c:7674: Well known SID 38 not supported
+security.c:7674: Well known SID 39 not supported
+security.c:7674: Well known SID 40 not supported
+security.c:7674: Line has been silenced after 4 occurrences
+security.c:6772: Tests skipped: unprivileged user
+1554:security: 14 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+14f4:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+155c:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+1d28:security: 1 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+1524:security: 2 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+security.c:8578: Tests skipped: could not open process, error 5
+1d74:security: 25 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+1550:security: Silenced 0 todos, 19 skips and 101 traces.
+1550:security: 3670 tests executed (0 marked as todo, 0 as flaky, 0 failures), 10 skipped.
+advapi32:security:1550 done (0) in 2s 4052B
+advapi32:service start dlls/advapi32/tests/service.c
+1d68:service: 3750 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advapi32:service:1d68 done (0) in 5s 90B
+advpack:advpack start dlls/advpack/tests/advpack.c
+advpack.c:103: kernel32.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:110: kernel32.dll version: 10.0.19041.1202
+advpack.c:117: advpack.dll Language ID: 0x00000409, Codepage ID: 0x000004b0
+advpack.c:124: advpack.dll version: 11.0.19041.1
+1e28:advpack: 101 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:advpack:1e28 done (0) in 0s 348B
+advpack:files start dlls/advpack/tests/files.c
+1dc0:files: 207 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:files:1dc0 done (0) in 0s 87B
+advpack:install start dlls/advpack/tests/install.c
+1df0:install: 42 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+advpack:install:1df0 done (0) in 0s 88B
+amstream:amstream start dlls/amstream/tests/amstream.c
+19d8:amstream: 4175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+amstream:amstream:19d8 done (0) in 4s 91B
+apphelp:apphelp start dlls/apphelp/tests/apphelp.c
+1cd4:apphelp: 15 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+apphelp:apphelp:1cd4 done (0) in 0s 88B
+atlthunk:atlthunk start dlls/atlthunk/tests/atlthunk.c
+1e10:atlthunk: 3078 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atlthunk:atlthunk:1e10 done (0) in 0s 91B
+atl:atl_ax start dlls/atl/tests/atl_ax.c
+1e00:atl_ax: 12 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:atl_ax:1e00 done (0) in 0s 87B
+atl:module start dlls/atl/tests/module.c
+1d68:module: 550 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:module:1d68 done (0) in 0s 88B
+atl:registrar start dlls/atl/tests/registrar.c
+1e28:registrar: 31 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+atl:registrar:1e28 done (0) in 0s 90B
+avifil32:api start dlls/avifil32/tests/api.c
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+api.c:603: Working around COM aggregation ref counting bug
+1dc0:api: 228 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+avifil32:api:1dc0 done (0) in 0s 325B
+bcp47langs:bcp47langs start dlls/bcp47langs/tests/bcp47langs.c
+1e30:bcp47langs: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bcp47langs:bcp47langs:1e30 done (0) in 0s 91B
+bcrypt:bcrypt start dlls/bcrypt/tests/bcrypt.c
+1e54:bcrypt: 23291 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bcrypt:bcrypt:1e54 done (0) in 2s 90B
+bluetoothapis:device start dlls/bluetoothapis/tests/device.c
+device.c:123: Tests skipped: No Bluetooth radios found.
+device.c:208: Tests skipped: No Bluetooth radios found.
+device.c:365: Tests skipped: No Bluetooth radios found.
+device.c:417: Tests skipped: No Bluetooth radios found.
+1544:device: 20 tests executed (0 marked as todo, 0 as flaky, 0 failures), 4 skipped.
+bluetoothapis:device:1544 done (0) in 0s 315B
+bluetoothapis:gatt start dlls/bluetoothapis/tests/gatt.c
+gatt.c:195: Tests skipped: No LE devices found.
+gatt.c:229: Tests skipped: No LE devices found.
+0330:gatt: 6 tests executed (0 marked as todo, 0 as flaky, 0 failures), 2 skipped.
+bluetoothapis:gatt:0330 done (0) in 0s 182B
+bluetoothapis:radio start dlls/bluetoothapis/tests/radio.c
+radio.c:83: Tests skipped: No Bluetooth radios found.
+radio.c:284: Tests skipped: No Bluetooth radios found.
+radio.c:217: Tests skipped: No Bluetooth radios found.
+radio.c:199: Tests skipped: No Bluetooth radios found.
+radio.c:242: Tests skipped: No Bluetooth radios found.
+radio.c:275: Tests skipped: No Bluetooth radios found.
+032c:radio: 16 tests executed (0 marked as todo, 0 as flaky, 0 failures), 6 skipped.
+bluetoothapis:radio:032c done (0) in 0s 421B
+bluetoothapis:sdp start dlls/bluetoothapis/tests/sdp.c
+1a18:sdp: 161 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+bluetoothapis:sdp:1a18 done (0) in 0s 85B
+browseui:autocomplete start dlls/browseui/tests/autocomplete.c
+autocomplete.c:81: ACL(00D752C8): addref (2)
+autocomplete.c:81: ACL(00D752C8): addref (3)
+autocomplete.c:81: ACL(00D752C8): addref (4)
+autocomplete.c:81: ACL(00D752F0): addref (2)
+autocomplete.c:81: Line has been silenced after 4 occurrences
+autocomplete.c:125: ACL(00D752C8): read 1 item(s)
+autocomplete.c:125: ACL(00D752C8): read 1 item(s)
+autocomplete.c:125: ACL(00D752C8): read 1 item(s)
+autocomplete.c:125: ACL(00D752C8): read 1 item(s)
+autocomplete.c:125: Line has been silenced after 4 occurrences
+autocomplete.c:159: ACL(00D752C8): Reset
+autocomplete.c:159: ACL(00D752F0): Reset
+autocomplete.c:167: ACL(00D752C8): Expand
+autocomplete.c:167: ACL(00D752F0): Expand
+autocomplete.c:167: ACL(00D752C8): Expand
+autocomplete.c:167: ACL(00D752F0): Expand
+autocomplete.c:167: Line has been silenced after 4 occurrences
+autocomplete.c:91: ACL(00D752C8): release (3)
+autocomplete.c:91: ACL(00D752C8): release (2)
+autocomplete.c:91: ACL(00D752C8): release (1)
+autocomplete.c:159: ACL(00D752F0): Reset
+autocomplete.c:91: ACL(00D752F0): release (3)
+autocomplete.c:91: Line has been silenced after 4 occurrences
+18b0:autocomplete: Silenced 0 todos, 0 skips and 25 traces.
+18b0:autocomplete: 66 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:autocomplete:18b0 done (0) in 0s 1282B
+browseui:progressdlg start dlls/browseui/tests/progressdlg.c
+0168:progressdlg: 4 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+browseui:progressdlg:0168 done (0) in 0s 91B
+cabinet:extract start dlls/cabinet/tests/extract.c
+1ee4:extract: 347 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:extract:1ee4 done (0) in 0s 89B
+cabinet:fdi start dlls/cabinet/tests/fdi.c
+fdi.c:751: mem_open(memory\block,8000,180) => 007D3130
+fdi.c:751: mem_open(memory\block,8000,180) => 007D3130
+fdi.c:751: mem_open(memory\block,8000,180) => 007D4720
+fdi.c:843: mem_notify(0,00830F8C)
+fdi.c:843: mem_notify(5,00830F8C)
+fdi.c:843: mem_notify(5,00830F8C)
+1ea0:fdi: 255 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cabinet:fdi:1ea0 done (0) in 0s 358B
+cfgmgr32:cfgmgr32 start dlls/cfgmgr32/tests/cfgmgr32.c
+1f18:cfgmgr32: 20070 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cfgmgr32:cfgmgr32:1f18 done (0) in 1s 92B
+cmd.exe:batch start programs/cmd/tests/batch.c
+batch.c:496: running TEST_BUILTINS.BAT test...
+batch.c:496: running TEST_BUILTINS.CMD test...
+batch.c:496: running TEST_CMDLINE.CMD test...
+18c4:batch: 2734 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:batch:18c4 done (0) in 21s 231B
+cmd.exe:directory start programs/cmd/tests/directory.c
+1da8:directory: 24 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+cmd.exe:directory:1da8 done (0) in 0s 90B
+combase:roapi start dlls/combase/tests/roapi.c
+1d54:roapi: 309 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+combase:roapi:1d54 done (0) in 1s 87B
+combase:string start dlls/combase/tests/string.c
+string.c:677: Test failed: got size 13303176 != 34
+string.c:677: this is the last test seen before the exception
+11c0:string: unhandled exception c0000005 at 768AFC8E
+combase:string:11c0 done (-1073741819) in 0s 170B
+comcat:comcat start dlls/comcat/tests/comcat.c
+08b4:comcat: 9 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comcat:comcat:08b4 done (0) in 0s 86B
+comctl32:animate start dlls/comctl32/tests/animate.c
+0c68:animate: 30 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:animate:0c68 done (0) in 0s 88B
+comctl32:button start dlls/comctl32/tests/button.c
+v6util.h:92: created cc6.manifest
+0f10:button: 14184 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:button:0f10 done (0) in 12s 125B
+comctl32:combo start dlls/comctl32/tests/combo.c
+v6util.h:92: created cc6.manifest
+042c:combo: 1060 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:combo:042c done (0) in 5s 123B
+comctl32:datetime start dlls/comctl32/tests/datetime.c
+v6util.h:92: created cc6.manifest
+124c:datetime: 943 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:datetime:124c done (0) in 0s 125B
+comctl32:dpa start dlls/comctl32/tests/dpa.c
+v6util.h:92: created cc6.manifest
+1dac:dpa: 853 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:dpa:1dac done (0) in 0s 120B
+comctl32:edit start dlls/comctl32/tests/edit.c
+v6util.h:92: created cc6.manifest
+edit.c:774: EDIT: Single line
+edit.c:788: EDIT: Single line want returns
+edit.c:801: EDIT: Multiline line
+edit.c:814: EDIT: Multi line want returns
+edit.c:855: EDIT: SETTEXT atomicity
+edit.c:1052: EDIT: Test notifications
+edit.c:1062: EDIT: Single line, no ES_AUTOHSCROLL
+edit.c:1112: EDIT: Single line, ES_AUTOHSCROLL
+edit.c:1158: EDIT: Multline, no ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1205: EDIT: Multline, ES_AUTOHSCROLL, no ES_AUTOVSCROLL
+edit.c:1247: EDIT: Multline, ES_AUTOHSCROLL and ES_AUTOVSCROLL
+edit.c:1540: EDIT: buffer limit for single-line
+edit.c:1550: EDIT: buffer limit for multi-line
+edit.c:2027: Tests skipped: Ume P Gothic is not available, skipping some margin tests
+edit.c:2306: EDIT: Using new model for height computation
+edit.c:2308: EDIT: Text position (Single line)
+edit.c:2310: EDIT: Text position (Multi line)
+edit.c:2926: EDIT: Oversized font (Multi line)
+edit.c:3156: EDIT: EM_GETHANDLE
+1854:edit: 267472 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comctl32:edit:1854 done (0) in 1s 1065B
+comctl32:header start dlls/comctl32/tests/header.c
+header.c:1763: customdraw height: 18 (dpi: 96)
+v6util.h:92: created cc6.manifest
+1e3c:header: 1132 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:header:1e3c done (0) in 0s 172B
+comctl32:imagelist start dlls/comctl32/tests/imagelist.c
+v6util.h:92: created cc6.manifest
+1544:imagelist: 11227 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:imagelist:1544 done (0) in 0s 128B
+comctl32:ipaddress start dlls/comctl32/tests/ipaddress.c
+v6util.h:92: created cc6.manifest
+08c0:ipaddress: 91 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:ipaddress:08c0 done (0) in 0s 125B
+comctl32:listbox start dlls/comctl32/tests/listbox.c
+v6util.h:92: created cc6.manifest
+1f24:listbox: 7871 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listbox:1f24 done (0) in 3s 125B
+comctl32:listview start dlls/comctl32/tests/listview.c
+v6util.h:92: created cc6.manifest
+0980:listview: 11748 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:listview:0980 done (0) in 5s 127B
+comctl32:misc start dlls/comctl32/tests/misc.c
+v6util.h:92: created cc6.manifest
+1cdc:misc: 2605 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:misc:1cdc done (0) in 25s 122B
+comctl32:monthcal start dlls/comctl32/tests/monthcal.c
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800002
+monthcal.c:657: 	old style: 0x50800000, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800000
+monthcal.c:657: 	old style: 0x50800002, new style: 0x50800002
+monthcal.c:657: Line has been silenced after 4 occurrences
+v6util.h:92: created cc6.manifest
+1848:monthcal: Silenced 0 todos, 0 skips and 4 traces.
+1848:monthcal: 2230 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:monthcal:1848 done (0) in 0s 494B
+comctl32:mru start dlls/comctl32/tests/mru.c
+0be4:mru: 94 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:mru:0be4 done (0) in 0s 84B
+comctl32:pager start dlls/comctl32/tests/pager.c
+0d34:pager: 2958 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:pager:0d34 done (0) in 0s 88B
+comctl32:progress start dlls/comctl32/tests/progress.c
+v6util.h:92: created cc6.manifest
+1880:progress: 353 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:progress:1880 done (0) in 0s 125B
+comctl32:propsheet start dlls/comctl32/tests/propsheet.c
+v6util.h:92: created cc6.manifest
+1124:propsheet: 1012 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:propsheet:1124 done (0) in 1s 127B
+comctl32:rebar start dlls/comctl32/tests/rebar.c
+1cf8:rebar: 1355 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:rebar:1cf8 done (0) in 0s 88B
+comctl32:static start dlls/comctl32/tests/static.c
+v6util.h:92: created cc6.manifest
+static.c:88: Testing style 0x0
+static.c:88: Testing style 0x3
+static.c:88: Testing style 0x4
+static.c:88: Testing style 0x6
+static.c:88: Line has been silenced after 4 occurrences
+1ff4:static: Silenced 0 todos, 0 skips and 11 traces.
+1ff4:static: 506 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:static:1ff4 done (0) in 1s 363B
+comctl32:status start dlls/comctl32/tests/status.c
+status.c:244: dpi=96 (min height: 24 or 20) SM_CYSIZE: 22
+131c:status: 4833 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:status:131c done (0) in 3s 148B
+comctl32:subclass start dlls/comctl32/tests/subclass.c
+13cc:subclass: 288 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:subclass:13cc done (0) in 0s 90B
+comctl32:syslink start dlls/comctl32/tests/syslink.c
+v6util.h:92: created cc6.manifest
+1594:syslink: 175 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:syslink:1594 done (0) in 1s 124B
+comctl32:tab start dlls/comctl32/tests/tab.c
+tab.c:695: Testing with the 'System' font
+tab.c:699: Testing with default MinWidth
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:701: Testing with MinWidth set to -3
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:703: Testing with MinWidth set to 24
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:705: Testing with MinWidth set to 54
+tab.c:537: Tab1 text size: size.cx=36 size.cy=16
+tab.c:543: default_min_tab_width: 54
+tab.c:544:   TCS_FIXEDWIDTH tabs no icon...
+tab.c:551:   TCS_FIXEDWIDTH tabs with icon...
+tab.c:564:   TCS_FIXEDWIDTH buttons no icon...
+tab.c:572:   TCS_FIXEDWIDTH buttons with icon...
+tab.c:587:   TCS_FIXEDWIDTH | TCS_BOTTOM tabs...
+tab.c:607:   non fixed width, with text...
+tab.c:641:   non fixed width, no text...
+tab.c:707: Testing with MinWidth set to 94
+tab.c:537: Line has been silenced after 4 occurrences
+tab.c:543: Line has been silenced after 4 occurrences
+tab.c:544: Line has been silenced after 4 occurrences
+tab.c:551: Line has been silenced after 4 occurrences
+tab.c:564: Line has been silenced after 4 occurrences
+tab.c:572: Line has been silenced after 4 occurrences
+tab.c:587: Line has been silenced after 4 occurrences
+tab.c:607: Line has been silenced after 4 occurrences
+tab.c:641: Line has been silenced after 4 occurrences
+tab.c:695: Testing with the 'Arial' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Testing with the 'Tahoma' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Testing with the 'Courier New' font
+tab.c:699: Testing with default MinWidth
+tab.c:701: Testing with MinWidth set to -3
+tab.c:703: Testing with MinWidth set to 24
+tab.c:705: Testing with MinWidth set to 54
+tab.c:707: Testing with MinWidth set to 94
+tab.c:695: Line has been silenced after 4 occurrences
+tab.c:699: Line has been silenced after 4 occurrences
+tab.c:701: Line has been silenced after 4 occurrences
+tab.c:703: Line has been silenced after 4 occurrences
+tab.c:705: Line has been silenced after 4 occurrences
+tab.c:707: Line has been silenced after 4 occurrences
+14cc:tab: Silenced 0 todos, 0 skips and 195 traces.
+14cc:tab: 5422 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tab:14cc done (0) in 0s 3668B
+comctl32:taskdialog start dlls/comctl32/tests/taskdialog.c
+v6util.h:92: created cc6.manifest
+01f8:taskdialog: 2391 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:taskdialog:01f8 done (0) in 3s 128B
+comctl32:toolbar start dlls/comctl32/tests/toolbar.c
+v6util.h:92: created cc6.manifest
+0e98:toolbar: 2195 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:toolbar:0e98 done (0) in 1s 125B
+comctl32:tooltips start dlls/comctl32/tests/tooltips.c
+v6util.h:92: created cc6.manifest
+0370:tooltips: 1165 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:tooltips:0370 done (0) in 4s 126B
+comctl32:trackbar start dlls/comctl32/tests/trackbar.c
+v6util.h:92: created cc6.manifest
+1368:trackbar: 3530 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:trackbar:1368 done (0) in 0s 126B
+comctl32:treeview start dlls/comctl32/tests/treeview.c
+v6util.h:92: created cc6.manifest
+0780:treeview: 7209 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:treeview:0780 done (0) in 1s 126B
+comctl32:updown start dlls/comctl32/tests/updown.c
+v6util.h:92: created cc6.manifest
+0358:updown: 1565 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comctl32:updown:0358 done (0) in 0s 124B
+comdlg32:filedlg start dlls/comdlg32/tests/filedlg.c
+filedlg.c:932: Tests skipped: some interactive resizable dialog tests (set WINETEST_INTERACTIVE=1)
+0204:filedlg: 288 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:filedlg:0204 done (0) in 7s 189B
+comdlg32:finddlg start dlls/comdlg32/tests/finddlg.c
+184c:finddlg: 43 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:finddlg:184c done (0) in 0s 88B
+comdlg32:fontdlg start dlls/comdlg32/tests/fontdlg.c
+1de8:fontdlg: 13 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:fontdlg:1de8 done (0) in 0s 88B
+comdlg32:itemdlg start dlls/comdlg32/tests/itemdlg.c
+itemdlg.c:1120: Testing FileOpenDialog (advise)
+itemdlg.c:1128: Testing FileSaveDialog (advise)
+0728:itemdlg: 1281 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comdlg32:itemdlg:0728 done (0) in 6s 188B
+comdlg32:printdlg start dlls/comdlg32/tests/printdlg.c
+printdlg.c:219: driver 'winspool' device 'Microsoft Print to PDF' port 'PORTPROMPT:'
+printdlg.c:632: Tests skipped: interactive PrintDlgEx tests (set WINETEST_INTERACTIVE=1)
+1ac0:printdlg: 53 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+comdlg32:printdlg:1ac0 done (0) in 1s 265B
+compstui:compstui start dlls/compstui/tests/compstui.c
+0618:compstui: 146 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+compstui:compstui:0618 done (0) in 0s 90B
+comsvcs:comsvcs start dlls/comsvcs/tests/comsvcs.c
+08d8:comsvcs: 117 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:comsvcs:08d8 done (0) in 0s 89B
+comsvcs:property start dlls/comsvcs/tests/property.c
+09ac:property: 11 tests executed (0 marked as todo, 0 as flaky, 0 failures), 0 skipped.
+comsvcs:property:09ac done (0) in 0s 89B
+concrt140:concrt140 start dlls/concrt140/tests/concrt140.c
+concrt140.c:105: Tests skipped: concrt140.dll not installed
+0a94:concrt140: 0 tests executed (0 marked as todo, 0 as flaky, 0 failures), 1 skipped.
+concrt140:concrt140:0a94 done (0) in 0s 150B
+conhost.exe:tty start programs/conhost/tests/tty.c
