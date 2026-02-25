@@ -1,0 +1,67 @@
+diff --git a/dlls/ntdll/tests/directory.c b/dlls/ntdll/tests/directory.c
+index 9aadc48a0cf..94b5535245a 100644
+--- a/dlls/ntdll/tests/directory.c
++++ b/dlls/ntdll/tests/directory.c
+@@ -1487,6 +1487,16 @@ static void test_info_classes(void)
+     todo_wine ok( !ret, "got %#lx\n", ret );
+     NtClose( child );
+ 
++    {
++        FILE_FS_ATTRIBUTE_INFORMATION *attr_info = (void *)buffer;
++        ret = NtQueryVolumeInformationFile( file, &io, buffer, sizeof(buffer), FileFsAttributeInformation );
++        ok(!ret, "got %#lx\n", ret );
++        trace("attr %#lx len %lu name %s\n",
++                attr_info->FileSystemAttributes,
++                attr_info->MaximumComponentNameLength,
++                debugstr_wn(attr_info->FileSystemName, attr_info->FileSystemNameLength/2));
++    }
++
+     for (unsigned int i = 0; i < ARRAY_SIZE(tests); ++i)
+     {
+         unsigned int struct_size = align( tests[i].size + sizeof(WCHAR), 8 );
+@@ -1504,8 +1514,8 @@ static void test_info_classes(void)
+         memset( &io, 0xcc, sizeof(io) );
+         ret = NtQueryDirectoryFile( file, NULL, NULL, NULL, &io,
+                 buffer, struct_size, tests[i].class, FALSE, NULL, TRUE );
+-        todo_wine ok( ret == STATUS_PENDING, "got %#lx\n", ret );
+-        ret = WaitForSingleObject( file, 100 );
++        if (ret == STATUS_PENDING)
++            ret = WaitForSingleObject( file, 100 );
+         ok( !ret, "got %#lx\n", ret );
+         ok( !io.Status, "got %#lx\n", io.Status );
+         ok( io.Information == tests[i].size + sizeof(WCHAR),
+@@ -1513,9 +1523,9 @@ static void test_info_classes(void)
+ 
+         memset( &io, 0xcc, sizeof(io) );
+         ret = NtQueryDirectoryFile( file, NULL, NULL, NULL, &io,
+-                buffer, tests[i].size * 2 + (6 * sizeof(WCHAR)), tests[i].class, FALSE, NULL, TRUE );
+-        todo_wine ok( ret == STATUS_PENDING, "got %#lx\n", ret );
+-        ret = WaitForSingleObject( file, 100 );
++                buffer, tests[i].size * 2 + (12 * sizeof(WCHAR)), tests[i].class, FALSE, NULL, TRUE );
++        if (ret == STATUS_PENDING)
++            ret = WaitForSingleObject( file, 100 );
+         ok( !ret, "got %#lx\n", ret );
+         ok( !io.Status, "got %#lx\n", io.Status );
+         /* all classes start with the same few fields; test them here */
+@@ -1532,8 +1542,8 @@ static void test_info_classes(void)
+ 
+         ret = NtQueryDirectoryFile( file, NULL, NULL, NULL, &io,
+                 buffer, tests[i].size * 2 + (6 * sizeof(WCHAR)), tests[i].class, FALSE, NULL, FALSE );
+-        todo_wine ok( ret == STATUS_PENDING, "got %#lx\n", ret );
+-        ret = WaitForSingleObject( file, 100 );
++        if (ret == STATUS_PENDING)
++            ret = WaitForSingleObject( file, 100 );
+         ok( !ret, "got %#lx\n", ret );
+         ok( !io.Status, "got %#lx\n", io.Status );
+ 
+@@ -1634,8 +1644,8 @@ static void test_info_classes(void)
+ 
+         ret = NtQueryDirectoryFile( file, NULL, NULL, NULL, &io,
+                 buffer, tests[i].size * 2 + (6 * sizeof(WCHAR)), tests[i].class, FALSE, NULL, FALSE );
+-        todo_wine ok( ret == STATUS_PENDING, "got %#lx\n", ret );
+-        ret = WaitForSingleObject( file, 100 );
++        if (ret == STATUS_PENDING)
++            ret = WaitForSingleObject( file, 100 );
+         ok( !ret, "got %#lx\n", ret );
+         ok( !io.Status, "got %#lx\n", io.Status );
+ 
